@@ -29,7 +29,8 @@ skill'ler.
 ## Kanal ve yayın
 
 **Türkişi Engineering**, agentic CAD ve mühendislik üzerine bir YouTube kanalı. F23 canlı yayını **11 Kasım 2026**'da
-yapıldı: beş istasyon aynı anda parça çizdi, puanlar canlı tabloya düştü. Yayında ne gösterildiği:
+yapıldı: beş istasyon aynı anda parça çizdi, puanlar canlı tabloya düştü. Yayın kaydı:
+**[YouTube'da izle](https://www.youtube.com/watch?v=b4b8olf0IgI)**. Yayında ne gösterildiği:
 [docs/yayin.md](docs/yayin.md).
 
 ## Klasörler

@@ -1,6 +1,7 @@
 # Yayında ne gösterildi
 
-**F23 · Agentic CAD Ligi** canlı yayını Türkişi Engineering YouTube kanalında, **11 Kasım 2026**'da yapıldı.
+**F23 · Agentic CAD Ligi** canlı yayını Türkişi Engineering YouTube kanalında, **11 Kasım 2026**'da yapıldı
+([yayın kaydı](https://www.youtube.com/watch?v=b4b8olf0IgI)).
 Başlık: *4 CAD, 5 yarışmacı, 45 parça.* Aynı yapay zekâ modeli, farklı CAD araçları ve farklı harness'lar; her yarışmacı
 parçayı yalnız yazılı bir spec'ten, kör çizdi.
 
