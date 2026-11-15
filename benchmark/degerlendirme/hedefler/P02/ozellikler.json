@@ -1,0 +1,634 @@
+{
+ "items": [
+  {
+   "id": "F1",
+   "govde": "P01",
+   "etiket": "bore dia 10 through hub",
+   "tur": "delik",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     14,
+     0,
+     5
+    ]
+   },
+   "nom": 10.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     14,
+     0,
+     5
+    ],
+    "r_mm": 1
+   }
+  },
+  {
+   "id": "F2",
+   "govde": "P01",
+   "etiket": "120 deg countersink at x=0, dia 13.464 -> 10 over 1 mm",
+   "tur": "pah",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "cone"
+   },
+   "nom": 2,
+   "tol": 1,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0.5,
+     5.866,
+     0
+    ],
+    "r_mm": 0.6
+   }
+  },
+  {
+   "id": "F3",
+   "govde": "P01",
+   "etiket": "hub diameter 28",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     9,
+     0,
+     14
+    ]
+   },
+   "nom": 28.0,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F4",
+   "govde": "P01",
+   "etiket": "hub height 28 (x=0 to hub top face x=28)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     0,
+     0,
+     10
+    ],
+    "nokta2": [
+     28,
+     0,
+     10
+    ]
+   },
+   "nom": 28.0,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F5",
+   "govde": "P01",
+   "etiket": "hub collar diameter 31",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     24,
+     15.5,
+     0
+    ]
+   },
+   "nom": 31.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     24,
+     15.5,
+     0
+    ],
+    "r_mm": 2
+   }
+  },
+  {
+   "id": "F6",
+   "govde": "P01",
+   "etiket": "R2.5 concave blend hub->collar (revolved)",
+   "tur": "yuvarlatma",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     19.52,
+     14.41,
+     0
+    ],
+    "r_mm": 1.0
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     19.52,
+     14.41,
+     0
+    ],
+    "r_mm": 1.0
+   }
+  },
+  {
+   "id": "F7",
+   "govde": "P01",
+   "etiket": "S-neck inner arc R18 (torus about X)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "torus",
+    "r_mm": 18.0
+   },
+   "nom": 1,
+   "tol": 0,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     24.34,
+     -23.26,
+     0
+    ],
+    "r_mm": 3
+   }
+  },
+  {
+   "id": "F8",
+   "govde": "P01",
+   "etiket": "hub top round R10.5 continuing into the S-neck outer side",
+   "tur": "yuvarlatma",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     29.5,
+     -17.6,
+     0
+    ],
+    "r_mm": 2.5
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     29.5,
+     -17.6,
+     0
+    ],
+    "r_mm": 2.5
+   }
+  },
+  {
+   "id": "F9",
+   "govde": "P01",
+   "etiket": "S-neck reverse arcs R30 (inner) and R37.5 (outer)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     42.0,
+     -42.0,
+     0
+    ],
+    "r_mm": 5.0
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     42.0,
+     -42.0,
+     0
+    ],
+    "r_mm": 5.0
+   }
+  },
+  {
+   "id": "F10",
+   "govde": "P01",
+   "etiket": "arm thickness along X 4.68507 (planes x=48 and x=52.685)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     52.685,
+     -75,
+     0
+    ],
+    "nokta2": [
+     48,
+     -75,
+     0
+    ]
+   },
+   "nom": 4.6851,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F11",
+   "govde": "P01",
+   "etiket": "arm flat faces tapered: included angle 1.7206 deg",
+   "tur": "diger",
+   "olcum": {
+    "tip": "aci",
+    "govde": "P01",
+    "nokta1": [
+     50,
+     -70,
+     7.2005
+    ],
+    "nokta2": [
+     50,
+     -70,
+     -7.2005
+    ]
+   },
+   "nom": 1.7206,
+   "tol": 0.2,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     50,
+     -70,
+     7.2005
+    ],
+    "r_mm": 3
+   }
+  },
+  {
+   "id": "F12",
+   "govde": "P01",
+   "etiket": "R22.5 blend arm flat -> hub collar (+Z side)",
+   "tur": "yuvarlatma",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     25.5,
+     -16.0,
+     9.36
+    ]
+   },
+   "nom": 45.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     25.5,
+     -16.0,
+     9.36
+    ],
+    "r_mm": 2
+   }
+  },
+  {
+   "id": "F13",
+   "govde": "P01",
+   "etiket": "R22.5 blend (-Z side)",
+   "tur": "yuvarlatma",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     25.5,
+     -16.0,
+     -9.36
+    ]
+   },
+   "nom": 45.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     25.5,
+     -16.0,
+     -9.36
+    ],
+    "r_mm": 2
+   }
+  },
+  {
+   "id": "F14",
+   "govde": "P01",
+   "etiket": "R13.5 blend arm flat -> grip boss (+Z)",
+   "tur": "yuvarlatma",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     50.3,
+     -95.2,
+     7.04
+    ]
+   },
+   "nom": 27.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     50.3,
+     -95.2,
+     7.04
+    ],
+    "r_mm": 1.5
+   }
+  },
+  {
+   "id": "F15",
+   "govde": "P01",
+   "etiket": "R13.5 blend (-Z)",
+   "tur": "yuvarlatma",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     50.3,
+     -95.2,
+     -7.04
+    ]
+   },
+   "nom": 27.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     50.3,
+     -95.2,
+     -7.04
+    ],
+    "r_mm": 1.5
+   }
+  },
+  {
+   "id": "F16",
+   "govde": "P01",
+   "etiket": "crank radius 100 (bore axis to grip axis)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     14,
+     0,
+     5
+    ],
+    "nokta2": [
+     54,
+     -92,
+     0
+    ]
+   },
+   "nom": 100.0,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F17",
+   "govde": "P01",
+   "etiket": "grip boss dia 16",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     54,
+     -92,
+     0
+    ]
+   },
+   "nom": 16.0,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F18",
+   "govde": "P01",
+   "etiket": "R0.5 round at boss end x=60.5..61",
+   "tur": "yuvarlatma",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     60.85,
+     -92.15,
+     0
+    ],
+    "r_mm": 0.6
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     60.85,
+     -92.15,
+     0
+    ],
+    "r_mm": 0.6
+   }
+  },
+  {
+   "id": "F19",
+   "govde": "P01",
+   "etiket": "grip neck dia 13",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     64,
+     -93.5,
+     0
+    ]
+   },
+   "nom": 13.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     64,
+     -93.5,
+     0
+    ],
+    "r_mm": 1
+   }
+  },
+  {
+   "id": "F20",
+   "govde": "P01",
+   "etiket": "neck length 6 (shoulders x=61 and x=67)",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     61,
+     -93,
+     0
+    ],
+    "nokta2": [
+     67,
+     -92,
+     0
+    ]
+   },
+   "nom": 6.0,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F21",
+   "govde": "P01",
+   "etiket": "grip collar dia 18",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     70,
+     -91,
+     0
+    ]
+   },
+   "nom": 18.0,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F22",
+   "govde": "P01",
+   "etiket": "concave R17.1 grip waist",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     80.97,
+     -93.97,
+     0
+    ],
+    "r_mm": 2
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     80.97,
+     -93.97,
+     0
+    ],
+    "r_mm": 2
+   }
+  },
+  {
+   "id": "F23",
+   "govde": "P01",
+   "etiket": "barrel grip convex R40.502, max dia 20 at x=103.95",
+   "tur": "lob",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "torus",
+    "r_mm": 40.502
+   },
+   "nom": 2,
+   "tol": 1,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     103.95,
+     -90,
+     0
+    ],
+    "r_mm": 3
+   }
+  },
+  {
+   "id": "F24",
+   "govde": "P01",
+   "etiket": "spherical grip end R4.1 to x=128",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x"
+   },
+   "nom": 128.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     127.5,
+     -100,
+     0
+    ],
+    "r_mm": 2
+   }
+  },
+  {
+   "id": "F25",
+   "govde": "P01",
+   "etiket": "overall extent along Y 125.5",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "y"
+   },
+   "nom": 125.5,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F26",
+   "govde": "P01",
+   "etiket": "overall extent along Z 31 (collar)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "z"
+   },
+   "nom": 31.0,
+   "tol": 0.05,
+   "bolge": null
+  }
+ ],
+ "not": "items whose olcum is bolgesel_sapma: nom 0 = max regional deviation, pass if <= tol (revolved freeform faces have no analytic radius)."
+}

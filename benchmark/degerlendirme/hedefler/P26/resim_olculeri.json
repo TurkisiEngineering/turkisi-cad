@@ -1,0 +1,75 @@
+{
+ "rows": [
+  {
+   "dim": "3.04in (overall height)",
+   "nom": 3.04,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "montaj_bbox_boyut",
+    "eksen": "y"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1.31in (overall length, body side to side port face)",
+   "nom": 1.31,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.94in (bottom port axis to side port face)",
+   "nom": 0.94,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     23.0378,
+     -9.56065,
+     5.29835
+    ],
+    "nokta2": [
+     5.47338,
+     -30.48,
+     6.28618
+    ],
+    "tur2": "eksen"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "Panel cutout diameter 0.562in (panel thread outer diameter)",
+   "nom": 0.562,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P02",
+    "nokta": [
+     6.33095,
+     6.98856,
+     0.0
+    ]
+   },
+   "modelde_var": true,
+   "not_": "the cutout is a hole in the panel; its model counterpart is the sleeve's thread outer diameter 0.5625 (outer flat at theta 0, y 0.27514)"
+  },
+  {
+   "dim": "2X 1/4 NPT",
+   "nom": 0.54,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": false,
+   "not_": "thread size note; both ports modelled as tapered helical grooves, root cone 0.540 dia at the mouth, 18 TPI; no recipe measures a cone diameter: checked in ozellikler (region items)"
+  }
+ ]
+}

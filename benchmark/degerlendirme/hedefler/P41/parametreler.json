@@ -1,0 +1,55 @@
+{
+ "anahtar": [
+  {
+   "kavram": "housing outer diameter",
+   "deger": 6.75,
+   "birim": "in",
+   "ipucu_adlar": [
+    "housing_od",
+    "housing_dia",
+    "body_diameter",
+    "od"
+   ]
+  },
+  {
+   "kavram": "output shaft diameter",
+   "deger": 0.625,
+   "birim": "in",
+   "ipucu_adlar": [
+    "shaft_d",
+    "shaft_dia",
+    "shaft_diameter"
+   ]
+  },
+  {
+   "kavram": "key / keyway width",
+   "deger": 0.188,
+   "birim": "in",
+   "ipucu_adlar": [
+    "key_w",
+    "keyway_width",
+    "key_width"
+   ]
+  },
+  {
+   "kavram": "cooling fin thickness",
+   "deger": 0.15,
+   "birim": "in",
+   "ipucu_adlar": [
+    "fin_t",
+    "fin_width",
+    "fin_thickness"
+   ]
+  },
+  {
+   "kavram": "lead-wire coil turns",
+   "deger": 4,
+   "birim": "-",
+   "ipucu_adlar": [
+    "turns",
+    "n_turns",
+    "coil_turns"
+   ]
+  }
+ ]
+}

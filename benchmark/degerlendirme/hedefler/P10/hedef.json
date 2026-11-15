@@ -1,0 +1,91 @@
+{
+ "parca": "P10",
+ "birim_spec": "in",
+ "govdeler": [
+  {
+   "ad": "P01",
+   "tur": "parca",
+   "hacim_mm3": 33952.27,
+   "alan_mm2": 16103.22,
+   "com_mm": [
+    0.0,
+    -0.0,
+    1.922
+   ],
+   "bbox_mm": [
+    -30.48,
+    -30.48,
+    -17.653,
+    30.48,
+    30.48,
+    15.748
+   ],
+   "yuz_sayisi": 123,
+   "esdeger_grubu": "P01",
+   "not": "GProp V 33952.27 / mesh V 33950.18"
+  },
+  {
+   "ad": "P02",
+   "tur": "parca",
+   "hacim_mm3": 11952.84,
+   "alan_mm2": 16685.26,
+   "com_mm": [
+    0.0,
+    -0.0,
+    5.7625
+   ],
+   "bbox_mm": [
+    -32.004,
+    -32.004,
+    -4.572,
+    32.004,
+    32.004,
+    17.272
+   ],
+   "yuz_sayisi": 292,
+   "esdeger_grubu": "P02",
+   "not": "GProp V 11952.84 / mesh V 11952.09"
+  },
+  {
+   "ad": "P03",
+   "tur": "donanim",
+   "hacim_mm3": 1038.98,
+   "alan_mm2": 1216.21,
+   "com_mm": [
+    -0.003,
+    -0.0082,
+    -10.9228
+   ],
+   "bbox_mm": [
+    -6.7469,
+    -6.7469,
+    -17.272,
+    6.7469,
+    6.7469,
+    -4.572
+   ],
+   "yuz_sayisi": 27,
+   "esdeger_grubu": "P03",
+   "not": "GProp V 1038.98 / mesh V 1038.18"
+  }
+ ],
+ "montaj": {
+  "hacim_mm3": 46944.09,
+  "alan_mm2": 34004.7,
+  "com_mm": [
+   -0.0001,
+   -0.0002,
+   2.6156
+  ],
+  "bbox_mm": [
+   -32.004,
+   -32.004,
+   -17.653,
+   32.004,
+   32.004,
+   17.272
+  ]
+ },
+ "girisimler": [],
+ "not": "pairwise common volume P01/P02, P01/P03, P02/P03 = 0.000 mm3 (face contact only)"
+}

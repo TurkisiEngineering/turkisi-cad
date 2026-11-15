@@ -1,0 +1,46 @@
+{
+ "parca": "P1",
+ "birim_spec": "mm",
+ "govdeler": [
+  {
+   "ad": "P01",
+   "tur": "parca",
+   "hacim_mm3": 6272.1,
+   "alan_mm2": 4231.2022,
+   "com_mm": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "bbox_mm": [
+    -25.0,
+    -25.0,
+    -2.5,
+    25.0,
+    25.0,
+    2.5
+   ],
+   "yuz_sayisi": 370,
+   "esdeger_grubu": "P01",
+   "not": "hacim: mesh integral 6272.05 (defl 0.003) and exact rebuild 6272.17; OCC GProp on the master reads 6258.29 (wrong, 0.22 % low)"
+  }
+ ],
+ "montaj": {
+  "hacim_mm3": 6272.1,
+  "alan_mm2": 4231.2022,
+  "com_mm": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "bbox_mm": [
+   -25.0,
+   -25.0,
+   -2.5,
+   25.0,
+   25.0,
+   2.5
+  ]
+ },
+ "girisimler": []
+}

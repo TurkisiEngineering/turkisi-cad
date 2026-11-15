@@ -1,0 +1,76 @@
+{
+ "rows": [
+  {
+   "dim": "6ft (overall height)",
+   "nom": 72.0,
+   "birim": "in",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "montaj_bbox_boyut",
+    "eksen": "y"
+   },
+   "modelde_var": true,
+   "not_": "model 72.0098 in; printed in whole feet / inches, tol = half an inch"
+  },
+  {
+   "dim": "46in (platform height, floor to platform top)",
+   "nom": 46.0,
+   "birim": "in",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "bbox_kenar_fark",
+    "govde": "P13-01",
+    "kenar": "ymin",
+    "govde2": "P07-01",
+    "kenar2": "ymax"
+   },
+   "modelde_var": true,
+   "not_": "model 46.0000 in"
+  },
+  {
+   "dim": "12.75in Platform Width",
+   "nom": 12.75,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P07-01",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "22in Platform Depth",
+   "nom": 22.0,
+   "birim": "in",
+   "tol": 0.5,
+   "olcum": null,
+   "modelde_var": false,
+   "not_": "the extension lines touch the outer flange faces of the front and back rails at platform height; model 22.410 in at y = 0 (section of the four rails); no recipe measures a spread at a given height"
+  },
+  {
+   "dim": "25.25in (base width, front view)",
+   "nom": 25.25,
+   "birim": "in",
+   "tol": 0.125,
+   "olcum": {
+    "tip": "montaj_bbox_boyut",
+    "eksen": "x"
+   },
+   "modelde_var": true,
+   "not_": "model 25.1876 in (outer foot-pad faces); the catalogue rounds to a quarter inch, so tol = 1/8 in; with 0.005 the original itself fails"
+  },
+  {
+   "dim": "50in (base depth, side view)",
+   "nom": 50.0,
+   "birim": "in",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "montaj_bbox_boyut",
+    "eksen": "z"
+   },
+   "modelde_var": true,
+   "not_": "model 49.5923 in; whole inches, tol = half an inch"
+  }
+ ]
+}

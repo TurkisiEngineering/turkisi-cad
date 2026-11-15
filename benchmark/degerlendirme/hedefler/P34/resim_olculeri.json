@@ -1,0 +1,149 @@
+{
+ "rows": [
+  {
+   "dim": "1in (bore size)",
+   "nom": 1.0,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P03",
+    "nokta": [
+     8.98026,
+     25.4,
+     8.98026
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.2in (mounting hole diameter)",
+   "nom": 0.2,
+   "birim": "in",
+   "tol": 0.05,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P06",
+    "nokta": [
+     22.43355,
+     10.16,
+     1.79605
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1 5/8in (mounting hole centres)",
+   "nom": 1.625,
+   "birim": "in",
+   "tol": 0.03125,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P06",
+    "nokta1": [
+     22.43355,
+     10.16,
+     1.79605
+    ],
+    "nokta2": [
+     -22.43355,
+     10.16,
+     1.79605
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "5/16in (rod diameter)",
+   "nom": 0.3125,
+   "birim": "in",
+   "tol": 0.03125,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01-a",
+    "nokta": [
+     2.80633,
+     50.8,
+     2.80633
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "2in (base width)",
+   "nom": 2.0,
+   "birim": "in",
+   "tol": 0.03125,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P06",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "11/16in (base block height)",
+   "nom": 0.6875,
+   "birim": "in",
+   "tol": 0.03125,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P06",
+    "eksen": "y"
+   },
+   "modelde_var": true,
+   "not_": "model 0.705; the drawing gives fractions to the nearest 1/16 (0.705 -> 11/16 = 0.6875), so tol = half of 1/16 (0.03125); with 0.005 the original itself fails (K)"
+  },
+  {
+   "dim": "3.81in (retracted length)",
+   "nom": 3.81,
+   "birim": "in",
+   "tol": 0.01,
+   "olcum": {
+    "tip": "bbox_kenar_fark",
+    "govde": "P06",
+    "kenar": "ymin",
+    "govde2": "P01-a",
+    "kenar2": "ymax"
+   },
+   "modelde_var": true,
+   "not_": "model 3.8156; the drawing truncates to 2 decimals, so tol = one unit of the last digit (0.01) as in P20; with 0.005 the original fails (K)"
+  },
+  {
+   "dim": "4.81in (extended length)",
+   "nom": 4.81,
+   "birim": "in",
+   "tol": 0.01,
+   "olcum": {
+    "tip": "montaj_bbox_boyut",
+    "eksen": "y"
+   },
+   "modelde_var": true,
+   "not_": "model 4.8156 (rod extended instance); truncated to 2 decimals, tol 0.01 (K)"
+  },
+  {
+   "dim": "0in - 1in (adjustable stroke length)",
+   "nom": 1.0,
+   "birim": "in",
+   "tol": 0.03125,
+   "olcum": {
+    "tip": "bbox_kenar_fark",
+    "govde": "P01-a",
+    "kenar": "ymax",
+    "govde2": "P01-b",
+    "kenar2": "ymax"
+   },
+   "modelde_var": true,
+   "not_": "the source carries the rod twice, retracted and fully extended; their offset is the 1in maximum stroke"
+  },
+  {
+   "dim": "1/8 NPT port",
+   "nom": 0.405,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": false,
+   "not_": "thread size note; modelled as a helical 60 deg taper thread, 27 per inch, crest cone dia 0.405 at the port face; no recipe measures a cone diameter: checked in ozellikler (region items)"
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "mcpServers": {
+  "solidcraft": {
+   "type": "stdio",
+   "command": "<SOLIDCRAFT_KLASÖRÜ>/solidcraft-cli.exe",
+   "args": ["mcp", "--headless"],
+   "env": {}
+  }
+ }
+}

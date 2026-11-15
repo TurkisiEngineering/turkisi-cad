@@ -1,0 +1,47 @@
+paket,klasor,ad,seviye,govde_sayisi,birim,sure_tavani_dk
+P00,P00-kalibrasyon-levhasi,kalibrasyon levhası,sekil,1,mm,45
+P01,P01-ic-disli-60-dis,"iç dişli, 60 diş",sekil,1,mm,45
+P02,P02-krank-kolu,krank kolu,sekil,1,mm,45
+P03,P03-rulman-koruma-kapagi,rulman koruma kapağı,sekil,1,in,45
+P04,P04-abs-elektronik-kutusu,ABS elektronik kutusu,zor,3,in,90
+P05,P05-rotil-basi,rotil başı,zor,2,in,90
+P06,P06-flansli-rulman-yatagi,flanşlı rulman yatağı,zor,6,in,90
+P07,P07-kollu-pres,kollu pres,cok_zor,25,in,180
+P08,P08-havali-mengene,havalı mengene,cok_zor,13,in,180
+P09,P09-konumlama-kizagi,konumlama kızağı,cok_zor,12,in,180
+P10,P10-tirtilli-topuz,tırtıllı topuz,sekil,3,in,45
+P11,P11-sonsuz-vida,sonsuz vida,sekil,2,mm,45
+P12,P12-capraz-helis-disli,çapraz helis dişli,sekil,1,mm,45
+P13,P13-sogutma-plakasi,soğutma plakası,zor,2,in,90
+P14,P14-bilyali-vida,bilyalı vida,sekil,1,in,45
+P15,P15-havali-reduktor-motor,havalı redüktör motor,zor,3,in,90
+P16,P16-konik-disli,konik dişli,sekil,1,mm,45
+P17,P17-kanca-anahtar,kanca anahtar,sekil,1,in,45
+P18,P18-talas-siperi,talaş siperi,zor,11,in,90
+P19,P19-doner-tekerlek,döner tekerlek,zor,12,in,90
+P20,P20-darbe-valfi,darbe valfi,zor,6,in,90
+P21,P21-acili-kardan,açılı kardan,zor,2,in,90
+P22,P22-raf-konsolu,raf konsolu,zor,1,in,90
+P23,P23-kilit-cift-baglantili,kilit (çift bağlantılı),zor,6,mm,90
+P24,P24-ayarli-kol,ayarlı kol,zor,3,in,90
+P25,P25-gaz-debimetresi,gaz debimetresi,zor,6,in,90
+P26,P26-igne-valf,iğne valf,zor,7,in,90
+P27,P27-gergi,gergi,zor,11,in,90
+P28,P28-filtre-govdesi,filtre gövdesi,zor,2,in,90
+P29,P29-kaldirma-halkasi,kaldırma halkası,zor,5,in,90
+P30,P30-gaz-dolum-valfi,gaz dolum valfi,zor,3,mm,90
+P31,P31-manometre,manometre,zor,12,in,90
+P32,P32-sogutma-fani,soğutma fanı,zor,3,mm,90
+P33,P33-doner-mandal,döner mandal,cok_zor,20,mm,180
+P34,P34-hava-silindiri,hava silindiri,zor,7,in,90
+P35,P35-disli-pompa,dişli pompa,cok_zor,13,in,180
+P36,P36-vidali-kriko,vidalı kriko,cok_zor,6,in,180
+P37,P37-elektronik-kabin-rafi,elektronik kabin rafı,cok_zor,9,in,180
+P38,P38-ac-reduktor-motor,AC redüktör motor,cok_zor,14,in,180
+P39,P39-termometre,termometre,zor,3,mm,90
+P40,P40-manyetik-tork-sinirlayici,manyetik tork sınırlayıcı,cok_zor,20,in,180
+P41,P41-kavrama-fren,kavrama-fren,cok_zor,27,in,180
+P42,P42-kiris-arabasi,kiriş arabası,cok_zor,80,in,180
+P43,P43-platform-merdiven,platform merdiven,cok_zor,248,in,180
+P44,P44-bilyali-vida-mil,bilyalı vida-mil,cok_zor,11,mm,180
+P45,P45-su-sogutmali-isi-emici,su soğutmalı ısı emici,cok_zor,103,in,180

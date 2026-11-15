@@ -1,0 +1,69 @@
+{
+ "parca": "P13",
+ "birim_spec": "in",
+ "govdeler": [
+  {
+   "ad": "P01",
+   "tur": "parca",
+   "hacim_mm3": 122692.25,
+   "alan_mm2": 41698.55,
+   "com_mm": [
+    0.0,
+    0.0,
+    -2.4052
+   ],
+   "bbox_mm": [
+    -76.2,
+    -44.45,
+    -7.9375,
+    76.2,
+    44.45,
+    4.7625
+   ],
+   "yuz_sayisi": 22,
+   "esdeger_grubu": "P01",
+   "not": "GProp V 122692.25 / mesh V 122697.98; master also holds 22 empty zero-area shells (132 faces) at (38.1,-22.225,3.402), dropped"
+  },
+  {
+   "ad": "P02",
+   "tur": "parca",
+   "hacim_mm3": 11956.98,
+   "alan_mm2": 47103.52,
+   "com_mm": [
+    8.3517,
+    -0.0,
+    0.0
+   ],
+   "bbox_mm": [
+    -93.6625,
+    -42.8625,
+    -4.7625,
+    127.0,
+    42.8625,
+    4.7625
+   ],
+   "yuz_sayisi": 38,
+   "esdeger_grubu": "P02",
+   "not": "GProp V 11956.98 / mesh V 11953.74"
+  }
+ ],
+ "montaj": {
+  "hacim_mm3": 134649.24,
+  "alan_mm2": 88802.07,
+  "com_mm": [
+   0.7416,
+   0.0,
+   -2.1916
+  ],
+  "bbox_mm": [
+   -93.6625,
+   -44.45,
+   -7.9375,
+   127.0,
+   44.45,
+   4.7625
+  ]
+ },
+ "girisimler": [],
+ "not": "plate/tube common volume 0.000 mm3 (tube lies in the channels, face contact)"
+}

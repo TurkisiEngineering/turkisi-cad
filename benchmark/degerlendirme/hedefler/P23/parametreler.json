@@ -1,0 +1,66 @@
+{
+ "anahtar": [
+  {
+   "kavram": "overall length",
+   "deger": 139.0,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "length",
+    "overall_length",
+    "L",
+    "total_length",
+    "L_total",
+    "boy"
+   ]
+  },
+  {
+   "kavram": "upper jaw opening",
+   "deger": 27.686,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "jaw",
+    "opening",
+    "upper_opening",
+    "jaw_upper",
+    "gap_upper",
+    "W_top"
+   ]
+  },
+  {
+   "kavram": "lower jaw opening",
+   "deger": 15.5448,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "lower_opening",
+    "jaw_lower",
+    "gap_lower",
+    "opening_bottom",
+    "W_bot"
+   ]
+  },
+  {
+   "kavram": "upper pin diameter",
+   "deger": 20.0,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "pin_d",
+    "upper_pin_d",
+    "pin_dia",
+    "d_pin_top",
+    "D1"
+   ]
+  },
+  {
+   "kavram": "lower pin diameter",
+   "deger": 16.0,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "lower_pin_d",
+    "pin2_d",
+    "d_pin_bot",
+    "D2",
+    "pin_dia_lower"
+   ]
+  }
+ ]
+}

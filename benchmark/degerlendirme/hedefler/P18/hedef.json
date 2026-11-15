@@ -1,0 +1,266 @@
+{
+ "parca": "P18",
+ "birim_spec": "in",
+ "govdeler": [
+  {
+   "ad": "P01",
+   "tur": "parca",
+   "hacim_mm3": 129230.92,
+   "alan_mm2": 83858.625,
+   "com_mm": [
+    -0.6077,
+    0.6077,
+    0.0
+   ],
+   "bbox_mm": [
+    -101.6,
+    -101.6,
+    -1.5875,
+    101.6,
+    101.6,
+    1.5875
+   ],
+   "yuz_sayisi": 114,
+   "esdeger_grubu": "P01",
+   "not": "GProp V 129230.92 / mesh V 129230.10; STEP solid index 10"
+  },
+  {
+   "ad": "P02",
+   "tur": "parca",
+   "hacim_mm3": 15685.409,
+   "alan_mm2": 5554.686,
+   "com_mm": [
+    80.581,
+    -80.581,
+    1.7012
+   ],
+   "bbox_mm": [
+    47.1832,
+    -104.7395,
+    -21.2725,
+    104.7395,
+    -47.1832,
+    11.1125
+   ],
+   "yuz_sayisi": 44,
+   "esdeger_grubu": "P02",
+   "not": "GProp V 15685.41 / mesh V 15679.67; STEP solid index 0"
+  },
+  {
+   "ad": "P03",
+   "tur": "donanim",
+   "hacim_mm3": 625.239,
+   "alan_mm2": 478.07,
+   "com_mm": [
+    92.5354,
+    -92.5354,
+    -7.9375
+   ],
+   "bbox_mm": [
+    85.6306,
+    -99.0855,
+    -12.7,
+    99.0855,
+    -85.6306,
+    -3.175
+   ],
+   "yuz_sayisi": 26,
+   "esdeger_grubu": "P03",
+   "not": "GProp V 625.24 / mesh V 624.32; STEP solid index 3"
+  },
+  {
+   "ad": "P04",
+   "tur": "parca",
+   "hacim_mm3": 70311.57,
+   "alan_mm2": 16893.228,
+   "com_mm": [
+    199.0608,
+    -199.0608,
+    -7.9375
+   ],
+   "bbox_mm": [
+    88.1899,
+    -311.8573,
+    -18.7325,
+    311.8573,
+    -88.1899,
+    2.8575
+   ],
+   "yuz_sayisi": 20,
+   "esdeger_grubu": "P04",
+   "not": "GProp V 70311.57 / mesh V 70260.93; STEP solid index 1"
+  },
+  {
+   "ad": "P05",
+   "tur": "parca",
+   "hacim_mm3": 6040.451,
+   "alan_mm2": 4601.387,
+   "com_mm": [
+    309.3699,
+    -307.9489,
+    -7.9375
+   ],
+   "bbox_mm": [
+    296.6702,
+    -320.4727,
+    -33.3375,
+    320.9686,
+    -296.6702,
+    17.4625
+   ],
+   "yuz_sayisi": 91,
+   "esdeger_grubu": "P05",
+   "not": "GProp V 6040.45 / mesh V 6043.02; STEP solid index 2"
+  },
+  {
+   "ad": "H1-a",
+   "tur": "donanim",
+   "hacim_mm3": 230.99,
+   "alan_mm2": 379.823,
+   "com_mm": [
+    79.8238,
+    -79.8234,
+    -0.3745
+   ],
+   "bbox_mm": [
+    75.8541,
+    -83.7916,
+    -4.7625,
+    83.7916,
+    -75.8541,
+    8.0645
+   ],
+   "yuz_sayisi": 65,
+   "esdeger_grubu": "H1",
+   "not": "GProp V 230.99 / mesh V 230.70; STEP solid index 4"
+  },
+  {
+   "ad": "H1-b",
+   "tur": "donanim",
+   "hacim_mm3": 230.99,
+   "alan_mm2": 379.823,
+   "com_mm": [
+    68.5984,
+    -68.5981,
+    -0.3745
+   ],
+   "bbox_mm": [
+    64.6288,
+    -72.5663,
+    -4.7625,
+    72.5663,
+    -64.6288,
+    8.0645
+   ],
+   "yuz_sayisi": 65,
+   "esdeger_grubu": "H1",
+   "not": "GProp V 230.99 / mesh V 230.70; STEP solid index 5"
+  },
+  {
+   "ad": "H2-a",
+   "tur": "donanim",
+   "hacim_mm3": 689.6,
+   "alan_mm2": 735.398,
+   "com_mm": [
+    307.5161,
+    -307.5127,
+    9.5256
+   ],
+   "bbox_mm": [
+    296.8757,
+    -316.8386,
+    4.7625,
+    316.8386,
+    -296.8757,
+    14.2875
+   ],
+   "yuz_sayisi": 62,
+   "esdeger_grubu": "H2",
+   "not": "GProp V 689.60 / mesh V 688.57; STEP solid index 6"
+  },
+  {
+   "ad": "H2-b",
+   "tur": "donanim",
+   "hacim_mm3": 689.6,
+   "alan_mm2": 735.398,
+   "com_mm": [
+    307.5161,
+    -307.5127,
+    -25.3994
+   ],
+   "bbox_mm": [
+    296.8757,
+    -316.8386,
+    -30.1625,
+    316.8386,
+    -296.8757,
+    -20.6375
+   ],
+   "yuz_sayisi": 62,
+   "esdeger_grubu": "H2",
+   "not": "GProp V 689.60 / mesh V 688.57; STEP solid index 9"
+  },
+  {
+   "ad": "H3-a",
+   "tur": "donanim",
+   "hacim_mm3": 166.446,
+   "alan_mm2": 288.471,
+   "com_mm": [
+    306.5951,
+    -306.591,
+    9.5152
+   ],
+   "bbox_mm": [
+    301.9227,
+    -311.4465,
+    4.7625,
+    311.4465,
+    -301.9227,
+    14.2875
+   ],
+   "yuz_sayisi": 34,
+   "esdeger_grubu": "H3",
+   "not": "GProp V 166.45 / mesh V 166.54; STEP solid index 7"
+  },
+  {
+   "ad": "H3-b",
+   "tur": "donanim",
+   "hacim_mm3": 166.446,
+   "alan_mm2": 288.471,
+   "com_mm": [
+    306.5951,
+    -306.591,
+    -25.4098
+   ],
+   "bbox_mm": [
+    301.9227,
+    -311.4465,
+    -30.1625,
+    311.4465,
+    -301.9227,
+    -20.6375
+   ],
+   "yuz_sayisi": 34,
+   "esdeger_grubu": "H3",
+   "not": "GProp V 166.45 / mesh V 166.54; STEP solid index 8"
+  }
+ ],
+ "montaj": {
+  "hacim_mm3": 224067.66,
+  "alan_mm2": 114193.38,
+  "com_mm": [
+   78.8545,
+   -78.8162,
+   -2.6692
+  ],
+  "bbox_mm": [
+   -101.6,
+   -320.4727,
+   -33.3375,
+   320.9686,
+   101.6,
+   17.4625
+  ]
+ },
+ "girisimler": []
+}

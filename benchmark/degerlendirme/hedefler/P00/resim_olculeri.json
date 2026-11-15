@@ -1,0 +1,152 @@
+{
+ "not": "P0 has no catalogue drawing; rows are the calibration design dimensions (R3 measured as cylinder diameter 6).",
+ "rows": [
+  {
+   "dim": "100 (length)",
+   "nom": 100.0,
+   "birim": "mm",
+   "tol": 0.05,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "60 (width)",
+   "nom": 60.0,
+   "birim": "mm",
+   "tol": 0.05,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "y"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "10 (thickness)",
+   "nom": 10.0,
+   "birim": "mm",
+   "tol": 0.05,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "z"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "4x dia 6 (holes)",
+   "nom": 6.0,
+   "birim": "mm",
+   "tol": 0.05,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     -42,
+     -19,
+     5
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "84 (hole spacing X)",
+   "nom": 84.0,
+   "birim": "mm",
+   "tol": 0.05,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     -42,
+     -19,
+     5
+    ],
+    "nokta2": [
+     42,
+     -19,
+     5
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "44 (hole spacing Y)",
+   "nom": 44.0,
+   "birim": "mm",
+   "tol": 0.05,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     42,
+     -19,
+     5
+    ],
+    "nokta2": [
+     42,
+     25,
+     5
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "dia 20 (pocket)",
+   "nom": 20.0,
+   "birim": "mm",
+   "tol": 0.05,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     0,
+     10,
+     8
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "4 deep (pocket)",
+   "nom": 4.0,
+   "birim": "mm",
+   "tol": 0.05,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     0,
+     0,
+     6
+    ],
+    "nokta2": [
+     30,
+     0,
+     10
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "R3 (4 corners)",
+   "nom": 6.0,
+   "birim": "mm",
+   "tol": 0.05,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     -49.2,
+     -29.2,
+     5
+    ]
+   },
+   "modelde_var": true
+  }
+ ]
+}

@@ -1,0 +1,481 @@
+{
+ "items": [
+  {
+   "id": "F1",
+   "govde": "P01",
+   "etiket": "tip diameter 20.38 (tip land cylinder)",
+   "tur": "dis",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     -5,
+     -1.81998,
+     10.02616
+    ]
+   },
+   "nom": 20.38,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -5,
+     -1.81998,
+     10.02616
+    ],
+    "r_mm": 0.5
+   }
+  },
+  {
+   "id": "F2",
+   "govde": "P01",
+   "etiket": "13 teeth (separate tip-land faces on r10.19)",
+   "tur": "dis",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "cylinder",
+    "r_mm": 10.19,
+    "ayri_yuzler": true
+   },
+   "nom": 13,
+   "tol": 0,
+   "bolge": null
+  },
+  {
+   "id": "F3",
+   "govde": "P01",
+   "etiket": "tooth flank, pitch region, one side of a space",
+   "tur": "dis",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -5,
+     -2.65121,
+     8.76056
+    ],
+    "r_mm": 0.3
+   }
+  },
+  {
+   "id": "F4",
+   "govde": "P01",
+   "etiket": "tooth flank, pitch region, other side (symmetric profile)",
+   "tur": "dis",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -5,
+     -4.77311,
+     7.80985
+    ],
+    "r_mm": 0.3
+   }
+  },
+  {
+   "id": "F5",
+   "govde": "P01",
+   "etiket": "root arc r7.97947 (root diameter 15.959)",
+   "tur": "dis",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -5,
+     -7.826,
+     1.55749
+    ],
+    "r_mm": 0.3
+   }
+  },
+  {
+   "id": "F6",
+   "govde": "P01",
+   "etiket": "root fillet region of the tabulated profile",
+   "tur": "dis",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -5,
+     -7.96367,
+     -1.6663
+    ],
+    "r_mm": 0.3
+   }
+  },
+  {
+   "id": "F7",
+   "govde": "P01",
+   "etiket": "helix: flank near x=-9 (left hand, lead 57.6)",
+   "tur": "dis",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -9,
+     0.04776,
+     -9.15282
+    ],
+    "r_mm": 0.3
+   }
+  },
+  {
+   "id": "F8",
+   "govde": "P01",
+   "etiket": "helix: same flank near x=-1",
+   "tur": "dis",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -1,
+     -6.98077,
+     -5.9199
+    ],
+    "r_mm": 0.3
+   }
+  },
+  {
+   "id": "F9",
+   "govde": "P01",
+   "etiket": "flank near tip, x=-9",
+   "tur": "dis",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -9,
+     9.58362,
+     -2.97266
+    ],
+    "r_mm": 0.3
+   }
+  },
+  {
+   "id": "F10",
+   "govde": "P01",
+   "etiket": "flank near tip, x=-1",
+   "tur": "dis",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -1,
+     3.88305,
+     -9.25227
+    ],
+    "r_mm": 0.3
+   }
+  },
+  {
+   "id": "F11",
+   "govde": "P01",
+   "etiket": "hub diameter 15",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     5,
+     5.3033,
+     5.3033
+    ]
+   },
+   "nom": 15.0,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F12",
+   "govde": "P01",
+   "etiket": "bore diameter 6 (plain, no keyway)",
+   "tur": "delik",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     -5,
+     2.12132,
+     2.12132
+    ]
+   },
+   "nom": 6.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -5,
+     2.12132,
+     2.12132
+    ],
+    "r_mm": 1.0
+   }
+  },
+  {
+   "id": "F13",
+   "govde": "P01",
+   "etiket": "face width 10 (x=-10 to x=0)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     -10,
+     0,
+     5.0
+    ],
+    "nokta2": [
+     0,
+     6.75659,
+     5.94546
+    ]
+   },
+   "nom": 10.0,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F14",
+   "govde": "P01",
+   "etiket": "hub length 10 (x=0 to x=10)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     0,
+     6.75659,
+     5.94546
+    ],
+    "nokta2": [
+     10,
+     0,
+     5.0
+    ]
+   },
+   "nom": 10.0,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F15",
+   "govde": "P01",
+   "etiket": "overall length 20",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x"
+   },
+   "nom": 20.0,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F16",
+   "govde": "P01",
+   "etiket": "hub-to-gear-face fillet R0.4",
+   "tur": "yuvarlatma",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "torus",
+    "r_mm": 0.4
+   },
+   "nom": 1,
+   "tol": 0,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0.11716,
+     5.386145489382922,
+     5.386145489382922
+    ],
+    "r_mm": 0.3
+   }
+  },
+  {
+   "id": "F17",
+   "govde": "P01",
+   "etiket": "tip-edge rounds R0.75, both faces (13 per face)",
+   "tur": "yuvarlatma",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "torus",
+    "r_mm": 0.75,
+    "ayri_yuzler": true
+   },
+   "nom": 26,
+   "tol": 0,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -9.78033,
+     -9.92359,
+     -0.9643
+    ],
+    "r_mm": 0.3
+   }
+  },
+  {
+   "id": "F18",
+   "govde": "P01",
+   "etiket": "tip-edge rounds on the hub-side face x=0",
+   "tur": "yuvarlatma",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "torus",
+    "r_mm": 0.75,
+    "ayri_yuzler": true,
+    "bolge": [
+     -1.0,
+     -11,
+     -11,
+     0.5,
+     11,
+     11
+    ]
+   },
+   "nom": 13,
+   "tol": 0,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -0.21967,
+     -8.73095,
+     -4.81436
+    ],
+    "r_mm": 0.3
+   }
+  },
+  {
+   "id": "F19",
+   "govde": "P01",
+   "etiket": "two 0.3 x 45 chamfers at the hub end x=10 (hub OD and bore); region = hub OD chamfer",
+   "tur": "pah",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "cone",
+    "bolge": [
+     9.5,
+     -8,
+     -8,
+     10.5,
+     8,
+     8
+    ]
+   },
+   "nom": 2,
+   "tol": 0,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     9.85,
+     0,
+     -7.35
+    ],
+    "r_mm": 0.3
+   }
+  },
+  {
+   "id": "F20",
+   "govde": "P01",
+   "etiket": "bore chamfer 0.3 x 45 at x=10 (shape)",
+   "tur": "pah",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     9.85,
+     0,
+     -3.15
+    ],
+    "r_mm": 0.3
+   }
+  },
+  {
+   "id": "F21",
+   "govde": "P01",
+   "etiket": "no chamfer at the bore on x=-10 (sharp edge)",
+   "tur": "pah",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "cone",
+    "bolge": [
+     -10.5,
+     -4,
+     -4,
+     -9,
+     4,
+     4
+    ]
+   },
+   "nom": 0,
+   "tol": 0,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -10,
+     0,
+     -3.0
+    ],
+    "r_mm": 0.4
+   }
+  },
+  {
+   "id": "F22",
+   "govde": "P01",
+   "etiket": "3 planar faces (x=-10, x=0, x=10)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "plane"
+   },
+   "nom": 3,
+   "tol": 0,
+   "bolge": null
+  }
+ ]
+}

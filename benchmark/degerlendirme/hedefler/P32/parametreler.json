@@ -1,0 +1,62 @@
+{
+ "anahtar": [
+  {
+   "kavram": "frame square size",
+   "deger": 80.0,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "frame_size",
+    "size",
+    "width",
+    "square",
+    "kare",
+    "boyut"
+   ]
+  },
+  {
+   "kavram": "frame depth",
+   "deger": 38.0,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "depth",
+    "thickness",
+    "frame_depth",
+    "derinlik",
+    "kalinlik"
+   ]
+  },
+  {
+   "kavram": "mounting hole spacing",
+   "deger": 71.5,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "hole_spacing",
+    "pitch",
+    "bolt_spacing",
+    "delik_araligi"
+   ]
+  },
+  {
+   "kavram": "mounting hole diameter",
+   "deger": 4.4,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "hole_d",
+    "hole_dia",
+    "hole_diameter",
+    "delik_cap"
+   ]
+  },
+  {
+   "kavram": "blade count",
+   "deger": 9,
+   "birim": "-",
+   "ipucu_adlar": [
+    "blades",
+    "n_blades",
+    "blade_count",
+    "kanat_sayisi"
+   ]
+  }
+ ]
+}

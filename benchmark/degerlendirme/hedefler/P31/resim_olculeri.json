@@ -1,0 +1,89 @@
+{
+ "rows": [
+  {
+   "dim": "2.64in (bezel outside diameter)",
+   "nom": 2.64,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P02",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1.02in (case back to bezel front)",
+   "nom": 1.02,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "koordinat",
+    "govde": "P02",
+    "eksen": "z",
+    "uc": "max",
+    "referans": 0.0
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "2.00in (case back to socket end)",
+   "nom": 2.0,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P05",
+    "eksen": "z"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.96in (stem rod beyond the socket end)",
+   "nom": 0.96,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_kenar_fark",
+    "govde": "P05",
+    "kenar": "zmin",
+    "govde2": "P06",
+    "kenar2": "zmin"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.31in (stem rod diameter)",
+   "nom": 0.31,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P06",
+    "nokta": [
+     3.40954,
+     1.9685,
+     -60.96
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1/4 NPT (socket thread; outside diameter 0.54 at the top of the thread = shank diameter)",
+   "nom": 0.54,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P05",
+    "nokta": [
+     5.9392,
+     3.429,
+     -25.4
+    ]
+   },
+   "modelde_var": true,
+   "not_": "thread modelled as a tapered helical 60 deg thread, 18 TPI, crest radius 0.27 at z = -1.5982 tapering 1:16; the recipe measures the 0.54 shank that continues the crest cone"
+  }
+ ]
+}

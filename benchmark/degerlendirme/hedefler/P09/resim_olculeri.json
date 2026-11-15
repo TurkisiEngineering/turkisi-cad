@@ -1,0 +1,300 @@
+{
+ "rows": [
+  {
+   "dim": "2.062 in (outer carriage holes spacing)",
+   "nom": 2.062,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P02",
+    "nokta1": [
+     2.0828,
+     8.382,
+     43.6372
+    ],
+    "nokta2": [
+     2.0828,
+     8.382,
+     96.012
+    ]
+   },
+   "modelde_var": true,
+   "_dogrulama": {
+    "orijinal_in": 2.062,
+    "gecti": true
+   }
+  },
+  {
+   "dim": "1.188 in (inner carriage holes spacing)",
+   "nom": 1.188,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P02",
+    "nokta1": [
+     2.0828,
+     8.382,
+     54.7624
+    ],
+    "nokta2": [
+     2.0828,
+     8.382,
+     84.9376
+    ]
+   },
+   "modelde_var": true,
+   "_dogrulama": {
+    "orijinal_in": 1.188,
+    "gecti": true
+   }
+  },
+  {
+   "dim": "1.5 in (travel length)",
+   "nom": 1.5,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": false,
+   "not": "kinematic: base length 4.0 minus carriage length 2.5; not a single feature",
+   "_dogrulama": "modelde yok"
+  },
+  {
+   "dim": "1.25 in (carriage width)",
+   "nom": 1.25,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": false,
+   "not": "catalogue width; model carriage top face is 1.2462 wide (x = +/-0.62308), 1.7442 over the bearing pads; covered by ozellikler F18-F20",
+   "_dogrulama": "modelde yok"
+  },
+  {
+   "dim": "2.5 in (base width)",
+   "nom": 2.5,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     31.75,
+     0.0,
+     50.8
+    ],
+    "nokta2": [
+     -31.75,
+     0.0,
+     50.8
+    ]
+   },
+   "modelde_var": true,
+   "_dogrulama": {
+    "orijinal_in": 2.5,
+    "gecti": true
+   }
+  },
+  {
+   "dim": "0.219 in (carriage end to first hole)",
+   "nom": 0.219,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": false,
+   "not": "plane-to-axis distance (carriage end z = 1.5, hole axis z = 1.718: 0.218); no plane/axis recipe; region checks F21-F24 cover it",
+   "_dogrulama": "modelde yok"
+  },
+  {
+   "dim": "0.656 in (last hole to carriage end)",
+   "nom": 0.656,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": false,
+   "not": "plane-to-axis distance z 3.344 -> 4.0 = 0.656; no plane/axis recipe",
+   "_dogrulama": "modelde yok"
+  },
+  {
+   "dim": "6.72 in (overall length, screw head to handle end)",
+   "nom": 6.72,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_kenar_fark",
+    "govde": "H1-c",
+    "kenar": "zmin",
+    "govde2": "P08",
+    "kenar2": "zmax"
+   },
+   "modelde_var": true,
+   "not": "two bodies: end-plate screw head z = -0.162 to handle tip z = 6.5622 -> 6.7242. Extra recipe bbox_kenar_fark = |bbox(govde2)[kenar2] - bbox(govde)[kenar]|",
+   "_dogrulama": {
+    "orijinal_in": 6.7242,
+    "gecti": true
+   }
+  },
+  {
+   "dim": "4 in (base length)",
+   "nom": 4.0,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "z"
+   },
+   "modelde_var": true,
+   "_dogrulama": {
+    "orijinal_in": 4.0,
+    "gecti": true
+   }
+  },
+  {
+   "dim": "2.5 in (carriage length)",
+   "nom": 2.5,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P02",
+    "eksen": "z"
+   },
+   "modelde_var": true,
+   "_dogrulama": {
+    "orijinal_in": 2.5,
+    "gecti": true
+   }
+  },
+  {
+   "dim": "0.2 in (carriage thread depth)",
+   "nom": 0.2,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": false,
+   "not": "catalogue thread depth; the 4 holes run through into the underside channel (0.163 deep at the hole wall)",
+   "_dogrulama": "modelde yok"
+  },
+  {
+   "dim": "1.75 in (handwheel dia)",
+   "nom": 1.75,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P07",
+    "eksen": "y"
+   },
+   "modelde_var": true,
+   "_dogrulama": {
+    "orijinal_in": 1.75,
+    "gecti": true
+   }
+  },
+  {
+   "dim": "0.81 in (height, base underside to carriage top)",
+   "nom": 0.81,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_kenar_fark",
+    "govde": "P01",
+    "kenar": "ymin",
+    "govde2": "P02",
+    "kenar2": "ymax"
+   },
+   "modelde_var": true,
+   "not": "two bodies (bbox_kenar_fark); measured 0.8050, passes exactly at the 0.005 limit",
+   "_dogrulama": {
+    "orijinal_in": 0.805,
+    "gecti": true
+   }
+  },
+  {
+   "dim": "0.26 in (base underside to groove floor / countersink top)",
+   "nom": 0.26,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     0.0,
+     -3.41782,
+     38.1
+    ],
+    "nokta2": [
+     22.86,
+     -10.02182,
+     50.8
+    ]
+   },
+   "modelde_var": true,
+   "_dogrulama": {
+    "orijinal_in": 0.26,
+    "gecti": true
+   }
+  },
+  {
+   "dim": "3 in (mounting holes spacing along Z)",
+   "nom": 3.0,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": false,
+   "not": "holes at (x, z) = (-0.343, 0.5) and (0.343, 3.5): 3.0 along Z, 3.0774 axis to axis (ozellikler F11)",
+   "_dogrulama": "modelde yok"
+  },
+  {
+   "dim": "0.44 in (handwheel overhang below base underside)",
+   "nom": 0.44,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_kenar_fark",
+    "govde": "P07",
+    "kenar": "ymin",
+    "govde2": "P01",
+    "kenar2": "ymin"
+   },
+   "modelde_var": true,
+   "not": "two bodies (bbox_kenar_fark): base underside y = -0.39456, wheel bottom y = -0.83256 -> 0.438",
+   "_dogrulama": {
+    "orijinal_in": 0.438,
+    "gecti": true
+   }
+  },
+  {
+   "dim": "8-32 Thread (carriage holes, major dia 0.164)",
+   "nom": 0.164,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P02",
+    "nokta": [
+     2.0828,
+     8.382,
+     54.7624
+    ]
+   },
+   "modelde_var": true,
+   "not": "thread callout; the model has plain dia 0.164 holes, no thread",
+   "_dogrulama": {
+    "orijinal_in": 0.164,
+    "gecti": true
+   }
+  },
+  {
+   "dim": "For 10-32 Mounting Fastener (countersunk holes)",
+   "nom": null,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": false,
+   "not": "fastener callout, not a dimension; model hole dia 0.198, countersink 82 deg to dia 0.385 (ozellikler F09-F11)",
+   "_dogrulama": "modelde yok"
+  }
+ ]
+}

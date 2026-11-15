@@ -1,0 +1,119 @@
+{
+ "rows": [
+  {
+   "dim": "2.52in (head diameter)",
+   "nom": 2.52,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P02",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "3/8\"-16 (thread major dia 0.375)",
+   "nom": 0.375,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P03",
+    "nokta": [
+     4.7625,
+     0,
+     -9.632
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1.25in (hub diameter at its end)",
+   "nom": 1.25,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x",
+    "bolge": [
+     -40,
+     -40,
+     -16.8,
+     40,
+     40,
+     -16.7
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.50in (hub length, head underside to hub end)",
+   "nom": 0.5,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe_govdeler",
+    "govde": "P02",
+    "nokta1": [
+     29.2598,
+     1.5334,
+     -4.572
+    ],
+    "govde2": "P01",
+    "nokta2": [
+     13.8858,
+     2.4484,
+     -17.272
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.50in Thread Depth",
+   "nom": 0.5,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P03",
+    "eksen": "z"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.68in (head thickness)",
+   "nom": 0.68,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P02",
+    "nokta1": [
+     29.2598,
+     1.5334,
+     -4.572
+    ],
+    "nokta2": [
+     28.1614,
+     1.4759,
+     12.7
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.86in (head height incl. dome)",
+   "nom": 0.86,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P02",
+    "eksen": "z"
+   },
+   "modelde_var": true
+  }
+ ]
+}

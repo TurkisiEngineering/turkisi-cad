@@ -1,0 +1,888 @@
+{
+ "commands": [
+  {
+   "command": "document.units",
+   "params": {
+    "units": "in"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "T",
+    "expression": "0.12 in",
+    "comment": "F1 plate thickness (symmetric extrude along Y)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "H_handle",
+    "expression": "0.389790 in",
+    "comment": "F1 handle width (Z=0 .. -H_handle)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "R_end",
+    "expression": "H_handle / 2",
+    "comment": "F1 semicircular handle end radius"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_end",
+    "expression": "1.970605 in",
+    "comment": "F1 x of handle-end arc centre"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_top0",
+    "expression": "-1.354007 in",
+    "comment": "F1 start x of handle top edge"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_neck",
+    "expression": "-0.703984 in",
+    "comment": "F1 end x of handle bottom edge / neck arc centre x"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "R_neck",
+    "expression": "15/32 * 1 in",
+    "comment": "F1 concave neck arc radius"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Xc_back",
+    "expression": "-1.507307 in",
+    "comment": "F1 head back arc centre x (z=0)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "R_back",
+    "expression": "0.707013 in",
+    "comment": "F1 head back arc radius (head height)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "R_tip",
+    "expression": "5/64 * 1 in",
+    "comment": "F1 hook tip arc radius"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Xc_jaw",
+    "expression": "-1.696750 in",
+    "comment": "F1 jaw arc centre x (z=0)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "R_jaw",
+    "expression": "5/16 * 1 in",
+    "comment": "F1 jaw arc radius (0.625 nut)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Slot_X1",
+    "expression": "1.918717 in",
+    "comment": "F2 slot first centre x"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Slot_C",
+    "expression": "0.025985 in",
+    "comment": "F2 slot centre distance"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Slot_W",
+    "expression": "0.129930 in",
+    "comment": "F2 slot width"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "R_round",
+    "expression": "1/64 * 1 in",
+    "comment": "F3 handle edge round radius"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "X_round0",
+    "expression": "-0.441484 in",
+    "comment": "F3/F4 x where full round ends"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "A_runout",
+    "expression": "10 deg",
+    "comment": "F4 run-out cone half angle"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "L_runout",
+    "expression": "(sqrt(2) - 1) * R_round / tan(A_runout)",
+    "comment": "F4 run-out length (0.036705)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Cut_big",
+    "expression": "0.05 in",
+    "comment": "F3/F4 helper: radial extent of round cutters (outside part)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "Cut_ext",
+    "expression": "0.002 in",
+    "comment": "F4 helper: cutter extension past sharp end (removes nothing)"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XZ",
+    "name": "F1_Outline"
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      "X_top0",
+      "0 in"
+     ],
+     [
+      "X_end",
+      "0 in"
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     "X_end",
+     "R_end"
+    ],
+    "start": [
+     "X_end",
+     "0 in"
+    ],
+    "end": [
+     "X_end",
+     "H_handle"
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      "X_end",
+      "H_handle"
+     ],
+     [
+      "X_neck",
+      "H_handle"
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     "X_neck",
+     "H_handle + R_neck"
+    ],
+    "start": [
+     "X_neck",
+     "H_handle"
+    ],
+    "end": [
+     "-1.024250616 in",
+     "0.516259622 in"
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     "Xc_back",
+     "0 in"
+    ],
+    "start": [
+     "-1.024250616 in",
+     "0.516259622 in"
+    ],
+    "end": [
+     "-2.159436027 in",
+     "0.273121217 in"
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     "-2.087375 in",
+     "0.242941 in"
+    ],
+    "start": [
+     "-2.159436027 in",
+     "0.273121217 in"
+    ],
+    "end": [
+     "-2.104284211 in",
+     "0.166667048 in"
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      "-2.104284211 in",
+      "0.166667048 in"
+     ],
+     [
+      "-1.931443 in",
+      "0.128350 in"
+     ],
+     [
+      "-1.864243 in",
+      "0.193720 in"
+     ],
+     [
+      "-1.922673569 in",
+      "0.215904588 in"
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     "Xc_jaw",
+     "0 in"
+    ],
+    "start": [
+     "-1.922673569 in",
+     "0.215904588 in"
+    ],
+    "end": [
+     "-1.411824435 in",
+     "0.128349804 in"
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      "-1.411824435 in",
+      "0.128349804 in"
+     ],
+     [
+      "X_top0",
+      "0 in"
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "sketch": "F1_Outline",
+    "distance": "T",
+    "direction": "symmetric",
+    "operation": "new",
+    "body_name": "P01 Spanner",
+    "name": "F1_Extrude"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XZ",
+    "name": "F3a_HandleZone"
+   }
+  },
+  {
+   "command": "sketch.rectangle.two_point",
+   "params": {
+    "p0": [
+     "X_round0",
+     "-0.1 in"
+    ],
+    "p1": [
+     "X_end + R_end + 0.1 in",
+     "H_handle + 0.1 in"
+    ]
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "sketch": "F3a_HandleZone",
+    "through_all": true,
+    "direction": "symmetric",
+    "operation": "cut",
+    "targets": [
+     "P01 Spanner"
+    ],
+    "name": "F3a_TrimHandle"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "offset": "-R_round",
+    "name": "F4_TopPos_Profile"
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "closed": true,
+    "points": [
+     [
+      "X_round0 - L_runout - Cut_ext",
+      "(T/2 - R_round) + R_round + tan(A_runout) * (L_runout + Cut_ext)"
+     ],
+     [
+      "X_round0",
+      "(T/2 - R_round) + R_round"
+     ],
+     [
+      "X_round0",
+      "(T/2 - R_round) + Cut_big"
+     ],
+     [
+      "X_round0 - L_runout - Cut_ext",
+      "(T/2 - R_round) + Cut_big"
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      "X_round0 - L_runout - Cut_ext",
+      "(T/2 - R_round) + 0 in"
+     ],
+     [
+      "X_round0",
+      "(T/2 - R_round) + 0 in"
+     ]
+    ],
+    "construction": true,
+    "ids": [
+     "ax"
+    ]
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "sketch": "F4_TopPos_Profile",
+    "axis": "ax",
+    "angle": "90 deg",
+    "operation": "new",
+    "body_name": "Cut_TopPos",
+    "name": "F4_TopPos_Revolve"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "offset": "-R_round",
+    "name": "F4_TopNeg_Profile"
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "closed": true,
+    "points": [
+     [
+      "X_round0 - L_runout - Cut_ext",
+      "-((T/2 - R_round) + R_round + tan(A_runout) * (L_runout + Cut_ext))"
+     ],
+     [
+      "X_round0",
+      "-((T/2 - R_round) + R_round)"
+     ],
+     [
+      "X_round0",
+      "-((T/2 - R_round) + Cut_big)"
+     ],
+     [
+      "X_round0 - L_runout - Cut_ext",
+      "-((T/2 - R_round) + Cut_big)"
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      "X_round0 - L_runout - Cut_ext",
+      "-((T/2 - R_round) + 0 in)"
+     ],
+     [
+      "X_round0",
+      "-((T/2 - R_round) + 0 in)"
+     ]
+    ],
+    "construction": true,
+    "ids": [
+     "ax"
+    ]
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "sketch": "F4_TopNeg_Profile",
+    "axis": "ax",
+    "angle": "90 deg",
+    "operation": "new",
+    "body_name": "Cut_TopNeg",
+    "name": "F4_TopNeg_Revolve"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "offset": "-(H_handle - R_round)",
+    "name": "F4_BotPos_Profile"
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "closed": true,
+    "points": [
+     [
+      "X_round0 - L_runout - Cut_ext",
+      "(T/2 - R_round) + R_round + tan(A_runout) * (L_runout + Cut_ext)"
+     ],
+     [
+      "X_round0",
+      "(T/2 - R_round) + R_round"
+     ],
+     [
+      "X_round0",
+      "(T/2 - R_round) + Cut_big"
+     ],
+     [
+      "X_round0 - L_runout - Cut_ext",
+      "(T/2 - R_round) + Cut_big"
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      "X_round0 - L_runout - Cut_ext",
+      "(T/2 - R_round) + 0 in"
+     ],
+     [
+      "X_round0",
+      "(T/2 - R_round) + 0 in"
+     ]
+    ],
+    "construction": true,
+    "ids": [
+     "ax"
+    ]
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "sketch": "F4_BotPos_Profile",
+    "axis": "ax",
+    "angle": "-90 deg",
+    "operation": "new",
+    "body_name": "Cut_BotPos",
+    "name": "F4_BotPos_Revolve"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "offset": "-(H_handle - R_round)",
+    "name": "F4_BotNeg_Profile"
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "closed": true,
+    "points": [
+     [
+      "X_round0 - L_runout - Cut_ext",
+      "-((T/2 - R_round) + R_round + tan(A_runout) * (L_runout + Cut_ext))"
+     ],
+     [
+      "X_round0",
+      "-((T/2 - R_round) + R_round)"
+     ],
+     [
+      "X_round0",
+      "-((T/2 - R_round) + Cut_big)"
+     ],
+     [
+      "X_round0 - L_runout - Cut_ext",
+      "-((T/2 - R_round) + Cut_big)"
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      "X_round0 - L_runout - Cut_ext",
+      "-((T/2 - R_round) + 0 in)"
+     ],
+     [
+      "X_round0",
+      "-((T/2 - R_round) + 0 in)"
+     ]
+    ],
+    "construction": true,
+    "ids": [
+     "ax"
+    ]
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "sketch": "F4_BotNeg_Profile",
+    "axis": "ax",
+    "angle": "-90 deg",
+    "operation": "new",
+    "body_name": "Cut_BotNeg",
+    "name": "F4_BotNeg_Revolve"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "P01 Spanner",
+    "tools": [
+     "Cut_TopPos",
+     "Cut_TopNeg",
+     "Cut_BotPos",
+     "Cut_BotNeg"
+    ],
+    "operation": "cut",
+    "keep_tools": false
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XZ",
+    "name": "F3b_Handle"
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      "X_round0",
+      "H_handle"
+     ],
+     [
+      "X_round0",
+      "0 in"
+     ],
+     [
+      "X_end",
+      "0 in"
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     "X_end",
+     "R_end"
+    ],
+    "start": [
+     "X_end",
+     "0 in"
+    ],
+    "end": [
+     "X_end",
+     "H_handle"
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      "X_end",
+      "H_handle"
+     ],
+     [
+      "X_round0",
+      "H_handle"
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "sketch": "F3b_Handle",
+    "distance": "T",
+    "direction": "symmetric",
+    "operation": "new",
+    "body_name": "Handle",
+    "name": "F3b_HandleExtrude"
+   }
+  },
+  {
+   "command": "solid.fillet",
+   "params": {
+    "body": "Handle",
+    "edges": [
+     [
+      12.7,
+      1.5239999999999998,
+      0.0
+     ],
+     [
+      55.003699999999995,
+      1.5239999999999998,
+      -4.950333
+     ],
+     [
+      12.7,
+      1.5239999999999998,
+      -9.900666
+     ],
+     [
+      12.7,
+      -1.5239999999999998,
+      0.0
+     ],
+     [
+      55.003699999999995,
+      -1.5239999999999998,
+      -4.950333
+     ],
+     [
+      12.7,
+      -1.5239999999999998,
+      -9.900666
+     ]
+    ],
+    "radius": "R_round",
+    "name": "F3c_EdgeRounds"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "P01 Spanner",
+    "tools": [
+     "Handle"
+    ],
+    "operation": "join",
+    "keep_tools": false
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XZ",
+    "name": "F2_Slot"
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      "Slot_X1",
+      "R_end - Slot_W/2"
+     ],
+     [
+      "Slot_X1 + Slot_C",
+      "R_end - Slot_W/2"
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     "Slot_X1 + Slot_C",
+     "R_end"
+    ],
+    "start": [
+     "Slot_X1 + Slot_C",
+     "R_end - Slot_W/2"
+    ],
+    "end": [
+     "Slot_X1 + Slot_C",
+     "R_end + Slot_W/2"
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      "Slot_X1 + Slot_C",
+      "R_end + Slot_W/2"
+     ],
+     [
+      "Slot_X1",
+      "R_end + Slot_W/2"
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     "Slot_X1",
+     "R_end"
+    ],
+    "start": [
+     "Slot_X1",
+     "R_end + Slot_W/2"
+    ],
+    "end": [
+     "Slot_X1",
+     "R_end - Slot_W/2"
+    ],
+    "clockwise": false
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "sketch": "F2_Slot",
+    "through_all": true,
+    "direction": "symmetric",
+    "operation": "cut",
+    "targets": [
+     "P01 Spanner"
+    ],
+    "name": "F2_SlotCut"
+   }
+  }
+ ]
+}

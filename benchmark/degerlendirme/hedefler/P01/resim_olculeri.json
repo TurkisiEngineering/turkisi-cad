@@ -1,0 +1,96 @@
+{
+ "rows": [
+  {
+   "dim": "50.0mm (outside diameter)",
+   "nom": 50.0,
+   "birim": "mm",
+   "tol": 0.05,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     0,
+     25,
+     0
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "30.0mm Pitch Diameter",
+   "nom": 30.0,
+   "birim": "mm",
+   "tol": 0.05,
+   "olcum": null,
+   "modelde_var": false
+  },
+  {
+   "dim": "29.0mm (inner/tip diameter)",
+   "nom": 29.0,
+   "birim": "mm",
+   "tol": 0.05,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     14.5,
+     0,
+     0
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "5.0mm (face width)",
+   "nom": 5.0,
+   "birim": "mm",
+   "tol": 0.05,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     20,
+     0,
+     2.5
+    ],
+    "nokta2": [
+     20,
+     0,
+     -2.5
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "Pressure Angle: 20 deg",
+   "nom": 20.0,
+   "birim": "deg",
+   "tol": 0,
+   "olcum": null,
+   "modelde_var": false
+  },
+  {
+   "dim": "Module: 0.5",
+   "nom": 0.5,
+   "birim": "-",
+   "tol": 0,
+   "olcum": null,
+   "modelde_var": false
+  },
+  {
+   "dim": "Number of Teeth: 60",
+   "nom": 60,
+   "birim": "-",
+   "tol": 1,
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "cylinder",
+    "r_mm": 14.5,
+    "ayri_yuzler": true
+   },
+   "modelde_var": true
+  }
+ ],
+ "not": "Pitch diameter, pressure angle and module have no single face; they are verified through F7-F9 (involute flank region deviation). Teeth count tol 1 for seam split."
+}

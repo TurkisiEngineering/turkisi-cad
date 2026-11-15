@@ -1,0 +1,63 @@
+{
+ "anahtar": [
+  {
+   "kavram": "bore diameter",
+   "deger": 1.0,
+   "birim": "in",
+   "ipucu_adlar": [
+    "bore",
+    "bore_d",
+    "bore_dia",
+    "D_bore",
+    "piston_d"
+   ]
+  },
+  {
+   "kavram": "rod diameter",
+   "deger": 0.3125,
+   "birim": "in",
+   "ipucu_adlar": [
+    "rod_d",
+    "rod_dia",
+    "d_rod",
+    "D_rod",
+    "rod"
+   ]
+  },
+  {
+   "kavram": "stroke",
+   "deger": 1.0,
+   "birim": "in",
+   "ipucu_adlar": [
+    "stroke",
+    "stroke_len",
+    "travel",
+    "strok"
+   ]
+  },
+  {
+   "kavram": "mounting hole spacing",
+   "deger": 1.625,
+   "birim": "in",
+   "ipucu_adlar": [
+    "hole_spacing",
+    "bolt_spacing",
+    "mount_cc",
+    "hole_cc",
+    "ear_cc"
+   ]
+  },
+  {
+   "kavram": "port thread pitch (27 TPI)",
+   "deger": 0.037037,
+   "birim": "in",
+   "ipucu_adlar": [
+    "pitch",
+    "tpi",
+    "thread_pitch",
+    "npt_pitch",
+    "port_pitch"
+   ]
+  }
+ ]
+}

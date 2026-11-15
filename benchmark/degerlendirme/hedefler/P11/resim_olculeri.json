@@ -1,0 +1,69 @@
+{
+ "rows": [
+  {
+   "dim": "18 mm (outside diameter)",
+   "nom": 18,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "16 mm pitch diameter",
+   "nom": 16,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": null,
+   "modelde_var": false
+  },
+  {
+   "dim": "6 mm (bore)",
+   "nom": 6,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     0,
+     -3,
+     -5
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "32 mm (length)",
+   "nom": 32,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "z"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "M4 set screw (hole / screw nominal 4)",
+   "nom": 4,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "H1",
+    "nokta": [
+     2,
+     5,
+     11
+    ]
+   },
+   "modelde_var": true
+  }
+ ],
+ "not": "pitch diameter 16 is a reference circle (no face); the flank checks F11-F19 cover it."
+}

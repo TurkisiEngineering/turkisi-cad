@@ -1,0 +1,60 @@
+{
+ "anahtar": [
+  {
+   "kavram": "plate length",
+   "deger": 6,
+   "birim": "in",
+   "ipucu_adlar": [
+    "plate_l",
+    "plate_length",
+    "length",
+    "L"
+   ]
+  },
+  {
+   "kavram": "plate width",
+   "deger": 3.5,
+   "birim": "in",
+   "ipucu_adlar": [
+    "plate_w",
+    "plate_width",
+    "width",
+    "W"
+   ]
+  },
+  {
+   "kavram": "plate thickness",
+   "deger": 0.5,
+   "birim": "in",
+   "ipucu_adlar": [
+    "plate_t",
+    "thickness",
+    "plate_thk",
+    "T"
+   ]
+  },
+  {
+   "kavram": "tube outside diameter",
+   "deger": 0.375,
+   "birim": "in",
+   "ipucu_adlar": [
+    "tube_od",
+    "tube_d",
+    "od",
+    "tube_dia"
+   ]
+  },
+  {
+   "kavram": "pass pitch (tube spacing, = 2 x bend radius)",
+   "deger": 1.0,
+   "birim": "in",
+   "ipucu_adlar": [
+    "pitch",
+    "pass_pitch",
+    "spacing",
+    "bend_r",
+    "bend_radius"
+   ]
+  }
+ ]
+}

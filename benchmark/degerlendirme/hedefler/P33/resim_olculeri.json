@@ -1,0 +1,336 @@
+{
+ "rows": [
+  {
+   "dim": "0.25in (cable diameter)",
+   "nom": 0.25,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P08",
+    "nokta": [
+     -200,
+     14.7496,
+     -58.8125
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "3 ft Cable Length",
+   "nom": 36.0,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": false,
+   "not_": "cable centreline length 2 x 397.3527 + pi x 38.1 = 914.40 mm = 36.000 in in the model; no recipe measures a path length"
+  },
+  {
+   "dim": "0.86in (T-handle thickness)",
+   "nom": 0.86,
+   "birim": "in",
+   "tol": 0.01,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P02",
+    "eksen": "y"
+   },
+   "modelde_var": true,
+   "not_": "model 22.0 mm = 0.8661 in; the drawing truncates (0.8661 -> 0.86), so tol = one unit of the last digit"
+  },
+  {
+   "dim": "4X 0.18in (handle plate mounting holes)",
+   "nom": 0.18,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     14.4486,
+     2.5,
+     -79.275
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.98in (mounting hole spacing across)",
+   "nom": 0.98,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     14.4486,
+     2.5,
+     -79.275
+    ],
+    "nokta2": [
+     -10.5514,
+     2.5,
+     -79.275
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1.77in (handle plate width)",
+   "nom": 1.77,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x",
+    "bolge": [
+     -30,
+     -1,
+     -95,
+     30,
+     3.0,
+     -25
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1.57in (mounting hole spacing along)",
+   "nom": 1.57,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     14.4486,
+     2.5,
+     -79.275
+    ],
+    "nokta2": [
+     14.4486,
+     2.5,
+     -39.275
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "2.36in (T-handle length)",
+   "nom": 2.36,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P02",
+    "eksen": "z"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "2.20in (handle plate length)",
+   "nom": 2.2,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "z"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1.5in Bend Radius (cable)",
+   "nom": 1.5,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "koordinat",
+    "govde": "P08",
+    "eksen": "x",
+    "uc": "min",
+    "referans": -454.7527,
+    "ekle_mm": -3.175
+   },
+   "modelde_var": true,
+   "not_": "bend centre-line radius 38.1 = outer extreme 41.275 beyond the leg-end plane x -454.7527 minus the cable radius 3.175"
+  },
+  {
+   "dim": "1.89in (latch height, cable tab to plate edge)",
+   "nom": 1.89,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P10",
+    "eksen": "z"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.28in (lever pivot spacer bore)",
+   "nom": 0.28,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P13-a",
+    "nokta": [
+     3.3607,
+     8,
+     41.6
+    ]
+   },
+   "modelde_var": true,
+   "not_": "spec writer's reading: the two extension lines straddle the right-hand pivot hole; spacer bore 7.2 mm = 0.2835 in"
+  },
+  {
+   "dim": "2.70in (latch width)",
+   "nom": 2.7,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P09",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.61in Max. Latching Distance (strike bolt axis to rotor pivot, along X)",
+   "nom": 0.61,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_kenar_fark",
+    "govde": "H1",
+    "kenar": "xmin",
+    "govde2": "P13-b",
+    "kenar2": "xmin",
+    "ekle_mm": -6.35
+   },
+   "modelde_var": true,
+   "not_": "15.6 mm = 0.614 in; flange radius 12.7 and spacer head radius 6.35 removed via ekle_mm"
+  },
+  {
+   "dim": "0.89in (rotor pivot to lever pivot, along X)",
+   "nom": 0.89,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_kenar_fark",
+    "govde": "P13-b",
+    "kenar": "xmin",
+    "govde2": "P13-a",
+    "kenar2": "xmin"
+   },
+   "modelde_var": true,
+   "not_": "22.5 mm = 0.8858 in"
+  },
+  {
+   "dim": "1/2\" (strike bolt hex across flats)",
+   "nom": 0.5,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "H1",
+    "nokta1": [
+     -37.857,
+     22,
+     69.35
+    ],
+    "nokta2": [
+     -37.857,
+     22,
+     82.05
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.37in (strike bolt shank)",
+   "nom": 0.37,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "H1",
+    "nokta": [
+     -33.765,
+     10,
+     78.0625
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "M8 x 1.25mm (strike bolt thread, major diameter)",
+   "nom": 8.0,
+   "birim": "mm",
+   "tol": 0.05,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "H1",
+    "nokta": [
+     -33.857,
+     -11.759,
+     75.7
+    ]
+   },
+   "modelde_var": true,
+   "not_": "thread note; crest cylinder dia 8.000 measured on a crest flat; the 1.25 pitch is checked only by region in ozellikler"
+  },
+  {
+   "dim": "1.50in (strike bolt length)",
+   "nom": 1.5,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "H1",
+    "eksen": "y"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1.00in (strike bolt projection, top of the flange dome at the shank to head top)",
+   "nom": 1.0,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "koordinat",
+    "govde": "H1",
+    "eksen": "y",
+    "uc": "max",
+    "referans": -1.9488
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.76in (latch depth)",
+   "nom": 0.76,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_kenar_fark",
+    "govde": "P16",
+    "kenar": "ymin",
+    "govde2": "P10",
+    "kenar2": "ymax"
+   },
+   "modelde_var": true,
+   "not_": "19.30 mm = 0.760 in: L-pin bottom y 0.11 to cover tab top y 19.41"
+  },
+  {
+   "dim": "Maximum Cumulative Bend: 720deg",
+   "nom": 720,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": false,
+   "not_": "product rating, no geometry"
+  }
+ ]
+}

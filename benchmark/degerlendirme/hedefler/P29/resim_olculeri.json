@@ -1,0 +1,88 @@
+{
+ "rows": [
+  {
+   "dim": "6.995in (overall height)",
+   "nom": 6.995,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "montaj_bbox_boyut",
+    "eksen": "y"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "3.5in (base, tip to tip)",
+   "nom": 3.5,
+   "birim": "in",
+   "tol": 0.05,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "z"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.75in (bail thickness)",
+   "nom": 0.75,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P02",
+    "eksen": "z"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "2.4in (bail inside width)",
+   "nom": 2.4,
+   "birim": "in",
+   "tol": 0.05,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P02",
+    "nokta": [
+     0.0,
+     62.8015,
+     2.54
+    ]
+   },
+   "modelde_var": true,
+   "not_": "model 2.3975 (hole band R1.19875)"
+  },
+  {
+   "dim": "1in (thread length below the base)",
+   "nom": 1.0,
+   "birim": "in",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "bbox_kenar_fark",
+    "govde": "P01",
+    "kenar": "ymin",
+    "govde2": "H1",
+    "kenar2": "ymin"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "3/4\"-10 (thread size)",
+   "nom": 0.75,
+   "birim": "in",
+   "tol": 0.0,
+   "olcum": null,
+   "modelde_var": false,
+   "not_": "thread note; modelled 3/4-10 RH helical thread, checked in ozellikler (region item)"
+  },
+  {
+   "dim": "Movement: 180deg Pivot, 360deg Swivel",
+   "nom": 180,
+   "birim": "in",
+   "tol": 0.0,
+   "olcum": null,
+   "modelde_var": false,
+   "not_": "movement note"
+  }
+ ]
+}

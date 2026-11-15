@@ -1,0 +1,81 @@
+{
+ "rows": [
+  {
+   "dim": "7in (handle length over the knobs)",
+   "nom": 7.0,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P02",
+    "eksen": "y"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "3.25in (overall height, hub bottom to knob top)",
+   "nom": 3.25,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "montaj_bbox_boyut",
+    "eksen": "z"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1.75in (hub height)",
+   "nom": 1.75,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "z"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1.25in (hub diameter)",
+   "nom": 1.25,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     11.22532,
+     11.22532,
+     -10.16
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": ".75in (thread depth from the bottom face)",
+   "nom": 0.75,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": true,
+   "not": "the thread runs from z -0.875 to the hole end plane z -0.125 (0.75); that end is a circle edge and a cone, no plane, so no recipe; checked by the ozellikler thread region items"
+  },
+  {
+   "dim": "1/2\"-13 (tapped hole)",
+   "nom": 0.5,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     0.0,
+     -6.35,
+     -3.556
+    ]
+   },
+   "modelde_var": true,
+   "not": "major diameter 0.5 measured on the plain end of the bore; pitch 1/13 checked by the thread region items"
+  }
+ ]
+}

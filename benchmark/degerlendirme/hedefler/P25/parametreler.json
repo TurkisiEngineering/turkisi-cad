@@ -1,0 +1,68 @@
+{
+ "anahtar": [
+  {
+   "kavram": "case height (end face to end face)",
+   "deger": 5.5,
+   "birim": "in",
+   "ipucu_adlar": [
+    "case_h",
+    "case_height",
+    "height",
+    "body_h",
+    "L_case",
+    "govde_boy"
+   ]
+  },
+  {
+   "kavram": "case width",
+   "deger": 1.25,
+   "birim": "in",
+   "ipucu_adlar": [
+    "case_w",
+    "case_width",
+    "width",
+    "body_w",
+    "W_case",
+    "govde_en"
+   ]
+  },
+  {
+   "kavram": "fitting (port) centre-to-centre spacing",
+   "deger": 4.5,
+   "birim": "in",
+   "ipucu_adlar": [
+    "port_spacing",
+    "fitting_spacing",
+    "c2c",
+    "center_to_center",
+    "port_pitch",
+    "baglanti_arasi"
+   ]
+  },
+  {
+   "kavram": "knob diameter",
+   "deger": 0.8125,
+   "birim": "in",
+   "ipucu_adlar": [
+    "knob_d",
+    "knob_dia",
+    "knob_diameter",
+    "D_knob",
+    "dugme_cap"
+   ]
+  },
+  {
+   "kavram": "scale graduation pitch",
+   "deger": 0.1584375,
+   "birim": "in",
+   "ipucu_adlar": [
+    "grad_pitch",
+    "graduation_pitch",
+    "mark_pitch",
+    "tick_pitch",
+    "scale_pitch",
+    "taksimat"
+   ]
+  }
+ ]
+}

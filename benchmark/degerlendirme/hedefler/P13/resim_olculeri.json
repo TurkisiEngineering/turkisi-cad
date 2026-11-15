@@ -1,0 +1,57 @@
+{
+ "rows": [
+  {
+   "dim": "6in (plate length)",
+   "nom": 6,
+   "birim": "in",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "3.5in (plate width)",
+   "nom": 3.5,
+   "birim": "in",
+   "tol": 0.05,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "y"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.375in (tube OD)",
+   "nom": 0.375,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P02",
+    "nokta": [
+     0,
+     41.4676,
+     3.3676
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.5in (plate thickness)",
+   "nom": 0.5,
+   "birim": "in",
+   "tol": 0.05,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "z"
+   },
+   "modelde_var": true
+  }
+ ],
+ "not": "tol = written precision of the drawing (6in -> 0.5, 3.5in / 0.5in -> 0.05, 0.375in -> 0.0005)"
+}

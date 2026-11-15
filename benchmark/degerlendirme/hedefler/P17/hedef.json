@@ -1,0 +1,46 @@
+{
+ "parca": "P17",
+ "birim_spec": "in",
+ "govdeler": [
+  {
+   "ad": "P01",
+   "tur": "parca",
+   "hacim_mm3": 3416.7151,
+   "alan_mm2": 2975.5009,
+   "com_mm": [
+    -2.2412,
+    -0.0,
+    -6.3936
+   ],
+   "bbox_mm": [
+    -55.0037,
+    -1.524,
+    -17.95812,
+    55.0037,
+    1.524,
+    0.0
+   ],
+   "yuz_sayisi": 27,
+   "esdeger_grubu": "P01",
+   "not": "master solid also carries 114 zero-area faces (19 empty micro-boxes) at (-35.360, 0.335, -3.173); face count excludes them"
+  }
+ ],
+ "montaj": {
+  "hacim_mm3": 3416.7151,
+  "alan_mm2": 2975.5009,
+  "com_mm": [
+   -2.2412,
+   -0.0,
+   -6.3936
+  ],
+  "bbox_mm": [
+   -55.0037,
+   -1.524,
+   -17.95812,
+   55.0037,
+   1.524,
+   0.0
+  ]
+ },
+ "girisimler": []
+}

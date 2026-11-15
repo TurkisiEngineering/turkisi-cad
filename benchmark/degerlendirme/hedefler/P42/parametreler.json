@@ -1,0 +1,59 @@
+{
+ "anahtar": [
+  {
+   "kavram": "wheel diameter",
+   "deger": 4.0,
+   "birim": "in",
+   "ipucu_adlar": [
+    "wheel_d",
+    "wheel_od",
+    "wheel_dia",
+    "wheel_diameter"
+   ]
+  },
+  {
+   "kavram": "wheel axle spacing",
+   "deger": 36.0,
+   "birim": "in",
+   "ipucu_adlar": [
+    "axle_spacing",
+    "wheel_spacing",
+    "wheelbase",
+    "axle_pitch"
+   ]
+  },
+  {
+   "kavram": "angle leg thickness",
+   "deger": 0.25,
+   "birim": "in",
+   "ipucu_adlar": [
+    "t",
+    "thk",
+    "thickness",
+    "angle_t",
+    "leg_t"
+   ]
+  },
+  {
+   "kavram": "long angle length",
+   "deger": 47.0,
+   "birim": "in",
+   "ipucu_adlar": [
+    "length",
+    "angle_length",
+    "rail_length",
+    "L"
+   ]
+  },
+  {
+   "kavram": "fastener thread pitch (13 TPI)",
+   "deger": 13,
+   "birim": "1/in",
+   "ipucu_adlar": [
+    "tpi",
+    "pitch",
+    "thread_pitch"
+   ]
+  }
+ ]
+}

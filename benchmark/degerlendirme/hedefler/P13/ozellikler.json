@@ -1,0 +1,593 @@
+{
+ "items": [
+  {
+   "id": "F1",
+   "govde": "P01",
+   "etiket": "plate length 6",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x"
+   },
+   "nom": 152.4,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F2",
+   "govde": "P01",
+   "etiket": "plate width 3.5",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "y"
+   },
+   "nom": 88.9,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F3",
+   "govde": "P01",
+   "etiket": "plate thickness 0.5",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "z"
+   },
+   "nom": 12.7,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F4",
+   "govde": "P01",
+   "etiket": "4 channel bottoms R0.1875 (half cylinders)",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "cylinder",
+    "r_mm": 4.7625
+   },
+   "nom": 4,
+   "tol": 0,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0,
+     38.1,
+     -4.7625
+    ],
+    "r_mm": 1.0
+   }
+  },
+  {
+   "id": "F5",
+   "govde": "P01",
+   "etiket": "channel 1 width 0.375 (y 38.1 mm)",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     10,
+     33.3375,
+     2.5
+    ],
+    "nokta2": [
+     10,
+     42.862500000000004,
+     2.5
+    ]
+   },
+   "nom": 9.525,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -50,
+     38.1,
+     -4.7625
+    ],
+    "r_mm": 1.0
+   }
+  },
+  {
+   "id": "F6",
+   "govde": "P01",
+   "etiket": "channel 2 width 0.375 (y 12.7 mm)",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     10,
+     7.937499999999999,
+     2.5
+    ],
+    "nokta2": [
+     10,
+     17.4625,
+     2.5
+    ]
+   },
+   "nom": 9.525,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -50,
+     12.7,
+     -4.7625
+    ],
+    "r_mm": 1.0
+   }
+  },
+  {
+   "id": "F7",
+   "govde": "P01",
+   "etiket": "channel 3 width 0.375 (y -12.7 mm)",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     10,
+     -17.4625,
+     2.5
+    ],
+    "nokta2": [
+     10,
+     -7.937499999999999,
+     2.5
+    ]
+   },
+   "nom": 9.525,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -50,
+     -12.7,
+     -4.7625
+    ],
+    "r_mm": 1.0
+   }
+  },
+  {
+   "id": "F8",
+   "govde": "P01",
+   "etiket": "channel 4 width 0.375 (y -38.1 mm)",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     10,
+     -42.862500000000004,
+     2.5
+    ],
+    "nokta2": [
+     10,
+     -33.3375,
+     2.5
+    ]
+   },
+   "nom": 9.525,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -50,
+     -38.1,
+     -4.7625
+    ],
+    "r_mm": 1.0
+   }
+  },
+  {
+   "id": "F9",
+   "govde": "P01",
+   "etiket": "channel pitch 1.0 (channels 1-2)",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     0,
+     38.1,
+     -4.7625
+    ],
+    "nokta2": [
+     0,
+     12.7,
+     -4.7625
+    ]
+   },
+   "nom": 25.4,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F10",
+   "govde": "P01",
+   "etiket": "channel pitch 1.0 (channels 2-3)",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     0,
+     12.7,
+     -4.7625
+    ],
+    "nokta2": [
+     0,
+     -12.7,
+     -4.7625
+    ]
+   },
+   "nom": 25.4,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F11",
+   "govde": "P01",
+   "etiket": "outer channels 3.0 apart",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     0,
+     38.1,
+     -4.7625
+    ],
+    "nokta2": [
+     0,
+     -38.1,
+     -4.7625
+    ]
+   },
+   "nom": 76.2,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F12",
+   "govde": "P01",
+   "etiket": "channel axis 0.1875 below the top face",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     0,
+     25.4,
+     4.7625
+    ],
+    "nokta2": [
+     0,
+     38.1,
+     -4.7625
+    ],
+    "tur2": "eksen"
+   },
+   "nom": 4.7625,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F13",
+   "govde": "P01",
+   "etiket": "top face to bottom face 0.5",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     0,
+     25.4,
+     4.7625
+    ],
+    "nokta2": [
+     0,
+     0,
+     -7.9375
+    ]
+   },
+   "nom": 12.7,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F14",
+   "govde": "P01",
+   "etiket": "outer channel to plate edge (y 1.5 -> 1.75)",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     0,
+     44.45,
+     -2
+    ],
+    "nokta2": [
+     0,
+     38.1,
+     -4.7625
+    ],
+    "tur2": "eksen"
+   },
+   "nom": 6.35,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F15",
+   "govde": "P02",
+   "etiket": "tube OD 0.375",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P02",
+    "nokta": [
+     0,
+     41.4676,
+     3.3676
+    ]
+   },
+   "nom": 9.525,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F16",
+   "govde": "P02",
+   "etiket": "tube ID 0.335 (wall 0.02)",
+   "tur": "delik",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P02",
+    "nokta": [
+     0,
+     41.1084,
+     3.0084
+    ]
+   },
+   "nom": 8.509,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F17",
+   "govde": "P02",
+   "etiket": "4 straight runs",
+   "tur": "diger",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P02",
+    "yuzey": "cylinder",
+    "r_mm": 4.7625
+   },
+   "nom": 4,
+   "tol": 0,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P02",
+    "nokta": [
+     0,
+     12.7,
+     4.7625
+    ],
+    "r_mm": 1.0
+   }
+  },
+  {
+   "id": "F18",
+   "govde": "P02",
+   "etiket": "3 U-bends, centreline R0.5",
+   "tur": "diger",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P02",
+    "yuzey": "torus",
+    "r_mm": 4.7625
+   },
+   "nom": 3,
+   "tol": 0,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P02",
+    "nokta": [
+     -93.6625,
+     25.4,
+     0
+    ],
+    "r_mm": 1.5
+   }
+  },
+  {
+   "id": "F19",
+   "govde": "P02",
+   "etiket": "U-bend at +X end",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P02",
+    "nokta": [
+     93.6625,
+     0,
+     0
+    ],
+    "r_mm": 1.5
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P02",
+    "nokta": [
+     93.6625,
+     0,
+     0
+    ],
+    "r_mm": 1.5
+   }
+  },
+  {
+   "id": "F20",
+   "govde": "P02",
+   "etiket": "U-bend lower -X",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P02",
+    "nokta": [
+     -93.6625,
+     -25.4,
+     0
+    ],
+    "r_mm": 1.5
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P02",
+    "nokta": [
+     -93.6625,
+     -25.4,
+     0
+    ],
+    "r_mm": 1.5
+   }
+  },
+  {
+   "id": "F21",
+   "govde": "P02",
+   "etiket": "run spacing 1.0 (runs 1-2)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P02",
+    "nokta1": [
+     0,
+     41.4676,
+     3.3676
+    ],
+    "nokta2": [
+     0,
+     16.0676,
+     3.3676
+    ]
+   },
+   "nom": 25.4,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F22",
+   "govde": "P02",
+   "etiket": "runs 1-4 3.0 apart",
+   "tur": "diger",
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P02",
+    "nokta1": [
+     0,
+     41.4676,
+     3.3676
+    ],
+    "nokta2": [
+     0,
+     -34.7324,
+     3.3676
+    ]
+   },
+   "nom": 76.2,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F23",
+   "govde": "P02",
+   "etiket": "tube ends at x = 5",
+   "tur": "diger",
+   "olcum": {
+    "tip": "koordinat",
+    "govde": "P02",
+    "eksen": "x",
+    "uc": "max",
+    "referans": 127.0
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F24",
+   "govde": "P02",
+   "etiket": "tube overall X extent",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P02",
+    "eksen": "x"
+   },
+   "nom": 220.6625,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F25",
+   "govde": "P02",
+   "etiket": "tube overall Y extent",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P02",
+    "eksen": "y"
+   },
+   "nom": 85.725,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F26",
+   "govde": "P02",
+   "etiket": "square tube ends (2 annular end faces on x = 5)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P02",
+    "yuzey": "plane",
+    "ayri_yuzler": true
+   },
+   "nom": 2,
+   "tol": 0,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P02",
+    "nokta": [
+     127,
+     38.1,
+     4.5
+    ],
+    "r_mm": 0.4
+   }
+  }
+ ],
+ "not": "bolgesel_sapma olcum: nom 0 = max regional deviation, pass if <= tol"
+}

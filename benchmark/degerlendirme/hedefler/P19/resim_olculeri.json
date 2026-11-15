@@ -1,0 +1,149 @@
+{
+ "rows": [
+  {
+   "dim": "4in Wheel Diameter",
+   "nom": 4.0,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P07",
+    "nokta": [
+     38.481,
+     31.75,
+     0.0
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "5.5in (mounting height, wheel bottom to plate top)",
+   "nom": 5.5,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "montaj_bbox_boyut",
+    "eksen": "y"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "3.625in (plate length)",
+   "nom": 3.625,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P02",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "2.5in (plate width)",
+   "nom": 2.5,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P02",
+    "eksen": "z"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1.25in (wheel width)",
+   "nom": 1.25,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P07",
+    "eksen": "z"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1.75in (mounting slots, centre to centre across)",
+   "nom": 1.75,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P02",
+    "nokta1": [
+     42.8625,
+     68.58,
+     22.225
+    ],
+    "nokta2": [
+     42.8625,
+     68.58,
+     -22.225
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "2.938in (mounting slots, centre to centre along)",
+   "nom": 2.938,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P02",
+    "nokta1": [
+     -31.75,
+     68.58,
+     -22.225
+    ],
+    "nokta2": [
+     42.8625,
+     68.58,
+     -22.225
+    ]
+   },
+   "modelde_var": true,
+   "not_": "slot centres x = +/-1.46875 -> 2.9375; measured between the inner end arc axis of the -X slot (x=-1.40625) and the outer end arc axis of the +X slot (x=1.53125)"
+  },
+  {
+   "dim": "0.438in (slot length)",
+   "nom": 0.438,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P02",
+    "nokta1": [
+     -31.75,
+     68.58,
+     -22.225
+    ],
+    "nokta2": [
+     -42.8625,
+     68.58,
+     -22.225
+    ],
+    "ekle_mm": 7.9375
+   },
+   "modelde_var": true,
+   "not_": "slot end-arc axis distance 0.125 + slot width 0.3125 (ekle_mm) = 0.4375"
+  },
+  {
+   "dim": "For 5/16 in Screw Size (slot width)",
+   "nom": 0.3125,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P02",
+    "nokta": [
+     42.8625,
+     68.58,
+     22.225
+    ]
+   },
+   "modelde_var": true
+  }
+ ]
+}

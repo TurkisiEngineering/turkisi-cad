@@ -1,0 +1,145 @@
+{
+ "rows": [
+  {
+   "dim": "18.38mm Gear Pitch Diameter",
+   "nom": 18.38,
+   "birim": "mm",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": false
+  },
+  {
+   "dim": "For 6mm Shaft Diameter (bore)",
+   "nom": 6,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     -5,
+     2.12132,
+     2.12132
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "10mm (gear face width)",
+   "nom": 10,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     -10,
+     0,
+     5.0
+    ],
+    "nokta2": [
+     0,
+     6.75659,
+     5.94546
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "10mm (hub length)",
+   "nom": 10,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     0,
+     6.75659,
+     5.94546
+    ],
+    "nokta2": [
+     10,
+     0,
+     5.0
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "20.38mm (outside diameter)",
+   "nom": 20.38,
+   "birim": "mm",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     -5,
+     -1.81998,
+     10.02616
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "15mm (hub diameter)",
+   "nom": 15,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     5,
+     5.3033,
+     5.3033
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "20mm (overall length)",
+   "nom": 20,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "Helix Angle: 45deg",
+   "nom": 45,
+   "birim": "deg",
+   "tol": 0.5,
+   "olcum": null,
+   "modelde_var": false
+  },
+  {
+   "dim": "Number of Teeth: 13",
+   "nom": 13,
+   "birim": "-",
+   "tol": 0,
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "cylinder",
+    "r_mm": 10.19,
+    "ayri_yuzler": true
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "Pressure Angle: 20deg",
+   "nom": 20,
+   "birim": "deg",
+   "tol": 0.5,
+   "olcum": null,
+   "modelde_var": false
+  }
+ ],
+ "not": "Pitch diameter, helix angle and pressure angle have no single face. Master helix: 6.25 deg/mm (lead 57.6 mm, 45.08 deg at r 9.19); the flank is not a true involute; flank shape is checked by ozellikler F3-F10 regions."
+}

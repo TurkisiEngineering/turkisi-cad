@@ -1,0 +1,19 @@
+{
+  "commands": [
+    {"command": "document.units", "params": {"units": "mm"}},
+    {"command": "parameters.add", "params": {"name": "boy", "expression": "80 mm", "comment": "X boyu"}},
+    {"command": "parameters.add", "params": {"name": "en", "expression": "50 mm", "comment": "Y eni"}},
+    {"command": "parameters.add", "params": {"name": "kalinlik", "expression": "8 mm", "comment": "Z kalinligi"}},
+    {"command": "parameters.add", "params": {"name": "delik_cap", "expression": "12 mm", "comment": "orta delik capi"}},
+
+    {"command": "sketch.create", "params": {"plane": "XY", "name": "SK_Plaka"}},
+    {"command": "sketch.rectangle.two_point", "params": {"p0": ["-boy / 2", "-en / 2"], "p1": ["boy / 2", "en / 2"]}},
+    {"command": "sketch.finish", "params": {}},
+    {"command": "solid.extrude", "params": {"sketch": "SK_Plaka", "distance": "kalinlik", "direction": "positive", "operation": "new", "name": "F1_Plaka", "body_name": "Plaka"}},
+
+    {"command": "sketch.create", "params": {"plane": "XY", "name": "SK_Delik"}},
+    {"command": "sketch.circle.center", "params": {"center": [0, 0], "diameter": "delik_cap"}},
+    {"command": "sketch.finish", "params": {}},
+    {"command": "solid.extrude", "params": {"sketch": "SK_Delik", "distance": "kalinlik", "direction": "positive", "operation": "cut", "targets": ["Plaka"], "name": "F2_Delik"}}
+  ]
+}

@@ -1,0 +1,125 @@
+{
+ "rows": [
+  {
+   "dim": "80mm (frame width, front view)",
+   "nom": 80.0,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     -40,
+     0,
+     0
+    ],
+    "nokta2": [
+     40,
+     0,
+     0
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "80mm (frame height, side view)",
+   "nom": 80.0,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     0,
+     -40,
+     0
+    ],
+    "nokta2": [
+     0,
+     40,
+     0
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "71.5mm (hole spacing, horizontal)",
+   "nom": 71.5,
+   "birim": "mm",
+   "tol": 0.05,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     37.95,
+     35.75,
+     -17
+    ],
+    "nokta2": [
+     -33.55,
+     35.75,
+     -17
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "71.5mm (hole spacing, vertical)",
+   "nom": 71.5,
+   "birim": "mm",
+   "tol": 0.05,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     37.95,
+     35.75,
+     -17
+    ],
+    "nokta2": [
+     37.95,
+     -35.75,
+     -17
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "4.4mm (mounting hole diameter)",
+   "nom": 4.4,
+   "birim": "mm",
+   "tol": 0.05,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     37.95,
+     35.75,
+     -17
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "38mm (depth, side view)",
+   "nom": 38.0,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     -39,
+     0,
+     -19
+    ],
+    "nokta2": [
+     0,
+     0,
+     19
+    ]
+   },
+   "modelde_var": true
+  }
+ ]
+}

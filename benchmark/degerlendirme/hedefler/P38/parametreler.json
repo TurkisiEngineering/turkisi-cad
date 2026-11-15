@@ -1,0 +1,64 @@
+{
+ "anahtar": [
+  {
+   "kavram": "motor axis to output shaft axis distance",
+   "deger": 1.0496,
+   "birim": "in",
+   "ipucu_adlar": [
+    "axis_distance",
+    "center_distance",
+    "shaft_offset",
+    "c_c",
+    "axis_spacing"
+   ]
+  },
+  {
+   "kavram": "gearbox housing sheet thickness",
+   "deger": 0.02,
+   "birim": "in",
+   "ipucu_adlar": [
+    "t",
+    "thickness",
+    "sheet_t",
+    "wall",
+    "housing_t"
+   ]
+  },
+  {
+   "kavram": "output shaft diameter",
+   "deger": 0.25,
+   "birim": "in",
+   "ipucu_adlar": [
+    "shaft_d",
+    "shaft_dia",
+    "d_shaft",
+    "output_d",
+    "shaft_diameter"
+   ]
+  },
+  {
+   "kavram": "mounting ear hole spacing",
+   "deger": 1.885,
+   "birim": "in",
+   "ipucu_adlar": [
+    "ear_spacing",
+    "mount_spacing",
+    "hole_spacing",
+    "bolt_spacing",
+    "mount_cc"
+   ]
+  },
+  {
+   "kavram": "motor can outer diameter",
+   "deger": 1.75,
+   "birim": "in",
+   "ipucu_adlar": [
+    "can_d",
+    "motor_d",
+    "can_dia",
+    "motor_diameter",
+    "can_od"
+   ]
+  }
+ ]
+}

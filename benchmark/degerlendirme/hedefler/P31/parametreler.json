@@ -1,0 +1,65 @@
+{
+ "anahtar": [
+  {
+   "kavram": "dial / case diameter",
+   "deger": 2.5,
+   "birim": "in",
+   "ipucu_adlar": [
+    "dial_d",
+    "case_d",
+    "dial_dia",
+    "case_dia",
+    "D_case",
+    "dial"
+   ]
+  },
+  {
+   "kavram": "bezel outside diameter",
+   "deger": 2.64,
+   "birim": "in",
+   "ipucu_adlar": [
+    "bezel_d",
+    "bezel_od",
+    "bezel_dia",
+    "D_bezel",
+    "ring_od"
+   ]
+  },
+  {
+   "kavram": "thread pitch (18 TPI)",
+   "deger": 0.055556,
+   "birim": "in",
+   "ipucu_adlar": [
+    "pitch",
+    "tpi",
+    "thread_pitch",
+    "npt_pitch",
+    "p_thread"
+   ]
+  },
+  {
+   "kavram": "stem rod diameter",
+   "deger": 0.31,
+   "birim": "in",
+   "ipucu_adlar": [
+    "stem_d",
+    "rod_d",
+    "stem_dia",
+    "probe_d",
+    "rod_dia"
+   ]
+  },
+  {
+   "kavram": "case back to socket end (shoulder length)",
+   "deger": 2.0,
+   "birim": "in",
+   "ipucu_adlar": [
+    "socket_len",
+    "shoulder",
+    "shank_len",
+    "socket_length",
+    "L_socket"
+   ]
+  }
+ ]
+}

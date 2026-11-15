@@ -1,0 +1,477 @@
+{
+ "items": [
+  {
+   "id": "F1",
+   "govde": "P01",
+   "etiket": "bore dia 8",
+   "tur": "delik",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     2.8284271247461903,
+     9,
+     2.8284271247461903
+    ]
+   },
+   "nom": 8.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     2.8284271247461903,
+     9,
+     2.8284271247461903
+    ],
+    "r_mm": 1.0
+   }
+  },
+  {
+   "id": "F2",
+   "govde": "P01",
+   "etiket": "bore chamfers 45 deg x 0.4 both ends",
+   "tur": "pah",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "cone",
+    "bolge": [
+     -5,
+     -1,
+     -5,
+     5,
+     19,
+     5
+    ]
+   },
+   "nom": 2,
+   "tol": 0,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     3.0052,
+     0.15,
+     3.0052
+    ],
+    "r_mm": 0.3
+   }
+  },
+  {
+   "id": "F3",
+   "govde": "P01",
+   "etiket": "hub dia 25",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     8.8388,
+     4,
+     8.8388
+    ]
+   },
+   "nom": 25.0,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F4",
+   "govde": "P01",
+   "etiket": "overall width 19.33",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "y"
+   },
+   "nom": 19.33,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F5",
+   "govde": "P01",
+   "etiket": "back face y=0 to front face y=18",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     8.0,
+     0,
+     1.0
+    ],
+    "nokta2": [
+     6.2,
+     18,
+     1.0
+    ]
+   },
+   "nom": 18.0,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F6",
+   "govde": "P01",
+   "etiket": "hub / back cone junction at y 7.75",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     8.8388,
+     7.75,
+     8.8388
+    ],
+    "r_mm": 0.5
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     8.8388,
+     7.75,
+     8.8388
+    ],
+    "r_mm": 0.5
+   }
+  },
+  {
+   "id": "F7",
+   "govde": "P01",
+   "etiket": "back cone (67.49 deg from axis) at a tooth",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     2.1901,
+     8.3716,
+     13.8276
+    ],
+    "r_mm": 0.5
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     2.1901,
+     8.3716,
+     13.8276
+    ],
+    "r_mm": 0.5
+   }
+  },
+  {
+   "id": "F8",
+   "govde": "P01",
+   "etiket": "tip cone near the heel, OD 32.77 at the heel edge",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     2.5165,
+     10.0,
+     15.8886
+    ],
+    "r_mm": 0.5
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     2.5165,
+     10.0,
+     15.8886
+    ],
+    "r_mm": 0.5
+   }
+  },
+  {
+   "id": "F9",
+   "govde": "P01",
+   "etiket": "20 teeth (tip-cone lands)",
+   "tur": "dis",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "cone",
+    "ayri_yuzler": true,
+    "bolge": [
+     -20,
+     12,
+     -20,
+     20,
+     16.5,
+     20
+    ]
+   },
+   "nom": 20,
+   "tol": 0,
+   "bolge": null
+  },
+  {
+   "id": "F10",
+   "govde": "P01",
+   "etiket": "toe cone at a tooth",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     1.5201,
+     18.5,
+     9.5975
+    ],
+    "r_mm": 0.4
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     1.5201,
+     18.5,
+     9.5975
+    ],
+    "r_mm": 0.4
+   }
+  },
+  {
+   "id": "F11",
+   "govde": "P01",
+   "etiket": "front face annulus y=18",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     6.2,
+     18.0,
+     1.0
+    ],
+    "r_mm": 0.5
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     6.2,
+     18.0,
+     1.0
+    ],
+    "r_mm": 0.5
+   }
+  },
+  {
+   "id": "F12",
+   "govde": "P01",
+   "etiket": "tooth space root, heel half (space at +Z)",
+   "tur": "dis",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0.0,
+     10.1626,
+     12.5759
+    ],
+    "r_mm": 0.6
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0.0,
+     10.1626,
+     12.5759
+    ],
+    "r_mm": 0.6
+   }
+  },
+  {
+   "id": "F13",
+   "govde": "P01",
+   "etiket": "tooth space root, toe half",
+   "tur": "dis",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0.0,
+     16.8273,
+     9.9841
+    ],
+    "r_mm": 0.6
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0.0,
+     16.8273,
+     9.9841
+    ],
+    "r_mm": 0.6
+   }
+  },
+  {
+   "id": "F14",
+   "govde": "P01",
+   "etiket": "right flank, mid face",
+   "tur": "dis",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     1.0879,
+     13.9466,
+     13.0506
+    ],
+    "r_mm": 1.0
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     1.0879,
+     13.9466,
+     13.0506
+    ],
+    "r_mm": 1.0
+   }
+  },
+  {
+   "id": "F15",
+   "govde": "P01",
+   "etiket": "left flank, near heel",
+   "tur": "dis",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -1.1778,
+     9.8658,
+     14.7043
+    ],
+    "r_mm": 1.0
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -1.1778,
+     9.8658,
+     14.7043
+    ],
+    "r_mm": 1.0
+   }
+  },
+  {
+   "id": "F16",
+   "govde": "P01",
+   "etiket": "root fillet, mid",
+   "tur": "dis",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0.5639,
+     13.2843,
+     11.4822
+    ],
+    "r_mm": 0.4
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0.5639,
+     13.2843,
+     11.4822
+    ],
+    "r_mm": 0.4
+   }
+  },
+  {
+   "id": "F17",
+   "govde": "P01",
+   "etiket": "flank near toe and tip",
+   "tur": "dis",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     1.4958,
+     18.945,
+     12.1734
+    ],
+    "r_mm": 0.6
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     1.4958,
+     18.945,
+     12.1734
+    ],
+    "r_mm": 0.6
+   }
+  },
+  {
+   "id": "F18",
+   "govde": "P01",
+   "etiket": "tooth space at -X (pattern check)",
+   "tur": "dis",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -11.3797,
+     13.2386,
+     -0.0
+    ],
+    "r_mm": 0.6
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -11.3797,
+     13.2386,
+     -0.0
+    ],
+    "r_mm": 0.6
+   }
+  }
+ ],
+ "not": "bolgesel_sapma olcum: nom 0 = max regional deviation, pass if <= tol; tooth flanks are B-spline in the master, so no analytic counts on them"
+}

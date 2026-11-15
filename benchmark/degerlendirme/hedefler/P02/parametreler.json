@@ -1,0 +1,63 @@
+{
+ "anahtar": [
+  {
+   "kavram": "crank radius (hub axis to grip axis)",
+   "deger": 100,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "crank_radius",
+    "arm_length",
+    "offset",
+    "radius",
+    "handle_length",
+    "kol_boyu"
+   ]
+  },
+  {
+   "kavram": "bore diameter",
+   "deger": 10,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "bore",
+    "bore_d",
+    "hole_d",
+    "hole_diameter",
+    "delik_cap"
+   ]
+  },
+  {
+   "kavram": "hub diameter",
+   "deger": 28,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "hub_d",
+    "hub_diameter",
+    "hub_od",
+    "gobek_cap"
+   ]
+  },
+  {
+   "kavram": "hub height",
+   "deger": 28,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "hub_h",
+    "hub_height",
+    "hub_length",
+    "hub_projection"
+   ]
+  },
+  {
+   "kavram": "grip maximum diameter",
+   "deger": 20,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "grip_d",
+    "grip_dia",
+    "grip_diameter",
+    "grip_max_d",
+    "tutamak_cap"
+   ]
+  }
+ ]
+}

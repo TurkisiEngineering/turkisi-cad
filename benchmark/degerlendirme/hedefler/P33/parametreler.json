@@ -1,0 +1,65 @@
+{
+ "anahtar": [
+  {
+   "kavram": "handle / cable axis height above the mounting faces (y of the pull axis)",
+   "deger": 12.0,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "axis_y",
+    "y_axis",
+    "pull_axis",
+    "axis_height",
+    "h_axis",
+    "cable_y"
+   ]
+  },
+  {
+   "kavram": "cable sheath diameter",
+   "deger": 6.35,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "cable_d",
+    "sheath_d",
+    "d_cable",
+    "cable_dia",
+    "cable_r"
+   ]
+  },
+  {
+   "kavram": "cable bend radius",
+   "deger": 38.1,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "bend_r",
+    "bend_radius",
+    "R_bend",
+    "loop_r",
+    "u_radius"
+   ]
+  },
+  {
+   "kavram": "rotor pivot to lever pivot spacing along X",
+   "deger": 22.5,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "pivot_dx",
+    "pivot_spacing",
+    "spacer_pitch",
+    "dx_pivot",
+    "rivet_spacing"
+   ]
+  },
+  {
+   "kavram": "T-handle length",
+   "deger": 60.0,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "handle_len",
+    "t_len",
+    "grip_length",
+    "bar_length",
+    "handle_l"
+   ]
+  }
+ ]
+}

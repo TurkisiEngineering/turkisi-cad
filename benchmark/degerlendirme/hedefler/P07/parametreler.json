@@ -1,0 +1,64 @@
+{
+ "anahtar": [
+  {
+   "kavram": "ram square section width",
+   "deger": 1.0,
+   "birim": "in",
+   "ipucu_adlar": [
+    "ram_width",
+    "ram_size",
+    "ram_section",
+    "ram_w",
+    "rack_width",
+    "kol_genislik"
+   ]
+  },
+  {
+   "kavram": "base length (front to rear)",
+   "deger": 10.75,
+   "birim": "in",
+   "ipucu_adlar": [
+    "base_length",
+    "base_len",
+    "frame_length",
+    "taban_boyu",
+    "L_base"
+   ]
+  },
+  {
+   "kavram": "rack tooth pitch",
+   "deger": 0.26,
+   "birim": "in",
+   "ipucu_adlar": [
+    "rack_pitch",
+    "tooth_pitch",
+    "pitch",
+    "p_rack",
+    "dis_adimi"
+   ]
+  },
+  {
+   "kavram": "throat depth (ram axis to flange front face)",
+   "deger": 4.0,
+   "birim": "in",
+   "ipucu_adlar": [
+    "throat",
+    "throat_depth",
+    "bogaz",
+    "throat_d"
+   ]
+  },
+  {
+   "kavram": "ram length",
+   "deger": 9.75,
+   "birim": "in",
+   "ipucu_adlar": [
+    "ram_length",
+    "ram_len",
+    "ram_L",
+    "rack_length",
+    "kol_boyu"
+   ]
+  }
+ ]
+}

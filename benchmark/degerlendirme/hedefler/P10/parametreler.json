@@ -1,0 +1,65 @@
+{
+ "anahtar": [
+  {
+   "kavram": "head (grip) diameter",
+   "deger": 2.52,
+   "birim": "in",
+   "ipucu_adlar": [
+    "head_d",
+    "head_dia",
+    "knob_d",
+    "grip_d",
+    "od",
+    "outer_d"
+   ]
+  },
+  {
+   "kavram": "number of lobes / scallops",
+   "deger": 8,
+   "birim": "-",
+   "ipucu_adlar": [
+    "n_lobes",
+    "lobes",
+    "n_scallops",
+    "scallops",
+    "n_ribs"
+   ]
+  },
+  {
+   "kavram": "hub diameter",
+   "deger": 1.25,
+   "birim": "in",
+   "ipucu_adlar": [
+    "hub_d",
+    "hub_dia",
+    "hub_diameter",
+    "boss_d"
+   ]
+  },
+  {
+   "kavram": "coating thickness",
+   "deger": 0.06,
+   "birim": "in",
+   "ipucu_adlar": [
+    "coat_t",
+    "coating",
+    "skin",
+    "rubber_t",
+    "overmold_t",
+    "wall"
+   ]
+  },
+  {
+   "kavram": "thread pitch / size (3/8-16)",
+   "deger": 0.0625,
+   "birim": "in",
+   "ipucu_adlar": [
+    "pitch",
+    "tpi",
+    "thread_pitch",
+    "thread",
+    "major_d"
+   ]
+  }
+ ]
+}

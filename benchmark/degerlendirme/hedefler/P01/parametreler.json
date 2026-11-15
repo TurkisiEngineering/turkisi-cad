@@ -1,0 +1,64 @@
+{
+ "anahtar": [
+  {
+   "kavram": "module",
+   "deger": 0.5,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "module",
+    "m",
+    "modul",
+    "MODULE"
+   ]
+  },
+  {
+   "kavram": "tooth count",
+   "deger": 60,
+   "birim": "-",
+   "ipucu_adlar": [
+    "teeth",
+    "z",
+    "n_teeth",
+    "num_teeth",
+    "dis_sayisi",
+    "N"
+   ]
+  },
+  {
+   "kavram": "pressure angle",
+   "deger": 20,
+   "birim": "deg",
+   "ipucu_adlar": [
+    "pressure_angle",
+    "alpha",
+    "pa",
+    "basinc_acisi"
+   ]
+  },
+  {
+   "kavram": "face width",
+   "deger": 5,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "face_width",
+    "width",
+    "thickness",
+    "b",
+    "fw",
+    "genislik"
+   ]
+  },
+  {
+   "kavram": "outside diameter",
+   "deger": 50,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "od",
+    "outer_diameter",
+    "outside_diameter",
+    "D_out",
+    "dis_cap"
+   ]
+  }
+ ]
+}

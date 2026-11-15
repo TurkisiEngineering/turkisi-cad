@@ -1,0 +1,91 @@
+{
+ "rows": [
+  {
+   "dim": "2.165in (width over the mounting ears)",
+   "nom": 2.165,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "montaj_bbox_boyut",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "2.56in (housing height)",
+   "nom": 2.56,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "y"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1.99in (output shaft axis to housing bottom)",
+   "nom": 1.99,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_kenar_fark",
+    "govde": "P01",
+    "kenar": "ymin",
+    "govde2": "P06",
+    "kenar2": "ymin",
+    "ekle_mm": 3.175
+   },
+   "modelde_var": true,
+   "not_": "shaft ymin + shaft radius 0.125 = shaft axis Y 0.71; housing bottom Y -1.28"
+  },
+  {
+   "dim": "1.34in (shaft end to motor can bottom)",
+   "nom": 1.34,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "montaj_bbox_boyut",
+    "eksen": "z"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.264in (D-flat length / shaft step to shaft end)",
+   "nom": 0.264,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P06",
+    "nokta1": [
+     1.27,
+     18.034,
+     17.018
+    ],
+    "nokta2": [
+     -1.27,
+     18.034,
+     10.3124
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.25in (output shaft dia)",
+   "nom": 0.25,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P06",
+    "nokta": [
+     2.24506,
+     20.27906,
+     8.89
+    ]
+   },
+   "modelde_var": true
+  }
+ ]
+}

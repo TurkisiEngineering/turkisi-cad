@@ -1,0 +1,46 @@
+{
+ "parca": "P22",
+ "birim_spec": "in",
+ "govdeler": [
+  {
+   "ad": "P01",
+   "tur": "parca",
+   "hacim_mm3": 105108.0592,
+   "alan_mm2": 72841.5728,
+   "com_mm": [
+    -55.9429,
+    55.1547,
+    -8.5806
+   ],
+   "bbox_mm": [
+    -152.4,
+    -98.5622,
+    -19.05,
+    152.4,
+    104.6378,
+    19.05
+   ],
+   "yuz_sayisi": 42,
+   "esdeger_grubu": "P01",
+   "not": "16 empty micro void shells (6 faces each, 0.0001 mm cubes, 96 faces) inside the web are dropped by load_step; 42 real faces"
+  }
+ ],
+ "montaj": {
+  "hacim_mm3": 105108.0592,
+  "alan_mm2": 72841.5728,
+  "com_mm": [
+   -55.9429,
+   55.1547,
+   -8.5806
+  ],
+  "bbox_mm": [
+   -152.4,
+   -98.5622,
+   -19.05,
+   152.4,
+   104.6378,
+   19.05
+  ]
+ },
+ "girisimler": []
+}

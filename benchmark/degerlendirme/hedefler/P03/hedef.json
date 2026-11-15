@@ -1,0 +1,46 @@
+{
+ "parca": "P3",
+ "birim_spec": "in",
+ "govdeler": [
+  {
+   "ad": "P01",
+   "tur": "parca",
+   "hacim_mm3": 136627.6,
+   "alan_mm2": 87450.5,
+   "com_mm": [
+    0.0,
+    -9.229,
+    -0.142
+   ],
+   "bbox_mm": [
+    -98.8434,
+    -38.8938,
+    -65.8953,
+    98.8434,
+    49.0538,
+    65.8953
+   ],
+   "yuz_sayisi": 174,
+   "esdeger_grubu": "P01",
+   "not": "mesh-integral volume (defl 0.005/0.002 converge 136628/136632); OCC GProp 139956 is wrong (faces 82, 11/99 badly parametrised). Master also holds 18 empty zero-area shells (108 faces) at (5.49,-31.12,40.27) mm"
+  }
+ ],
+ "montaj": {
+  "hacim_mm3": 136627.6,
+  "alan_mm2": 87450.5,
+  "com_mm": [
+   0.0,
+   -9.229,
+   -0.142
+  ],
+  "bbox_mm": [
+   -98.8434,
+   -38.8938,
+   -65.8953,
+   98.8434,
+   49.0538,
+   65.8953
+  ]
+ },
+ "girisimler": []
+}

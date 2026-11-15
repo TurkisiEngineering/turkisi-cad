@@ -1,0 +1,46 @@
+paket,ad,seviye,sure_dk,resim,ana_istasyon,ana_sira
+P01,"iç dişli, 60 diş",sekil,45,ic_disli,NX-H2,1
+P02,krank kolu,sekil,45,kol,SW-H1,1
+P03,rulman koruma kapağı,sekil,45,rulman_kapak,SC-H0,1
+P04,ABS elektronik kutusu,zor,90,abs_kutu,SW-H1,2
+P05,rotil başı,zor,90,rot_basi,B3D-H1,1
+P06,flanşlı rulman yatağı,zor,90,yatak,NX-H2,2
+P07,kollu pres,cok_zor,180,pres,NX-H2,3
+P08,havalı mengene,cok_zor,180,kelepce,SW-H1,3
+P09,konumlama kızağı,cok_zor,180,kizak,B3D-H0,1
+P10,tırtıllı topuz,sekil,45,topuz,SC-H0,2
+P11,sonsuz vida,sekil,45,sonsuz,B3D-H0,2
+P12,çapraz helis dişli,sekil,45,capraz_disli,B3D-H1,2
+P13,soğutma plakası,zor,90,sogutma_plaka,SC-H0,3
+P14,bilyalı vida,sekil,45,bilyali_vida,B3D-H0,3
+P15,havalı redüktör motor,zor,90,motor,B3D-H1,3
+P16,konik dişli,sekil,45,konik_disli,NX-H2,4
+P17,kanca anahtar,sekil,45,anahtar,SW-H1,4
+P18,talaş siperi,zor,90,talas_siperi,SC-H0,4
+P19,döner tekerlek,zor,90,teker,B3D-H0,4
+P20,darbe valfi,zor,90,darbe_valfi,B3D-H1,4
+P21,açılı kardan,zor,90,kardan,NX-H2,5
+P22,raf konsolu,zor,90,braket,SW-H1,5
+P23,kilit (çift bağlantılı),zor,90,kilit,SC-H0,5
+P24,ayarlı kol,zor,90,ayar_kolu,B3D-H0,5
+P25,gaz debimetresi,zor,90,debimetre,B3D-H1,5
+P26,iğne valf,zor,90,igne_valf,NX-H2,6
+P27,gergi,zor,90,gergi,SW-H1,6
+P28,filtre gövdesi,zor,90,filtre,SC-H0,6
+P29,kaldırma halkası,zor,90,halka,B3D-H0,6
+P30,gaz dolum valfi,zor,90,gaz_valfi,B3D-H1,6
+P31,manometre,zor,90,manometre,NX-H2,7
+P32,soğutma fanı,zor,90,fan,SW-H1,7
+P33,döner mandal,cok_zor,180,doner_mandal,SC-H0,7
+P34,hava silindiri,zor,90,silindir,B3D-H0,7
+P35,dişli pompa,cok_zor,180,disli_pompa,B3D-H1,7
+P36,vidalı kriko,cok_zor,180,kriko,NX-H2,8
+P37,elektronik kabin rafı,cok_zor,180,kabin_rafi,SW-H1,8
+P38,AC redüktör motor,cok_zor,180,ac_reduktor,SC-H0,8
+P39,termometre,zor,90,termometre,B3D-H0,8
+P40,manyetik tork sınırlayıcı,cok_zor,180,tork_sinir,B3D-H1,8
+P41,kavrama-fren,cok_zor,180,fren,NX-H2,9
+P42,kiriş arabası,cok_zor,180,araba,SW-H1,9
+P43,platform merdiven,cok_zor,180,merdiven,SC-H0,9
+P44,bilyalı vida-mil,cok_zor,180,bilyali_mil,B3D-H0,9
+P45,su soğutmalı ısı emici,cok_zor,180,isi_emici,B3D-H1,9

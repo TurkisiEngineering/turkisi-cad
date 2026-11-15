@@ -1,0 +1,140 @@
+{
+ "rows": [
+  {
+   "dim": "3.532in (bolt spacing)",
+   "nom": 3.532,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     -12.7,
+     5.5499,
+     44.8564
+    ],
+    "nokta2": [
+     -12.7,
+     5.5499,
+     -44.8564
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "4.449in (overall length)",
+   "nom": 4.449,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "z"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.437in (bolt hole dia, front view)",
+   "nom": 0.437,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     -12.7,
+     5.5499,
+     44.8564
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.7500in +0.0007/+0.0002 (bore)",
+   "nom": 0.75,
+   "birim": "in",
+   "tol": 5e-05,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P03",
+    "nokta": [
+     0.0,
+     9.525,
+     0.0
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1/4\"-28 UNF Grease Fitting",
+   "nom": 0.25,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": false,
+   "not_": "fitting thread not modelled; shank stored as a near-cylindrical cone R0.125"
+  },
+  {
+   "dim": "2.374in (overall height)",
+   "nom": 2.374,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "y"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1.475in (overall width)",
+   "nom": 1.475,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "MONTAJ",
+    "eksen": "x"
+   },
+   "modelde_var": true,
+   "not_": "assembly bbox (housing back face to collar end); model 1.4752"
+  },
+  {
+   "dim": "0.437in (flange thickness at the bolt bosses, side view)",
+   "nom": 0.437,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     -18.735,
+     7.62,
+     44.8564
+    ],
+    "nokta2": [
+     -7.6352,
+     7.62,
+     44.8564
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "2X 1/4\"-28 Set Screws",
+   "nom": 0.25,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "H1-a",
+    "nokta": [
+     17.4142,
+     -11.5898,
+     -3.1055
+    ]
+   },
+   "modelde_var": true
+  }
+ ]
+}

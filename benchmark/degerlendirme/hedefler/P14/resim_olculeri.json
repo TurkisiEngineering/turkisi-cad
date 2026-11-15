@@ -1,0 +1,65 @@
+{
+ "rows": [
+  {
+   "dim": "3 ft (overall length)",
+   "nom": 36,
+   "birim": "in",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "z"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.562 in root diameter",
+   "nom": 0.562,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": null,
+   "modelde_var": true
+  },
+  {
+   "dim": "0.188 in travel distance per turn (as printed; the model's spacing of adjacent grooves)",
+   "nom": 0.188,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": null,
+   "modelde_var": true
+  },
+  {
+   "dim": "0.625 in x 0.188 in (thread size designation)",
+   "nom": 0.625,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": null,
+   "modelde_var": false
+  },
+  {
+   "dim": "number of thread starts: 2",
+   "nom": 2,
+   "birim": "-",
+   "tol": 0,
+   "olcum": null,
+   "modelde_var": true
+  },
+  {
+   "dim": "number of pins included: 2",
+   "nom": 2,
+   "birim": "-",
+   "tol": 0,
+   "olcum": null,
+   "modelde_var": false
+  },
+  {
+   "dim": "pin diameter 0.125 in",
+   "nom": 0.125,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": null,
+   "modelde_var": false
+  }
+ ],
+ "not": "root diameter = 2 x (0.3275 - 0.0465) in = 0.5620 in on the model (groove bottom is free-form: hand / region check F8-F12). The printed 0.188 'travel per turn' equals the model's groove-to-groove spacing; with 2 starts the model's lead (travel per turn) is 0.376 in: source conflict (K). Nominal 0.625 vs model outside diameter 0.655 in. Pins are not in the model."
+}

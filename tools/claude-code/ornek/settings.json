@@ -1,0 +1,19 @@
+{
+ "hooks": {
+  "PreToolUse": [
+   {
+    "matcher": "*",
+    "hooks": [
+     {
+      "type": "command",
+      "command": "python -I \"<GUARD_KLASÖRÜ>/guard.py\" --run <run_id> --config <CONFIG> --kok \"<KÖK>/kosular/<run_id>\" --log \"<KÖK>/kayit/guard.log\"",
+      "timeout": 30
+     }
+    ]
+   }
+  ]
+ },
+ "permissions": {
+  "deny": ["WebSearch", "WebFetch"]
+ }
+}

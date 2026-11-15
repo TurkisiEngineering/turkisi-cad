@@ -1,0 +1,66 @@
+{
+ "anahtar": [
+  {
+   "kavram": "tube outside diameter",
+   "deger": 0.375,
+   "birim": "in",
+   "ipucu_adlar": [
+    "tube_od",
+    "tube_d",
+    "tube_dia",
+    "d_tube",
+    "od",
+    "tube_diameter"
+   ]
+  },
+  {
+   "kavram": "tube pitch (centre distance between neighbouring passes / hairpin leg spacing)",
+   "deger": 0.75,
+   "birim": "in",
+   "ipucu_adlar": [
+    "tube_pitch",
+    "pitch",
+    "leg_spacing",
+    "bend_d",
+    "hairpin_pitch",
+    "row_pitch"
+   ]
+  },
+  {
+   "kavram": "fin pitch",
+   "deger": 0.12,
+   "birim": "in",
+   "ipucu_adlar": [
+    "fin_pitch",
+    "fin_spacing",
+    "pitch_fin",
+    "fin_step"
+   ]
+  },
+  {
+   "kavram": "fin count",
+   "deger": 41,
+   "birim": "-",
+   "ipucu_adlar": [
+    "fin_count",
+    "n_fins",
+    "fins",
+    "num_fins",
+    "fin_n"
+   ]
+  },
+  {
+   "kavram": "fan frame size (square)",
+   "deger": 4.9,
+   "birim": "in",
+   "ipucu_adlar": [
+    "fan_size",
+    "frame_size",
+    "fan_w",
+    "frame_w",
+    "fan_square",
+    "fan_width"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1824 @@
+{
+ "items": [
+  {
+   "id": "F1",
+   "govde": "Y1",
+   "etiket": "shaft end dia 0.75",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "Y1",
+    "nokta": [
+     -110.0,
+     6.73519,
+     6.73519
+    ]
+   },
+   "nom": 19.05,
+   "tol": 0.05
+  },
+  {
+   "id": "F2",
+   "govde": "Y1",
+   "etiket": "hub dia 0.825",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "Y1",
+    "nokta": [
+     -60.0,
+     7.40871,
+     7.40871
+    ]
+   },
+   "nom": 20.955,
+   "tol": 0.05
+  },
+  {
+   "id": "F3",
+   "govde": "Y1",
+   "etiket": "shaft bore dia 0.5",
+   "tur": "delik",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "Y1",
+    "nokta": [
+     -120.0,
+     4.49013,
+     4.49013
+    ]
+   },
+   "nom": 12.7,
+   "tol": 0.05
+  },
+  {
+   "id": "F4",
+   "govde": "Y1",
+   "etiket": "shaft bore depth 1.125, flat floor",
+   "tur": "delik",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "Y1",
+    "nokta1": [
+     -130.175,
+     5.3033,
+     5.3033
+    ],
+    "nokta2": [
+     -101.6,
+     2.12132,
+     2.12132
+    ]
+   },
+   "nom": 28.575,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y1",
+    "nokta": [
+     -101.6,
+     2.12132,
+     2.12132
+    ],
+    "r_mm": 3.0
+   }
+  },
+  {
+   "id": "F5",
+   "govde": "Y1",
+   "etiket": "end face to hub step 1.75",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "Y1",
+    "nokta1": [
+     -130.175,
+     5.3033,
+     5.3033
+    ],
+    "nokta2": [
+     -85.725,
+     7.33977,
+     7.33977
+    ]
+   },
+   "nom": 44.45,
+   "tol": 0.05
+  },
+  {
+   "id": "F6",
+   "govde": "Y1",
+   "etiket": "end face to yoke base step 3.95",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "Y1",
+    "nokta1": [
+     -130.175,
+     5.3033,
+     5.3033
+    ],
+    "nokta2": [
+     -29.845,
+     0.0,
+     10.85
+    ]
+   },
+   "nom": 100.33,
+   "tol": 0.05
+  },
+  {
+   "id": "F7",
+   "govde": "Y1",
+   "etiket": "end chamfer 0.03 x 45",
+   "tur": "pah",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y1",
+    "nokta": [
+     -129.8,
+     7.92413,
+     4.575
+    ],
+    "r_mm": 1.0
+   }
+  },
+  {
+   "id": "F8",
+   "govde": "Y1",
+   "etiket": "45 deg relief cone at the hub step",
+   "tur": "pah",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y1",
+    "nokta": [
+     -86.1,
+     7.79423,
+     4.5
+    ],
+    "r_mm": 1.0
+   }
+  },
+  {
+   "id": "F9",
+   "govde": "Y1",
+   "etiket": "15 gear teeth (separate crown lands)",
+   "tur": "lob",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "Y1",
+    "yuzey": "torus",
+    "r_mm": 2.52173,
+    "ayri_yuzler": true
+   },
+   "nom": 15,
+   "tol": 0
+  },
+  {
+   "id": "F10",
+   "govde": "Y1",
+   "etiket": "15 tooth back lands R0.2024",
+   "tur": "lob",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "Y1",
+    "yuzey": "torus",
+    "r_mm": 5.14166,
+    "ayri_yuzler": true
+   },
+   "nom": 15,
+   "tol": 0
+  },
+  {
+   "id": "F11",
+   "govde": "Y1",
+   "etiket": "tooth thickness angle 9 deg (flank planes through the axis)",
+   "tur": "lob",
+   "olcum": {
+    "tip": "aci",
+    "govde": "Y1",
+    "nokta1": [
+     -1.0,
+     11.96301,
+     0.94151
+    ],
+    "nokta2": [
+     -1.0,
+     11.96301,
+     -0.94151
+    ]
+   },
+   "nom": 9.0,
+   "tol": 0.2,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y1",
+    "nokta": [
+     -0.7,
+     14.0,
+     0.0
+    ],
+    "r_mm": 3.0
+   }
+  },
+  {
+   "id": "F12",
+   "govde": "Y1",
+   "etiket": "tooth space angle 15 deg",
+   "tur": "lob",
+   "olcum": {
+    "tip": "aci",
+    "govde": "Y1",
+    "nokta1": [
+     -1.0,
+     11.96301,
+     0.94151
+    ],
+    "nokta2": [
+     -1.0,
+     11.3117,
+     4.00568
+    ]
+   },
+   "nom": 15.0,
+   "tol": 0.2
+  },
+  {
+   "id": "F13",
+   "govde": "Y1",
+   "etiket": "tooth root dia 0.8405 under the teeth",
+   "tur": "lob",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "Y1",
+    "nokta": [
+     -0.8,
+     10.66785,
+     0.37253
+    ]
+   },
+   "nom": 21.3487,
+   "tol": 0.05
+  },
+  {
+   "id": "F14",
+   "govde": "Y1",
+   "etiket": "space land dia 1.0765 between teeth",
+   "tur": "lob",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "Y1",
+    "nokta": [
+     -2.4,
+     13.37279,
+     2.84248
+    ]
+   },
+   "nom": 27.3431,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y1",
+    "nokta": [
+     -2.4,
+     13.69407,
+     2.91076
+    ],
+    "r_mm": 2.0
+   }
+  },
+  {
+   "id": "F15",
+   "govde": "Y1",
+   "etiket": "tooth shape (round crown + back arc), tooth at 120 deg",
+   "tur": "lob",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y1",
+    "nokta": [
+     -0.3,
+     -6.75,
+     11.69134
+    ],
+    "r_mm": 3.5
+   }
+  },
+  {
+   "id": "F16",
+   "govde": "Y1",
+   "etiket": "tooth shape, tooth at 264 deg",
+   "tur": "lob",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y1",
+    "nokta": [
+     -0.3,
+     -1.41113,
+     -13.42605
+    ],
+    "r_mm": 3.5
+   }
+  },
+  {
+   "id": "F17",
+   "govde": "Y1",
+   "etiket": "gear core front face to yoke base step",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "Y1",
+    "nokta1": [
+     -1.6764,
+     0.0,
+     8.0
+    ],
+    "nokta2": [
+     -29.845,
+     0.0,
+     10.85
+    ]
+   },
+   "nom": 28.1686,
+   "tol": 0.05
+  },
+  {
+   "id": "F18",
+   "govde": "Y1",
+   "etiket": "ring groove outer dia 0.4375",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "Y1",
+    "nokta": [
+     -2.7,
+     0.0,
+     5.55625
+    ]
+   },
+   "nom": 11.1125,
+   "tol": 0.05
+  },
+  {
+   "id": "F19",
+   "govde": "Y1",
+   "etiket": "ring groove inner dia 0.4275",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "Y1",
+    "nokta": [
+     -2.6,
+     0.0,
+     5.42925
+    ]
+   },
+   "nom": 10.8585,
+   "tol": 0.05
+  },
+  {
+   "id": "F20",
+   "govde": "Y1",
+   "etiket": "ring groove depth 0.06",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "Y1",
+    "nokta1": [
+     -3.2004,
+     0.0,
+     5.49
+    ],
+    "nokta2": [
+     -1.6764,
+     0.0,
+     8.0
+    ]
+   },
+   "nom": 1.524,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y1",
+    "nokta": [
+     -2.0,
+     0.0,
+     5.5
+    ],
+    "r_mm": 1.2
+   }
+  },
+  {
+   "id": "F21",
+   "govde": "Y1",
+   "etiket": "inner 30 deg cone of the gear core",
+   "tur": "diger",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y1",
+    "nokta": [
+     -10.0,
+     0.0,
+     9.731
+    ],
+    "r_mm": 2.5
+   }
+  },
+  {
+   "id": "F22",
+   "govde": "Y1",
+   "etiket": "outer 30 deg cone of the yoke cavity",
+   "tur": "diger",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y1",
+    "nokta": [
+     -12.0,
+     0.0,
+     12.0
+    ],
+    "r_mm": 2.5
+   }
+  },
+  {
+   "id": "F23",
+   "govde": "Y1",
+   "etiket": "yoke front bore dia 1.375",
+   "tur": "delik",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "Y1",
+    "nokta": [
+     -1.0,
+     0.0,
+     17.4625
+    ]
+   },
+   "nom": 34.925,
+   "tol": 0.05
+  },
+  {
+   "id": "F24",
+   "govde": "Y1",
+   "etiket": "knuckle dia 0.625",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "Y1",
+    "nokta": [
+     5.6125,
+     20.32,
+     -19.9
+    ]
+   },
+   "nom": 15.875,
+   "tol": 0.05
+  },
+  {
+   "id": "F25",
+   "govde": "Y1",
+   "etiket": "pivot axis 0.5625 from the shaft axis",
+   "tur": "diger",
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "Y1",
+    "nokta1": [
+     5.6125,
+     20.32,
+     -19.9
+    ],
+    "nokta2": [
+     -60.0,
+     7.40871,
+     7.40871
+    ]
+   },
+   "nom": 14.2875,
+   "tol": 0.05
+  },
+  {
+   "id": "F26",
+   "govde": "Y1",
+   "etiket": "knuckle width 0.23",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "Y1",
+    "nokta1": [
+     5.0,
+     17.399,
+     -14.2875
+    ],
+    "nokta2": [
+     5.0,
+     23.241,
+     -14.2875
+    ]
+   },
+   "nom": 5.842,
+   "tol": 0.05
+  },
+  {
+   "id": "F27",
+   "govde": "Y1",
+   "etiket": "outer knuckle faces 2.52 apart",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "Y1",
+    "nokta1": [
+     5.0,
+     34.925,
+     -14.2875
+    ],
+    "nokta2": [
+     5.0,
+     -29.083,
+     -14.2875
+    ]
+   },
+   "nom": 64.008,
+   "tol": 0.05
+  },
+  {
+   "id": "F28",
+   "govde": "Y1",
+   "etiket": "gap 0.23 between the two +Y knuckles",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "Y1",
+    "nokta1": [
+     5.0,
+     23.241,
+     -14.2875
+    ],
+    "nokta2": [
+     5.0,
+     29.083,
+     -14.2875
+    ]
+   },
+   "nom": 5.842,
+   "tol": 0.05
+  },
+  {
+   "id": "F29",
+   "govde": "Y1",
+   "etiket": "clearance cut R0.3375 about the pivot",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "Y1",
+    "nokta": [
+     -4.28625,
+     -18.0,
+     -6.86347
+    ]
+   },
+   "nom": 17.145,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y1",
+    "nokta": [
+     -4.28625,
+     -18.0,
+     -6.86347
+    ],
+    "r_mm": 2.0
+   }
+  },
+  {
+   "id": "F30",
+   "govde": "Y1",
+   "etiket": "45 deg flat of the clearance slot",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "aci",
+    "govde": "Y1",
+    "nokta1": [
+     -10.0,
+     -15.0,
+     -12.16416
+    ],
+    "nokta2": [
+     -60.0,
+     7.40871,
+     7.40871
+    ]
+   },
+   "nom": 45.0,
+   "tol": 0.2,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y1",
+    "nokta": [
+     -10.0,
+     -15.0,
+     -12.16416
+    ],
+    "r_mm": 2.0
+   }
+  },
+  {
+   "id": "F31",
+   "govde": "Y1",
+   "etiket": "front face tilted 1.5 deg",
+   "tur": "diger",
+   "olcum": {
+    "tip": "aci",
+    "govde": "Y1",
+    "nokta1": [
+     0.58205,
+     20.0,
+     0.0
+    ],
+    "nokta2": [
+     -130.175,
+     5.3033,
+     5.3033
+    ]
+   },
+   "nom": 1.5,
+   "tol": 0.2
+  },
+  {
+   "id": "F32",
+   "govde": "Y1",
+   "etiket": "tooth phase: flank at 85.5 deg to the knuckle face",
+   "tur": "lob",
+   "olcum": {
+    "tip": "aci",
+    "govde": "Y1",
+    "nokta1": [
+     -1.0,
+     11.96301,
+     0.94151
+    ],
+    "nokta2": [
+     5.0,
+     17.399,
+     -14.2875
+    ]
+   },
+   "nom": 85.5,
+   "tol": 0.2
+  },
+  {
+   "id": "F33",
+   "govde": "Y1",
+   "etiket": "R0.09 round, front face to yoke top",
+   "tur": "yuvarlatma",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y1",
+    "nokta": [
+     -0.84,
+     1.8238,
+     18.83
+    ],
+    "r_mm": 2.0
+   }
+  },
+  {
+   "id": "F34",
+   "govde": "Y1",
+   "etiket": "R0.12 round on the -Y upper loft corner",
+   "tur": "yuvarlatma",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y1",
+    "nokta": [
+     -17.3,
+     -18.7,
+     -7.4
+    ],
+    "r_mm": 2.5
+   }
+  },
+  {
+   "id": "F35",
+   "govde": "Y1",
+   "etiket": "R0.12 round on the +Y lower loft corner",
+   "tur": "yuvarlatma",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y1",
+    "nokta": [
+     -17.3,
+     21.5,
+     -10.0
+    ],
+    "r_mm": 2.5
+   }
+  },
+  {
+   "id": "F36",
+   "govde": "Y1",
+   "etiket": "ruled yoke top surface",
+   "tur": "diger",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y1",
+    "nokta": [
+     -15.0,
+     0.0,
+     16.5
+    ],
+    "r_mm": 4.0
+   }
+  },
+  {
+   "id": "F37",
+   "govde": "Y1",
+   "etiket": "ruled yoke underside",
+   "tur": "diger",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y1",
+    "nokta": [
+     -18.0,
+     0.0,
+     -15.6
+    ],
+    "r_mm": 4.0
+   }
+  },
+  {
+   "id": "F38",
+   "govde": "Y2",
+   "etiket": "shaft end dia 0.75",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "Y2",
+    "nokta": [
+     110.94949,
+     -6.73519,
+     0.94943
+    ]
+   },
+   "nom": 19.05,
+   "tol": 0.05
+  },
+  {
+   "id": "F39",
+   "govde": "Y2",
+   "etiket": "hub dia 0.825",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "Y2",
+    "nokta": [
+     61.05326,
+     -7.40871,
+     4.23882
+    ]
+   },
+   "nom": 20.955,
+   "tol": 0.05
+  },
+  {
+   "id": "F40",
+   "govde": "Y2",
+   "etiket": "shaft bore dia 0.5",
+   "tur": "delik",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "Y2",
+    "nokta": [
+     120.81829,
+     -4.49013,
+     -1.81592
+    ]
+   },
+   "nom": 12.7,
+   "tol": 0.05
+  },
+  {
+   "id": "F41",
+   "govde": "Y2",
+   "etiket": "shaft bore depth 1.125, flat floor",
+   "tur": "delik",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "Y2",
+    "nokta1": [
+     131.0219,
+     -5.3033,
+     -1.53638
+    ],
+    "nokta2": [
+     102.31953,
+     -2.12132,
+     -3.2185
+    ]
+   },
+   "nom": 28.575,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y2",
+    "nokta": [
+     102.31953,
+     -2.12132,
+     -3.2185
+    ],
+    "r_mm": 3.0
+   }
+  },
+  {
+   "id": "F42",
+   "govde": "Y2",
+   "etiket": "end face to hub step 1.75",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "Y2",
+    "nokta1": [
+     131.0219,
+     -5.3033,
+     -1.53638
+    ],
+    "nokta2": [
+     86.7394,
+     -7.33977,
+     2.82363
+    ]
+   },
+   "nom": 44.45,
+   "tol": 0.05
+  },
+  {
+   "id": "F43",
+   "govde": "Y2",
+   "etiket": "end face to yoke base step 3.95",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "Y2",
+    "nokta1": [
+     131.0219,
+     -5.3033,
+     -1.53638
+    ],
+    "nokta2": [
+     31.11969,
+     -0.0,
+     9.25358
+    ]
+   },
+   "nom": 100.33,
+   "tol": 0.05
+  },
+  {
+   "id": "F44",
+   "govde": "Y2",
+   "etiket": "end chamfer 0.03 x 45",
+   "tur": "pah",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y2",
+    "nokta": [
+     130.6093,
+     -7.92413,
+     -2.24406
+    ],
+    "r_mm": 1.0
+   }
+  },
+  {
+   "id": "F45",
+   "govde": "Y2",
+   "etiket": "45 deg relief cone at the hub step",
+   "tur": "pah",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y2",
+    "nokta": [
+     86.96526,
+     -7.79423,
+     -0.03187
+    ],
+    "r_mm": 1.0
+   }
+  },
+  {
+   "id": "F46",
+   "govde": "Y2",
+   "etiket": "15 gear teeth (separate crown lands)",
+   "tur": "lob",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "Y2",
+    "yuzey": "torus",
+    "r_mm": 2.52173,
+    "ayri_yuzler": true
+   },
+   "nom": 15,
+   "tol": 0
+  },
+  {
+   "id": "F47",
+   "govde": "Y2",
+   "etiket": "15 tooth back lands R0.2024",
+   "tur": "lob",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "Y2",
+    "yuzey": "torus",
+    "r_mm": 5.14166,
+    "ayri_yuzler": true
+   },
+   "nom": 15,
+   "tol": 0
+  },
+  {
+   "id": "F48",
+   "govde": "Y2",
+   "etiket": "tooth thickness angle 9 deg (flank planes through the axis)",
+   "tur": "lob",
+   "olcum": {
+    "tip": "aci",
+    "govde": "Y2",
+    "nokta1": [
+     1.79565,
+     -11.96301,
+     0.8683
+    ],
+    "nokta2": [
+     1.6971,
+     -11.96301,
+     -1.01214
+    ]
+   },
+   "nom": 9.0,
+   "tol": 0.2,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y2",
+    "nokta": [
+     1.44679,
+     -14.0,
+     -0.05622
+    ],
+    "r_mm": 3.0
+   }
+  },
+  {
+   "id": "F49",
+   "govde": "Y2",
+   "etiket": "tooth space angle 15 deg",
+   "tur": "lob",
+   "olcum": {
+    "tip": "aci",
+    "govde": "Y2",
+    "nokta1": [
+     1.79565,
+     -11.96301,
+     0.8683
+    ],
+    "nokta2": [
+     1.95602,
+     -11.3117,
+     3.92828
+    ]
+   },
+   "nom": 15.0,
+   "tol": 0.2
+  },
+  {
+   "id": "F50",
+   "govde": "Y2",
+   "etiket": "tooth root dia 0.8405 under the teeth",
+   "tur": "lob",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "Y2",
+    "nokta": [
+     1.56615,
+     -10.66785,
+     0.31057
+    ]
+   },
+   "nom": 21.3487,
+   "tol": 0.05
+  },
+  {
+   "id": "F51",
+   "govde": "Y2",
+   "etiket": "space land dia 1.0765 between teeth",
+   "tur": "lob",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "Y2",
+    "nokta": [
+     3.29322,
+     -13.37279,
+     2.69339
+    ]
+   },
+   "nom": 27.3431,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y2",
+    "nokta": [
+     3.2968,
+     -13.69407,
+     2.76159
+    ],
+    "r_mm": 2.0
+   }
+  },
+  {
+   "id": "F52",
+   "govde": "Y2",
+   "etiket": "tooth shape (round crown + back arc), tooth at 120 deg",
+   "tur": "lob",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y2",
+    "nokta": [
+     1.65922,
+     6.75,
+     11.64004
+    ],
+    "r_mm": 3.5
+   }
+  },
+  {
+   "id": "F53",
+   "govde": "Y2",
+   "etiket": "tooth shape, tooth at 264 deg",
+   "tur": "lob",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y2",
+    "nokta": [
+     0.34467,
+     1.41113,
+     -13.44293
+    ],
+    "r_mm": 3.5
+   }
+  },
+  {
+   "id": "F54",
+   "govde": "Y2",
+   "etiket": "gear core front face to yoke base step",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "Y2",
+    "nokta1": [
+     2.84054,
+     -0.0,
+     7.88172
+    ],
+    "nokta2": [
+     31.11969,
+     -0.0,
+     9.25358
+    ]
+   },
+   "nom": 28.1686,
+   "tol": 0.05
+  },
+  {
+   "id": "F55",
+   "govde": "Y2",
+   "etiket": "ring groove outer dia 0.4375",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "Y2",
+    "nokta": [
+     3.73484,
+     -0.0,
+     5.38775
+    ]
+   },
+   "nom": 11.1125,
+   "tol": 0.05
+  },
+  {
+   "id": "F56",
+   "govde": "Y2",
+   "etiket": "ring groove inner dia 0.4275",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "Y2",
+    "nokta": [
+     3.62833,
+     -0.0,
+     5.26616
+    ]
+   },
+   "nom": 10.8585,
+   "tol": 0.05
+  },
+  {
+   "id": "F57",
+   "govde": "Y2",
+   "etiket": "ring groove depth 0.06",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "Y2",
+    "nokta1": [
+     4.23109,
+     -0.0,
+     5.2954
+    ],
+    "nokta2": [
+     2.84054,
+     -0.0,
+     7.88172
+    ]
+   },
+   "nom": 1.524,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y2",
+    "nokta": [
+     3.03286,
+     -0.0,
+     5.36821
+    ],
+    "r_mm": 1.2
+   }
+  },
+  {
+   "id": "F58",
+   "govde": "Y2",
+   "etiket": "inner 30 deg cone of the gear core",
+   "tur": "diger",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y2",
+    "nokta": [
+     11.24333,
+     -0.0,
+     9.17472
+    ],
+    "r_mm": 2.5
+   }
+  },
+  {
+   "id": "F59",
+   "govde": "Y2",
+   "etiket": "outer 30 deg cone of the yoke cavity",
+   "tur": "diger",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y2",
+    "nokta": [
+     13.35934,
+     -0.0,
+     11.33594
+    ],
+    "r_mm": 2.5
+   }
+  },
+  {
+   "id": "F60",
+   "govde": "Y2",
+   "etiket": "yoke front bore dia 1.375",
+   "tur": "delik",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "Y2",
+    "nokta": [
+     2.6603,
+     -0.0,
+     17.36665
+    ]
+   },
+   "nom": 34.925,
+   "tol": 0.05
+  },
+  {
+   "id": "F61",
+   "govde": "Y2",
+   "etiket": "knuckle dia 0.625",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "Y2",
+    "nokta": [
+     -5.89854,
+     -20.32,
+     -19.59857
+    ]
+   },
+   "nom": 15.875,
+   "tol": 0.05
+  },
+  {
+   "id": "F62",
+   "govde": "Y2",
+   "etiket": "pivot axis 0.5625 from the shaft axis",
+   "tur": "diger",
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "Y2",
+    "nokta1": [
+     -5.89854,
+     -20.32,
+     -19.59857
+    ],
+    "nokta2": [
+     61.05326,
+     -7.40871,
+     4.23882
+    ]
+   },
+   "nom": 14.2875,
+   "tol": 0.05
+  },
+  {
+   "id": "F63",
+   "govde": "Y2",
+   "etiket": "knuckle width 0.23",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "Y2",
+    "nokta1": [
+     -4.99315,
+     -17.399,
+     -14.02582
+    ],
+    "nokta2": [
+     -4.99315,
+     -23.241,
+     -14.02582
+    ]
+   },
+   "nom": 5.842,
+   "tol": 0.05
+  },
+  {
+   "id": "F64",
+   "govde": "Y2",
+   "etiket": "outer knuckle faces 2.52 apart",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "Y2",
+    "nokta1": [
+     -4.99315,
+     -34.925,
+     -14.02582
+    ],
+    "nokta2": [
+     -4.99315,
+     29.083,
+     -14.02582
+    ]
+   },
+   "nom": 64.008,
+   "tol": 0.05
+  },
+  {
+   "id": "F65",
+   "govde": "Y2",
+   "etiket": "gap 0.23 between the two +Y knuckles",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "Y2",
+    "nokta1": [
+     -4.99315,
+     -23.241,
+     -14.02582
+    ],
+    "nokta2": [
+     -4.99315,
+     -29.083,
+     -14.02582
+    ]
+   },
+   "nom": 5.842,
+   "tol": 0.05
+  },
+  {
+   "id": "F66",
+   "govde": "Y2",
+   "etiket": "clearance cut R0.3375 about the pivot",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "Y2",
+    "nokta": [
+     4.66892,
+     18.0,
+     -7.09797
+    ]
+   },
+   "nom": 17.145,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y2",
+    "nokta": [
+     4.66892,
+     18.0,
+     -7.09797
+    ],
+    "r_mm": 2.0
+   }
+  },
+  {
+   "id": "F67",
+   "govde": "Y2",
+   "etiket": "45 deg flat of the clearance slot",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "aci",
+    "govde": "Y2",
+    "nokta1": [
+     10.09742,
+     15.0,
+     -12.69043
+    ],
+    "nokta2": [
+     61.05326,
+     -7.40871,
+     4.23882
+    ]
+   },
+   "nom": 45.0,
+   "tol": 0.2,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y2",
+    "nokta": [
+     10.09742,
+     15.0,
+     -12.69043
+    ],
+    "r_mm": 2.0
+   }
+  },
+  {
+   "id": "F68",
+   "govde": "Y2",
+   "etiket": "front face tilted 1.5 deg",
+   "tur": "diger",
+   "olcum": {
+    "tip": "aci",
+    "govde": "Y2",
+    "nokta1": [
+     0.1665,
+     -20.0,
+     0.01088
+    ],
+    "nokta2": [
+     131.0219,
+     -5.3033,
+     -1.53638
+    ]
+   },
+   "nom": 1.5,
+   "tol": 0.2
+  },
+  {
+   "id": "F69",
+   "govde": "Y2",
+   "etiket": "tooth phase: flank at 85.5 deg to the knuckle face",
+   "tur": "lob",
+   "olcum": {
+    "tip": "aci",
+    "govde": "Y2",
+    "nokta1": [
+     1.79565,
+     -11.96301,
+     0.8683
+    ],
+    "nokta2": [
+     -4.99315,
+     -17.399,
+     -14.02582
+    ]
+   },
+   "nom": 85.5,
+   "tol": 0.2
+  },
+  {
+   "id": "F70",
+   "govde": "Y2",
+   "etiket": "R0.09 round, front face to yoke top",
+   "tur": "yuvarlatma",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y2",
+    "nokta": [
+     2.57208,
+     -1.8238,
+     18.74065
+    ],
+    "r_mm": 2.0
+   }
+  },
+  {
+   "id": "F71",
+   "govde": "Y2",
+   "etiket": "R0.12 round on the -Y upper loft corner",
+   "tur": "yuvarlatma",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y2",
+    "nokta": [
+     17.63675,
+     18.7,
+     -8.31485
+    ],
+    "r_mm": 2.5
+   }
+  },
+  {
+   "id": "F72",
+   "govde": "Y2",
+   "etiket": "R0.12 round on the +Y lower loft corner",
+   "tur": "yuvarlatma",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y2",
+    "nokta": [
+     17.50068,
+     -21.5,
+     -10.91129
+    ],
+    "r_mm": 2.5
+   }
+  },
+  {
+   "id": "F73",
+   "govde": "Y2",
+   "etiket": "ruled yoke top surface",
+   "tur": "diger",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y2",
+    "nokta": [
+     16.59074,
+     -0.0,
+     15.67277
+    ],
+    "r_mm": 4.0
+   }
+  },
+  {
+   "id": "F74",
+   "govde": "Y2",
+   "etiket": "ruled yoke underside",
+   "tur": "diger",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "Y2",
+    "nokta": [
+     17.90664,
+     -0.0,
+     -16.54025
+    ],
+    "r_mm": 4.0
+   }
+  },
+  {
+   "id": "F75",
+   "govde": "Y1",
+   "etiket": "hex socket in the pin end: 6 flats",
+   "tur": "diger",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "Y1",
+    "yuzey": "plane",
+    "bolge": [
+     -2.5,
+     33.5,
+     -16.8,
+     2.5,
+     34.8,
+     -11.8
+    ]
+   },
+   "nom": 6,
+   "tol": 0
+  },
+  {
+   "id": "F76",
+   "govde": "Y1",
+   "etiket": "hex socket 0.156 across flats",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "Y1",
+    "nokta1": [
+     1.9812,
+     33.8,
+     -14.2875
+    ],
+    "nokta2": [
+     -1.9812,
+     33.8,
+     -14.2875
+    ]
+   },
+   "nom": 3.9624,
+   "tol": 0.05
+  },
+  {
+   "id": "F77",
+   "govde": "Y1",
+   "etiket": "hex socket depth 0.0935",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "Y1",
+    "nokta1": [
+     0.0,
+     34.925,
+     -11.2875
+    ],
+    "nokta2": [
+     0.0,
+     32.5501,
+     -14.2875
+    ]
+   },
+   "nom": 2.3749,
+   "tol": 0.05
+  },
+  {
+   "id": "F78",
+   "govde": "Y1",
+   "etiket": "pin-end ring groove outer dia 0.3225",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "Y1",
+    "nokta": [
+     0.0,
+     34.2,
+     -10.191749999999999
+    ]
+   },
+   "nom": 8.1915,
+   "tol": 0.05
+  },
+  {
+   "id": "F79",
+   "govde": "Y1",
+   "etiket": "pin-end ring groove depth 0.0625",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "Y1",
+    "nokta1": [
+     0.0,
+     33.3375,
+     -10.2575
+    ],
+    "nokta2": [
+     5.0,
+     34.925,
+     -14.2875
+    ]
+   },
+   "nom": 1.5875,
+   "tol": 0.05
+  },
+  {
+   "id": "F80",
+   "govde": "Y2",
+   "etiket": "hex socket in the pin end: 6 flats",
+   "tur": "diger",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "Y2",
+    "yuzey": "plane",
+    "bolge": [
+     -2.5,
+     -34.8,
+     -16.8,
+     2.5,
+     -33.5,
+     -11.8
+    ]
+   },
+   "nom": 6,
+   "tol": 0
+  },
+  {
+   "id": "F81",
+   "govde": "Y2",
+   "etiket": "hex socket 0.156 across flats (flats normal to X)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "Y2",
+    "nokta1": [
+     1.9812,
+     -33.8,
+     -14.2875
+    ],
+    "nokta2": [
+     -1.9812,
+     -33.8,
+     -14.2875
+    ]
+   },
+   "nom": 3.9624,
+   "tol": 0.05
+  },
+  {
+   "id": "F82",
+   "govde": "Y2",
+   "etiket": "hex flat parallel to the Y1 shaft end face (not tilted)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "aci",
+    "govde": "Y2",
+    "govde2": "Y1",
+    "nokta1": [
+     1.9812,
+     -33.8,
+     -14.2875
+    ],
+    "nokta2": [
+     -130.175,
+     5.303300858899107,
+     5.303300858899107
+    ]
+   },
+   "nom": 0.0,
+   "tol": 0.2
+  },
+  {
+   "id": "F83",
+   "govde": "Y2",
+   "etiket": "hex socket depth 0.09",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "Y2",
+    "nokta1": [
+     0.0,
+     -34.925,
+     -11.2875
+    ],
+    "nokta2": [
+     0.0,
+     -32.639,
+     -14.2875
+    ]
+   },
+   "nom": 2.286,
+   "tol": 0.05
+  },
+  {
+   "id": "F84",
+   "govde": "Y2",
+   "etiket": "pin-end ring groove outer dia 0.3225",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "Y2",
+    "nokta": [
+     0.0,
+     -34.2,
+     -10.191749999999999
+    ]
+   },
+   "nom": 8.1915,
+   "tol": 0.05
+  },
+  {
+   "id": "F85",
+   "govde": "Y2",
+   "etiket": "pin-end ring groove depth 0.06",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "Y2",
+    "nokta1": [
+     0.0,
+     -33.401,
+     -10.2575
+    ],
+    "nokta2": [
+     5.0,
+     -34.925,
+     -14.2875
+    ]
+   },
+   "nom": 1.524,
+   "tol": 0.05
+  },
+  {
+   "id": "F86",
+   "govde": "Y2",
+   "etiket": "Y2 shaft axis at 3 deg to the Y1 shaft axis",
+   "tur": "diger",
+   "olcum": {
+    "tip": "aci",
+    "govde": "Y2",
+    "govde2": "Y1",
+    "nokta1": [
+     61.05326405050272,
+     -7.408711299882052,
+     4.23882002176151
+    ],
+    "nokta2": [
+     -60,
+     7.408711299882052,
+     7.408711299882052
+    ]
+   },
+   "nom": 3.0,
+   "tol": 0.2
+  },
+  {
+   "id": "F87",
+   "govde": "MONTAJ",
+   "etiket": "overall height 2.75 (knuckle faces)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "montaj_bbox_boyut",
+    "eksen": "y"
+   },
+   "nom": 69.85,
+   "tol": 0.05
+  }
+ ]
+}

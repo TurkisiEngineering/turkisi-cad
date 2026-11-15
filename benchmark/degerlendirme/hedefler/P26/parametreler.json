@@ -1,0 +1,64 @@
+{
+ "anahtar": [
+  {
+   "kavram": "knob lobe diameter",
+   "deger": 1.75,
+   "birim": "in",
+   "ipucu_adlar": [
+    "knob_d",
+    "knob_dia",
+    "lobe_d",
+    "D_knob",
+    "knob_od"
+   ]
+  },
+  {
+   "kavram": "side port face distance from the valve axis (port-to-port)",
+   "deger": 0.939,
+   "birim": "in",
+   "ipucu_adlar": [
+    "port_to_port",
+    "side_len",
+    "boss_len",
+    "port_x",
+    "ptp"
+   ]
+  },
+  {
+   "kavram": "pipe thread pitch (18 TPI)",
+   "deger": 0.055556,
+   "birim": "in",
+   "ipucu_adlar": [
+    "pitch",
+    "tpi",
+    "npt_pitch",
+    "thread_pitch",
+    "p"
+   ]
+  },
+  {
+   "kavram": "panel thread diameter",
+   "deger": 0.5625,
+   "birim": "in",
+   "ipucu_adlar": [
+    "panel_d",
+    "bonnet_d",
+    "thread_d",
+    "sleeve_od",
+    "major_d"
+   ]
+  },
+  {
+   "kavram": "stem diameter",
+   "deger": 0.249,
+   "birim": "in",
+   "ipucu_adlar": [
+    "stem_d",
+    "stem_dia",
+    "rod_d",
+    "d_stem",
+    "shaft_d"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "anahtar": [
+  {
+   "kavram": "shield size (square side)",
+   "deger": 8.0,
+   "birim": "in",
+   "ipucu_adlar": [
+    "shield_w",
+    "shield_size",
+    "plate_w",
+    "plate_size",
+    "guard_w",
+    "width"
+   ]
+  },
+  {
+   "kavram": "shield thickness",
+   "deger": 0.125,
+   "birim": "in",
+   "ipucu_adlar": [
+    "shield_t",
+    "plate_t",
+    "thickness",
+    "t",
+    "kalinlik"
+   ]
+  },
+  {
+   "kavram": "arm length",
+   "deger": 11.615,
+   "birim": "in",
+   "ipucu_adlar": [
+    "arm_len",
+    "arm_length",
+    "arm_l",
+    "hose_len",
+    "kol_boy"
+   ]
+  },
+  {
+   "kavram": "arm tube diameter",
+   "deger": 0.65,
+   "birim": "in",
+   "ipucu_adlar": [
+    "arm_d",
+    "arm_dia",
+    "tube_d",
+    "hose_d",
+    "arm_diameter"
+   ]
+  },
+  {
+   "kavram": "mounting bolt spacing",
+   "deger": 1.375,
+   "birim": "in",
+   "ipucu_adlar": [
+    "bolt_spacing",
+    "hole_spacing",
+    "mount_spacing",
+    "base_holes",
+    "delik_arasi"
+   ]
+  }
+ ]
+}

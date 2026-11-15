@@ -1,0 +1,65 @@
+{
+ "anahtar": [
+  {
+   "kavram": "outer width (X)",
+   "deger": 1.85,
+   "birim": "in",
+   "ipucu_adlar": [
+    "width",
+    "W",
+    "outer_width",
+    "box_w",
+    "genislik"
+   ]
+  },
+  {
+   "kavram": "outer length (Y)",
+   "deger": 2.4,
+   "birim": "in",
+   "ipucu_adlar": [
+    "length",
+    "height",
+    "L",
+    "H",
+    "outer_length",
+    "box_l",
+    "boy"
+   ]
+  },
+  {
+   "kavram": "plan corner radius",
+   "deger": 0.1,
+   "birim": "in",
+   "ipucu_adlar": [
+    "corner_r",
+    "corner_radius",
+    "r_corner",
+    "R_corner",
+    "kose_r"
+   ]
+  },
+  {
+   "kavram": "outside wall draft angle",
+   "deger": 3.0,
+   "birim": "deg",
+   "ipucu_adlar": [
+    "draft",
+    "draft_out",
+    "draft_angle",
+    "outer_draft"
+   ]
+  },
+  {
+   "kavram": "cavity depth per part",
+   "deger": 0.39,
+   "birim": "in",
+   "ipucu_adlar": [
+    "cavity_depth",
+    "depth",
+    "inner_depth",
+    "floor_depth",
+    "pocket_depth"
+   ]
+  }
+ ]
+}

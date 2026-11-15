@@ -1,0 +1,92 @@
+{
+ "rows": [
+  {
+   "dim": "6.750in (housing outside diameter)",
+   "nom": 6.75,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "6.741in (shaft end to rear clamp face)",
+   "nom": 6.741,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "bbox_kenar_fark",
+    "govde": "P03",
+    "kenar": "zmin",
+    "govde2": "P11-a",
+    "kenar2": "zmax"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "2.061in (shaft end to front face)",
+   "nom": 2.061,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "bbox_kenar_fark",
+    "govde": "P03",
+    "kenar": "zmin",
+    "govde2": "P02",
+    "kenar2": "zmax"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "5/8 in (shaft diameter)",
+   "nom": 0.625,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P03",
+    "nokta": [
+     -7.9375,
+     0.0,
+     -71.12
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "Keyway 0.188in wide (key width)",
+   "nom": 0.188,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P05",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "Keyway 0.188in deep (key height)",
+   "nom": 0.188,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P05",
+    "eksen": "y"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "36in lead wire length",
+   "nom": 36.0,
+   "birim": "in",
+   "tol": 0.5,
+   "olcum": null,
+   "modelde_var": false
+  }
+ ]
+}

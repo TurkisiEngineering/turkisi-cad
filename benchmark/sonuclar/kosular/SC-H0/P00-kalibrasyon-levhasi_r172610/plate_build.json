@@ -1,0 +1,34 @@
+{
+  "commands": [
+    {"command": "document.units", "params": {"units": "mm"}},
+    {"command": "parameters.add", "params": {"name": "L", "expression": "100 mm", "comment": "Plate length along X (F1)"}},
+    {"command": "parameters.add", "params": {"name": "W", "expression": "60 mm", "comment": "Plate width along Y (F1)"}},
+    {"command": "parameters.add", "params": {"name": "T", "expression": "10 mm", "comment": "Plate thickness along Z (F1)"}},
+    {"command": "parameters.add", "params": {"name": "R_corner", "expression": "3 mm", "comment": "Vertical corner round radius (F2)"}},
+    {"command": "parameters.add", "params": {"name": "D_hole", "expression": "6 mm", "comment": "Corner through-hole diameter (F3)"}},
+    {"command": "parameters.add", "params": {"name": "E_hole", "expression": "8 mm", "comment": "Hole centre distance from adjacent outer edge (F3)"}},
+    {"command": "parameters.add", "params": {"name": "D_pocket", "expression": "20 mm", "comment": "Central pocket diameter (F4)"}},
+    {"command": "parameters.add", "params": {"name": "H_pocket", "expression": "4 mm", "comment": "Central pocket depth from top face (F4)"}},
+
+    {"command": "sketch.create", "params": {"plane": "XY", "name": "SK_F1_Plate"}},
+    {"command": "sketch.rectangle.two_point", "params": {"p0": ["-L / 2", "-W / 2"], "p1": ["L / 2", "W / 2"]}},
+    {"command": "sketch.finish", "params": {}},
+    {"command": "solid.extrude", "params": {"sketch": "SK_F1_Plate", "distance": "T", "direction": "positive", "operation": "new", "name": "F1_Plate_Block", "body_name": "P01 Plate"}},
+
+    {"command": "solid.fillet", "params": {"body": "P01 Plate", "radius": "R_corner",
+      "edges": [[-50, -30, 5], [50, -30, 5], [50, 30, 5], [-50, 30, 5]]}},
+
+    {"command": "sketch.create", "params": {"plane": "XY", "name": "SK_F3_Holes"}},
+    {"command": "sketch.circle.center", "params": {"center": ["-L / 2 + E_hole", "-W / 2 + E_hole"], "diameter": "D_hole"}},
+    {"command": "sketch.circle.center", "params": {"center": ["L / 2 - E_hole", "-W / 2 + E_hole"], "diameter": "D_hole"}},
+    {"command": "sketch.circle.center", "params": {"center": ["-L / 2 + E_hole", "W / 2 - E_hole"], "diameter": "D_hole"}},
+    {"command": "sketch.circle.center", "params": {"center": ["L / 2 - E_hole", "W / 2 - E_hole"], "diameter": "D_hole"}},
+    {"command": "sketch.finish", "params": {}},
+    {"command": "solid.extrude", "params": {"sketch": "SK_F3_Holes", "distance": "T", "direction": "positive", "operation": "cut", "targets": ["P01 Plate"], "name": "F3_Corner_Holes"}},
+
+    {"command": "sketch.create", "params": {"plane": "XY", "offset": "T", "name": "SK_F4_Pocket"}},
+    {"command": "sketch.circle.center", "params": {"center": [0, 0], "diameter": "D_pocket"}},
+    {"command": "sketch.finish", "params": {}},
+    {"command": "solid.extrude", "params": {"sketch": "SK_F4_Pocket", "distance": "H_pocket", "direction": "negative", "operation": "cut", "targets": ["P01 Plate"], "name": "F4_Central_Pocket"}}
+  ]
+}

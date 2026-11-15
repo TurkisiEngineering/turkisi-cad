@@ -1,0 +1,62 @@
+{
+ "rows": [
+  {
+   "dim": "1.99in (overall height, outlet face to pilot port face)",
+   "nom": 1.99,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "montaj_bbox_boyut",
+    "eksen": "y"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "2.00in (overall width, flange edge to inlet face)",
+   "nom": 2.0,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1.62in (flange / cover diameter, bottom view)",
+   "nom": 1.62,
+   "birim": "in",
+   "tol": 0.01,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P02",
+    "nokta": [
+     -14.6371,
+     6.35,
+     14.6371
+    ]
+   },
+   "modelde_var": true,
+   "not_": "model 1.6299 (41.4 mm); the drawing truncates to 2 decimals (1.6299 -> 1.62, like 2.0039 -> 2.00, 1.9921 -> 1.99), so tol = one unit of the last digit (0.01) instead of 0.005; with 0.005 the original itself fails (K)"
+  },
+  {
+   "dim": "1/4 NPT (inlet, side port)",
+   "nom": 0.54,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": false,
+   "not_": "thread size note; modelled as a shallow tapered helical groove whose root cone is 0.540 dia at the end face (1/4 NPT OD 0.540); no recipe measures a cone diameter: checked in ozellikler (region items)"
+  },
+  {
+   "dim": "1/4 NPT (outlet, bottom port)",
+   "nom": 0.54,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": false,
+   "not_": "thread size note; root cone 0.540 dia at the bottom face, 18 TPI; checked in ozellikler (region items)"
+  }
+ ]
+}

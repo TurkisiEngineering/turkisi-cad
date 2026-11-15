@@ -1,0 +1,885 @@
+{
+ "items": [
+  {
+   "id": "F1",
+   "govde": "P01",
+   "etiket": "Frame square 80 x (side faces x = +-40)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     -40,
+     0,
+     0
+    ],
+    "nokta2": [
+     40,
+     0,
+     0
+    ]
+   },
+   "nom": 80.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F2",
+   "govde": "P01",
+   "etiket": "Frame square 80 y (side faces y = +-40)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     0,
+     -40,
+     0
+    ],
+    "nokta2": [
+     0,
+     40,
+     0
+    ]
+   },
+   "nom": 80.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F3",
+   "govde": "P01",
+   "etiket": "Frame depth 38 (front z 19 to rear z -19)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     -39,
+     0,
+     -19
+    ],
+    "nokta2": [
+     0,
+     0,
+     19
+    ]
+   },
+   "nom": 38.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F4",
+   "govde": "P01",
+   "etiket": "Front flange thickness 4 (z 15 underside)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     -39,
+     -30,
+     15
+    ],
+    "nokta2": [
+     -39,
+     -30,
+     19
+    ]
+   },
+   "nom": 4.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F5",
+   "govde": "P01",
+   "etiket": "Rear flange thickness 4 (z -15 face)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     -39,
+     -30,
+     -15
+    ],
+    "nokta2": [
+     -39,
+     0,
+     -19
+    ]
+   },
+   "nom": 4.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F6",
+   "govde": "P01",
+   "etiket": "Waist cylinder D82 between flanges",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     -28.991,
+     -28.991,
+     0
+    ]
+   },
+   "nom": 82.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F7",
+   "govde": "P01",
+   "etiket": "Waist-to-front-flange fillet R5 (torus)",
+   "tur": "yuvarlatma",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "torus",
+    "r_mm": 5.0
+   },
+   "nom": 1,
+   "tol": 0
+  },
+  {
+   "id": "F8",
+   "govde": "P01",
+   "etiket": "4 outer corner rounds R3.4",
+   "tur": "yuvarlatma",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "cylinder",
+    "r_mm": 3.4
+   },
+   "nom": 4,
+   "tol": 0
+  },
+  {
+   "id": "F9",
+   "govde": "P01",
+   "etiket": "4 mounting holes D4.4 (count)",
+   "tur": "delik",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "cylinder",
+    "r_mm": 2.2
+   },
+   "nom": 4,
+   "tol": 0
+  },
+  {
+   "id": "F10",
+   "govde": "P01",
+   "etiket": "Mounting hole D4.4",
+   "tur": "delik",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     37.95,
+     35.75,
+     -17
+    ]
+   },
+   "nom": 4.4,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     35.75,
+     35.75,
+     17
+    ],
+    "r_mm": 3.5
+   }
+  },
+  {
+   "id": "F11",
+   "govde": "P01",
+   "etiket": "Hole spacing 71.5 (x)",
+   "tur": "delik",
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     37.95,
+     35.75,
+     -17
+    ],
+    "nokta2": [
+     -33.55,
+     35.75,
+     -17
+    ]
+   },
+   "nom": 71.5,
+   "tol": 0.05
+  },
+  {
+   "id": "F12",
+   "govde": "P01",
+   "etiket": "Hole spacing 71.5 (y)",
+   "tur": "delik",
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     37.95,
+     35.75,
+     -17
+    ],
+    "nokta2": [
+     37.95,
+     -35.75,
+     -17
+    ]
+   },
+   "nom": 71.5,
+   "tol": 0.05
+  },
+  {
+   "id": "F13",
+   "govde": "P01",
+   "etiket": "4 hole front entry 45 deg cones",
+   "tur": "pah",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "cone"
+   },
+   "nom": 4,
+   "tol": 0
+  },
+  {
+   "id": "F14",
+   "govde": "P01",
+   "etiket": "Venturi bore D76.667",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     -9.261,
+     -37.1978,
+     -2.5
+    ]
+   },
+   "nom": 76.6667,
+   "tol": 0.05
+  },
+  {
+   "id": "F15",
+   "govde": "P01",
+   "etiket": "Front bore D76.748 (spoke zone z 14..19)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     0,
+     -38.374,
+     16.5
+    ]
+   },
+   "nom": 76.748,
+   "tol": 0.05
+  },
+  {
+   "id": "F16",
+   "govde": "P01",
+   "etiket": "Front outer edge round R0.5",
+   "tur": "yuvarlatma",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0,
+     -40,
+     19
+    ],
+    "r_mm": 1.5
+   }
+  },
+  {
+   "id": "F17",
+   "govde": "P01",
+   "etiket": "Motor housing D44.4",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     0,
+     22.2,
+     12
+    ]
+   },
+   "nom": 44.4,
+   "tol": 0.05
+  },
+  {
+   "id": "F18",
+   "govde": "P01",
+   "etiket": "Rotor D44.4",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     0,
+     -22.2,
+     -5
+    ]
+   },
+   "nom": 44.4,
+   "tol": 0.05
+  },
+  {
+   "id": "F19",
+   "govde": "P01",
+   "etiket": "Neck D26.64",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     0,
+     13.32,
+     5.1
+    ]
+   },
+   "nom": 26.64,
+   "tol": 0.05
+  },
+  {
+   "id": "F20",
+   "govde": "P01",
+   "etiket": "Rotor-to-housing gap 1.15 (z 4.55 / 5.7)",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     0,
+     18,
+     4.55
+    ],
+    "nokta2": [
+     0,
+     18,
+     5.7
+    ]
+   },
+   "nom": 1.15,
+   "tol": 0.05
+  },
+  {
+   "id": "F21",
+   "govde": "P01",
+   "etiket": "Rotor rear face z -17 to frame rear face",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     0,
+     0,
+     -17
+    ],
+    "nokta2": [
+     -39,
+     0,
+     -19
+    ]
+   },
+   "nom": 2.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F22",
+   "govde": "P01",
+   "etiket": "Rotor rear round R7.5",
+   "tur": "yuvarlatma",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "torus",
+    "r_mm": 7.5
+   },
+   "nom": 1,
+   "tol": 0,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0,
+     -19.9,
+     -15
+    ],
+    "r_mm": 4
+   }
+  },
+  {
+   "id": "F23",
+   "govde": "P01",
+   "etiket": "Housing front to housing underside 13.3",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     0,
+     0,
+     19
+    ],
+    "nokta2": [
+     0,
+     18,
+     5.7
+    ]
+   },
+   "nom": 13.3,
+   "tol": 0.05
+  },
+  {
+   "id": "F24",
+   "govde": "P01",
+   "etiket": "11 curved spokes (22 side arcs R39.269)",
+   "tur": "lob",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "cylinder",
+    "r_mm": 39.269
+   },
+   "nom": 22,
+   "tol": 0,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     -40,
+     10,
+     13.5,
+     0,
+     40,
+     19.5
+    ]
+   }
+  },
+  {
+   "id": "F25",
+   "govde": "P01",
+   "etiket": "Spoke depth 5 (bottom z 14 to front z 19)",
+   "tur": "lob",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     19.7422,
+     27.4109,
+     14
+    ],
+    "nokta2": [
+     0,
+     0,
+     19
+    ]
+   },
+   "nom": 5.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F26",
+   "govde": "P01",
+   "etiket": "7 blades on the rotor (tip cylinders)",
+   "tur": "lob",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "cylinder",
+    "r_mm": 36.903
+   },
+   "nom": 7,
+   "tol": 0,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     -10,
+     20,
+     -18,
+     30,
+     40,
+     2.5
+    ]
+   }
+  },
+  {
+   "id": "F27",
+   "govde": "P01",
+   "etiket": "Blade tip D73.806",
+   "tur": "lob",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     -2.4578,
+     36.9904,
+     -7.7138
+    ]
+   },
+   "nom": 73.8063,
+   "tol": 0.05
+  },
+  {
+   "id": "F28",
+   "govde": "P01",
+   "etiket": "Blade field, whole rotor below z 3",
+   "tur": "lob",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     -38,
+     -38,
+     -18,
+     38,
+     38,
+     3
+    ],
+    "haric": [
+     [
+      20,
+      -30,
+      -20,
+      45,
+      -3,
+      20
+     ]
+    ]
+   }
+  },
+  {
+   "id": "F29",
+   "govde": "P01",
+   "etiket": "Wire channel width 5.351",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     34.29,
+     -18.22,
+     0
+    ],
+    "nokta2": [
+     36.7,
+     -13.436,
+     0
+    ]
+   },
+   "nom": 5.3514,
+   "tol": 0.05
+  },
+  {
+   "id": "F30",
+   "govde": "P01",
+   "etiket": "Wire exit slot width 1.65",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     36.45,
+     -16.9639,
+     0
+    ],
+    "nokta2": [
+     37.27,
+     -15.3139,
+     0
+    ]
+   },
+   "nom": 1.65,
+   "tol": 0.05
+  },
+  {
+   "id": "F31",
+   "govde": "P01",
+   "etiket": "Wire channel angle to side face x = 40",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "aci",
+    "govde": "P01",
+    "nokta1": [
+     36.7,
+     -13.436,
+     0
+    ],
+    "nokta2": [
+     40,
+     0,
+     0
+    ]
+   },
+   "nom": 60.334,
+   "tol": 0.2
+  },
+  {
+   "id": "F32",
+   "govde": "P01",
+   "etiket": "Connector block width 2.85",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     32.5,
+     -11.84,
+     15.5
+    ],
+    "nokta2": [
+     30.0,
+     -10.48,
+     15.5
+    ]
+   },
+   "nom": 2.85,
+   "tol": 0.05
+  },
+  {
+   "id": "F33",
+   "govde": "P01",
+   "etiket": "Connector block length 7.25",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     32.08,
+     -9.71,
+     17
+    ],
+    "nokta2": [
+     28.49,
+     -16.01,
+     17
+    ]
+   },
+   "nom": 7.25,
+   "tol": 0.05
+  },
+  {
+   "id": "F34",
+   "govde": "P01",
+   "etiket": "Clamp jaws and block region",
+   "tur": "diger",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     24,
+     -21,
+     14.5,
+     39,
+     -6,
+     19.5
+    ]
+   }
+  },
+  {
+   "id": "F35",
+   "govde": "P01",
+   "etiket": "Lead wire D1.25 (straight run at the connector)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     24.534,
+     -10.074,
+     15.125
+    ]
+   },
+   "nom": 1.25,
+   "tol": 0.05
+  },
+  {
+   "id": "F36",
+   "govde": "P01",
+   "etiket": "Lead ends at x 61.76",
+   "tur": "diger",
+   "olcum": {
+    "tip": "koordinat",
+    "govde": "P01",
+    "eksen": "x",
+    "uc": "max",
+    "referans": 61.7595
+   },
+   "nom": 0.0,
+   "tol": 0.3
+  },
+  {
+   "id": "F37",
+   "govde": "P01",
+   "etiket": "Lead wires outside the frame",
+   "tur": "diger",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     40.5,
+     -28,
+     7,
+     62,
+     -16,
+     13
+    ]
+   }
+  },
+  {
+   "id": "F4a1",
+   "govde": "P02-a",
+   "etiket": "Blade tip D73.806 (cylinder about the tilted blade axis)",
+   "tur": "lob",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P02-a",
+    "nokta": [
+     -36.8552,
+     4.0028,
+     -7.7138
+    ]
+   },
+   "nom": 73.8063,
+   "tol": 0.05
+  },
+  {
+   "id": "F4a2",
+   "govde": "P02-a",
+   "etiket": "Blade height in z",
+   "tur": "lob",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P02-a",
+    "eksen": "z"
+   },
+   "nom": 19.3778,
+   "tol": 0.05
+  },
+  {
+   "id": "F4a3",
+   "govde": "P02-a",
+   "etiket": "Blade lowest point z -17.474",
+   "tur": "lob",
+   "olcum": {
+    "tip": "koordinat",
+    "govde": "P02-a",
+    "eksen": "z",
+    "uc": "min",
+    "referans": -17.4743
+   },
+   "nom": 0.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F4a4",
+   "govde": "P02-a",
+   "etiket": "Whole blade shape",
+   "tur": "lob",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P02-a"
+   }
+  },
+  {
+   "id": "F4b1",
+   "govde": "P02-b",
+   "etiket": "Blade tip D73.806 (cylinder about the tilted blade axis)",
+   "tur": "lob",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P02-b",
+    "nokta": [
+     -25.6598,
+     26.7564,
+     -7.7138
+    ]
+   },
+   "nom": 73.8063,
+   "tol": 0.05
+  },
+  {
+   "id": "F4b2",
+   "govde": "P02-b",
+   "etiket": "Blade height in z",
+   "tur": "lob",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P02-b",
+    "eksen": "z"
+   },
+   "nom": 19.3778,
+   "tol": 0.05
+  },
+  {
+   "id": "F4b3",
+   "govde": "P02-b",
+   "etiket": "Blade lowest point z -17.474",
+   "tur": "lob",
+   "olcum": {
+    "tip": "koordinat",
+    "govde": "P02-b",
+    "eksen": "z",
+    "uc": "min",
+    "referans": -17.4743
+   },
+   "nom": 0.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F4b4",
+   "govde": "P02-b",
+   "etiket": "Whole blade shape",
+   "tur": "lob",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P02-b"
+   }
+  },
+  {
+   "id": "F45",
+   "govde": "MONTAJ",
+   "etiket": "Overall extent x incl. leads 101.76",
+   "tur": "diger",
+   "olcum": {
+    "tip": "montaj_bbox_boyut",
+    "eksen": "x"
+   },
+   "nom": 101.7595,
+   "tol": 0.05
+  }
+ ]
+}

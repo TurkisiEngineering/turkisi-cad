@@ -1,0 +1,64 @@
+{
+ "anahtar": [
+  {
+   "kavram": "open-arm slot length (distance between slot end-arc centres)",
+   "deger": 2.351,
+   "birim": "in",
+   "ipucu_adlar": [
+    "slot_length",
+    "adjustable_length",
+    "arm_slot",
+    "slot_len",
+    "kol_acikligi",
+    "L_slot"
+   ]
+  },
+  {
+   "kavram": "mounting hole diameter",
+   "deger": 0.34,
+   "birim": "in",
+   "ipucu_adlar": [
+    "mount_hole_d",
+    "hole_dia",
+    "mounting_hole",
+    "baglanti_deligi",
+    "d_hole"
+   ]
+  },
+  {
+   "kavram": "mounting hole spacing along the base (Z)",
+   "deger": 1.25,
+   "birim": "in",
+   "ipucu_adlar": [
+    "hole_spacing",
+    "hole_pitch_z",
+    "mount_spacing",
+    "delik_aralik"
+   ]
+  },
+  {
+   "kavram": "base bracket length",
+   "deger": 4.22,
+   "birim": "in",
+   "ipucu_adlar": [
+    "base_length",
+    "base_len",
+    "bracket_length",
+    "taban_boyu",
+    "L_base"
+   ]
+  },
+  {
+   "kavram": "air-cylinder axis angle to the Z axis",
+   "deger": 16.0861,
+   "birim": "deg",
+   "ipucu_adlar": [
+    "cyl_angle",
+    "cylinder_angle",
+    "tilt",
+    "axis_angle",
+    "silindir_acisi"
+   ]
+  }
+ ]
+}

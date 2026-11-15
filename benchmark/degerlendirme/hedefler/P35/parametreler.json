@@ -1,0 +1,62 @@
+{
+ "anahtar": [
+  {
+   "kavram": "pilot diameter",
+   "deger": 2.0,
+   "birim": "in",
+   "ipucu_adlar": [
+    "pilot_d",
+    "pilot_dia",
+    "spigot_d",
+    "D_pilot",
+    "pilot"
+   ]
+  },
+  {
+   "kavram": "mounting hole spacing",
+   "deger": 3.25,
+   "birim": "in",
+   "ipucu_adlar": [
+    "hole_spacing",
+    "bolt_spacing",
+    "mount_cc",
+    "hole_cc",
+    "flange_holes"
+   ]
+  },
+  {
+   "kavram": "shaft diameter",
+   "deger": 0.5,
+   "birim": "in",
+   "ipucu_adlar": [
+    "shaft_d",
+    "shaft_dia",
+    "d_shaft",
+    "D_shaft"
+   ]
+  },
+  {
+   "kavram": "mounting flange thickness",
+   "deger": 0.406,
+   "birim": "in",
+   "ipucu_adlar": [
+    "flange_t",
+    "flange_thk",
+    "t_flange",
+    "flange_thickness"
+   ]
+  },
+  {
+   "kavram": "inlet thread pitch (14 TPI)",
+   "deger": 0.071429,
+   "birim": "in",
+   "ipucu_adlar": [
+    "pitch",
+    "tpi",
+    "thread_pitch",
+    "inlet_pitch",
+    "p_in"
+   ]
+  }
+ ]
+}

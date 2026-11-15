@@ -1,0 +1,64 @@
+{
+ "anahtar": [
+  {
+   "kavram": "lifting screw thread pitch (3 threads per inch)",
+   "deger": 0.333333,
+   "birim": "in",
+   "ipucu_adlar": [
+    "pitch",
+    "thread_pitch",
+    "tpi",
+    "lead",
+    "p"
+   ]
+  },
+  {
+   "kavram": "lifting screw thread major diameter",
+   "deger": 1.5,
+   "birim": "in",
+   "ipucu_adlar": [
+    "major_d",
+    "thread_d",
+    "screw_d",
+    "d_major",
+    "od"
+   ]
+  },
+  {
+   "kavram": "saddle diameter",
+   "deger": 2.88,
+   "birim": "in",
+   "ipucu_adlar": [
+    "saddle_d",
+    "cap_d",
+    "head_d",
+    "saddle_dia",
+    "D_saddle"
+   ]
+  },
+  {
+   "kavram": "base height",
+   "deger": 12.0,
+   "birim": "in",
+   "ipucu_adlar": [
+    "base_h",
+    "body_h",
+    "base_height",
+    "housing_h",
+    "H"
+   ]
+  },
+  {
+   "kavram": "swivel ball diameter",
+   "deger": 1.5,
+   "birim": "in",
+   "ipucu_adlar": [
+    "ball_d",
+    "ball_r",
+    "sphere_d",
+    "ball_dia",
+    "swivel_d"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,279 @@
+{
+ "rows": [
+  {
+   "dim": "9.01 in (shaft end to inlet/muffler port axis)",
+   "nom": 9.01,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P03",
+    "nokta1": [
+     0,
+     -5,
+     66.802
+    ],
+    "nokta2": [
+     50.8,
+     77,
+     -162.052
+    ],
+    "govde2": "P02",
+    "tur2": "eksen"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1.75 in (foot hole spacing along the shaft)",
+   "nom": 1.75,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P03",
+    "nokta1": [
+     69.728,
+     -84,
+     -101.859
+    ],
+    "nokta2": [
+     69.728,
+     -84,
+     -57.409
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "4.77 in (front foot holes to shaft end)",
+   "nom": 4.77,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P03",
+    "nokta1": [
+     0,
+     -5,
+     66.802
+    ],
+    "nokta2": [
+     69.728,
+     -84,
+     -57.409
+    ],
+    "tur2": "eksen"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "2.5 in (top view: port spacing)",
+   "nom": 2.5,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     44.45,
+     20,
+     -162.052
+    ],
+    "nokta2": [
+     -44.45,
+     20,
+     -162.052
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "5.25 in (foot hole spacing across)",
+   "nom": 5.25,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P03",
+    "nokta1": [
+     69.728,
+     -84,
+     -101.859
+    ],
+    "nokta2": [
+     -63.622,
+     -84,
+     -101.859
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.34 in (foot hole diameter)",
+   "nom": 0.34,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P03",
+    "nokta": [
+     69.728,
+     -84,
+     -101.859
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1.72 in (muffler rim diameter)",
+   "nom": 1.72,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P02",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1/4 in-20 thread (front tapped holes)",
+   "nom": 0.25,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": true,
+   "not": "thread call-out; holes modelled with major diameter 6.35, see ozellikler F38-F42"
+  },
+  {
+   "dim": "1/4 in x 1/8 in keyway (width)",
+   "nom": 0.25,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P03",
+    "nokta1": [
+     3.175,
+     10.7,
+     40.0
+    ],
+    "nokta2": [
+     -3.175,
+     10.7,
+     40.0
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1/4 in x 1/8 in keyway (depth 1/8 at the keyway side)",
+   "nom": 0.125,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": true,
+   "not": "model: side depth 3.178 mm = 0.1251 in (floor 9.1186 mm from axis, F33)"
+  },
+  {
+   "dim": "1 in shaft diameter",
+   "nom": 1.0,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P03",
+    "nokta": [
+     -8.98,
+     -8.98,
+     40.0
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "7 1/4 in overall height",
+   "nom": 7.25,
+   "birim": "in",
+   "tol": 0.016,
+   "olcum": null,
+   "modelde_var": true,
+   "not": "model: base y=-90.424 to muffler top y=94.742 = 185.166 mm = 7.290 in; drawing/model conflict, no recipe"
+  },
+  {
+   "dim": "3.56 in (shaft centre to base)",
+   "nom": 3.56,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "koordinat",
+    "govde": "P03",
+    "eksen": "y",
+    "uc": "min",
+    "referans": 0.0
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "2.5 in (front view: front tapped holes across)",
+   "nom": 2.5,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P03",
+    "nokta1": [
+     34.925,
+     0,
+     -0.4
+    ],
+    "nokta2": [
+     -34.925,
+     0,
+     -0.4
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "6 in overall width",
+   "nom": 6.0,
+   "birim": "in",
+   "tol": 0.016,
+   "olcum": null,
+   "modelde_var": true,
+   "not": "model: feet 154.432 mm = 6.080 in, flange 154.94 = 6.100 in; drawing/model conflict, no recipe"
+  },
+  {
+   "dim": "11 1/2 in overall length",
+   "nom": 11.5,
+   "birim": "in",
+   "tol": 0.016,
+   "olcum": null,
+   "modelde_var": true,
+   "not": "model: z -228.346 to 66.802 = 295.148 mm = 11.620 in; drawing/model conflict, no recipe"
+  },
+  {
+   "dim": "2.63 in shaft length",
+   "nom": 2.63,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P03",
+    "nokta1": [
+     0,
+     20,
+     0
+    ],
+    "nokta2": [
+     0,
+     -5,
+     66.802
+    ]
+   },
+   "modelde_var": true
+  }
+ ],
+ "not": "PDF thread note prints 'ERROR!:Thread Note' (no value); the catalogue image reads 1/4 NPT, 18 TPI, 0.40 in engagement = port depth 10.2057 mm (ozellikler F9)."
+}

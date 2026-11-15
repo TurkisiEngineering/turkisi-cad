@@ -1,0 +1,63 @@
+{
+ "anahtar": [
+  {
+   "kavram": "hexagon across flats",
+   "deger": 12.0,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "hex_af",
+    "af",
+    "hex",
+    "hex_size",
+    "s"
+   ]
+  },
+  {
+   "kavram": "inlet thread outer diameter (M10)",
+   "deger": 10.0,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "thread_d",
+    "inlet_d",
+    "m10",
+    "d_major",
+    "major_d"
+   ]
+  },
+  {
+   "kavram": "inlet thread pitch",
+   "deger": 1.0,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "pitch",
+    "inlet_pitch",
+    "p",
+    "thread_pitch"
+   ]
+  },
+  {
+   "kavram": "flute count of the cap",
+   "deger": 16,
+   "birim": "-",
+   "ipucu_adlar": [
+    "n_flutes",
+    "flutes",
+    "n_grooves",
+    "knurl_count",
+    "n"
+   ]
+  },
+  {
+   "kavram": "bore diameter",
+   "deger": 6.5,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "bore_d",
+    "bore",
+    "id",
+    "inner_d",
+    "d_bore"
+   ]
+  }
+ ]
+}

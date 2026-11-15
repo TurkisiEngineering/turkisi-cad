@@ -1,0 +1,62 @@
+{
+ "anahtar": [
+  {
+   "kavram": "overall length",
+   "deger": 4.331,
+   "birim": "in",
+   "ipucu_adlar": [
+    "length",
+    "overall_length",
+    "L",
+    "boy"
+   ]
+  },
+  {
+   "kavram": "plate thickness",
+   "deger": 0.12,
+   "birim": "in",
+   "ipucu_adlar": [
+    "thickness",
+    "t",
+    "thk",
+    "kalinlik"
+   ]
+  },
+  {
+   "kavram": "jaw (circle) radius / diameter",
+   "deger": 0.3125,
+   "birim": "in",
+   "ipucu_adlar": [
+    "jaw_r",
+    "jaw_d",
+    "circle_d",
+    "hook_r",
+    "nut_d",
+    "cene"
+   ]
+  },
+  {
+   "kavram": "handle width",
+   "deger": 0.38979,
+   "birim": "in",
+   "ipucu_adlar": [
+    "handle_w",
+    "handle_width",
+    "width",
+    "sap_genislik"
+   ]
+  },
+  {
+   "kavram": "edge round radius",
+   "deger": 0.015625,
+   "birim": "in",
+   "ipucu_adlar": [
+    "fillet",
+    "round",
+    "edge_r",
+    "fillet_r",
+    "radius"
+   ]
+  }
+ ]
+}

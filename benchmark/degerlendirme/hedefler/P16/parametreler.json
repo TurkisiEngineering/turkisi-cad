@@ -1,0 +1,58 @@
+{
+ "anahtar": [
+  {
+   "kavram": "module",
+   "deger": 1.5,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "module",
+    "m",
+    "modul"
+   ]
+  },
+  {
+   "kavram": "number of teeth",
+   "deger": 20,
+   "birim": "-",
+   "ipucu_adlar": [
+    "teeth",
+    "z",
+    "n_teeth",
+    "num_teeth",
+    "dis_sayisi"
+   ]
+  },
+  {
+   "kavram": "pitch cone angle (shaft angle 45 / 2)",
+   "deger": 22.5,
+   "birim": "deg",
+   "ipucu_adlar": [
+    "pitch_angle",
+    "cone_angle",
+    "delta",
+    "shaft_angle"
+   ]
+  },
+  {
+   "kavram": "bore diameter",
+   "deger": 8,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "bore",
+    "bore_d",
+    "shaft_d",
+    "hole_d"
+   ]
+  },
+  {
+   "kavram": "hub diameter",
+   "deger": 25,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "hub_d",
+    "hub_dia",
+    "hub_diameter"
+   ]
+  }
+ ]
+}

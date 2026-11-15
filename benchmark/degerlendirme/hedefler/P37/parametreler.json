@@ -1,0 +1,64 @@
+{
+ "anahtar": [
+  {
+   "kavram": "rack unit height (hole pattern pitch)",
+   "deger": 1.75,
+   "birim": "in",
+   "ipucu_adlar": [
+    "unit_pitch",
+    "rack_unit",
+    "U",
+    "ru_height",
+    "pitch"
+   ]
+  },
+  {
+   "kavram": "number of rack units",
+   "deger": 24,
+   "birim": "-",
+   "ipucu_adlar": [
+    "n_units",
+    "units",
+    "rack_units",
+    "n_ru",
+    "unit_count"
+   ]
+  },
+  {
+   "kavram": "rail hole column spacing (centre to centre across the rack)",
+   "deger": 18.31,
+   "birim": "in",
+   "ipucu_adlar": [
+    "rail_spacing",
+    "hole_spacing",
+    "eia_spacing",
+    "column_spacing",
+    "mount_cc"
+   ]
+  },
+  {
+   "kavram": "upright channel sheet thickness",
+   "deger": 0.1,
+   "birim": "in",
+   "ipucu_adlar": [
+    "t",
+    "thickness",
+    "sheet_t",
+    "upright_t",
+    "gauge"
+   ]
+  },
+  {
+   "kavram": "foot depth (overall rack depth)",
+   "deger": 15.0,
+   "birim": "in",
+   "ipucu_adlar": [
+    "depth",
+    "base_depth",
+    "foot_depth",
+    "overall_depth",
+    "D"
+   ]
+  }
+ ]
+}

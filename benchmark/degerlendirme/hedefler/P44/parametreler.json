@@ -1,0 +1,57 @@
+{
+ "anahtar": [
+  {
+   "kavram": "ball groove lead (travel per turn)",
+   "deger": 15.0,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "lead",
+    "pitch",
+    "travel_per_turn",
+    "helix_pitch"
+   ]
+  },
+  {
+   "kavram": "shaft outer diameter",
+   "deger": 10.0,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "shaft_d",
+    "d_shaft",
+    "shaft_diameter",
+    "od"
+   ]
+  },
+  {
+   "kavram": "shaft bore diameter",
+   "deger": 4.0,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "bore",
+    "bore_d",
+    "id",
+    "inner_diameter"
+   ]
+  },
+  {
+   "kavram": "shaft length",
+   "deger": 300.0,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "length",
+    "shaft_length",
+    "L"
+   ]
+  },
+  {
+   "kavram": "flange diameter",
+   "deger": 48.0,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "flange_d",
+    "flange_od",
+    "flange_diameter"
+   ]
+  }
+ ]
+}

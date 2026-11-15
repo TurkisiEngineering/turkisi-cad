@@ -1,0 +1,325 @@
+{
+ "items": [
+  {
+   "id": "F1",
+   "govde": "P01",
+   "etiket": "4x through holes (cylinder r3 inside the hole field)",
+   "tur": "delik",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "cylinder",
+    "r_mm": 3.0,
+    "bolge": [
+     -45,
+     -25,
+     -1,
+     45,
+     25,
+     11
+    ]
+   },
+   "nom": 4,
+   "tol": 0,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -42,
+     -22,
+     5
+    ],
+    "r_mm": 4
+   }
+  },
+  {
+   "id": "F2",
+   "govde": "P01",
+   "etiket": "hole diameter 6 (hole at -42,-22)",
+   "tur": "delik",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     -42,
+     -19,
+     5
+    ]
+   },
+   "nom": 6.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -42,
+     -22,
+     5
+    ],
+    "r_mm": 4
+   }
+  },
+  {
+   "id": "F3",
+   "govde": "P01",
+   "etiket": "hole diameter 6 (hole at 42,22)",
+   "tur": "delik",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     42,
+     19,
+     5
+    ]
+   },
+   "nom": 6.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     42,
+     22,
+     5
+    ],
+    "r_mm": 4
+   }
+  },
+  {
+   "id": "F4",
+   "govde": "P01",
+   "etiket": "hole spacing along X 84",
+   "tur": "delik",
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     -42,
+     -19,
+     5
+    ],
+    "nokta2": [
+     42,
+     -19,
+     5
+    ]
+   },
+   "nom": 84.0,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F5",
+   "govde": "P01",
+   "etiket": "hole spacing along Y 44",
+   "tur": "delik",
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     42,
+     -19,
+     5
+    ],
+    "nokta2": [
+     42,
+     25,
+     5
+    ]
+   },
+   "nom": 44.0,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F6",
+   "govde": "P01",
+   "etiket": "pocket diameter 20",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     0,
+     10,
+     8
+    ]
+   },
+   "nom": 20.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0,
+     0,
+     8
+    ],
+    "r_mm": 10.5
+   }
+  },
+  {
+   "id": "F7",
+   "govde": "P01",
+   "etiket": "pocket depth 4 (floor to top face)",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     0,
+     0,
+     6
+    ],
+    "nokta2": [
+     30,
+     0,
+     10
+    ]
+   },
+   "nom": 4.0,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F8",
+   "govde": "P01",
+   "etiket": "pocket axis to hole axis 47.413 (pocket centred)",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     0,
+     10,
+     8
+    ],
+    "nokta2": [
+     -42,
+     -19,
+     5
+    ]
+   },
+   "nom": 47.4131,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F9",
+   "govde": "P01",
+   "etiket": "flat pocket floor (one plane at Z=6)",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "plane",
+    "bolge": [
+     -11,
+     -11,
+     5.5,
+     11,
+     11,
+     6.5
+    ]
+   },
+   "nom": 1,
+   "tol": 0,
+   "bolge": null
+  },
+  {
+   "id": "F10",
+   "govde": "P01",
+   "etiket": "corner round R3 (cylinder diameter 6 at corner -X-Y)",
+   "tur": "yuvarlatma",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     -49.2,
+     -29.2,
+     5
+    ]
+   },
+   "nom": 6.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -49.1,
+     -29.1,
+     5
+    ],
+    "r_mm": 2
+   }
+  },
+  {
+   "id": "F11",
+   "govde": "P01",
+   "etiket": "4x corner rounds R3 (cylinders r3 outside the hole field)",
+   "tur": "yuvarlatma",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "cylinder",
+    "r_mm": 3.0
+   },
+   "nom": 8,
+   "tol": 0,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     49.1,
+     29.1,
+     5
+    ],
+    "r_mm": 2
+   }
+  },
+  {
+   "id": "F12",
+   "govde": "P01",
+   "etiket": "plate length 100 (X)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x"
+   },
+   "nom": 100.0,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F13",
+   "govde": "P01",
+   "etiket": "plate width 60 (Y)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "y"
+   },
+   "nom": 60.0,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F14",
+   "govde": "P01",
+   "etiket": "plate thickness 10 (Z)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "z"
+   },
+   "nom": 10.0,
+   "tol": 0.05,
+   "bolge": null
+  }
+ ],
+ "not": "F11 counts all r=3 cylinders on the body: 4 hole walls + 4 corner rounds = 8."
+}

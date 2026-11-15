@@ -1,0 +1,792 @@
+{
+ "items": [
+  {
+   "id": "F1",
+   "govde": "P01",
+   "etiket": "bore dia 6 through",
+   "tur": "delik",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     0,
+     -3,
+     -5
+    ]
+   },
+   "nom": 6.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0,
+     -3,
+     -5
+    ],
+    "r_mm": 1
+   }
+  },
+  {
+   "id": "F2",
+   "govde": "P01",
+   "etiket": "bore chamfer 0.45x45 at z=+16",
+   "tur": "pah",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0,
+     -3.225,
+     15.775
+    ],
+    "r_mm": 0.25
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0,
+     -3.225,
+     15.775
+    ],
+    "r_mm": 0.25
+   }
+  },
+  {
+   "id": "F3",
+   "govde": "P01",
+   "etiket": "bore chamfer 0.45x45 at z=-16",
+   "tur": "pah",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0,
+     -3.225,
+     -15.775
+    ],
+    "r_mm": 0.25
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0,
+     -3.225,
+     -15.775
+    ],
+    "r_mm": 0.25
+   }
+  },
+  {
+   "id": "F4",
+   "govde": "P01",
+   "etiket": "length 32 (end faces z=+-16)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     0,
+     5,
+     16
+    ],
+    "nokta2": [
+     0,
+     5,
+     -16
+    ]
+   },
+   "nom": 32.0,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F5",
+   "govde": "P01",
+   "etiket": "outside (tip) diameter 18",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x"
+   },
+   "nom": 18.0,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F6",
+   "govde": "P01",
+   "etiket": "root diameter 13.68596 (root land cylinder)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     0,
+     6.84298,
+     1.8483052500000001
+    ]
+   },
+   "nom": 13.68596,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0,
+     6.84298,
+     1.8483052500000001
+    ],
+    "r_mm": 0.3
+   }
+  },
+  {
+   "id": "F7",
+   "govde": "P01",
+   "etiket": "end face flat annulus r 3.45..6.84298 at z=+16",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0,
+     5.2,
+     16
+    ],
+    "r_mm": 1.2
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0,
+     5.2,
+     16
+    ],
+    "r_mm": 1.2
+   }
+  },
+  {
+   "id": "F8",
+   "govde": "P01",
+   "etiket": "30 deg end chamfer of the thread at z=+16 end",
+   "tur": "pah",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     -9.1,
+     -9.1,
+     14.6,
+     9.1,
+     9.1,
+     16.05
+    ]
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     -9.1,
+     -9.1,
+     14.6,
+     9.1,
+     9.1,
+     16.05
+    ]
+   }
+  },
+  {
+   "id": "F9",
+   "govde": "P01",
+   "etiket": "30 deg end chamfer of the thread at z=-16 end",
+   "tur": "pah",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     -9.1,
+     -9.1,
+     -16.05,
+     9.1,
+     9.1,
+     -14.6
+    ]
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     -9.1,
+     -9.1,
+     -16.05,
+     9.1,
+     9.1,
+     -14.6
+    ]
+   }
+  },
+  {
+   "id": "F10",
+   "govde": "P01",
+   "etiket": "whole threaded zone (lead, hand, phase, profile) z -14..14",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     -9.1,
+     -9.1,
+     -14,
+     9.1,
+     9.1,
+     14
+    ]
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     -9.1,
+     -9.1,
+     -14,
+     9.1,
+     9.1,
+     14
+    ]
+   }
+  },
+  {
+   "id": "F11",
+   "govde": "P01",
+   "etiket": "lower flank (faces -Z) inner part r=7.5, theta 45, z~-10.5",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     5.3033,
+     5.3033,
+     -10.5198
+    ],
+    "r_mm": 0.4
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     5.3033,
+     5.3033,
+     -10.5198
+    ],
+    "r_mm": 0.4
+   }
+  },
+  {
+   "id": "F12",
+   "govde": "P01",
+   "etiket": "upper flank (faces +Z) outer part r=8.5, theta 45, z~-10.5",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     6.01041,
+     6.01041,
+     -8.94873
+    ],
+    "r_mm": 0.4
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     6.01041,
+     6.01041,
+     -8.94873
+    ],
+    "r_mm": 0.4
+   }
+  },
+  {
+   "id": "F13",
+   "govde": "P01",
+   "etiket": "tip land r=9, theta 45, z~-10.5",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     6.36396,
+     6.36396,
+     -9.55167
+    ],
+    "r_mm": 0.35
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     6.36396,
+     6.36396,
+     -9.55167
+    ],
+    "r_mm": 0.35
+   }
+  },
+  {
+   "id": "F14",
+   "govde": "P01",
+   "etiket": "lower flank (faces -Z) inner part r=7.5, theta 45, z~2",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     5.3033,
+     5.3033,
+     2.05949
+    ],
+    "r_mm": 0.4
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     5.3033,
+     5.3033,
+     2.05949
+    ],
+    "r_mm": 0.4
+   }
+  },
+  {
+   "id": "F15",
+   "govde": "P01",
+   "etiket": "upper flank (faces +Z) outer part r=8.5, theta 45, z~2",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     6.01041,
+     6.01041,
+     3.63056
+    ],
+    "r_mm": 0.4
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     6.01041,
+     6.01041,
+     3.63056
+    ],
+    "r_mm": 0.4
+   }
+  },
+  {
+   "id": "F16",
+   "govde": "P01",
+   "etiket": "tip land r=9, theta 45, z~2",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     6.36396,
+     6.36396,
+     3.02761
+    ],
+    "r_mm": 0.35
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     6.36396,
+     6.36396,
+     3.02761
+    ],
+    "r_mm": 0.35
+   }
+  },
+  {
+   "id": "F17",
+   "govde": "P01",
+   "etiket": "lower flank (faces -Z) inner part r=7.5, theta 45, z~8.4",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     5.3033,
+     5.3033,
+     8.34913
+    ],
+    "r_mm": 0.4
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     5.3033,
+     5.3033,
+     8.34913
+    ],
+    "r_mm": 0.4
+   }
+  },
+  {
+   "id": "F18",
+   "govde": "P01",
+   "etiket": "upper flank (faces +Z) outer part r=8.5, theta 45, z~8.4",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     6.01041,
+     6.01041,
+     9.9202
+    ],
+    "r_mm": 0.4
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     6.01041,
+     6.01041,
+     9.9202
+    ],
+    "r_mm": 0.4
+   }
+  },
+  {
+   "id": "F19",
+   "govde": "P01",
+   "etiket": "tip land r=9, theta 45, z~8.4",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     6.36396,
+     6.36396,
+     9.31725
+    ],
+    "r_mm": 0.35
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     6.36396,
+     6.36396,
+     9.31725
+    ],
+    "r_mm": 0.35
+   }
+  },
+  {
+   "id": "F20",
+   "govde": "P01",
+   "etiket": "set-screw hole dia 4",
+   "tur": "delik",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     2,
+     5,
+     11
+    ]
+   },
+   "nom": 4.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     2,
+     5,
+     11
+    ],
+    "r_mm": 0.8
+   }
+  },
+  {
+   "id": "F21",
+   "govde": "P01",
+   "etiket": "set-screw hole axis 5 from end face z=16",
+   "tur": "delik",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     0,
+     5,
+     16
+    ],
+    "nokta2": [
+     2,
+     5,
+     11
+    ],
+    "tur1": "duzlem",
+    "tur2": "eksen"
+   },
+   "nom": 5.0,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F22",
+   "govde": "P01",
+   "etiket": "set-screw hole axis perpendicular to bore axis",
+   "tur": "delik",
+   "olcum": {
+    "tip": "aci",
+    "govde": "P01",
+    "nokta1": [
+     0,
+     -3,
+     -5
+    ],
+    "nokta2": [
+     2,
+     5,
+     11
+    ]
+   },
+   "nom": 90.0,
+   "tol": 0.2,
+   "bolge": null
+  },
+  {
+   "id": "F23",
+   "govde": "P01",
+   "etiket": "hole only on +Y side (no hole at -Y)",
+   "tur": "delik",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     -2.5,
+     -9.1,
+     8.5,
+     2.5,
+     -6,
+     13.5
+    ]
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     -2.5,
+     -9.1,
+     8.5,
+     2.5,
+     -6,
+     13.5
+    ]
+   }
+  },
+  {
+   "id": "F24",
+   "govde": "H1",
+   "etiket": "set screw dia 4 (plain, no thread)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "H1",
+    "nokta": [
+     2,
+     5,
+     11
+    ]
+   },
+   "nom": 4.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "H1",
+    "nokta": [
+     2,
+     5,
+     11
+    ],
+    "r_mm": 0.8
+   }
+  },
+  {
+   "id": "F25",
+   "govde": "H1",
+   "etiket": "set screw length 3.84298 (y 3.0 .. 6.84298)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "H1",
+    "eksen": "y"
+   },
+   "nom": 3.84298,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F26",
+   "govde": "H1",
+   "etiket": "set screw inner end at y=3.0",
+   "tur": "diger",
+   "olcum": {
+    "tip": "koordinat",
+    "govde": "H1",
+    "eksen": "y",
+    "uc": "min",
+    "referans": 3.0
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F27",
+   "govde": "H1",
+   "etiket": "set screw end chamfers 0.5x45 both ends",
+   "tur": "pah",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "H1",
+    "yuzey": "cone"
+   },
+   "nom": 2,
+   "tol": 0,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "H1",
+    "nokta": [
+     1.51554,
+     3.25,
+     11.875
+    ],
+    "r_mm": 0.3
+   }
+  },
+  {
+   "id": "F28",
+   "govde": "H1",
+   "etiket": "hex socket: 6 walls",
+   "tur": "diger",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "H1",
+    "yuzey": "plane",
+    "bolge": [
+     -1.3,
+     6.0,
+     9.8,
+     1.3,
+     6.7,
+     12.2
+    ]
+   },
+   "nom": 6,
+   "tol": 0,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "H1",
+    "nokta": [
+     0,
+     6.34,
+     10
+    ],
+    "r_mm": 0.4
+   }
+  },
+  {
+   "id": "F29",
+   "govde": "H1",
+   "etiket": "hex socket 2 across flats (flats z=10, z=12)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "H1",
+    "nokta1": [
+     0,
+     6.3,
+     10
+    ],
+    "nokta2": [
+     0,
+     6.3,
+     12
+    ]
+   },
+   "nom": 2.0,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F30",
+   "govde": "H1",
+   "etiket": "hex socket depth 1",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "H1",
+    "nokta1": [
+     0,
+     6.84298,
+     9.7
+    ],
+    "nokta2": [
+     0,
+     5.84298,
+     11
+    ]
+   },
+   "nom": 1.0,
+   "tol": 0.05,
+   "bolge": null
+  }
+ ],
+ "not": "bolgesel_sapma items: nom 0 = max regional deviation, pass if <= tol. Thread flanks are free-form; analytic counts are avoided on them."
+}

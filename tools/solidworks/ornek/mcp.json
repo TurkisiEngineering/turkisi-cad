@@ -1,0 +1,10 @@
+{
+ "mcpServers": {
+  "solidworks": {
+   "type": "stdio",
+   "command": "node",
+   "args": ["<KÖK>/mcp/SolidworksMCP-TS/dist/index.js"],
+   "env": {}
+  }
+ }
+}

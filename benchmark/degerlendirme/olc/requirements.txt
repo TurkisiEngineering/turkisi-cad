@@ -1,0 +1,8 @@
+# F23 puanlamasında kurulu olan sürümler (Python 3.13.13, Windows 11).
+# OCP çekirdeği cadquery-ocp paketinden gelir; build123d yalnız P00 referansını kurmak için gerekir.
+cadquery-ocp==7.9.3.1.1
+numpy==2.4.6
+scipy==1.17.1
+trimesh==4.12.2
+psutil==7.2.2
+build123d==0.11.1

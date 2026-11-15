@@ -1,0 +1,46 @@
+{
+  "_aciklama": "Panelin bütün yolları ve komutları. Göreli yollar bu dosyanın klasörüne (panel/) göredir. Ayrıntı: README.md, 'Kendi koşucunu bağla'.",
+  "port": 8765,
+  "baslik": "Agentic CAD Ligi",
+
+  "istasyonlar": [
+    {"kod": "NX-H2", "arac": "NX", "basamak": "H2 · uzman harness", "ozel": true,
+     "ozel_not": "özel harness: bu repoda yok"},
+    {"kod": "SW-H1", "arac": "SolidWorks", "basamak": "H1 · topluluk MCP",
+     "onay": "SolidWorks açık, son dosyalar paneli kapalı"},
+    {"kod": "SC-H0", "arac": "SolidCraft", "basamak": "H0 · çıplak"},
+    {"kod": "B3D-H0", "arac": "build123d", "basamak": "H0 · çıplak"},
+    {"kod": "B3D-H1", "arac": "build123d", "ek": "+MCP", "basamak": "H1 · topluluk MCP"}
+  ],
+
+  "parcalar": "ornek/parcalar.csv",
+  "run_id_deseni": "[a-z]\\d{6}",
+
+  "_is_koku_aciklama": "{IS}: koşucunun (benchmark/kosu/kos.py) iş kökü. kos.py gibi önce TCAD_IS_KOKU ortam değişkenine bakar, yoksa varsayılan.",
+  "is_koku": {"ortam": "TCAD_IS_KOKU", "varsayilan": "../benchmark/kosu/_is"},
+
+  "gercek": {
+    "kuyruk_klasoru": "_calisma/gercek/kuyruk",
+    "kuyruk_sablonu": "ornek/kuyruk",
+    "kosucu_klasoru": "../benchmark/kosu",
+    "hazirla": ["{python}", "kos.py", "hazirla", "--config", "{config}", "--parca", "{paket}", "--gorev", "A",
+                "--faz", "Y", "--tekrar", "1", "--sure-dk", "{sure_dk}"],
+    "baslat": ["{python}", "kos.py", "baslat", "{run_id}"],
+    "akis_klasoru": "{IS}/kayit/akis",
+    "kosular_klasoru": "{IS}/kosular",
+    "kosu_listesi": "{IS}/kayit/kosu_listesi.csv",
+    "puan_dosyasi": "{IS}/sonuc/yayin_puan.csv",
+    "iptal_dosyasi": "{IS}/kayit/yayin_iptal.txt",
+    "hazir_dosyasi": null,
+    "faz": "Y"
+  },
+
+  "kuru": {
+    "kuyruk_sablonu": "ornek/kuyruk",
+    "akis_kaynak": "ornek/akis",
+    "teslim_kaynak": "ornek/teslim",
+    "puan_ornek": "ornek/ornek_puan.csv",
+    "kaynak": {"SW-H1": "ornek-sw-h1", "SC-H0": "ornek-sc-h0", "B3D-H0": "ornek-b3d-h0", "B3D-H1": "ornek-b3d-h1"},
+    "hiz": 6
+  }
+}

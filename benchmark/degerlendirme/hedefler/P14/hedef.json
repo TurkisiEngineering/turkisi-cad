@@ -1,0 +1,46 @@
+{
+ "parca": "P14",
+ "birim_spec": "in",
+ "govdeler": [
+  {
+   "ad": "P01",
+   "tur": "parca",
+   "hacim_mm3": 178065.83,
+   "alan_mm2": 58535.88,
+   "com_mm": [
+    -0.0,
+    0.0,
+    0.0431
+   ],
+   "bbox_mm": [
+    -8.3185,
+    -8.3185,
+    -457.2,
+    8.3185,
+    8.3185,
+    457.2
+   ],
+   "yuz_sayisi": 394,
+   "esdeger_grubu": "P01",
+   "not": "GProp values; spec solid integrated analytically: V 178089.88 (+0.014 %), CoM (0,0,0) (the spec solid has a 2-fold axis; master GProp CoM z 0.043 is within tolerance)"
+  }
+ ],
+ "montaj": {
+  "hacim_mm3": 178065.83,
+  "alan_mm2": 58535.88,
+  "com_mm": [
+   -0.0,
+   0.0,
+   0.0431
+  ],
+  "bbox_mm": [
+   -8.3185,
+   -8.3185,
+   -457.2,
+   8.3185,
+   8.3185,
+   457.2
+  ]
+ },
+ "girisimler": []
+}

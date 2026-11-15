@@ -1,0 +1,64 @@
+{
+ "anahtar": [
+  {
+   "kavram": "pin centre distance (retracted length)",
+   "deger": 8.625,
+   "birim": "in",
+   "ipucu_adlar": [
+    "retracted_length",
+    "pin_distance",
+    "pin_spacing",
+    "center_distance",
+    "L_retracted",
+    "overall_length"
+   ]
+  },
+  {
+   "kavram": "body length",
+   "deger": 5.125,
+   "birim": "in",
+   "ipucu_adlar": [
+    "body_length",
+    "body_len",
+    "L_body",
+    "barrel_length"
+   ]
+  },
+  {
+   "kavram": "thread pitch 1/24 (24 TPI)",
+   "deger": 0.0416667,
+   "birim": "in",
+   "ipucu_adlar": [
+    "pitch",
+    "tpi",
+    "thread_pitch",
+    "P"
+   ]
+  },
+  {
+   "kavram": "thread major diameter 0.3125",
+   "deger": 0.3125,
+   "birim": "in",
+   "ipucu_adlar": [
+    "major_d",
+    "thread_d",
+    "d_major",
+    "rod_d",
+    "bolt_d",
+    "thread_dia"
+   ]
+  },
+  {
+   "kavram": "clevis inside width",
+   "deger": 0.3125,
+   "birim": "in",
+   "ipucu_adlar": [
+    "clevis_gap",
+    "inside_width",
+    "jaw_gap",
+    "clevis_width",
+    "gap"
+   ]
+  }
+ ]
+}

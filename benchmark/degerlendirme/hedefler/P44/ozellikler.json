@@ -1,0 +1,640 @@
+{
+ "items": [
+  {
+   "id": "F1",
+   "govde": "P01",
+   "etiket": "shaft outer diameter 10",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     127.4187,
+     -1.398,
+     -4.7952
+    ]
+   },
+   "nom": 10.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F2",
+   "govde": "P01",
+   "etiket": "shaft bore diameter 4",
+   "tur": "delik",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     49.9167,
+     -0.1307,
+     -1.9936
+    ]
+   },
+   "nom": 4.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F3",
+   "govde": "P01",
+   "etiket": "shaft length 300",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x"
+   },
+   "nom": 300.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F4",
+   "govde": "P01",
+   "etiket": "4 spline grooves R1.24",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "cylinder",
+    "r_mm": 1.24,
+    "bolge": [
+     -151.0,
+     -6.0,
+     -6.0,
+     151.0,
+     6.0,
+     6.0
+    ]
+   },
+   "nom": 4,
+   "tol": 0
+  },
+  {
+   "id": "F5",
+   "govde": "P01",
+   "etiket": "spline groove diameter 2.48",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     135.9096,
+     2.9733,
+     3.7862
+    ]
+   },
+   "nom": 2.48,
+   "tol": 0.05
+  },
+  {
+   "id": "F6",
+   "govde": "P01",
+   "etiket": "spline groove axes 5.8 apart (60 and 120 deg)",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     135.9096,
+     2.9733,
+     3.7862
+    ],
+    "nokta2": [
+     136.9768,
+     -2.9716,
+     3.786
+    ]
+   },
+   "nom": 5.8,
+   "tol": 0.05
+  },
+  {
+   "id": "F7",
+   "govde": "P01",
+   "etiket": "end face to end face (planes x = -150 / 150)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     -150.0,
+     3.6743,
+     -0.6499
+    ],
+    "nokta2": [
+     150.0,
+     -1.3414,
+     3.6303
+    ]
+   },
+   "nom": 300.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F8",
+   "govde": "P01",
+   "etiket": "helical ball groove (region at x = 0, top)",
+   "tur": "vida_disi",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0.0,
+     4.6,
+     0.0
+    ],
+    "r_mm": 2.0
+   }
+  },
+  {
+   "id": "F9",
+   "govde": "P01",
+   "etiket": "helical ball groove (region at x = 60, 90 deg)",
+   "tur": "vida_disi",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     63.75,
+     0.0,
+     4.6
+    ],
+    "r_mm": 2.0
+   }
+  },
+  {
+   "id": "F10",
+   "govde": "P02",
+   "etiket": "screw nut body diameter 23",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P02",
+    "nokta": [
+     -83.2,
+     -11.4738,
+     0.6331
+    ]
+   },
+   "nom": 23.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F11",
+   "govde": "P02",
+   "etiket": "screw nut body bore 10",
+   "tur": "delik",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P02",
+    "nokta": [
+     -96.0333,
+     4.992,
+     -0.1634
+    ]
+   },
+   "nom": 10.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F12",
+   "govde": "P02",
+   "etiket": "4 axial holes diameter 3",
+   "tur": "delik",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P02",
+    "yuzey": "cylinder",
+    "r_mm": 1.5,
+    "bolge": [
+     -110.5,
+     -14.0,
+     -14.0,
+     -78.1,
+     14.0,
+     14.0
+    ]
+   },
+   "nom": 4,
+   "tol": 0
+  },
+  {
+   "id": "F13",
+   "govde": "P02",
+   "etiket": "axial holes on 18 circle (opposite holes)",
+   "tur": "delik",
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P02",
+    "nokta1": [
+     -100.4333,
+     9.9122,
+     1.1887
+    ],
+    "nokta2": [
+     -100.4333,
+     -8.0878,
+     1.1887
+    ]
+   },
+   "nom": 18.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F14",
+   "govde": "P03",
+   "etiket": "screw flange diameter 48",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P03",
+    "nokta": [
+     -99.6,
+     -23.9739,
+     0.9134
+    ]
+   },
+   "nom": 48.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F15",
+   "govde": "P03",
+   "etiket": "screw flange thickness 3",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P03",
+    "nokta1": [
+     -101.5,
+     -4.4645,
+     19.11
+    ],
+    "nokta2": [
+     -98.5,
+     4.1987,
+     -20.3092
+    ]
+   },
+   "nom": 3.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F16",
+   "govde": "P03",
+   "etiket": "4 flange holes diameter 3.4",
+   "tur": "delik",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P03",
+    "yuzey": "cylinder",
+    "r_mm": 1.7,
+    "bolge": [
+     -102.5,
+     -25.0,
+     -25.0,
+     -90.0,
+     25.0,
+     25.0
+    ]
+   },
+   "nom": 4,
+   "tol": 0
+  },
+  {
+   "id": "F17",
+   "govde": "P03",
+   "etiket": "flange bolt circle 42",
+   "tur": "delik",
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P03",
+    "nokta1": [
+     -100.4167,
+     20.8889,
+     1.6945
+    ],
+    "nokta2": [
+     -100.4167,
+     -21.1111,
+     1.6945
+    ]
+   },
+   "nom": 42.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F18",
+   "govde": "P03",
+   "etiket": "radial lubrication hole diameter 0.9",
+   "tur": "delik",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P03",
+    "nokta": [
+     -95.1481,
+     0.4257,
+     15.9261
+    ]
+   },
+   "nom": 0.9,
+   "tol": 0.05
+  },
+  {
+   "id": "F19",
+   "govde": "P04",
+   "etiket": "screw collar ring outer diameter 29.8",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P04",
+    "nokta": [
+     -97.8,
+     14.8735,
+     0.7251
+    ]
+   },
+   "nom": 29.8,
+   "tol": 0.05
+  },
+  {
+   "id": "F20",
+   "govde": "P04",
+   "etiket": "screw collar ring length 9.3",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P04",
+    "eksen": "x"
+   },
+   "nom": 9.3,
+   "tol": 0.05
+  },
+  {
+   "id": "F21",
+   "govde": "P05",
+   "etiket": "end cap with screws and return channels",
+   "tur": "diger",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P05",
+    "kutu": [
+     -108.5,
+     -11.75,
+     -11.75,
+     -100.184,
+     11.75,
+     11.75
+    ]
+   }
+  },
+  {
+   "id": "F22",
+   "govde": "P06",
+   "etiket": "wiper seal with helical lip and screw heads",
+   "tur": "diger",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P06",
+    "kutu": [
+     -79.6,
+     -11.75,
+     -11.75,
+     -74.5,
+     11.75,
+     11.75
+    ]
+   }
+  },
+  {
+   "id": "F23",
+   "govde": "P07",
+   "etiket": "spline nut body diameter 21",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P07",
+    "nokta": [
+     79.8333,
+     10.4734,
+     0.6101
+    ]
+   },
+   "nom": 21.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F24",
+   "govde": "P07",
+   "etiket": "spline nut body length 33",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P07",
+    "eksen": "x"
+   },
+   "nom": 33.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F25",
+   "govde": "P07",
+   "etiket": "spline nut bore 10",
+   "tur": "delik",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P07",
+    "nokta": [
+     86.5,
+     -4.9839,
+     -0.3267
+    ]
+   },
+   "nom": 10.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F26",
+   "govde": "P07",
+   "etiket": "M3 tapped holes (region)",
+   "tur": "vida_disi",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P07",
+    "nokta": [
+     105.5,
+     11.5,
+     0.0
+    ],
+    "r_mm": 2.5
+   }
+  },
+  {
+   "id": "F27",
+   "govde": "P08",
+   "etiket": "spline flange diameter 48",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P08",
+    "nokta": [
+     97.1,
+     23.9739,
+     0.9134
+    ]
+   },
+   "nom": 48.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F28",
+   "govde": "P08",
+   "etiket": "spline flange thickness 3",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P08",
+    "nokta1": [
+     96.0,
+     -4.1987,
+     -20.3092
+    ],
+    "nokta2": [
+     99.0,
+     -4.6346,
+     -18.9337
+    ]
+   },
+   "nom": 3.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F29",
+   "govde": "P08",
+   "etiket": "4 flange holes diameter 3.4",
+   "tur": "delik",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P08",
+    "yuzey": "cylinder",
+    "r_mm": 1.7,
+    "bolge": [
+     87.5,
+     -25.0,
+     -25.0,
+     100.0,
+     25.0,
+     25.0
+    ]
+   },
+   "nom": 4,
+   "tol": 0
+  },
+  {
+   "id": "F30",
+   "govde": "P08",
+   "etiket": "flange bolt circle 42",
+   "tur": "delik",
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P08",
+    "nokta1": [
+     97.9167,
+     21.1111,
+     1.6945
+    ],
+    "nokta2": [
+     97.9167,
+     -20.8889,
+     1.6945
+    ]
+   },
+   "nom": 42.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F31",
+   "govde": "P09",
+   "etiket": "spline collar ring outer diameter 29.1",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P09",
+    "nokta": [
+     92.3333,
+     14.5241,
+     0.7081
+    ]
+   },
+   "nom": 29.1,
+   "tol": 0.05
+  },
+  {
+   "id": "F32",
+   "govde": "P10-a",
+   "etiket": "spline seal thickness 1.2",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P10-a",
+    "eksen": "x"
+   },
+   "nom": 1.2,
+   "tol": 0.05
+  },
+  {
+   "id": "F33",
+   "govde": "P10-a",
+   "etiket": "spline seal outer diameter 13",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P10-a",
+    "nokta": [
+     75.7,
+     -6.4791,
+     -0.4247
+    ]
+   },
+   "nom": 13.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F34",
+   "govde": "P10-b",
+   "etiket": "spline seal lobes R1.24",
+   "tur": "lob",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P10-b",
+    "yuzey": "cylinder",
+    "r_mm": 1.24,
+    "bolge": [
+     105.5,
+     -7.5,
+     -7.5,
+     108.7,
+     7.5,
+     7.5
+    ]
+   },
+   "nom": 4,
+   "tol": 0
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "mcpServers": {
+  "build123d": {
+   "type": "stdio",
+   "command": "<KÖK>/mcp/build123d-mcp/.venv/Scripts/build123d-mcp.exe",
+   "args": [],
+   "env": {}
+  }
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "anahtar": [
+  {
+   "kavram": "bolt hole spacing",
+   "deger": 3.532,
+   "birim": "in",
+   "ipucu_adlar": [
+    "bolt_spacing",
+    "bolt_cc",
+    "hole_spacing",
+    "B",
+    "c2c"
+   ]
+  },
+  {
+   "kavram": "bore (shaft) diameter",
+   "deger": 0.75,
+   "birim": "in",
+   "ipucu_adlar": [
+    "bore",
+    "bore_d",
+    "shaft_d",
+    "d_shaft",
+    "ID"
+   ]
+  },
+  {
+   "kavram": "bolt hole diameter",
+   "deger": 0.437,
+   "birim": "in",
+   "ipucu_adlar": [
+    "bolt_d",
+    "hole_d",
+    "bolt_hole",
+    "d_bolt"
+   ]
+  },
+  {
+   "kavram": "hub diameter / overall height",
+   "deger": 2.374,
+   "birim": "in",
+   "ipucu_adlar": [
+    "hub_d",
+    "hub_r",
+    "D_hub",
+    "height",
+    "H"
+   ]
+  },
+  {
+   "kavram": "flange thickness at bosses",
+   "deger": 0.437,
+   "birim": "in",
+   "ipucu_adlar": [
+    "flange_t",
+    "boss_t",
+    "t_flange",
+    "thickness"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "anahtar": [
+  {
+   "kavram": "housing (head / bowl top) diameter",
+   "deger": 4.75,
+   "birim": "in",
+   "ipucu_adlar": [
+    "housing_d",
+    "head_d",
+    "bowl_d",
+    "D",
+    "outer_d"
+   ]
+  },
+  {
+   "kavram": "overall height",
+   "deger": 12.0,
+   "birim": "in",
+   "ipucu_adlar": [
+    "height",
+    "overall_h",
+    "total_h",
+    "H",
+    "length"
+   ]
+  },
+  {
+   "kavram": "bridge (mounting) hole spacing along the ports",
+   "deger": 1.75,
+   "birim": "in",
+   "ipucu_adlar": [
+    "hole_spacing",
+    "mount_spacing",
+    "bridge_x",
+    "pitch_x",
+    "bolt_spacing"
+   ]
+  },
+  {
+   "kavram": "pipe thread pitch (18 TPI)",
+   "deger": 0.055556,
+   "birim": "in",
+   "ipucu_adlar": [
+    "pitch",
+    "tpi",
+    "npt_pitch",
+    "thread_pitch",
+    "p"
+   ]
+  },
+  {
+   "kavram": "bowl rib count",
+   "deger": 8,
+   "birim": "-",
+   "ipucu_adlar": [
+    "n_ribs",
+    "rib_count",
+    "ribs",
+    "n_rib"
+   ]
+  }
+ ]
+}

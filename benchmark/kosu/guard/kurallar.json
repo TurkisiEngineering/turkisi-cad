@@ -1,0 +1,87 @@
+{
+ "_not": "F23 guard kural kümesinin paylaşılan sürümü. <...> ile başlayan değerler yer tutucudur: kendi gizli klasör adlarınızı, satıcı adlarını ve katalog numaralarını yazın. Yayındaki sürümde parca_no listesinde 55 katalog numarası vardı; burada yok.",
+ "ortak": {
+  "arac_yasak": [
+   "WebSearch",
+   "WebFetch",
+   "mcp__claude-in-chrome__.*",
+   "mcp__Claude_Browser__.*",
+   "mcp__computer-use__.*",
+   "mcp__ccd_.*",
+   "mcp__build123d__cloud_.*",
+   "RemoteTrigger",
+   "Cron.*",
+   "Workflow",
+   "Artifact",
+   "DesignSync",
+   "PushNotification",
+   "SendMessage",
+   "ListAgents",
+   "ScheduleWakeup",
+   "EnterWorktree",
+   "ExitWorktree",
+   "ReportFindings"
+  ],
+  "metin_yasak": [
+   "<satici_adi>",
+   "<cevap_anahtari_klasoru>",
+   "<is_koku_klasor_adi>",
+   "<eski_deneme_klasoru>",
+   "<rubrik_klasoru>",
+   "\\desktop",
+   "\\downloads",
+   "onedrive",
+   "guard.py",
+   "kurallar.json",
+   "guard.log"
+  ],
+  "parca_no": [
+   "<ORNEK123>"
+  ],
+  "yasak_surucu": [],
+  "regex_yasak": [
+   "https?:\\x5c(?!localhost|127\\.0\\.0\\.1)",
+   "\\bhttps?:(?!\\x5c(localhost|127))",
+   "\\bcurl(\\.exe)?\\b",
+   "\\bwget\\b",
+   "invoke-webrequest",
+   "invoke-restmethod",
+   "\\biwr\\b",
+   "start-bitstransfer",
+   "net\\.webclient",
+   "\\bpip3?\\s+(download|install)",
+   "-m\\s+pip\\s+(download|install)",
+   "\\buv\\s+(pip|add|tool|run)\\b",
+   "\\bnpm\\s+(i|install|exec)\\b",
+   "\\bnpx\\b",
+   "\\bgit\\s+(clone|fetch|pull)\\b",
+   "\\burllib\\b",
+   "\\brequests\\.(get|post|session)",
+   "\\bhttpx\\b",
+   "\\bsocket\\.",
+   "\\.\\.\\x5c\\.\\.",
+   "\\bcd\\s+\\.\\.",
+   "\\.\\.\\x5c(paketler|puan|kayit|sonuc|araclar|film|oturum|r\\d{6})"
+  ]
+ },
+ "h0h1_arac_yasak": [
+  "Skill",
+  "Agent",
+  "Task"
+ ],
+ "h2_skill_onek": "",
+ "mcp_izin": {
+  "SW-H0": [],
+  "SW-H1": [
+   "mcp__solidworks__"
+  ],
+  "B3D-H0": [],
+  "B3D-H1": [
+   "mcp__build123d__"
+  ],
+  "SC-H0": [],
+  "SC-H1": [
+   "mcp__solidcraft__"
+  ]
+ }
+}

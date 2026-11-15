@@ -1,0 +1,96 @@
+{
+ "rows": [
+  {
+   "dim": "20.46in (overall width)",
+   "nom": 20.46,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "montaj_bbox_boyut",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "48.12in (overall height)",
+   "nom": 48.12,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "montaj_bbox_boyut",
+    "eksen": "y"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "15.00in (overall depth, feet)",
+   "nom": 15.0,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "montaj_bbox_boyut",
+    "eksen": "z"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "3.00in (upright depth)",
+   "nom": 3.0,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P02-a",
+    "eksen": "z"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "For Component Height: 1.75in (rack unit = hole pattern pitch)",
+   "nom": 1.75,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P02-a",
+    "nokta1": [
+     -230.83075,
+     -493.53343,
+     36.83
+    ],
+    "nokta2": [
+     -230.83075,
+     -449.08343,
+     36.83
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "For Component Width: 19in",
+   "nom": 19.0,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": false,
+   "not_": "nominal panel width; no 19 in feature in the model (hole columns 18.31 apart, clear opening 17.75)"
+  },
+  {
+   "dim": "Component Mounting Hole Thread Size: 10-32",
+   "nom": 0.19,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P02-a",
+    "nokta": [
+     -230.83075,
+     -493.53343,
+     36.83
+    ]
+   },
+   "modelde_var": true,
+   "not_": "thread not modelled; the holes are plain at the 10-32 major diameter 0.19"
+  }
+ ]
+}

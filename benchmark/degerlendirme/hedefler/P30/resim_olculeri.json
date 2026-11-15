@@ -1,0 +1,102 @@
+{
+ "rows": [
+  {
+   "dim": "20 mm (inlet end face to cap bore end)",
+   "nom": 20.0,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     2.68701,
+     -14.0,
+     2.68701
+    ],
+    "nokta2": [
+     0.5,
+     6.0,
+     0.5
+    ],
+    "govde2": "P03"
+   },
+   "modelde_var": true,
+   "not_": "upper line of the drawing = hidden line of the cap bore end (y 6.0); the same line ends the 3/8 in dimension"
+  },
+  {
+   "dim": "3/8\" (hexagon top face to cap bore end)",
+   "nom": 0.375,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     0.0,
+     -3.525,
+     5.7
+    ],
+    "nokta2": [
+     0.5,
+     6.0,
+     0.5
+    ],
+    "govde2": "P03"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "12 mm Hex (across flats)",
+   "nom": 12.0,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     0.0,
+     -5.5,
+     6.0
+    ],
+    "nokta2": [
+     0.0,
+     -5.5,
+     -6.0
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "M10 x 1 mm Thread (outer diameter)",
+   "nom": 10.0,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     5.0,
+     -10.4375,
+     0.0
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.305\"-32 Thread (outer diameter)",
+   "nom": 0.305,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P02",
+    "nokta": [
+     3.8735,
+     2.47775,
+     0.0
+    ]
+   },
+   "modelde_var": true
+  }
+ ]
+}

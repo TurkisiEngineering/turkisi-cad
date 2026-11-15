@@ -1,0 +1,81 @@
+{
+ "rows": [
+  {
+   "dim": "32.77mm (outside dia at the heel)",
+   "nom": 32.77,
+   "birim": "mm",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": true
+  },
+  {
+   "dim": "30mm (pitch dia)",
+   "nom": 30,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": null,
+   "modelde_var": false
+  },
+  {
+   "dim": "8mm (bore)",
+   "nom": 8,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     2.8284271247461903,
+     9,
+     2.8284271247461903
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "11mm (face width)",
+   "nom": 11,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": null,
+   "modelde_var": true
+  },
+  {
+   "dim": "19.33mm (overall width)",
+   "nom": 19.33,
+   "birim": "mm",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "y"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "7.75mm (hub length)",
+   "nom": 7.75,
+   "birim": "mm",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": true
+  },
+  {
+   "dim": "25mm (hub dia)",
+   "nom": 25,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     8.8388,
+     4,
+     8.8388
+    ]
+   },
+   "modelde_var": true
+  }
+ ],
+ "not": "no single recipe: 32.77 = 2 x 16.385 (heel edge of the tip cone, teeth not on the bbox axes); 11 = face width along the pitch cone; 7.75 = y of the hub / back cone edge (feature F6 covers it by region); 30 = pitch dia, reference only"
+}

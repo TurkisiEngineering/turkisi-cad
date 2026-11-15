@@ -1,0 +1,447 @@
+{
+ "items": [
+  {
+   "id": "F1",
+   "govde": "P01",
+   "etiket": "overall length 3.375 (y -1.625 to 1.75)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "y"
+   },
+   "nom": 85.725,
+   "tol": 0.05
+  },
+  {
+   "id": "F2",
+   "govde": "P01",
+   "etiket": "eye sphere dia 1.5",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x"
+   },
+   "nom": 38.1,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     19.05,
+     25.4,
+     0.0
+    ],
+    "r_mm": 2
+   }
+  },
+  {
+   "id": "F3",
+   "govde": "P01",
+   "etiket": "side flats 0.45312 apart",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     12.7,
+     35.56,
+     5.7546
+    ],
+    "nokta2": [
+     12.7,
+     35.56,
+     -5.7546
+    ]
+   },
+   "nom": 11.5092,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     12.7,
+     35.56,
+     5.7546
+    ],
+    "r_mm": 2
+   }
+  },
+  {
+   "id": "F4",
+   "govde": "P01",
+   "etiket": "neck slope plane 14.5 deg to the flat",
+   "tur": "diger",
+   "olcum": {
+    "tip": "aci",
+    "govde": "P01",
+    "nokta1": [
+     2.54,
+     1.27,
+     6.0216
+    ],
+    "nokta2": [
+     12.7,
+     35.56,
+     5.7546
+    ]
+   },
+   "nom": 14.5,
+   "tol": 0.2,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     2.54,
+     1.27,
+     6.0216
+    ],
+    "r_mm": 1.5
+   }
+  },
+  {
+   "id": "F5",
+   "govde": "P01",
+   "etiket": "concave neck R0.5 (torus), region check",
+   "tur": "yuvarlatma",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x"
+   },
+   "nom": 38.1,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     8.4836,
+     5.08,
+     0.0
+    ],
+    "r_mm": 2
+   }
+  },
+  {
+   "id": "F6",
+   "govde": "P01",
+   "etiket": "ball socket sphere R0.5625, region check",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "z"
+   },
+   "nom": 12.7,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     13.462,
+     25.4,
+     2.54
+    ],
+    "r_mm": 2
+   }
+  },
+  {
+   "id": "F7",
+   "govde": "P01",
+   "etiket": "thread crest dia 0.5",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     6.35,
+     -20.8763,
+     0.0
+    ]
+   },
+   "nom": 12.7,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     5.969,
+     -20.574,
+     0.0
+    ],
+    "r_mm": 1.5
+   }
+  },
+  {
+   "id": "F8",
+   "govde": "P01",
+   "etiket": "thread phase and root (region check on a root at +X)",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     6.35,
+     -13.2563,
+     0.0
+    ]
+   },
+   "nom": 12.7,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     5.5245,
+     -12.6213,
+     0.0
+    ],
+    "r_mm": 1.0
+   }
+  },
+  {
+   "id": "F9",
+   "govde": "P01",
+   "etiket": "thread phase on -Z side (region check)",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     0.0,
+     -12.9388,
+     -6.35
+    ]
+   },
+   "nom": 12.7,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0.0,
+     -12.3038,
+     -5.5245
+    ],
+    "r_mm": 1.0
+   }
+  },
+  {
+   "id": "F10",
+   "govde": "P01",
+   "etiket": "end face dia 0.41 at y=-1.625",
+   "tur": "pah",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "plane",
+    "bolge": [
+     -7.62,
+     -41.402,
+     -7.62,
+     7.62,
+     -41.148,
+     7.62
+    ]
+   },
+   "nom": 1,
+   "tol": 0,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0.0,
+     -41.275,
+     3.81
+    ],
+    "r_mm": 1.5
+   }
+  },
+  {
+   "id": "F11",
+   "govde": "P01",
+   "etiket": "45 deg end chamfer, region check",
+   "tur": "pah",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "y"
+   },
+   "nom": 85.725,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     5.7785,
+     -40.7035,
+     0.0
+    ],
+    "r_mm": 1.0
+   }
+  },
+  {
+   "id": "F12",
+   "govde": "P01",
+   "etiket": "thread run-out cone at y=0, region check",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "y"
+   },
+   "nom": 85.725,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0.0,
+     -0.381,
+     5.969
+    ],
+    "r_mm": 1.0
+   }
+  },
+  {
+   "id": "B1",
+   "govde": "P02",
+   "etiket": "collar length 1.25",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P02",
+    "eksen": "z"
+   },
+   "nom": 31.75,
+   "tol": 0.05
+  },
+  {
+   "id": "B2",
+   "govde": "P02",
+   "etiket": "ball dia 1.125",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P02",
+    "eksen": "x"
+   },
+   "nom": 28.575,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P02",
+    "nokta": [
+     14.2875,
+     25.4,
+     0.0
+    ],
+    "r_mm": 2
+   }
+  },
+  {
+   "id": "B3",
+   "govde": "P02",
+   "etiket": "bore dia 0.5",
+   "tur": "delik",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P02",
+    "nokta": [
+     6.35,
+     25.4,
+     7.62
+    ]
+   },
+   "nom": 12.7,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P02",
+    "nokta": [
+     6.35,
+     25.4,
+     7.62
+    ],
+    "r_mm": 1.5
+   }
+  },
+  {
+   "id": "B4",
+   "govde": "P02",
+   "etiket": "collar dia 0.70",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P02",
+    "nokta": [
+     8.89,
+     25.4,
+     13.97
+    ]
+   },
+   "nom": 17.78,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P02",
+    "nokta": [
+     8.89,
+     25.4,
+     13.97
+    ],
+    "r_mm": 1.5
+   }
+  },
+  {
+   "id": "B5",
+   "govde": "P02",
+   "etiket": "collar end faces 1.25 apart",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P02",
+    "nokta1": [
+     7.874,
+     25.4,
+     15.875
+    ],
+    "nokta2": [
+     7.874,
+     25.4,
+     -15.875
+    ]
+   },
+   "nom": 31.75,
+   "tol": 0.05
+  },
+  {
+   "id": "B6",
+   "govde": "P02",
+   "etiket": "bore chamfer 0.025 x 45 deg both ends (region check)",
+   "tur": "pah",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P02",
+    "nokta": [
+     6.35,
+     25.4,
+     7.62
+    ]
+   },
+   "nom": 12.7,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P02",
+    "nokta": [
+     6.6675,
+     25.4,
+     15.5575
+    ],
+    "r_mm": 1.0
+   }
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "rows": [
+  {
+   "dim": "1.85in (outer width)",
+   "nom": 1.85,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P02",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "2.40in (outer height)",
+   "nom": 2.4,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P02",
+    "eksen": "y"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.93in (overall depth, closed)",
+   "nom": 0.93,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "MONTAJ",
+    "eksen": "z"
+   },
+   "modelde_var": true,
+   "not_": "assembly bounding box; govde MONTAJ = union of all bodies (extension of the recipe table, lead to confirm)"
+  },
+  {
+   "dim": "2.11in Inside Height",
+   "nom": 2.11,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P02",
+    "nokta1": [
+     0.0,
+     26.797,
+     12.065
+    ],
+    "nokta2": [
+     0.0,
+     -26.797,
+     12.065
+    ]
+   },
+   "modelde_var": true,
+   "not_": "in the 3D this equals the label-recess outer outline, not the cavity (2.24 at the rim): source conflict K"
+  },
+  {
+   "dim": "1.55in Inside Width",
+   "nom": 1.55,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P02",
+    "nokta1": [
+     19.685,
+     0.0,
+     12.065
+    ],
+    "nokta2": [
+     -19.685,
+     0.0,
+     12.065
+    ]
+   },
+   "modelde_var": true,
+   "not_": "label-recess outer outline in the 3D: source conflict K"
+  },
+  {
+   "dim": "0.75in Inside Depth",
+   "nom": 0.75,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": false,
+   "not_": "no 0.75 in the 3D: cavities 0.39 + 0.39, floor-to-ceiling 0.81"
+  }
+ ]
+}

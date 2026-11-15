@@ -1,0 +1,156 @@
+{
+ "rows": [
+  {
+   "dim": "5.47in (overall length)",
+   "nom": 5.47,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "z"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1.57in (upper lug width)",
+   "nom": 1.57,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "y"
+   },
+   "modelde_var": true,
+   "not_": "model 40 mm = 1.5748 in"
+  },
+  {
+   "dim": "1.46in (lower lug width)",
+   "nom": 1.46,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     20.0,
+     18.5,
+     -45.0
+    ],
+    "nokta2": [
+     20.0,
+     -18.5,
+     -45.0
+    ]
+   },
+   "modelde_var": true,
+   "not_": "model 37 mm = 1.4567 in"
+  },
+  {
+   "dim": "1.09in (upper jaw opening)",
+   "nom": 1.09,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     13.843,
+     3.0,
+     25.0
+    ],
+    "nokta2": [
+     -13.843,
+     3.0,
+     25.0
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.79in (upper pin diameter)",
+   "nom": 0.79,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P02",
+    "nokta": [
+     0.0,
+     7.07107,
+     57.32107
+    ]
+   },
+   "modelde_var": true,
+   "not_": "model 20 mm = 0.7874 in"
+  },
+  {
+   "dim": "1.93in (upper inside length, slot bottom to pin)",
+   "nom": 1.93,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "koordinat",
+    "govde": "P02",
+    "eksen": "z",
+    "uc": "min",
+    "referans": -8.75
+   },
+   "modelde_var": true,
+   "not_": "slot bottom z = -8.75 to the pin's lowest point z = 40.25: 49.0 mm = 1.9291 in"
+  },
+  {
+   "dim": "0.58in (lower slot top to lower pin)",
+   "nom": 0.58,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "koordinat",
+    "govde": "P03",
+    "eksen": "z",
+    "uc": "max",
+    "referans": -27.4164
+   },
+   "modelde_var": true,
+   "not_": "slot top z = -27.4164 to the pin's highest point z = -42.25: 14.8336 mm = 0.5840 in"
+  },
+  {
+   "dim": "0.63in (lower pin diameter)",
+   "nom": 0.63,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P03",
+    "nokta": [
+     0.0,
+     5.65685,
+     -44.59315
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.61in (lower jaw opening)",
+   "nom": 0.61,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     7.7724,
+     3.0,
+     -61.0
+    ],
+    "nokta2": [
+     -7.7724,
+     3.0,
+     -61.0
+    ]
+   },
+   "modelde_var": true
+  }
+ ]
+}

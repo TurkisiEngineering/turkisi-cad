@@ -1,0 +1,65 @@
+{
+ "anahtar": [
+  {
+   "kavram": "flange / cover diameter",
+   "deger": 1.62992,
+   "birim": "in",
+   "ipucu_adlar": [
+    "flange_d",
+    "flange_dia",
+    "body_d",
+    "D_flange",
+    "cover_d",
+    "D"
+   ]
+  },
+  {
+   "kavram": "screw circle radius",
+   "deger": 0.68,
+   "birim": "in",
+   "ipucu_adlar": [
+    "bolt_circle",
+    "screw_r",
+    "pcd",
+    "bc_r",
+    "hole_circle",
+    "R_bolt"
+   ]
+  },
+  {
+   "kavram": "cover hub diameter",
+   "deger": 0.625,
+   "birim": "in",
+   "ipucu_adlar": [
+    "hub_d",
+    "boss_d",
+    "neck_d",
+    "hub_dia"
+   ]
+  },
+  {
+   "kavram": "inlet end face distance from the valve axis",
+   "deger": 1.189,
+   "birim": "in",
+   "ipucu_adlar": [
+    "inlet_len",
+    "boss_len",
+    "inlet_x",
+    "side_len",
+    "port_x"
+   ]
+  },
+  {
+   "kavram": "1/4 NPT thread pitch (18 TPI)",
+   "deger": 0.055556,
+   "birim": "in",
+   "ipucu_adlar": [
+    "pitch",
+    "tpi",
+    "thread_pitch",
+    "npt_pitch",
+    "p"
+   ]
+  }
+ ]
+}

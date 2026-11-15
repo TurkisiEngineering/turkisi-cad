@@ -1,0 +1,93 @@
+{
+ "rows": [
+  {
+   "dim": "10 1/4 (overall length, joint straight)",
+   "nom": 10.25,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "koordinat",
+    "govde": "Y1",
+    "eksen": "x",
+    "uc": "min",
+    "referans": 0.0,
+    "ekle_mm": 130.175
+   },
+   "modelde_var": true,
+   "not_": "the model is not straight (Y2 tilted 3 deg, assembly X extent 10.2905 in); the drawing value is 2 x 5.125, the shaft-end distance from the pivot plane x = 0: measured as |Y1 xmin - 0| + 130.175 mm (Y2 is the same part)"
+  },
+  {
+   "dim": "2 3/4 (overall height)",
+   "nom": 2.75,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "montaj_bbox_boyut",
+    "eksen": "y"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "3/4 (shaft end diameter)",
+   "nom": 0.75,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "Y1",
+    "nokta": [
+     -110,
+     6.735192090801866,
+     6.735192090801866
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1/2 (shaft bore diameter)",
+   "nom": 0.5,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "Y1",
+    "nokta": [
+     -120,
+     4.490128060534577,
+     4.490128060534577
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1 1/8 (shaft bore depth)",
+   "nom": 1.125,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "Y1",
+    "nokta1": [
+     -130.175,
+     5.303300858899107,
+     5.303300858899107
+    ],
+    "nokta2": [
+     -101.6,
+     2.121320343559643,
+     2.121320343559643
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "Maximum operating angle 136 deg (note)",
+   "nom": 136,
+   "birim": "in",
+   "tol": 0,
+   "olcum": null,
+   "modelde_var": false,
+   "not_": "performance note, no geometric counterpart"
+  }
+ ]
+}

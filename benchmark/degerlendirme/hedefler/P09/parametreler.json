@@ -1,0 +1,62 @@
+{
+ "anahtar": [
+  {
+   "kavram": "travel length (base length minus carriage length)",
+   "deger": 1.5,
+   "birim": "in",
+   "ipucu_adlar": [
+    "travel",
+    "stroke",
+    "travel_length",
+    "strok",
+    "hareket"
+   ]
+  },
+  {
+   "kavram": "carriage (table) top width",
+   "deger": 1.2462,
+   "birim": "in",
+   "ipucu_adlar": [
+    "carriage_width",
+    "table_width",
+    "slide_width",
+    "tabla_genislik",
+    "carr_w"
+   ]
+  },
+  {
+   "kavram": "carriage length",
+   "deger": 2.5,
+   "birim": "in",
+   "ipucu_adlar": [
+    "carriage_length",
+    "table_length",
+    "carr_len",
+    "tabla_boyu"
+   ]
+  },
+  {
+   "kavram": "base width",
+   "deger": 2.5,
+   "birim": "in",
+   "ipucu_adlar": [
+    "base_width",
+    "base_w",
+    "width",
+    "taban_genislik"
+   ]
+  },
+  {
+   "kavram": "lead screw pitch / lead",
+   "deger": 0.05,
+   "birim": "in",
+   "ipucu_adlar": [
+    "pitch",
+    "lead",
+    "screw_pitch",
+    "thread_pitch",
+    "adim"
+   ]
+  }
+ ]
+}

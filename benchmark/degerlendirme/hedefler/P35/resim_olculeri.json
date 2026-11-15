@@ -1,0 +1,234 @@
+{
+ "rows": [
+  {
+   "dim": "4in (overall length, rear hex heads to shaft end)",
+   "nom": 4.0,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "montaj_bbox_boyut",
+    "eksen": "z"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "3.604in (overall height)",
+   "nom": 3.604,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "montaj_bbox_boyut",
+    "eksen": "y"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "3.95in (mounting flange width)",
+   "nom": 3.95,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "3.25in (mounting hole centres)",
+   "nom": 3.25,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     44.7773,
+     17.0024,
+     7.62
+    ],
+    "nokta2": [
+     -44.7773,
+     17.0024,
+     7.62
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.39in (mounting hole diameter)",
+   "nom": 0.39,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     44.7773,
+     17.0024,
+     7.62
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "2.5in (mounting flange height)",
+   "nom": 2.5,
+   "birim": "in",
+   "tol": 0.05,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "y",
+    "bolge": [
+     -76.2,
+     -76.2,
+     11.938,
+     76.2,
+     76.2,
+     12.3825
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "2in (pilot diameter)",
+   "nom": 2.0,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     12.7,
+     35.49726,
+     15.24
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.125in (key width)",
+   "nom": 0.125,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P05",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.188in (key depth below the shaft surface)",
+   "nom": 0.188,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "bbox_kenar_fark",
+    "govde": "P04",
+    "kenar": "ymax",
+    "govde2": "P05",
+    "kenar2": "ymin"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.62in (key length)",
+   "nom": 0.62,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P05",
+    "eksen": "z"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.406in (mounting flange thickness)",
+   "nom": 0.406,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     33.02,
+     30.48,
+     12.573
+    ],
+    "nokta2": [
+     38.1,
+     0.0,
+     2.2606
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.5in (shaft diameter)",
+   "nom": 0.5,
+   "birim": "in",
+   "tol": 0.05,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P04",
+    "nokta": [
+     0.0,
+     7.1501,
+     25.4
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1.25in (shaft length from the pilot face)",
+   "nom": 1.25,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_kenar_fark",
+    "govde": "P01",
+    "kenar": "zmax",
+    "govde2": "P04",
+    "kenar2": "zmax"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "7/8in-14 (inlet port thread, major dia)",
+   "nom": 0.875,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P03",
+    "nokta": [
+     -33.72485,
+     0.36068,
+     -23.6093
+    ]
+   },
+   "modelde_var": true,
+   "not_": "straight thread modelled as a helical 60 deg groove, 14 per inch; root cylinder dia 0.875 measured on a root land"
+  },
+  {
+   "dim": "3/4in-16 (outlet port thread, major dia)",
+   "nom": 0.75,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P03",
+    "nokta": [
+     34.81629,
+     0.36068,
+     -25.1968
+    ]
+   },
+   "modelde_var": true,
+   "not_": "straight thread modelled as a helical 60 deg groove, 16 per inch; root cylinder dia 0.75 measured on a root land"
+  }
+ ]
+}

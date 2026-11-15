@@ -1,0 +1,77 @@
+{
+ "rows": [
+  {
+   "dim": "12in (overall depth)",
+   "nom": 12,
+   "birim": "in",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "8in (overall height)",
+   "nom": 8,
+   "birim": "in",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "y"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1.5in (overall width)",
+   "nom": 1.5,
+   "birim": "in",
+   "tol": 0.05,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "z"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "Gauge: 11 ga. (sheet thickness 0.1196 in)",
+   "nom": 0.1196,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     0,
+     80,
+     -16.0122
+    ],
+    "nokta2": [
+     0,
+     80,
+     -19.05
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "Screw Size: No. 12 (fastener note, not a model dimension)",
+   "nom": 12,
+   "birim": "-",
+   "tol": 0,
+   "olcum": null,
+   "modelde_var": false
+  },
+  {
+   "dim": "Mounting Position: Right Side (note)",
+   "nom": null,
+   "birim": "-",
+   "tol": 0,
+   "olcum": null,
+   "modelde_var": false
+  }
+ ]
+}

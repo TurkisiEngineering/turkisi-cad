@@ -1,0 +1,284 @@
+{
+ "rows": [
+  {
+   "dim": "1 in (ram width)",
+   "nom": 1.0,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P02",
+    "eksen": "x"
+   },
+   "modelde_var": true,
+   "_dogrulama": {
+    "orijinal_in": 1.0
+   }
+  },
+  {
+   "dim": "9.75 in (ram length)",
+   "nom": 9.75,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P02",
+    "eksen": "y"
+   },
+   "modelde_var": true,
+   "_dogrulama": {
+    "orijinal_in": 9.75
+   }
+  },
+  {
+   "dim": "0.5 in (ram top bore dia, upper 0.5)",
+   "nom": 0.5,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P02",
+    "nokta": [
+     6.35,
+     363.22,
+     0.0
+    ]
+   },
+   "modelde_var": true,
+   "_dogrulama": {
+    "orijinal_in": 0.5
+   }
+  },
+  {
+   "dim": "6.313 in (base width)",
+   "nom": 6.313,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     -80.16875,
+     25.4,
+     -25.4
+    ],
+    "nokta2": [
+     80.16875,
+     25.4,
+     -25.4
+    ]
+   },
+   "modelde_var": true,
+   "_dogrulama": {
+    "orijinal_in": 6.3125
+   }
+  },
+  {
+   "dim": "0.5 in (plate slot width, lower 0.5)",
+   "nom": 0.5,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P04",
+    "nokta1": [
+     6.35,
+     63.5,
+     7.62
+    ],
+    "nokta2": [
+     -6.35,
+     63.5,
+     7.62
+    ]
+   },
+   "modelde_var": true,
+   "_dogrulama": {
+    "orijinal_in": 0.5
+   }
+  },
+  {
+   "dim": "6.125 in (head underside to seat top)",
+   "nom": 6.125,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     22.86,
+     210.185,
+     0.0
+    ],
+    "nokta2": [
+     58.42,
+     54.61,
+     -29.21
+    ]
+   },
+   "modelde_var": true,
+   "_dogrulama": {
+    "orijinal_in": 6.125
+   }
+  },
+  {
+   "dim": "2.15 in (seat top above bench)",
+   "nom": 2.15,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     58.42,
+     54.61,
+     -29.21
+    ],
+    "nokta2": [
+     50.8,
+     0.0,
+     -203.2
+    ]
+   },
+   "modelde_var": true,
+   "_dogrulama": {
+    "orijinal_in": 2.15
+   }
+  },
+  {
+   "dim": "10.75 in (base length)",
+   "nom": 10.75,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "z"
+   },
+   "modelde_var": true,
+   "_dogrulama": {
+    "orijinal_in": 10.75
+   }
+  },
+  {
+   "dim": "11.125 in (frame height)",
+   "nom": 11.125,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "y"
+   },
+   "modelde_var": true,
+   "_dogrulama": {
+    "orijinal_in": 11.125
+   }
+  },
+  {
+   "dim": "2 in (base height)",
+   "nom": 2.0,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     76.2,
+     50.8,
+     -25.4
+    ],
+    "nokta2": [
+     50.8,
+     0.0,
+     -203.2
+    ]
+   },
+   "modelde_var": true,
+   "_dogrulama": {
+    "orijinal_in": 2.0
+   }
+  },
+  {
+   "dim": "5.375 in (head underside to plate top)",
+   "nom": 5.375,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe_govdeler",
+    "govde": "P01",
+    "nokta1": [
+     22.86,
+     210.185,
+     0.0
+    ],
+    "govde2": "P04",
+    "nokta2": [
+     25.4,
+     73.66,
+     -60.96
+    ]
+   },
+   "modelde_var": true,
+   "not": "two bodies: P01 head underside y=8.275 and P04 top y=2.90; if olc.py has no two-body recipe use P04 bbox ymax vs P01 plane",
+   "_dogrulama": {
+    "orijinal_in": 5.375
+   }
+  },
+  {
+   "dim": "4 in (throat: ram axis to flange front face)",
+   "nom": 4.0,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     25.4,
+     101.6,
+     -101.6
+    ],
+    "nokta2": [
+     0.0,
+     241.3,
+     -12.7
+    ],
+    "ekle_mm": 12.7
+   },
+   "modelde_var": true,
+   "not": "recipe measures flange front z=-4.0 to channel back wall z=-0.5 = 3.5 in; ram axis is 0.5 in ahead of that wall: add ekle_mm (12.7) to the measured value",
+   "_dogrulama": {
+    "orijinal_in": 4.0
+   }
+  },
+  {
+   "dim": "2X 0.375 in (mounting holes)",
+   "nom": 0.375,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     -24.4475,
+     30.48,
+     -165.1
+    ]
+   },
+   "modelde_var": true,
+   "_dogrulama": {
+    "orijinal_in": 0.375
+   }
+  },
+  {
+   "dim": "6.875 in (maximum stroke length)",
+   "nom": 6.875,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": false,
+   "not": "not a geometric feature; toothed zone on the ram is 6.9364 in",
+   "_dogrulama": "modelde yok"
+  }
+ ]
+}

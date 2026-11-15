@@ -1,0 +1,96 @@
+{
+ "rows": [
+  {
+   "dim": "8 in (shield width)",
+   "nom": 8.0,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "8 in (shield height)",
+   "nom": 8.0,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "y"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "12 in (extended arm length)",
+   "nom": 12.0,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": false,
+   "not": "no model distance is 12.000 in: arm tube body 11.615, clamp socket face to base back face 12.115, cut shield corner to base back face 12.500; no recipe"
+  },
+  {
+   "dim": "0.125 in (shield thickness)",
+   "nom": 0.125,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     0,
+     0,
+     1.5875
+    ],
+    "nokta2": [
+     0,
+     0,
+     -1.5875
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1.375 in (base mounting bolts apart)",
+   "nom": 1.375,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P05",
+    "nokta1": [
+     311.6492,
+     -307.0693,
+     9.525
+    ],
+    "nokta2": [
+     311.6492,
+     -307.0693,
+     -25.4
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "Mounting Hole Diameter: 0.25 in",
+   "nom": 0.25,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P05",
+    "nokta": [
+     311.6492,
+     -307.0693,
+     9.525
+    ]
+   },
+   "modelde_var": true,
+   "not": "model 0.255 in (6.477 mm)"
+  }
+ ]
+}

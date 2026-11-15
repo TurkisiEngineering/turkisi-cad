@@ -1,0 +1,67 @@
+{
+ "parca": "P11",
+ "birim_spec": "mm",
+ "govdeler": [
+  {
+   "ad": "P01",
+   "tur": "parca",
+   "hacim_mm3": 5415.09,
+   "alan_mm2": 3989.61,
+   "com_mm": [
+    -0.0137,
+    -0.087,
+    -0.1298
+   ],
+   "bbox_mm": [
+    -9.00005,
+    -9.00001,
+    -16.0,
+    9.00004,
+    9.00001,
+    16.0
+   ],
+   "yuz_sayisi": 63,
+   "esdeger_grubu": "P01",
+   "not": "GProp V 5415.090, mesh V 5414.032 (0.02 %); CoM from mesh (GProp CoM x reads +0.012, integration error on free-form flanks)"
+  },
+  {
+   "ad": "H1",
+   "tur": "donanim",
+   "hacim_mm3": 41.9484,
+   "alan_mm2": 72.3414,
+   "com_mm": [
+    0.0,
+    4.8041,
+    11.0
+   ],
+   "bbox_mm": [
+    -2.0,
+    3.0,
+    9.0,
+    2.0,
+    6.84298,
+    13.0
+   ],
+   "yuz_sayisi": 15,
+   "esdeger_grubu": "H1"
+  }
+ ],
+ "montaj": {
+  "hacim_mm3": 5457.04,
+  "alan_mm2": 4061.95,
+  "com_mm": [
+   -0.0136,
+   -0.0494,
+   -0.0442
+  ],
+  "bbox_mm": [
+   -9.00005,
+   -9.00001,
+   -16.0,
+   9.00004,
+   9.00001,
+   16.0
+  ]
+ },
+ "girisimler": []
+}

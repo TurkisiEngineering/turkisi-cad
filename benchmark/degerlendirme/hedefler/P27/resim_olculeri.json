@@ -1,0 +1,122 @@
+{
+ "rows": [
+  {
+   "dim": "8.625in Retracted Length (pin centre to pin centre)",
+   "nom": 8.625,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P03-a",
+    "nokta1": [
+     112.34383,
+     0.0,
+     2.80633
+    ],
+    "govde2": "P03-b",
+    "nokta2": [
+     -112.34383,
+     0.0,
+     2.80633
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "12.375in Extended Length",
+   "nom": 12.375,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": null,
+   "modelde_var": false,
+   "not_": "the model is in the retracted pose; extended pose not modelled"
+  },
+  {
+   "dim": "5.125in (body length)",
+   "nom": 5.125,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.313in (vertical, clevis inside width)",
+   "nom": 0.313,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P02-a",
+    "nokta1": [
+     101.6,
+     3.96875,
+     7.62
+    ],
+    "nokta2": [
+     101.6,
+     -3.96875,
+     7.62
+    ]
+   },
+   "modelde_var": true,
+   "not_": "model 0.3125 (5/16); drawing rounds to 3 decimals"
+  },
+  {
+   "dim": "0.313in (horizontal, clevis pin diameter)",
+   "nom": 0.313,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P03-a",
+    "nokta": [
+     112.34383,
+     0.0,
+     2.80633
+    ]
+   },
+   "modelde_var": true,
+   "not_": "model 0.3125 (5/16)"
+  },
+  {
+   "dim": "5/16\"-24 Right Hand Thread",
+   "nom": 0.3125,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": null,
+   "modelde_var": false,
+   "not_": "thread note; modelled as a helical 24 TPI thread, major dia 0.3125, right-hand on the -X side; checked in ozellikler (region items)"
+  },
+  {
+   "dim": "5/16\"-24 Left Hand Thread",
+   "nom": 0.3125,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": null,
+   "modelde_var": false,
+   "not_": "thread note; left-hand on the +X side; checked in ozellikler (region items)"
+  },
+  {
+   "dim": "Maximum Adjustment: 3.75in",
+   "nom": 3.75,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": null,
+   "modelde_var": false,
+   "not_": "travel, not a modelled dimension"
+  },
+  {
+   "dim": "180deg Pivot Each End",
+   "nom": 180,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": null,
+   "modelde_var": false,
+   "not_": "movement note"
+  }
+ ]
+}

@@ -1,0 +1,3410 @@
+{
+ "commands": [
+  {
+   "command": "document.units",
+   "params": {
+    "units": "in"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "plate_top_y",
+    "expression": "2.75 in",
+    "comment": "mounting face y (P02 top)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "plate_t",
+    "expression": "0.1 in",
+    "comment": "top plate thickness (P02)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "plate_L",
+    "expression": "3.625 in",
+    "comment": "top plate length along X (P02)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "plate_W",
+    "expression": "2.5 in",
+    "comment": "top plate width along Z (P02)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "plate_corner_R",
+    "expression": "0.25 in",
+    "comment": "plate corner round (P02)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "slot_w",
+    "expression": "0.3125 in",
+    "comment": "mounting slot width (P02)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "fork_top_y",
+    "expression": "2.464 in",
+    "comment": "fork top face y (P01)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "fork_W",
+    "expression": "2.058 in",
+    "comment": "fork outer width 2 x 1.029 (P01 OUTER extrude)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "crown_R",
+    "expression": "1.029 in",
+    "comment": "crown round radius behind swivel axis (P01)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "ridge_W",
+    "expression": "2.266 in",
+    "comment": "width over ridges 2 x 1.133 (P01 RIDGE extrude)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "ridge_R",
+    "expression": "1.133 in",
+    "comment": "crown ring band radius (P01)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "gap_W",
+    "expression": "1.66 in",
+    "comment": "gap between fork legs 2 x 0.83 (P01 GAP)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "gap_R",
+    "expression": "0.83 in",
+    "comment": "inner half-cylinder radius of the U (P01 GAP)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "kp_hole_D",
+    "expression": "1 in",
+    "comment": "kingpin hole diameter in fork deck (P01 F4)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "axle_x",
+    "expression": "1.515 in",
+    "comment": "swivel offset: wheel axis x"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "axle_y",
+    "expression": "-0.75 in",
+    "comment": "wheel axis y"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "axle_D",
+    "expression": "0.6 in",
+    "comment": "axle pin / fork axle bore diameter (H1, P01 F5)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "axle_L",
+    "expression": "2.068 in",
+    "comment": "axle pin length (H1)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "fork_R06",
+    "expression": "0.06 in",
+    "comment": "fork edge round R0.06 (P01 F10)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "fork_R125",
+    "expression": "0.125 in",
+    "comment": "fork leg end vertical edge round (P01 F10)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "ridge_R04",
+    "expression": "0.04 in",
+    "comment": "ridge top edge round (P01 F10)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "hex_AF",
+    "expression": "1.51 in",
+    "comment": "hex bearing ring across flats (P05)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "hex_t",
+    "expression": "0.075 in",
+    "comment": "hex bearing ring thickness (P05)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "lug_h",
+    "expression": "0.098 in",
+    "comment": "kingpin lug height 2.502..2.6 (P03 K2)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "pedal_W",
+    "expression": "1.65 in",
+    "comment": "pedal stem width 2 x 0.825 (P06 B1)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "foot_W",
+    "expression": "2.1 in",
+    "comment": "pedal foot plate width 2 x 1.05 (P06 B2)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "pedal_R04",
+    "expression": "0.04 in",
+    "comment": "pedal foot plate edge round (P06 B2)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "rib_R",
+    "expression": "0.025 in",
+    "comment": "grip rib radius (P06 B3)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "rib_stem_L",
+    "expression": "1.35 in",
+    "comment": "stem rib length (P06 B3)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "rib_foot_L",
+    "expression": "1.75 in",
+    "comment": "foot plate rib length (P06 B3)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "wheel_D",
+    "expression": "4 in",
+    "comment": "wheel (tread) outer diameter (P07)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "wheel_W",
+    "expression": "1.25 in",
+    "comment": "wheel / tread / insert width (P07, P08)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "tread_round_R",
+    "expression": "0.2 in",
+    "comment": "tread outer edge round (P07)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "tread_bore_R",
+    "expression": "1.56375 in",
+    "comment": "tread bore radius (P07)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "core_R",
+    "expression": "1.51375 in",
+    "comment": "core / insert inner radius (P08, P09, P10)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "trim_eps",
+    "expression": "0.0005 in",
+    "comment": "crown / ring trim cylinders are this much larger than the flat faces (avoids an exact tangency the kernel cannot cut)"
+   }
+  },
+  {
+   "command": "parameters.add",
+   "params": {
+    "name": "core_W",
+    "expression": "0.625 in",
+    "comment": "core centre disc width (P09)"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "name": "S_P01_outer"
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -30.48,
+      62.5856
+     ],
+     [
+      -30.48,
+      35.20948
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     -37.199316,
+     -27.934158
+    ],
+    "start": [
+     -30.48,
+     35.20948
+    ],
+    "end": [
+     25.867750021,
+     -20.530550032
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     38.481,
+     -19.05
+    ],
+    "start": [
+     25.867750021,
+     -20.530550032
+    ],
+    "end": [
+     38.481,
+     -31.749846591
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     38.481,
+     -17.75968
+    ],
+    "start": [
+     38.481,
+     -31.749846591
+    ],
+    "end": [
+     52.471166591,
+     -17.75968
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      52.471166591,
+      -17.75968
+     ],
+     [
+      52.449984,
+      14.767052
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     69.795644,
+     14.464284
+    ],
+    "start": [
+     52.449984,
+     14.767052
+    ],
+    "end": [
+     69.311260508,
+     31.805822626
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      69.311260508,
+      31.805822626
+     ],
+     [
+      89.984326,
+      32.383222
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     89.8779,
+     36.191698
+    ],
+    "start": [
+     89.984326,
+     32.383222
+    ],
+    "end": [
+     93.687862721,
+     36.191698
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      93.687862721,
+      36.191698
+     ],
+     [
+      93.6879,
+      41.060878
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     89.8779,
+     41.060878
+    ],
+    "start": [
+     93.6879,
+     41.060878
+    ],
+    "end": [
+     91.40697823,
+     44.55057996
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     3.517138,
+     -156.038296
+    ],
+    "start": [
+     91.40697823,
+     44.55057996
+    ],
+    "end": [
+     32.513255644,
+     61.032536532
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      32.513255644,
+      61.032536532
+     ],
+     [
+      31.0134,
+      62.5856
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      31.0134,
+      62.5856
+     ],
+     [
+      -30.48,
+      62.5856
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "sketch": "S_P01_outer",
+    "distance": "fork_W",
+    "direction": "symmetric",
+    "operation": "new",
+    "body_name": "P01_Fork",
+    "name": "P01_Fork_extrude"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "4 in",
+    "width": "8 in",
+    "height": "4 in",
+    "center": [
+     -50.8,
+     0,
+     0
+    ],
+    "operation": "new",
+    "body_name": "T_back1",
+    "name": "T_back1"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "crown_R + trim_eps",
+    "height": "8 in",
+    "base": [
+     0,
+     -101.6,
+     0
+    ],
+    "axis": "Y",
+    "operation": "new",
+    "body_name": "T_cyl1",
+    "name": "T_cyl1"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "T_back1",
+    "tools": [
+     "T_cyl1"
+    ],
+    "operation": "cut",
+    "keep_tools": false
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "P01_Fork",
+    "tools": [
+     "T_back1"
+    ],
+    "operation": "cut",
+    "keep_tools": false
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "name": "S_P01_ridge"
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -30.48,
+      53.2892
+     ],
+     [
+      5.472176,
+      53.2892
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     5.472176,
+     20.2692
+    ],
+    "start": [
+     5.472176,
+     53.2892
+    ],
+    "end": [
+     10.725167702,
+     52.868685858
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     4.663948,
+     15.25397
+    ],
+    "start": [
+     10.725167702,
+     52.868685858
+    ],
+    "end": [
+     42.062224184,
+     7.975634217
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     37.3634,
+     7.9756
+    ],
+    "start": [
+     42.062224184,
+     7.975634217
+    ],
+    "end": [
+     32.664575816,
+     7.9756
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     -10.359136,
+     4.303268
+    ],
+    "start": [
+     32.664575816,
+     7.9756
+    ],
+    "end": [
+     30.927192387,
+     16.950990682
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     -5.501894,
+     5.7912
+    ],
+    "start": [
+     30.927192387,
+     16.950990682
+    ],
+    "end": [
+     -5.501894,
+     43.891321562
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -5.501894,
+      43.891321562
+     ],
+     [
+      -30.48,
+      43.8912
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -30.48,
+      43.8912
+     ],
+     [
+      -30.48,
+      53.2892
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "sketch": "S_P01_ridge",
+    "distance": "ridge_W",
+    "direction": "symmetric",
+    "operation": "new",
+    "body_name": "P01_Ridge",
+    "name": "P01_Ridge_extrude"
+   }
+  },
+  {
+   "command": "solid.box",
+   "params": {
+    "length": "4 in",
+    "width": "8 in",
+    "height": "4 in",
+    "center": [
+     -50.8,
+     0,
+     0
+    ],
+    "operation": "new",
+    "body_name": "T_back2",
+    "name": "T_back2"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "ridge_R + trim_eps",
+    "height": "8 in",
+    "base": [
+     0,
+     -101.6,
+     0
+    ],
+    "axis": "Y",
+    "operation": "new",
+    "body_name": "T_cyl2",
+    "name": "T_cyl2"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "T_back2",
+    "tools": [
+     "T_cyl2"
+    ],
+    "operation": "cut",
+    "keep_tools": false
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "P01_Ridge",
+    "tools": [
+     "T_back2"
+    ],
+    "operation": "cut",
+    "keep_tools": false
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "P01_Fork",
+    "tools": [
+     "P01_Ridge"
+    ],
+    "operation": "join",
+    "keep_tools": false
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "name": "S_P01_gap"
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -25.4,
+      -50.8
+     ],
+     [
+      -25.4,
+      55.4736
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      -25.4,
+      55.4736
+     ],
+     [
+      27.99461,
+      55.4736
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      27.99461,
+      55.4736
+     ],
+     [
+      29.133292,
+      54.294532
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     3.517138,
+     -156.038296
+    ],
+    "start": [
+     29.133292,
+     54.294532
+    ],
+    "end": [
+     62.522091178,
+     47.467235573
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      62.522091178,
+      47.467235573
+     ],
+     [
+      62.5221,
+      76.2
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      62.5221,
+      76.2
+     ],
+     [
+      127,
+      76.2
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      127,
+      76.2
+     ],
+     [
+      127,
+      -50.8
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      127,
+      -50.8
+     ],
+     [
+      -25.4,
+      -50.8
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "sketch": "S_P01_gap",
+    "distance": "gap_W",
+    "direction": "symmetric",
+    "operation": "new",
+    "body_name": "T_gap",
+    "name": "T_gap_extrude"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": {
+     "origin": [
+      0,
+      12.7,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    },
+    "name": "S_P01_gap_plan"
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      127,
+      -21.082
+     ],
+     [
+      127,
+      21.082
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      127,
+      21.082
+     ],
+     [
+      0,
+      21.082
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0,
+     0
+    ],
+    "start": [
+     0,
+     21.082
+    ],
+    "end": [
+     0,
+     -21.082
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      0,
+      -21.082
+     ],
+     [
+      127,
+      -21.082
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "sketch": "S_P01_gap_plan",
+    "distance": "7 in",
+    "direction": "symmetric",
+    "operation": "new",
+    "body_name": "T_gap_plan",
+    "name": "T_gap_plan_extrude"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "T_gap",
+    "tools": [
+     "T_gap_plan"
+    ],
+    "operation": "intersect",
+    "keep_tools": false
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "P01_Fork",
+    "tools": [
+     "T_gap"
+    ],
+    "operation": "cut",
+    "keep_tools": false
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": "kp_hole_D",
+    "height": "1 in",
+    "base": [
+     0,
+     50.8,
+     0
+    ],
+    "axis": "Y",
+    "operation": "new",
+    "body_name": "T_kphole",
+    "name": "T_kphole"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "P01_Fork",
+    "tools": [
+     "T_kphole"
+    ],
+    "operation": "cut",
+    "keep_tools": false
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": "axle_D",
+    "height": "3 in",
+    "base": [
+     38.481,
+     -19.05,
+     -38.1
+    ],
+    "axis": "Z",
+    "operation": "new",
+    "body_name": "T_axlebore",
+    "name": "T_axlebore"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "P01_Fork",
+    "tools": [
+     "T_axlebore"
+    ],
+    "operation": "cut",
+    "keep_tools": false
+   }
+  },
+  {
+   "command": "solid.fillet",
+   "params": {
+    "body": "P01_Fork",
+    "edges": [
+     [
+      62.538283791,
+      54.857477917,
+      26.1366
+     ],
+     [
+      62.538283791,
+      54.857477917,
+      -26.1366
+     ]
+    ],
+    "radius": "fork_R06",
+    "name": "P01_round_R006_topR8622"
+   }
+  },
+  {
+   "command": "solid.fillet",
+   "params": {
+    "body": "P01_Fork",
+    "edges": [
+     [
+      15.24,
+      62.5856,
+      26.1366
+     ],
+     [
+      15.24,
+      62.5856,
+      -26.1366
+     ]
+    ],
+    "radius": "fork_R06",
+    "name": "P01_round_R006_topflat"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": {
+     "origin": [
+      0,
+      68.58,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    },
+    "name": "S_P02_plate"
+   }
+  },
+  {
+   "command": "sketch.rectangle.rounded",
+   "params": {
+    "p0": [
+     -46.0375,
+     -31.75
+    ],
+    "p1": [
+     46.0375,
+     31.75
+    ],
+    "radius": "plate_corner_R"
+   }
+  },
+  {
+   "command": "sketch.slot.center_to_center",
+   "params": {
+    "p0": [
+     35.71875,
+     22.225
+    ],
+    "p1": [
+     38.89375,
+     22.225
+    ],
+    "width": 7.9375
+   }
+  },
+  {
+   "command": "sketch.slot.center_to_center",
+   "params": {
+    "p0": [
+     35.71875,
+     -22.225
+    ],
+    "p1": [
+     38.89375,
+     -22.225
+    ],
+    "width": 7.9375
+   }
+  },
+  {
+   "command": "sketch.slot.center_to_center",
+   "params": {
+    "p0": [
+     -35.71875,
+     22.225
+    ],
+    "p1": [
+     -38.89375,
+     22.225
+    ],
+    "width": 7.9375
+   }
+  },
+  {
+   "command": "sketch.slot.center_to_center",
+   "params": {
+    "p0": [
+     -35.71875,
+     -22.225
+    ],
+    "p1": [
+     -38.89375,
+     -22.225
+    ],
+    "width": 7.9375
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     0,
+     0
+    ],
+    "radius": 19.05
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "sketch": "S_P02_plate",
+    "distance": "plate_t",
+    "direction": "symmetric",
+    "operation": "new",
+    "body_name": "P02_TopPlate",
+    "name": "P02_TopPlate_extrude"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "name": "S_P02_press"
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      20.32,
+      69.85
+     ],
+     [
+      18.2626,
+      69.85
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     18.2626,
+     63.5
+    ],
+    "start": [
+     18.2626,
+     69.85
+    ],
+    "end": [
+     14.669175086,
+     68.735436695
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      14.669175086,
+      68.735436695
+     ],
+     [
+      9.54024,
+      65.2145
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     8.1026,
+     67.31
+    ],
+    "start": [
+     9.54024,
+     65.2145
+    ],
+    "end": [
+     9.132102538,
+     64.986628841
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.132102538,
+      64.986628841
+     ],
+     [
+      9.1313,
+      63.5508
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.1313,
+      63.5508
+     ],
+     [
+      9.1567,
+      63.5508
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     9.1567,
+     63.1698
+    ],
+    "start": [
+     9.1567,
+     63.5508
+    ],
+    "end": [
+     9.5377,
+     63.1698
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.5377,
+      63.1698
+     ],
+     [
+      9.5377,
+      62.31382
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     8.89,
+     64.77
+    ],
+    "start": [
+     9.5377,
+     62.31382
+    ],
+    "end": [
+     10.327017259,
+     62.675407706
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      10.327017259,
+      62.675407706
+     ],
+     [
+      15.45717,
+      66.19494
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     19.05,
+     60.96
+    ],
+    "start": [
+     15.45717,
+     66.19494
+    ],
+    "end": [
+     19.05,
+     67.309253831
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      19.05,
+      67.309253831
+     ],
+     [
+      20.32,
+      67.31
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      20.32,
+      67.31
+     ],
+     [
+      20.32,
+      69.85
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "sketch": "S_P02_press",
+    "axis": "Y",
+    "operation": "new",
+    "body_name": "T_press",
+    "name": "T_press_revolve"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "P02_TopPlate",
+    "tools": [
+     "T_press"
+    ],
+    "operation": "join",
+    "keep_tools": false
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "name": "S_P03_pin"
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      0,
+      69.85
+     ],
+     [
+      0,
+      54.2544
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      0,
+      54.2544
+     ],
+     [
+      5.9944,
+      52.64912
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      5.9944,
+      52.64912
+     ],
+     [
+      5.9944,
+      45.12818
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      5.9944,
+      45.12818
+     ],
+     [
+      6.49478,
+      44.6278
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      6.49478,
+      44.6278
+     ],
+     [
+      6.93928,
+      44.6278
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      6.93928,
+      44.6278
+     ],
+     [
+      7.43839,
+      45.12818
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      7.43839,
+      45.12818
+     ],
+     [
+      7.43839,
+      60.1218
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     7.81939,
+     60.1218
+    ],
+    "start": [
+     7.43839,
+     60.1218
+    ],
+    "end": [
+     7.81939,
+     60.5028
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      7.81939,
+      60.5028
+     ],
+     [
+      9.1567,
+      60.5028
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     9.1567,
+     60.8838
+    ],
+    "start": [
+     9.1567,
+     60.5028
+    ],
+    "end": [
+     9.5377,
+     60.8838
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.5377,
+      60.8838
+     ],
+     [
+      9.5377,
+      63.1698
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     9.1567,
+     63.1698
+    ],
+    "start": [
+     9.5377,
+     63.1698
+    ],
+    "end": [
+     9.1567,
+     63.5508
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      9.1567,
+      63.5508
+     ],
+     [
+      7.9121,
+      63.5508
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     7.9121,
+     63.9318
+    ],
+    "start": [
+     7.9121,
+     63.5508
+    ],
+    "end": [
+     7.5311,
+     63.9318
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      7.5311,
+      63.9318
+     ],
+     [
+      7.5311,
+      69.34962
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      7.5311,
+      69.34962
+     ],
+     [
+      7.03072,
+      69.85
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      7.03072,
+      69.85
+     ],
+     [
+      0,
+      69.85
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "sketch": "S_P03_pin",
+    "axis": "Y",
+    "operation": "new",
+    "body_name": "P03_Kingpin",
+    "name": "P03_Kingpin_revolve"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": {
+     "origin": [
+      0,
+      64.135,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    },
+    "name": "S_P03_lug"
+   }
+  },
+  {
+   "command": "sketch.circle.center",
+   "params": {
+    "center": [
+     -7.5311,
+     0
+    ],
+    "radius": 1.6002
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "sketch": "S_P03_lug",
+    "distance": "lug_h + 0.052 in",
+    "direction": "symmetric",
+    "operation": "new",
+    "body_name": "T_lug",
+    "name": "T_lug_extrude"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "P03_Kingpin",
+    "tools": [
+     "T_lug"
+    ],
+    "operation": "join",
+    "keep_tools": false
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "name": "S_P04"
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      10.1854,
+      62.5856
+     ],
+     [
+      22.1488,
+      62.5856
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      22.1488,
+      62.5856
+     ],
+     [
+      22.1488,
+      64.4906
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      22.1488,
+      64.4906
+     ],
+     [
+      12.97178,
+      64.4906
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.97178,
+      64.4906
+     ],
+     [
+      10.32764,
+      62.6745
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     8.89,
+     64.77
+    ],
+    "start": [
+     10.32764,
+     62.6745
+    ],
+    "end": [
+     10.1854,
+     62.5856
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "sketch": "S_P04",
+    "axis": "Y",
+    "operation": "new",
+    "body_name": "P04_BearingWasher",
+    "name": "P04_BearingWasher_revolve"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": {
+     "origin": [
+      0,
+      65.4431,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    },
+    "name": "S_P05_hex"
+   }
+  },
+  {
+   "command": "sketch.polygon.circumscribed",
+   "params": {
+    "center": [
+     0,
+     0
+    ],
+    "radius": 19.177,
+    "sides": 6,
+    "angle": 30
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "sketch": "S_P05_hex",
+    "distance": "hex_t",
+    "direction": "symmetric",
+    "operation": "new",
+    "body_name": "P05_HexRing",
+    "name": "P05_HexRing_extrude"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "name": "S_P05_bore"
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      0,
+      64.4906
+     ],
+     [
+      12.97178,
+      64.4906
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      12.97178,
+      64.4906
+     ],
+     [
+      15.45717,
+      66.19494
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     19.05,
+     60.96
+    ],
+    "start": [
+     15.45717,
+     66.19494
+    ],
+    "end": [
+     16.878427295,
+     66.926346973
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      16.878427295,
+      66.926346973
+     ],
+     [
+      0,
+      66.927048142
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      0,
+      66.927048142
+     ],
+     [
+      0,
+      64.4906
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "sketch": "S_P05_bore",
+    "axis": "Y",
+    "operation": "new",
+    "body_name": "T_hexbore",
+    "name": "T_hexbore_revolve"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "P05_HexRing",
+    "tools": [
+     "T_hexbore"
+    ],
+    "operation": "cut",
+    "keep_tools": false
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "name": "S_P06_stem"
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     3.517138,
+     -156.038296
+    ],
+    "start": [
+     62.5221,
+     54.861968
+    ],
+    "end": [
+     91.406965147,
+     44.550550101
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     89.8779,
+     41.06164
+    ],
+    "start": [
+     91.406965147,
+     44.550550101
+    ],
+    "end": [
+     91.692002653,
+     44.411201983
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     0.84963,
+     -165.363906
+    ],
+    "start": [
+     91.692002653,
+     44.411201983
+    ],
+    "end": [
+     93.687886334,
+     43.535569249
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      93.687886334,
+      43.535569249
+     ],
+     [
+      93.6879,
+      36.191698
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     89.8779,
+     36.191698
+    ],
+    "start": [
+     93.6879,
+     36.191698
+    ],
+    "end": [
+     89.984327041,
+     32.383184736
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      89.984327041,
+      32.383184736
+     ],
+     [
+      69.311266,
+      31.805626
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     69.795644,
+     14.464284
+    ],
+    "start": [
+     69.311266,
+     31.805626
+    ],
+    "end": [
+     62.522138487,
+     30.213978662
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      62.522138487,
+      30.213978662
+     ],
+     [
+      62.5221,
+      54.861968
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "sketch": "S_P06_stem",
+    "distance": "pedal_W",
+    "direction": "symmetric",
+    "operation": "new",
+    "body_name": "P06_BrakePedal",
+    "name": "P06_BrakePedal_extrude"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": "XY",
+    "name": "S_P06_foot_side"
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     94.9579,
+     42.118788
+    ],
+    "start": [
+     93.6879,
+     42.118788
+    ],
+    "end": [
+     95.043491684,
+     43.385900491
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     96.15678,
+     59.67984
+    ],
+    "start": [
+     95.043491684,
+     43.385900491
+    ],
+    "end": [
+     103.642450078,
+     45.164447512
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     105.3719,
+     41.7703
+    ],
+    "start": [
+     103.642450078,
+     45.164447512
+    ],
+    "end": [
+     109.181261411,
+     41.7703
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      109.181261411,
+      41.7703
+     ],
+     [
+      109.1819,
+      35.4203
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     105.3719,
+     35.4203
+    ],
+    "start": [
+     109.1819,
+     35.4203
+    ],
+    "end": [
+     103.642157405,
+     32.025584908
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     96.15678,
+     17.51076
+    ],
+    "start": [
+     103.642157405,
+     32.025584908
+    ],
+    "end": [
+     95.043535142,
+     33.804062394
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     94.9579,
+     35.071812
+    ],
+    "start": [
+     95.043535142,
+     33.804062394
+    ],
+    "end": [
+     93.687261404,
+     35.071812
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      93.687261404,
+      35.071812
+     ],
+     [
+      93.6879,
+      42.118788
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "sketch": "S_P06_foot_side",
+    "distance": "foot_W + 0.2 in",
+    "direction": "symmetric",
+    "operation": "new",
+    "body_name": "T_foot",
+    "name": "T_foot_extrude"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": {
+     "origin": [
+      0,
+      38.5953,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    },
+    "name": "S_P06_foot_plan"
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      111.76,
+      -14.36878
+     ],
+     [
+      111.76,
+      14.36878
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      111.76,
+      14.36878
+     ],
+     [
+      109.198298384,
+      14.36878
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     102.9335,
+     14.36878
+    ],
+    "start": [
+     109.198298384,
+     14.36878
+    ],
+    "end": [
+     108.200952,
+     17.760188
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     86.72576,
+     4.19862
+    ],
+    "start": [
+     108.200952,
+     17.760188
+    ],
+    "end": [
+     100.256101805,
+     25.693499593
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     96.87306,
+     20.32
+    ],
+    "start": [
+     100.256101805,
+     25.693499593
+    ],
+    "end": [
+     96.87306,
+     26.669761391
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      96.87306,
+      26.669761391
+     ],
+     [
+      94.6785,
+      26.67
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     94.6785,
+     25.654
+    ],
+    "start": [
+     94.6785,
+     26.67
+    ],
+    "end": [
+     93.6625,
+     25.654
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      93.6625,
+      25.654
+     ],
+     [
+      91.44,
+      25.654
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      91.44,
+      25.654
+     ],
+     [
+      91.44,
+      -25.654
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      91.44,
+      -25.654
+     ],
+     [
+      93.6625,
+      -25.654
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     94.6785,
+     -25.654
+    ],
+    "start": [
+     93.6625,
+     -25.654
+    ],
+    "end": [
+     94.6785,
+     -26.67
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      94.6785,
+      -26.67
+     ],
+     [
+      96.87306,
+      -26.67
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     96.87306,
+     -20.32
+    ],
+    "start": [
+     96.87306,
+     -26.67
+    ],
+    "end": [
+     100.256228901,
+     -25.693701535
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     86.72576,
+     -4.19862
+    ],
+    "start": [
+     100.256228901,
+     -25.693701535
+    ],
+    "end": [
+     108.201153748,
+     -17.760315404
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     102.9335,
+     -14.36878
+    ],
+    "start": [
+     108.201153748,
+     -17.760315404
+    ],
+    "end": [
+     109.198536984,
+     -14.36878
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      109.198536984,
+      -14.36878
+     ],
+     [
+      111.76,
+      -14.36878
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.extrude",
+   "params": {
+    "sketch": "S_P06_foot_plan",
+    "distance": "1 in",
+    "direction": "symmetric",
+    "operation": "new",
+    "body_name": "T_footplan",
+    "name": "T_footplan_extrude"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "T_foot",
+    "tools": [
+     "T_footplan"
+    ],
+    "operation": "intersect",
+    "keep_tools": false
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "P06_BrakePedal",
+    "tools": [
+     "T_foot"
+    ],
+    "operation": "join",
+    "keep_tools": false
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "rib_R",
+    "height": "rib_stem_L",
+    "base": [
+     65.6971,
+     53.61178,
+     -17.145
+    ],
+    "axis": "Z",
+    "operation": "new",
+    "body_name": "T_rib1",
+    "name": "P06_rib1"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "P06_BrakePedal",
+    "tools": [
+     "T_rib1"
+    ],
+    "operation": "join",
+    "keep_tools": false
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "rib_R",
+    "height": "rib_stem_L",
+    "base": [
+     68.8721,
+     52.53228,
+     -17.145
+    ],
+    "axis": "Z",
+    "operation": "new",
+    "body_name": "T_rib2",
+    "name": "P06_rib2"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "P06_BrakePedal",
+    "tools": [
+     "T_rib2"
+    ],
+    "operation": "join",
+    "keep_tools": false
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "rib_R",
+    "height": "rib_stem_L",
+    "base": [
+     72.0471,
+     51.64836,
+     -17.145
+    ],
+    "axis": "Z",
+    "operation": "new",
+    "body_name": "T_rib3",
+    "name": "P06_rib3"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "P06_BrakePedal",
+    "tools": [
+     "T_rib3"
+    ],
+    "operation": "join",
+    "keep_tools": false
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "rib_R",
+    "height": "rib_foot_L",
+    "base": [
+     96.2279,
+     43.2943,
+     -22.225
+    ],
+    "axis": "Z",
+    "operation": "new",
+    "body_name": "T_rib4",
+    "name": "P06_rib4"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "P06_BrakePedal",
+    "tools": [
+     "T_rib4"
+    ],
+    "operation": "join",
+    "keep_tools": false
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "rib_R",
+    "height": "rib_foot_L",
+    "base": [
+     98.7679,
+     43.5356,
+     -22.225
+    ],
+    "axis": "Z",
+    "operation": "new",
+    "body_name": "T_rib5",
+    "name": "P06_rib5"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "P06_BrakePedal",
+    "tools": [
+     "T_rib5"
+    ],
+    "operation": "join",
+    "keep_tools": false
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "rib_R",
+    "height": "rib_foot_L",
+    "base": [
+     101.3079,
+     44.13504,
+     -22.225
+    ],
+    "axis": "Z",
+    "operation": "new",
+    "body_name": "T_rib6",
+    "name": "P06_rib6"
+   }
+  },
+  {
+   "command": "solid.combine",
+   "params": {
+    "target": "P06_BrakePedal",
+    "tools": [
+     "T_rib6"
+    ],
+    "operation": "join",
+    "keep_tools": false
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": {
+     "origin": [
+      38.481,
+      -19.05,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    },
+    "name": "S_P07_tread"
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      39.71925,
+      15.875
+     ],
+     [
+      39.71925,
+      -15.875
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      39.71925,
+      -15.875
+     ],
+     [
+      45.72,
+      -15.875
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     45.72,
+     -10.795
+    ],
+    "start": [
+     45.72,
+     -15.875
+    ],
+    "end": [
+     50.8,
+     -10.795
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      50.8,
+      -10.795
+     ],
+     [
+      50.8,
+      10.795
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     45.72,
+     10.795
+    ],
+    "start": [
+     50.8,
+     10.795
+    ],
+    "end": [
+     45.72,
+     15.875
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      45.72,
+      15.875
+     ],
+     [
+      39.71925,
+      15.875
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "sketch": "S_P07_tread",
+    "axis": "y",
+    "operation": "new",
+    "body_name": "P07_WheelTread",
+    "name": "P07_WheelTread_revolve"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": {
+     "origin": [
+      38.481,
+      -19.05,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    },
+    "name": "S_P08_insert"
+   }
+  },
+  {
+   "command": "sketch.rectangle.two_point",
+   "params": {
+    "p0": [
+     38.44925,
+     -15.875
+    ],
+    "p1": [
+     39.71925,
+     15.875
+    ]
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "sketch": "S_P08_insert",
+    "axis": "y",
+    "operation": "new",
+    "body_name": "P08_WheelInsertRing",
+    "name": "P08_WheelInsertRing_revolve"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "radius": "core_R",
+    "height": "core_W",
+    "base": [
+     38.481,
+     -19.05,
+     -7.9375
+    ],
+    "axis": "Z",
+    "operation": "new",
+    "body_name": "P09_WheelCoreDisc",
+    "name": "P09_WheelCoreDisc"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": {
+     "origin": [
+      38.481,
+      -19.05,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    },
+    "name": "S_P10a_CoreFlange_negZ"
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      7.747,
+      -7.9375
+     ],
+     [
+      38.44925,
+      -7.9375
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      38.44925,
+      -7.9375
+     ],
+     [
+      38.44925,
+      -15.50924
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     37.94125,
+     -15.50924
+    ],
+    "start": [
+     38.44925,
+     -15.50924
+    ],
+    "end": [
+     38.103034422,
+     -15.990789375
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     7.747,
+     74.36358
+    ],
+    "start": [
+     38.103034422,
+     -15.990789375
+    ],
+    "end": [
+     8.257721754,
+     -20.95242104
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     8.255,
+     -20.44446
+    ],
+    "start": [
+     8.257721754,
+     -20.95242104
+    ],
+    "end": [
+     7.747031668,
+     -20.44446
+    ],
+    "clockwise": true
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      7.747031668,
+      -20.44446
+     ],
+     [
+      7.747,
+      -7.9375
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "sketch": "S_P10a_CoreFlange_negZ",
+    "axis": "y",
+    "operation": "new",
+    "body_name": "P10a_CoreFlange_negZ",
+    "name": "P10a_CoreFlange_negZ_revolve"
+   }
+  },
+  {
+   "command": "sketch.create",
+   "params": {
+    "plane": {
+     "origin": [
+      38.481,
+      -19.05,
+      0
+     ],
+     "x_dir": [
+      1,
+      0,
+      0
+     ],
+     "y_dir": [
+      0,
+      0,
+      1
+     ]
+    },
+    "name": "S_P10b_CoreFlange_posZ"
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      7.747,
+      7.9375
+     ],
+     [
+      38.44925,
+      7.9375
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      38.44925,
+      7.9375
+     ],
+     [
+      38.44925,
+      15.50924
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     37.94125,
+     15.50924
+    ],
+    "start": [
+     38.44925,
+     15.50924
+    ],
+    "end": [
+     38.103034422,
+     15.990789375
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     7.747,
+     -74.36358
+    ],
+    "start": [
+     38.103034422,
+     15.990789375
+    ],
+    "end": [
+     8.257721754,
+     20.95242104
+    ]
+   }
+  },
+  {
+   "command": "sketch.arc.center_point",
+   "params": {
+    "center": [
+     8.255,
+     20.44446
+    ],
+    "start": [
+     8.257721754,
+     20.95242104
+    ],
+    "end": [
+     7.747031668,
+     20.44446
+    ]
+   }
+  },
+  {
+   "command": "sketch.line",
+   "params": {
+    "points": [
+     [
+      7.747031668,
+      20.44446
+     ],
+     [
+      7.747,
+      7.9375
+     ]
+    ]
+   }
+  },
+  {
+   "command": "sketch.finish",
+   "params": {}
+  },
+  {
+   "command": "solid.revolve",
+   "params": {
+    "sketch": "S_P10b_CoreFlange_posZ",
+    "axis": "y",
+    "operation": "new",
+    "body_name": "P10b_CoreFlange_posZ",
+    "name": "P10b_CoreFlange_posZ_revolve"
+   }
+  },
+  {
+   "command": "solid.cylinder",
+   "params": {
+    "diameter": "axle_D",
+    "height": "axle_L",
+    "base": [
+     38.481,
+     -19.05,
+     -26.2636
+    ],
+    "axis": "Z",
+    "operation": "new",
+    "body_name": "H1_AxlePin",
+    "name": "H1_AxlePin"
+   }
+  }
+ ]
+}

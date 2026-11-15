@@ -1,0 +1,33 @@
+# Python önbellekleri ve ortamlar
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Anahtarlar ve oturumlar: asla repoya girmez
+.env
+.env.*
+token.json
+client_secret*.json
+
+# Yerel çalışma klasörü
+_work/
+
+# İşletim sistemi ve editör artıkları
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.swp
+.vscode/
+.idea/
+
+# Ekip çalışma notu (yayımlanmaz)
+_EKIP_SOZLESMESI.md
+
+# Yerel puanlama çıktıları
+benchmark/degerlendirme/puan/

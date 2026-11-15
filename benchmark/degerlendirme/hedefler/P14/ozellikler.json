@@ -1,0 +1,593 @@
+{
+ "items": [
+  {
+   "id": "F1",
+   "govde": "P01",
+   "etiket": "outside diameter 0.655 in (land cylinder)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     8.3185,
+     0,
+     3.556
+    ]
+   },
+   "nom": 16.637,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     8.3185,
+     0,
+     3.556
+    ],
+    "r_mm": 0.5
+   }
+  },
+  {
+   "id": "F2",
+   "govde": "P01",
+   "etiket": "overall length 36 in (end faces)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     0,
+     3,
+     457.2
+    ],
+    "nokta2": [
+     0,
+     3,
+     -457.2
+    ]
+   },
+   "nom": 914.4,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F3",
+   "govde": "P01",
+   "etiket": "bbox X = outside diameter",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x"
+   },
+   "nom": 16.637,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F4",
+   "govde": "P01",
+   "etiket": "end chamfer 0.0655 x 45 + groove run-out, +Z end",
+   "tur": "pah",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     -8.4,
+     -8.4,
+     454.2,
+     8.4,
+     8.4,
+     457.25
+    ]
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     -8.4,
+     -8.4,
+     454.2,
+     8.4,
+     8.4,
+     457.25
+    ]
+   }
+  },
+  {
+   "id": "F5",
+   "govde": "P01",
+   "etiket": "end chamfer 0.0655 x 45 + groove run-out, -Z end",
+   "tur": "pah",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     -8.4,
+     -8.4,
+     -457.25,
+     8.4,
+     8.4,
+     -454.2
+    ]
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     -8.4,
+     -8.4,
+     -457.25,
+     8.4,
+     8.4,
+     -454.2
+    ]
+   }
+  },
+  {
+   "id": "F6",
+   "govde": "P01",
+   "etiket": "end face flat, no centre hole, +Z",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0,
+     3,
+     457.2
+    ],
+    "r_mm": 2.5
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0,
+     3,
+     457.2
+    ],
+    "r_mm": 2.5
+   }
+  },
+  {
+   "id": "F7",
+   "govde": "P01",
+   "etiket": "end face flat, no centre hole, -Z",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0,
+     3,
+     -457.2
+    ],
+    "r_mm": 2.5
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0,
+     3,
+     -457.2
+    ],
+    "r_mm": 2.5
+   }
+  },
+  {
+   "id": "F8",
+   "govde": "P01",
+   "etiket": "groove bottom (root dia 0.562 in) theta 0, z=-447.7",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     7.1374,
+     0,
+     -447.7004
+    ],
+    "r_mm": 0.4
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     7.1374,
+     0,
+     -447.7004
+    ],
+    "r_mm": 0.4
+   }
+  },
+  {
+   "id": "F9",
+   "govde": "P01",
+   "etiket": "groove bottom (root dia 0.562 in) theta 0, z=-228.0",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     7.1374,
+     0,
+     -228.0412
+    ],
+    "r_mm": 0.4
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     7.1374,
+     0,
+     -228.0412
+    ],
+    "r_mm": 0.4
+   }
+  },
+  {
+   "id": "F10",
+   "govde": "P01",
+   "etiket": "groove bottom (root dia 0.562 in) theta 0, z=1.2",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     7.1374,
+     0,
+     1.1684
+    ],
+    "r_mm": 0.4
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     7.1374,
+     0,
+     1.1684
+    ],
+    "r_mm": 0.4
+   }
+  },
+  {
+   "id": "F11",
+   "govde": "P01",
+   "etiket": "groove bottom (root dia 0.562 in) theta 0, z=230.4",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     7.1374,
+     0,
+     230.378
+    ],
+    "r_mm": 0.4
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     7.1374,
+     0,
+     230.378
+    ],
+    "r_mm": 0.4
+   }
+  },
+  {
+   "id": "F12",
+   "govde": "P01",
+   "etiket": "groove bottom (root dia 0.562 in) theta 0, z=450.0",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     7.1374,
+     0,
+     450.0372
+    ],
+    "r_mm": 0.4
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     7.1374,
+     0,
+     450.0372
+    ],
+    "r_mm": 0.4
+   }
+  },
+  {
+   "id": "F13",
+   "govde": "P01",
+   "etiket": "groove flank R0.0465 in, theta 0, z=-446.9",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     7.48334,
+     0,
+     -446.86524
+    ],
+    "r_mm": 0.3
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     7.48334,
+     0,
+     -446.86524
+    ],
+    "r_mm": 0.3
+   }
+  },
+  {
+   "id": "F14",
+   "govde": "P01",
+   "etiket": "groove flank R0.0465 in, theta 0, z=2.0",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     7.48334,
+     0,
+     2.00356
+    ],
+    "r_mm": 0.3
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     7.48334,
+     0,
+     2.00356
+    ],
+    "r_mm": 0.3
+   }
+  },
+  {
+   "id": "F15",
+   "govde": "P01",
+   "etiket": "groove flank R0.0465 in, theta 0, z=450.9",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     7.48334,
+     0,
+     450.87236
+    ],
+    "r_mm": 0.3
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     7.48334,
+     0,
+     450.87236
+    ],
+    "r_mm": 0.3
+   }
+  },
+  {
+   "id": "F16",
+   "govde": "P01",
+   "etiket": "second start: groove at theta 180 (z=UC)",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -7.1374,
+     0,
+     1.1684
+    ],
+    "r_mm": 0.4
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -7.1374,
+     0,
+     1.1684
+    ],
+    "r_mm": 0.4
+   }
+  },
+  {
+   "id": "F17",
+   "govde": "P01",
+   "etiket": "right hand: groove at theta 90, z=UC+lead/4",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0,
+     7.1374,
+     3.556
+    ],
+    "r_mm": 0.4
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0,
+     7.1374,
+     3.556
+    ],
+    "r_mm": 0.4
+   }
+  },
+  {
+   "id": "F18",
+   "govde": "P01",
+   "etiket": "right hand far end: groove at theta 90, z=UC+lead/4+94 pitches",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0,
+     7.1374,
+     452.4248
+    ],
+    "r_mm": 0.4
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0,
+     7.1374,
+     452.4248
+    ],
+    "r_mm": 0.4
+   }
+  },
+  {
+   "id": "F19",
+   "govde": "P01",
+   "etiket": "grooved zone z -60..60 (profile, lead, phase)",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     -8.4,
+     -8.4,
+     -60,
+     8.4,
+     8.4,
+     60
+    ]
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     -8.4,
+     -8.4,
+     -60,
+     8.4,
+     8.4,
+     60
+    ]
+   }
+  },
+  {
+   "id": "F20",
+   "govde": "P01",
+   "etiket": "grooved zone z 380..440",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     -8.4,
+     -8.4,
+     380,
+     8.4,
+     8.4,
+     440
+    ]
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     -8.4,
+     -8.4,
+     380,
+     8.4,
+     8.4,
+     440
+    ]
+   }
+  },
+  {
+   "id": "F21",
+   "govde": "P01",
+   "etiket": "grooved zone z -440..-380",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     -8.4,
+     -8.4,
+     -440,
+     8.4,
+     8.4,
+     -380
+    ]
+   },
+   "nom": 0.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     -8.4,
+     -8.4,
+     -440,
+     8.4,
+     8.4,
+     -380
+    ]
+   }
+  }
+ ],
+ "not": "bolgesel_sapma items: nom 0 = max regional deviation, pass if <= tol. Groove faces are free-form (helical sweep); no analytic counts on them. Source groove surface wobbles +/-0.003 mm about the nominal helix."
+}

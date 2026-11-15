@@ -1,0 +1,144 @@
+{
+ "rows": [
+  {
+   "dim": "3.375in (overall length)",
+   "nom": 3.375,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "y"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1.500in (eye diameter)",
+   "nom": 1.5,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1.625in (thread length)",
+   "nom": 1.625,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "koordinat",
+    "govde": "P01",
+    "eksen": "y",
+    "uc": "min",
+    "referans": 0.0
+   },
+   "modelde_var": true,
+   "not_": "shank from y = 0 (neck start) to y_min = -1.625; recipe 'koordinat' = -(bbox min y) is an extension, lead to confirm"
+  },
+  {
+   "dim": "2.625in (ball centre to shank end)",
+   "nom": 2.625,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "koordinat",
+    "govde": "P01",
+    "eksen": "y",
+    "uc": "min",
+    "referans": 25.4
+   },
+   "modelde_var": true,
+   "not_": "ball centre y = 1.0 in = 25.4 mm minus bbox min y of P01 (referans in mm, lead fix 2026-11-11)"
+  },
+  {
+   "dim": "0.5000in +0.0015/-0.0005 (bore)",
+   "nom": 0.5,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P02",
+    "nokta": [
+     6.35,
+     25.4,
+     7.62
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1/2\"-20 (thread major dia)",
+   "nom": 0.5,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     6.35,
+     -20.8763,
+     0.0
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.4531in (eye thickness)",
+   "nom": 0.4531,
+   "birim": "in",
+   "tol": 5e-05,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     12.7,
+     35.56,
+     5.7546
+    ],
+    "nokta2": [
+     12.7,
+     35.56,
+     -5.7546
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1.250in (collar length)",
+   "nom": 1.25,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P02",
+    "eksen": "z"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1.125in (ball diameter)",
+   "nom": 1.125,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P02",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "65deg (max swivel)",
+   "nom": 65,
+   "birim": "deg",
+   "tol": 0.5,
+   "olcum": null,
+   "modelde_var": false,
+   "not_": "kinematic limit, not stored geometry"
+  }
+ ]
+}

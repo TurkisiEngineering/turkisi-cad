@@ -1,0 +1,134 @@
+{
+ "rows": [
+  {
+   "dim": "6.53in (overall width of the coil, hairpin bends to return bends, front view)",
+   "nom": 6.53,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_kenar_fark",
+    "govde": "P02-a",
+    "kenar": "zmin",
+    "govde2": "P01-a",
+    "kenar2": "zmax"
+   },
+   "modelde_var": true,
+   "not_": "model 3.2570 - (-3.2730) = 6.5300"
+  },
+  {
+   "dim": "5.75in (length of the side channels, front view)",
+   "nom": 5.75,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P10",
+    "eksen": "z"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "5.78in (height over the two side channels, front view)",
+   "nom": 5.78,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_kenar_fark",
+    "govde": "P11",
+    "kenar": "ymin",
+    "govde2": "P10",
+    "kenar2": "ymax"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "3.60in (depth, channel back to guard front, side view)",
+   "nom": 3.6,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_kenar_fark",
+    "govde": "P10",
+    "kenar": "xmin",
+    "govde2": "P17",
+    "kenar2": "xmax"
+   },
+   "modelde_var": true,
+   "not_": "model -0.9200 to 2.6760 = 3.5960 (rounds to 3.60)"
+  },
+  {
+   "dim": "0.375in (tube OD at the connections)",
+   "nom": 0.375,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P03-a",
+    "nokta": [
+     -8.1387,
+     -49.02,
+     -83.82
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.310in (mounting slot depth from the channel edge)",
+   "nom": 0.31,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P11",
+    "tur1": "duzlem",
+    "nokta1": [
+     -22.5679,
+     -73.406,
+     31.75
+    ],
+    "nokta2": [
+     -22.5679,
+     -70.3021,
+     1.9761
+    ],
+    "ekle_mm": 2.794
+   },
+   "modelde_var": true,
+   "not_": "edge plane y=-2.89 to slot axis y=-2.69 (0.20) + slot radius 0.11"
+  },
+  {
+   "dim": "0.220in (mounting slot width)",
+   "nom": 0.22,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P11",
+    "nokta": [
+     -22.5679,
+     -70.3021,
+     1.9761
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "Cord Length: 2 ft (note)",
+   "nom": 24.0,
+   "birim": "in",
+   "tol": 0.5,
+   "olcum": null,
+   "modelde_var": false,
+   "not_": "the model cord is a 3.25-turn coil, centreline about 46.8 in long; not a measurable model dimension"
+  },
+  {
+   "dim": "Tube Connection Type: 37 deg Flared (note)",
+   "nom": 37.0,
+   "birim": "deg",
+   "tol": 0.5,
+   "olcum": null,
+   "modelde_var": true,
+   "not_": "the flare cones of P05 have a 37 deg half angle; no recipe measures a cone half angle"
+  }
+ ]
+}

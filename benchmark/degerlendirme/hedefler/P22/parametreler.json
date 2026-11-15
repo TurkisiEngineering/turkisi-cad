@@ -1,0 +1,64 @@
+{
+ "anahtar": [
+  {
+   "kavram": "sheet thickness (11 gauge)",
+   "deger": 0.1196,
+   "birim": "in",
+   "ipucu_adlar": [
+    "thickness",
+    "t",
+    "thk",
+    "gauge",
+    "sheet_t",
+    "kalinlik"
+   ]
+  },
+  {
+   "kavram": "inside bend radius",
+   "deger": 0.1196,
+   "birim": "in",
+   "ipucu_adlar": [
+    "bend_radius",
+    "r_bend",
+    "inner_radius",
+    "ri",
+    "bend_r",
+    "bukum_r"
+   ]
+  },
+  {
+   "kavram": "overall depth (X)",
+   "deger": 12,
+   "birim": "in",
+   "ipucu_adlar": [
+    "depth",
+    "length",
+    "L",
+    "arm_length",
+    "derinlik"
+   ]
+  },
+  {
+   "kavram": "overall height (Y)",
+   "deger": 8,
+   "birim": "in",
+   "ipucu_adlar": [
+    "height",
+    "H",
+    "wall_flange_length",
+    "yukseklik"
+   ]
+  },
+  {
+   "kavram": "flange width (Z)",
+   "deger": 1.5,
+   "birim": "in",
+   "ipucu_adlar": [
+    "width",
+    "W",
+    "flange_width",
+    "genislik"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+  Fillet_leg_end_R0_125: 2 edges (select 8.4s)
+   ok 8.6s
+  Fillet_ridge_R0_04: 14 edges (select 9.3s)
+   ok 9.7s
+  Fillet_outer_R0_06: 27 edges (select 12.4s)
+   failed: fillet(27 edges sel=27) failed (Fillet_outer_R0_06)
+   fallback per edge: 6/27 ok (14.3s)
+P01   ok=True vol=5.08147 (+0.276%) area=+0.92% dCoM=0.0021 dBox=0.0000 faces=73
+      box ['-1.1330', '3.6885', '-1.2500', '2.4640', '-1.1330', '1.1330'] com ['1.0001', '1.5132', '-0.0005']
+exit 0

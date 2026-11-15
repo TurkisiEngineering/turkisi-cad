@@ -1,0 +1,1076 @@
+{
+ "items": [
+  {
+   "id": "F1",
+   "govde": "P01",
+   "etiket": "bezel diameter 82.6",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     29.2035,
+     29.2035,
+     32.0
+    ]
+   },
+   "nom": 82.6,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     29.2035,
+     29.2035,
+     32.0
+    ],
+    "r_mm": 4.0
+   }
+  },
+  {
+   "id": "F2",
+   "govde": "P01",
+   "etiket": "case wall diameter 77.644",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     27.4513,
+     27.4513,
+     24.0
+    ]
+   },
+   "nom": 77.644,
+   "tol": 0.05
+  },
+  {
+   "id": "F3",
+   "govde": "P01",
+   "etiket": "bezel bore diameter 70.21",
+   "tur": "delik",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     24.823,
+     24.823,
+     30.0
+    ]
+   },
+   "nom": 70.21,
+   "tol": 0.05
+  },
+  {
+   "id": "F4",
+   "govde": "P01",
+   "etiket": "boss diameter 17.346",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     6.1327,
+     6.1327,
+     5.0
+    ]
+   },
+   "nom": 17.346,
+   "tol": 0.05
+  },
+  {
+   "id": "F5",
+   "govde": "P01",
+   "etiket": "dial face to bezel top 8.0",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     10.0,
+     10.0,
+     28.5
+    ],
+    "nokta2": [
+     26.8701,
+     26.8701,
+     36.5
+    ]
+   },
+   "nom": 8.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F6",
+   "govde": "P01",
+   "etiket": "case back to dial face 15.0",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     15.0,
+     15.0,
+     13.5
+    ],
+    "nokta2": [
+     10.0,
+     10.0,
+     28.5
+    ]
+   },
+   "nom": 15.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F7",
+   "govde": "P01",
+   "etiket": "boss bottom to case back 24.6",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     3.0,
+     3.0,
+     -11.1
+    ],
+    "nokta2": [
+     15.0,
+     15.0,
+     13.5
+    ]
+   },
+   "nom": 24.6,
+   "tol": 0.05
+  },
+  {
+   "id": "F8",
+   "govde": "P01",
+   "etiket": "R2.5 rounds of the case profile (5 tori)",
+   "tur": "yuvarlatma",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "torus",
+    "r_mm": 2.5
+   },
+   "nom": 5,
+   "tol": 0
+  },
+  {
+   "id": "F9",
+   "govde": "P01",
+   "etiket": "R1.5 rounds of the back (3 tori)",
+   "tur": "yuvarlatma",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "torus",
+    "r_mm": 1.5,
+    "bolge": [
+     -40,
+     -40,
+     10,
+     40,
+     40,
+     20
+    ]
+   },
+   "nom": 3,
+   "tol": 0
+  },
+  {
+   "id": "F10",
+   "govde": "P01",
+   "etiket": "back edge: R1.5 round, R2.5 cove, 45 deg cone, R1.5 round, step z 17.5 (region)",
+   "tur": "yuvarlatma",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0.0,
+     -34.6,
+     16.0
+    ],
+    "r_mm": 3.5
+   }
+  },
+  {
+   "id": "F11",
+   "govde": "P01",
+   "etiket": "bezel top, inner and outer rounds (region)",
+   "tur": "yuvarlatma",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -38.2,
+     0.0,
+     35.5
+    ],
+    "r_mm": 3.5
+   }
+  },
+  {
+   "id": "F12",
+   "govde": "P01",
+   "etiket": "boss bottom 1x45 chamfer and boss/back blend (region)",
+   "tur": "pah",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0.0,
+     8.5,
+     -10.5
+    ],
+    "r_mm": 2.0
+   }
+  },
+  {
+   "id": "F13",
+   "govde": "P01",
+   "etiket": "stem diameter 6.35",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     -100.0,
+     2.2451,
+     2.2451
+    ]
+   },
+   "nom": 6.35,
+   "tol": 0.05
+  },
+  {
+   "id": "F14",
+   "govde": "P01",
+   "etiket": "stem tip face to hex face 101.6",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     -142.9,
+     0.5,
+     0.5
+    ],
+    "nokta2": [
+     -41.3,
+     7.0711,
+     7.0711
+    ]
+   },
+   "nom": 101.6,
+   "tol": 0.05
+  },
+  {
+   "id": "F15",
+   "govde": "P01",
+   "etiket": "stem tip round R1.5 (region)",
+   "tur": "yuvarlatma",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -142.0,
+     0.0,
+     2.5
+    ],
+    "r_mm": 2.0
+   }
+  },
+  {
+   "id": "F16",
+   "govde": "P01",
+   "etiket": "stem to spigot blend R1.5 and end face (region)",
+   "tur": "yuvarlatma",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -57.8,
+     0.0,
+     -4.4
+    ],
+    "r_mm": 2.0
+   }
+  },
+  {
+   "id": "F17",
+   "govde": "P01",
+   "etiket": "spigot end face to hex face 15.875",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     -57.175,
+     4.6,
+     4.6
+    ],
+    "nokta2": [
+     -41.3,
+     7.0711,
+     7.0711
+    ]
+   },
+   "nom": 15.875,
+   "tol": 0.05
+  },
+  {
+   "id": "F18",
+   "govde": "P01",
+   "etiket": "hex across flats 22.23",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     -36.0,
+     11.115,
+     0.5
+    ],
+    "nokta2": [
+     -36.0,
+     -11.115,
+     0.5
+    ]
+   },
+   "nom": 22.23,
+   "tol": 0.05
+  },
+  {
+   "id": "F19",
+   "govde": "P01",
+   "etiket": "hex: 6 flats",
+   "tur": "diger",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "plane",
+    "bolge": [
+     -40,
+     -12,
+     -13,
+     -32,
+     12,
+     13
+    ]
+   },
+   "nom": 6,
+   "tol": 0
+  },
+  {
+   "id": "F20",
+   "govde": "P01",
+   "etiket": "hex flat at 60 deg to the horizontal flat",
+   "tur": "diger",
+   "olcum": {
+    "tip": "aci",
+    "govde": "P01",
+    "nokta1": [
+     -36.0,
+     11.115,
+     0.5
+    ],
+    "nokta2": [
+     -36.0,
+     5.5575,
+     9.626
+    ]
+   },
+   "nom": 60.0,
+   "tol": 0.2
+  },
+  {
+   "id": "F21",
+   "govde": "P01",
+   "etiket": "hex 30 deg end chamfers (region, x -41.3 end)",
+   "tur": "pah",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -40.6,
+     0.0,
+     11.8
+    ],
+    "r_mm": 1.8
+   }
+  },
+  {
+   "id": "F22",
+   "govde": "P01",
+   "etiket": "hex 30 deg end chamfers (region, x -30.57 end)",
+   "tur": "pah",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -31.5,
+     0.0,
+     -11.2
+    ],
+    "r_mm": 1.8
+   }
+  },
+  {
+   "id": "F23",
+   "govde": "P01",
+   "etiket": "hex face x -41.3 to shoulder x -28.978",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     -41.3,
+     7.0711,
+     7.0711
+    ],
+    "nokta2": [
+     -28.97846,
+     6.11,
+     6.11
+    ]
+   },
+   "nom": 12.3215,
+   "tol": 0.05
+  },
+  {
+   "id": "F24",
+   "govde": "P01",
+   "etiket": "collar diameter 19.032",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     -30.0652,
+     6.7288,
+     6.7288
+    ]
+   },
+   "nom": 19.0321,
+   "tol": 0.05
+  },
+  {
+   "id": "F25",
+   "govde": "P01",
+   "etiket": "neck diameter 16.045",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     -20.0,
+     5.673,
+     5.673
+    ]
+   },
+   "nom": 16.045,
+   "tol": 0.05
+  },
+  {
+   "id": "F26",
+   "govde": "P01",
+   "etiket": "collar 45 deg chamfer, shoulder, 28.6 deg cone (region)",
+   "tur": "pah",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -29.0,
+     0.0,
+     -8.6
+    ],
+    "r_mm": 1.5
+   }
+  },
+  {
+   "id": "F27",
+   "govde": "P01",
+   "etiket": "neck to boss blend R1.5 (region)",
+   "tur": "yuvarlatma",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -9.2,
+     0.0,
+     8.8
+    ],
+    "r_mm": 1.5
+   }
+  },
+  {
+   "id": "F28",
+   "govde": "P01",
+   "etiket": "neck to boss blend R1.5, side (region)",
+   "tur": "yuvarlatma",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -3.6,
+     8.0,
+     0.0
+    ],
+    "r_mm": 1.5
+   }
+  },
+  {
+   "id": "F29",
+   "govde": "P01",
+   "etiket": "taper thread 14 TPI, 60 deg, right hand, middle (region x -54..-46)",
+   "tur": "vida_disi",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     -54.0,
+     -11.0,
+     -11.0,
+     -46.0,
+     11.0,
+     11.0
+    ]
+   }
+  },
+  {
+   "id": "F30",
+   "govde": "P01",
+   "etiket": "thread free end through the 46.8 deg end chamfer (region)",
+   "tur": "vida_disi",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     -57.3,
+     -11.0,
+     -11.0,
+     -54.0,
+     11.0,
+     11.0
+    ]
+   }
+  },
+  {
+   "id": "F31",
+   "govde": "P01",
+   "etiket": "thread run-out cone 43.2 deg and relief (region)",
+   "tur": "vida_disi",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     -46.0,
+     -11.0,
+     -11.0,
+     -41.35,
+     11.0,
+     11.0
+    ]
+   }
+  },
+  {
+   "id": "F32",
+   "govde": "P01",
+   "etiket": "hub diameter 6.0",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     2.1213,
+     2.1213,
+     29.75
+    ]
+   },
+   "nom": 6.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F33",
+   "govde": "P01",
+   "etiket": "pointer plate thickness 0.5",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     1.84,
+     15.0,
+     29.0
+    ],
+    "nokta2": [
+     1.84,
+     15.0,
+     29.5
+    ]
+   },
+   "nom": 0.5,
+   "tol": 0.05
+  },
+  {
+   "id": "F34",
+   "govde": "P01",
+   "etiket": "hub top 1.5 above the dial face",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     1.0,
+     1.0,
+     30.0
+    ],
+    "nokta2": [
+     10.0,
+     10.0,
+     28.5
+    ]
+   },
+   "nom": 1.5,
+   "tol": 0.05
+  },
+  {
+   "id": "F35",
+   "govde": "P01",
+   "etiket": "pointer apex angle (side faces)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "aci",
+    "govde": "P01",
+    "nokta1": [
+     1.8242,
+     6.651,
+     29.25
+    ],
+    "nokta2": [
+     -0.1609,
+     6.8949,
+     29.25
+    ]
+   },
+   "nom": 5.5609,
+   "tol": 0.2
+  },
+  {
+   "id": "F36",
+   "govde": "P01",
+   "etiket": "pointer triangle and hub (region)",
+   "tur": "diger",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     -4.0,
+     -14.5,
+     28.52,
+     3.8,
+     27.8,
+     30.2
+    ]
+   }
+  },
+  {
+   "id": "F37",
+   "govde": "P01",
+   "etiket": "scale: 100 raised marks, 84 with centre above y -15 (separate top faces)",
+   "tur": "yazi",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "plane",
+    "yon": [
+     0,
+     0,
+     1
+    ],
+    "ayri_yuzler": true,
+    "bolge": [
+     -33,
+     -15,
+     28.505,
+     33,
+     33,
+     28.515
+    ]
+   },
+   "nom": 84,
+   "tol": 0
+  },
+  {
+   "id": "F38",
+   "govde": "P01",
+   "etiket": "scale mark at +Y (region)",
+   "tur": "yazi",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0.0,
+     30.56,
+     28.505
+    ],
+    "r_mm": 2.0
+   }
+  },
+  {
+   "id": "F39",
+   "govde": "P01",
+   "etiket": "scale end mark at theta -50 (region)",
+   "tur": "yazi",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     19.6449,
+     -23.4119,
+     28.505
+    ],
+    "r_mm": 2.0
+   }
+  },
+  {
+   "id": "F40",
+   "govde": "P01",
+   "etiket": "scale end mark at theta 230 (region)",
+   "tur": "yazi",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -19.6449,
+     -23.4119,
+     28.505
+    ],
+    "r_mm": 2.0
+   }
+  },
+  {
+   "id": "F41",
+   "govde": "P01",
+   "etiket": "text -40 (region)",
+   "tur": "yazi",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     -17.2,
+     -22.5,
+     28.495,
+     -12.0,
+     -19.3,
+     28.52
+    ]
+   }
+  },
+  {
+   "id": "F42",
+   "govde": "P01",
+   "etiket": "text deg F (region)",
+   "tur": "yazi",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     -2.5,
+     -24.1,
+     28.495,
+     2.5,
+     -20.6,
+     28.52
+    ]
+   }
+  },
+  {
+   "id": "F43",
+   "govde": "P01",
+   "etiket": "text 160 (region)",
+   "tur": "yazi",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "kutu": [
+     12.0,
+     -22.5,
+     28.495,
+     17.6,
+     -19.3,
+     28.52
+    ]
+   }
+  },
+  {
+   "id": "F44",
+   "govde": "P02",
+   "etiket": "lens diameter 70.21",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P02",
+    "nokta": [
+     24.823,
+     24.823,
+     32.5
+    ]
+   },
+   "nom": 70.21,
+   "tol": 0.05
+  },
+  {
+   "id": "F45",
+   "govde": "P02",
+   "etiket": "lens thickness 3.0",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P02",
+    "nokta1": [
+     5.0,
+     5.0,
+     31.0
+    ],
+    "nokta2": [
+     5.0,
+     5.0,
+     34.0
+    ]
+   },
+   "nom": 3.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F46",
+   "govde": "P02",
+   "etiket": "lens back face 2.5 above the dial face",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe_govdeler",
+    "govde": "P02",
+    "nokta1": [
+     5.0,
+     5.0,
+     31.0
+    ],
+    "govde2": "P01",
+    "nokta2": [
+     10.0,
+     10.0,
+     28.5
+    ]
+   },
+   "nom": 2.5,
+   "tol": 0.05
+  },
+  {
+   "id": "F47",
+   "govde": "P03",
+   "etiket": "head diameter 4.5",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P03",
+    "nokta": [
+     21.591,
+     1.591,
+     13.0
+    ]
+   },
+   "nom": 4.5,
+   "tol": 0.05
+  },
+  {
+   "id": "F48",
+   "govde": "P03",
+   "etiket": "head thickness 1.0",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P03",
+    "nokta1": [
+     21.4,
+     1.0,
+     12.5
+    ],
+    "nokta2": [
+     21.4,
+     1.0,
+     13.5
+    ]
+   },
+   "nom": 1.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F49",
+   "govde": "P03",
+   "etiket": "cross recess slot width 0.4",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P03",
+    "nokta1": [
+     20.6,
+     0.2,
+     13.0
+    ],
+    "nokta2": [
+     20.6,
+     -0.2,
+     13.0
+    ]
+   },
+   "nom": 0.4,
+   "tol": 0.05
+  },
+  {
+   "id": "F50",
+   "govde": "P03",
+   "etiket": "slot end rounds R0.2 (4 ends)",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P03",
+    "yuzey": "cylinder",
+    "r_mm": 0.2
+   },
+   "nom": 4,
+   "tol": 0
+  },
+  {
+   "id": "F51",
+   "govde": "P03",
+   "etiket": "slot end centres 2.5 apart",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P03",
+    "nokta1": [
+     21.4232,
+     0.1,
+     13.0
+    ],
+    "nokta2": [
+     18.5768,
+     0.1,
+     13.0
+    ]
+   },
+   "nom": 2.5,
+   "tol": 0.05
+  },
+  {
+   "id": "F52",
+   "govde": "P03",
+   "etiket": "head top on the case back (z 13.5 vs back plane)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe_govdeler",
+    "govde": "P03",
+    "nokta1": [
+     21.4,
+     1.0,
+     13.5
+    ],
+    "govde2": "P01",
+    "nokta2": [
+     15.0,
+     15.0,
+     13.5
+    ]
+   },
+   "nom": 0.0,
+   "tol": 0.05
+  },
+  {
+   "id": "F53",
+   "govde": "P01",
+   "etiket": "overall length 184.2 (assembly X)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "montaj_bbox_boyut",
+    "eksen": "x"
+   },
+   "nom": 184.2,
+   "tol": 0.05
+  },
+  {
+   "id": "F54",
+   "govde": "P01",
+   "etiket": "assembly height Z 49.3345",
+   "tur": "diger",
+   "olcum": {
+    "tip": "montaj_bbox_boyut",
+    "eksen": "z"
+   },
+   "nom": 49.3345,
+   "tol": 0.05
+  }
+ ]
+}

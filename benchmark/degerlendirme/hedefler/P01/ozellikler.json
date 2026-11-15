@@ -1,0 +1,380 @@
+{
+ "items": [
+  {
+   "id": "F1",
+   "govde": "P01",
+   "etiket": "tip (inner) diameter 29.0",
+   "tur": "dis",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     14.5,
+     0.0,
+     0.0
+    ]
+   },
+   "nom": 29.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     14.5,
+     0,
+     0
+    ],
+    "r_mm": 0.5
+   }
+  },
+  {
+   "id": "F2",
+   "govde": "P01",
+   "etiket": "root diameter 31.25",
+   "tur": "dis",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     15.603586480540216,
+     0.8177493162959975,
+     0.0
+    ]
+   },
+   "nom": 31.25,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     15.603586480540216,
+     0.8177493162959975,
+     0
+    ],
+    "r_mm": 0.5
+   }
+  },
+  {
+   "id": "F3",
+   "govde": "P01",
+   "etiket": "outside diameter 50",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     0.0,
+     25.0,
+     0.0
+    ]
+   },
+   "nom": 50.0,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F4",
+   "govde": "P01",
+   "etiket": "face width 5",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     20,
+     0,
+     2.5
+    ],
+    "nokta2": [
+     20,
+     0,
+     -2.5
+    ]
+   },
+   "nom": 5.0,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F5",
+   "govde": "P01",
+   "etiket": "60 teeth (tip-land cylinder faces r14.5; seam may split one)",
+   "tur": "dis",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "cylinder",
+    "r_mm": 14.5,
+    "ayri_yuzler": true
+   },
+   "nom": 60,
+   "tol": 1,
+   "bolge": null
+  },
+  {
+   "id": "F6",
+   "govde": "P01",
+   "etiket": "60 root lands (cylinder faces r15.625)",
+   "tur": "dis",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "cylinder",
+    "r_mm": 15.625,
+    "ayri_yuzler": true
+   },
+   "nom": 60,
+   "tol": 1,
+   "bolge": null
+  },
+  {
+   "id": "F7",
+   "govde": "P01",
+   "etiket": "involute flanks of the tooth on +X (2 freeform faces)",
+   "tur": "dis",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "bspline",
+    "bolge": [
+     14.3,
+     -0.8,
+     -3,
+     15.8,
+     0.8,
+     3
+    ]
+   },
+   "nom": 2,
+   "tol": 0,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     14.99486,
+     0.39265,
+     0
+    ],
+    "r_mm": 0.3
+   }
+  },
+  {
+   "id": "F8",
+   "govde": "P01",
+   "etiket": "involute flank, tooth at 90 deg, pitch point",
+   "tur": "dis",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     0.0,
+     14.5,
+     0.0
+    ]
+   },
+   "nom": 29.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -0.39265,
+     14.99486,
+     0
+    ],
+    "r_mm": 0.3
+   }
+  },
+  {
+   "id": "F9",
+   "govde": "P01",
+   "etiket": "involute flank, tooth at 186 deg (other side), pitch point",
+   "tur": "dis",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     -14.420567482839962,
+     -1.5156627173809754,
+     0
+    ]
+   },
+   "nom": 29.0,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -14.95376000599692,
+     -1.1768864359176723,
+     0
+    ],
+    "r_mm": 0.3
+   }
+  },
+  {
+   "id": "F10",
+   "govde": "P01",
+   "etiket": "root fillets R0.16775 in the space at -3 deg (count, seam may split)",
+   "tur": "yuvarlatma",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "cylinder",
+    "r_mm": 0.16775,
+    "bolge": [
+     15.3,
+     -1.1,
+     -3,
+     15.7,
+     -0.5,
+     3
+    ]
+   },
+   "nom": 2,
+   "tol": 1,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     15.55,
+     -0.81,
+     0
+    ],
+    "r_mm": 0.25
+   }
+  },
+  {
+   "id": "F11",
+   "govde": "P01",
+   "etiket": "root fillet radius 0.16775 (diameter 0.3355)",
+   "tur": "yuvarlatma",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     15.56,
+     -0.7,
+     0
+    ]
+   },
+   "nom": 0.3355,
+   "tol": 0.01,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     15.56,
+     -0.7,
+     0
+    ],
+    "r_mm": 0.15
+   }
+  },
+  {
+   "id": "F12",
+   "govde": "P01",
+   "etiket": "no root fillet in a normal space (sharp root corner at +3 deg space)",
+   "tur": "dis",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "cylinder",
+    "r_mm": 0.16775,
+    "bolge": [
+     15.3,
+     0.5,
+     -3,
+     15.7,
+     1.1,
+     3
+    ]
+   },
+   "nom": 0,
+   "tol": 0,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     15.6,
+     0.68,
+     0
+    ],
+    "r_mm": 0.2
+   }
+  },
+  {
+   "id": "F13",
+   "govde": "P01",
+   "etiket": "bore-edge rounds R0.16775 on tip lands (torus faces, 60 per side)",
+   "tur": "yuvarlatma",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "torus",
+    "r_mm": 0.16775,
+    "ayri_yuzler": true
+   },
+   "nom": 120,
+   "tol": 2,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     14.55,
+     0.0,
+     2.45
+    ],
+    "r_mm": 0.25
+   }
+  },
+  {
+   "id": "F14",
+   "govde": "P01",
+   "etiket": "bore-edge round on the lower face",
+   "tur": "yuvarlatma",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "torus",
+    "r_mm": 0.16775,
+    "bolge": [
+     -16,
+     -16,
+     -2.6,
+     16,
+     16,
+     -2.2
+    ],
+    "ayri_yuzler": true
+   },
+   "nom": 60,
+   "tol": 1,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     0.0,
+     14.55,
+     -2.45
+    ],
+    "r_mm": 0.25
+   }
+  },
+  {
+   "id": "F15",
+   "govde": "P01",
+   "etiket": "flat end faces (2 planes)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P01",
+    "yuzey": "plane"
+   },
+   "nom": 2,
+   "tol": 0,
+   "bolge": null
+  }
+ ],
+ "not": "tooth on +X centred at 0 deg; spaces at 3+6k deg. Counts allow +/-1 for seam splits of periodic faces."
+}

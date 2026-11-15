@@ -1,0 +1,41 @@
+{
+ "rows": [
+  {
+   "dim": "5.625in Inside Length",
+   "nom": 5.625,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x",
+    "bolge": [
+     -72.0,
+     -10.4,
+     -16.0,
+     72.0,
+     -10.24,
+     16.0
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "1.5in Inside Width",
+   "nom": 1.5,
+   "birim": "in",
+   "tol": 0.05,
+   "olcum": null,
+   "modelde_var": false
+  },
+  {
+   "dim": "3.063in Inside Height",
+   "nom": 3.063,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": null,
+   "modelde_var": false
+  }
+ ],
+ "not": "5.625 = distance between the two sharp edges where the inner end walls meet the inner slopes (x = +/-2.8125 in, y = -0.40625 in): bbox_boyut x of the mesh nodes in a 0.16 mm slab around that height, |z| < 16 mm (drafted wall moves <= 0.006 mm per side inside the slab; outer surfaces stay outside |x| < 72). 1.5 and 3.063 have no geometric counterpart (re-checked 2026-11-11): the inner side walls are drafted 4 deg and are 1.5 in apart only at y = -0.187 in, where no edge or face boundary lies; no inner surface or edge lies 3.063 in from the flange bottom or top (inner crown top is 3.25 / 3.125 in). They stay modelde_var false."
+}

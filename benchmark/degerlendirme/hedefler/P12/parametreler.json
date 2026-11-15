@@ -1,0 +1,67 @@
+{
+ "anahtar": [
+  {
+   "kavram": "tooth count",
+   "deger": 13,
+   "birim": "-",
+   "ipucu_adlar": [
+    "teeth",
+    "z",
+    "n_teeth",
+    "num_teeth",
+    "tooth_count",
+    "dis_sayisi"
+   ]
+  },
+  {
+   "kavram": "normal module",
+   "deger": 1,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "module",
+    "m",
+    "mn",
+    "normal_module",
+    "modul"
+   ]
+  },
+  {
+   "kavram": "helix angle / lead (45 deg; lead 57.6 mm; twist 62.5 deg over the face width)",
+   "deger": 45,
+   "birim": "deg",
+   "ipucu_adlar": [
+    "helix",
+    "helix_angle",
+    "beta",
+    "lead",
+    "twist",
+    "twist_deg",
+    "helis"
+   ]
+  },
+  {
+   "kavram": "face width",
+   "deger": 10,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "face_width",
+    "width",
+    "b",
+    "gear_width",
+    "dis_genislik"
+   ]
+  },
+  {
+   "kavram": "bore diameter",
+   "deger": 6,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "bore",
+    "bore_d",
+    "shaft_d",
+    "hole_d",
+    "delik_cap"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,123 @@
+{
+ "rows": [
+  {
+   "dim": "36.00in (wheel axle spacing)",
+   "nom": 36.0,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P03-a",
+    "nokta1": [
+     -437.1975,
+     50.8,
+     58.42
+    ],
+    "govde2": "P03-c",
+    "nokta2": [
+     477.2025,
+     50.8,
+     58.42
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "9.48in Max (outer width, adjustable)",
+   "nom": 9.48,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": false
+  },
+  {
+   "dim": "3.00in (horizontal leg width)",
+   "nom": 3.0,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01-a",
+    "eksen": "z",
+    "bolge": [
+     -597.154,
+     -25.4,
+     0.0,
+     -595.63,
+     0.0,
+     177.8
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "4.00in (wheel diameter)",
+   "nom": 4.0,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P03-a",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "4.00in (long angle height)",
+   "nom": 4.0,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01-a",
+    "eksen": "y"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "3'-11.75\" (overall length 47.75)",
+   "nom": 47.75,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "montaj_bbox_boyut",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "7.00in (bumper bottom to angle top)",
+   "nom": 7.0,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_kenar_fark",
+    "govde": "P02-a",
+    "kenar": "ymin",
+    "govde2": "P01-a",
+    "kenar2": "ymax"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "12.00in (bumper angle length)",
+   "nom": 12.0,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P02-a",
+    "eksen": "z"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "3.36in Max (inner width, adjustable)",
+   "nom": 3.36,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": false
+  }
+ ]
+}

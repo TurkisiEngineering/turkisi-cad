@@ -1,0 +1,64 @@
+{
+ "anahtar": [
+  {
+   "kavram": "shaft bore diameter",
+   "deger": 0.375,
+   "birim": "in",
+   "ipucu_adlar": [
+    "bore",
+    "bore_d",
+    "shaft_d",
+    "bore_dia",
+    "shaft_dia"
+   ]
+  },
+  {
+   "kavram": "body outside diameter",
+   "deger": 3.23,
+   "birim": "in",
+   "ipucu_adlar": [
+    "od",
+    "body_d",
+    "outer_d",
+    "housing_od",
+    "body_dia"
+   ]
+  },
+  {
+   "kavram": "overall length",
+   "deger": 2.52,
+   "birim": "in",
+   "ipucu_adlar": [
+    "length",
+    "overall_length",
+    "L",
+    "total_length",
+    "len"
+   ]
+  },
+  {
+   "kavram": "mounting bolt circle diameter",
+   "deger": 2.375,
+   "birim": "in",
+   "ipucu_adlar": [
+    "bcd",
+    "bolt_circle",
+    "pcd",
+    "bc_d",
+    "hole_circle"
+   ]
+  },
+  {
+   "kavram": "knurl groove count",
+   "deger": 150,
+   "birim": "-",
+   "ipucu_adlar": [
+    "knurl_n",
+    "n_knurl",
+    "grooves",
+    "knurl_count",
+    "n_grooves"
+   ]
+  }
+ ]
+}

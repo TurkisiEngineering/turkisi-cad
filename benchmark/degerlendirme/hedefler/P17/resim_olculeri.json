@@ -1,0 +1,94 @@
+{
+ "rows": [
+  {
+   "dim": "4.331 in (overall length)",
+   "nom": 4.331,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.12 in (thickness)",
+   "nom": 0.12,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     20,
+     1.524,
+     -5
+    ],
+    "nokta2": [
+     20,
+     -1.524,
+     -5
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "0.063 in (hook pin width; spec writer's reading: pin underside edge length 0.0625 in)",
+   "nom": 0.063,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": null,
+   "modelde_var": true
+  },
+  {
+   "dim": "circle diameter range 0.625 in (lower end = jaw arc diameter)",
+   "nom": 0.625,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     -39.1287,
+     0.0,
+     -6.87408
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "circle diameter range 0.781 in (upper end)",
+   "nom": 0.781,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": null,
+   "modelde_var": false
+  },
+  {
+   "dim": "(16 mm) metric lower end",
+   "nom": 16,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     -39.1287,
+     0.0,
+     -6.87408
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "(20 mm) metric upper end",
+   "nom": 20,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": null,
+   "modelde_var": false
+  }
+ ],
+ "not": "0.063: no recipe measures an edge length; hand-check the pin underside face width (1.5875 mm). This reading is the spec writer's, to be confirmed."
+}

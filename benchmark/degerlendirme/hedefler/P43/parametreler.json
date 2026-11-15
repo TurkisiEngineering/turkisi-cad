@@ -1,0 +1,60 @@
+{
+ "anahtar": [
+  {
+   "kavram": "platform height above the floor",
+   "deger": 46.0,
+   "birim": "in",
+   "ipucu_adlar": [
+    "platform_height",
+    "h_platform",
+    "platform_h",
+    "standing_height"
+   ]
+  },
+  {
+   "kavram": "overall ladder height",
+   "deger": 72.0098,
+   "birim": "in",
+   "ipucu_adlar": [
+    "overall_height",
+    "height",
+    "ladder_height",
+    "total_height"
+   ]
+  },
+  {
+   "kavram": "number of steps per climbing side",
+   "deger": 4,
+   "birim": "-",
+   "ipucu_adlar": [
+    "n_steps",
+    "steps",
+    "step_count",
+    "num_steps"
+   ]
+  },
+  {
+   "kavram": "vertical step spacing (top face to top face)",
+   "deger": 11.4854,
+   "birim": "in",
+   "ipucu_adlar": [
+    "step_spacing",
+    "step_pitch",
+    "rise",
+    "pitch"
+   ]
+  },
+  {
+   "kavram": "rail channel section (3.0304 x 1.1814, wall 0.0625)",
+   "deger": 3.0304,
+   "birim": "in",
+   "ipucu_adlar": [
+    "rail_width",
+    "rail_depth",
+    "rail_w",
+    "channel_width",
+    "rail_section"
+   ]
+  }
+ ]
+}

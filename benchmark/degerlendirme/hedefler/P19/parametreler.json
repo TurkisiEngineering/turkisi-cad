@@ -1,0 +1,67 @@
+{
+ "anahtar": [
+  {
+   "kavram": "wheel diameter",
+   "deger": 4.0,
+   "birim": "in",
+   "ipucu_adlar": [
+    "wheel_d",
+    "wheel_dia",
+    "wheel_diameter",
+    "D_wheel",
+    "tekerlek_cap",
+    "wheel_r",
+    "R_wheel"
+   ]
+  },
+  {
+   "kavram": "wheel width",
+   "deger": 1.25,
+   "birim": "in",
+   "ipucu_adlar": [
+    "wheel_w",
+    "wheel_width",
+    "tread_width",
+    "W_wheel",
+    "tekerlek_genislik"
+   ]
+  },
+  {
+   "kavram": "top plate length",
+   "deger": 3.625,
+   "birim": "in",
+   "ipucu_adlar": [
+    "plate_l",
+    "plate_length",
+    "plate_x",
+    "L_plate",
+    "plaka_boy"
+   ]
+  },
+  {
+   "kavram": "top plate width",
+   "deger": 2.5,
+   "birim": "in",
+   "ipucu_adlar": [
+    "plate_w",
+    "plate_width",
+    "plate_z",
+    "W_plate",
+    "plaka_en"
+   ]
+  },
+  {
+   "kavram": "swivel offset (kingpin axis to axle axis)",
+   "deger": 1.515,
+   "birim": "in",
+   "ipucu_adlar": [
+    "offset",
+    "swivel_offset",
+    "lead",
+    "axle_x",
+    "caster_offset",
+    "trail"
+   ]
+  }
+ ]
+}

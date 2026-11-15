@@ -1,0 +1,63 @@
+{
+ "anahtar": [
+  {
+   "kavram": "module",
+   "deger": 1,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "module",
+    "m",
+    "modul",
+    "mod"
+   ]
+  },
+  {
+   "kavram": "lead (axial advance per turn, single start)",
+   "deger": 3.144821,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "lead",
+    "pitch",
+    "axial_pitch",
+    "p_x",
+    "hatve"
+   ]
+  },
+  {
+   "kavram": "pitch diameter",
+   "deger": 16,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "pitch_d",
+    "pitch_diameter",
+    "d1",
+    "dp",
+    "reference_d"
+   ]
+  },
+  {
+   "kavram": "bore diameter",
+   "deger": 6,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "bore",
+    "bore_d",
+    "shaft_d",
+    "hole_d",
+    "delik_cap"
+   ]
+  },
+  {
+   "kavram": "worm length",
+   "deger": 32,
+   "birim": "mm",
+   "ipucu_adlar": [
+    "length",
+    "face_width",
+    "worm_length",
+    "L",
+    "boy"
+   ]
+  }
+ ]
+}

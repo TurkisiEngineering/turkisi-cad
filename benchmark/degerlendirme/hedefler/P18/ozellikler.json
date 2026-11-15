@@ -1,0 +1,1086 @@
+{
+ "items": [
+  {
+   "id": "F1",
+   "govde": "P01",
+   "etiket": "shield thickness 3.175",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     0,
+     0,
+     1.5875
+    ],
+    "nokta2": [
+     0,
+     0,
+     -1.5875
+    ]
+   },
+   "nom": 3.175,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F2",
+   "govde": "P01",
+   "etiket": "shield width 203.2 (X)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x"
+   },
+   "nom": 203.2,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F3",
+   "govde": "P01",
+   "etiket": "shield height 203.2 (Y)",
+   "tur": "diger",
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "y"
+   },
+   "nom": 203.2,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F4",
+   "govde": "P01",
+   "etiket": "corner radius 19.05 (three corners)",
+   "tur": "yuvarlatma",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     -96.02038418160373,
+     96.02038418160373,
+     0
+    ]
+   },
+   "nom": 38.1,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -96.02038418160373,
+     96.02038418160373,
+     0
+    ],
+    "r_mm": 2
+   }
+  },
+  {
+   "id": "F5",
+   "govde": "P01",
+   "etiket": "two holes diameter 3.969",
+   "tur": "delik",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     81.226,
+     -78.42,
+     0
+    ]
+   },
+   "nom": 3.96875,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     81.226,
+     -78.42,
+     0
+    ],
+    "r_mm": 1
+   }
+  },
+  {
+   "id": "F6",
+   "govde": "P01",
+   "etiket": "hole spacing 15.875 along the arm diagonal",
+   "tur": "delik",
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     81.226,
+     -78.42,
+     0
+    ],
+    "nokta2": [
+     70.001,
+     -67.195,
+     0
+    ]
+   },
+   "nom": 15.875,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F7",
+   "govde": "P01",
+   "etiket": "cut corner (45 deg flat at local u=125.587)",
+   "tur": "diger",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     88.803,
+     -88.803,
+     0
+    ],
+    "r_mm": 3
+   }
+  },
+  {
+   "id": "F8",
+   "govde": "P01",
+   "etiket": "outline edge rounds R0.127",
+   "tur": "yuvarlatma",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P01",
+    "nokta": [
+     -101.56280256121069,
+     0,
+     1.5503025612106915
+    ],
+    "r_mm": 0.3
+   }
+  },
+  {
+   "id": "F9",
+   "govde": "P02",
+   "etiket": "clamp width 26.67",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P02",
+    "nokta1": [
+     72.5951,
+     -91.4537,
+     3.5
+    ],
+    "nokta2": [
+     91.4537,
+     -72.5951,
+     3.5
+    ]
+   },
+   "nom": 26.67,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F10",
+   "govde": "P02",
+   "etiket": "clamp length 55.88",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P02",
+    "nokta1": [
+     56.2051,
+     -56.2051,
+     6.0
+    ],
+    "nokta2": [
+     95.7182,
+     -95.7182,
+     0
+    ]
+   },
+   "nom": 55.88,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F11",
+   "govde": "P02",
+   "etiket": "clamp top arc R19.05 about the arm axis",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P02",
+    "nokta": [
+     75.6604,
+     -75.6604,
+     11.1125
+    ]
+   },
+   "nom": 38.1,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P02",
+    "nokta": [
+     75.6604,
+     -75.6604,
+     11.1125
+    ],
+    "r_mm": 2
+   }
+  },
+  {
+   "id": "F12",
+   "govde": "P02",
+   "etiket": "socket outer radius 13.335",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P02",
+    "nokta": [
+     92.2774,
+     -92.2774,
+     -21.2725
+    ]
+   },
+   "nom": 26.67,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F13",
+   "govde": "P02",
+   "etiket": "socket bore diameter 9.9696",
+   "tur": "delik",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P02",
+    "nokta": [
+     92.2774,
+     -92.2774,
+     -2.9527
+    ]
+   },
+   "nom": 9.9696,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F14",
+   "govde": "P02",
+   "etiket": "screw holes diameter 3.969 (blind from below)",
+   "tur": "delik",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P02",
+    "nokta": [
+     70.5146,
+     -68.0843,
+     5.0
+    ]
+   },
+   "nom": 3.96875,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P02",
+    "nokta": [
+     70.5146,
+     -68.0843,
+     5.0
+    ],
+    "r_mm": 1
+   }
+  },
+  {
+   "id": "F15",
+   "govde": "P02",
+   "etiket": "screw hole depth 6.35",
+   "tur": "delik",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P02",
+    "nokta1": [
+     63.6396,
+     -63.6396,
+     1.714
+    ],
+    "nokta2": [
+     68.9514,
+     -68.2443,
+     8.0645
+    ]
+   },
+   "nom": 6.35,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F16",
+   "govde": "P02",
+   "etiket": "screw hole spacing 15.875",
+   "tur": "delik",
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P02",
+    "nokta1": [
+     70.5146,
+     -68.0843,
+     5.0
+    ],
+    "nokta2": [
+     81.7399,
+     -79.3096,
+     5.0
+    ]
+   },
+   "nom": 15.875,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F17",
+   "govde": "P02",
+   "etiket": "edge rounds R0.984",
+   "tur": "yuvarlatma",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P02",
+    "nokta": [
+     84.8858,
+     -66.435,
+     5.943
+    ],
+    "r_mm": 0.8
+   }
+  },
+  {
+   "id": "F18",
+   "govde": "P02",
+   "etiket": "fillet R0.984 under the socket step",
+   "tur": "yuvarlatma",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P02",
+    "nokta": [
+     92.2244,
+     -85.1533,
+     1.426
+    ],
+    "r_mm": 0.8
+   }
+  },
+  {
+   "id": "F19",
+   "govde": "P03",
+   "etiket": "plug diameter 9.525",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P03",
+    "nokta": [
+     91.9239,
+     -91.9239,
+     -3.175
+    ]
+   },
+   "nom": 9.525,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F20",
+   "govde": "P03",
+   "etiket": "hex socket 4.7625 across flats",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P03",
+    "nokta1": [
+     89.8026,
+     -89.8026,
+     -10.319
+    ],
+    "nokta2": [
+     89.8026,
+     -89.8026,
+     -5.556
+    ]
+   },
+   "nom": 4.7625,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P03",
+    "nokta": [
+     89.8026,
+     -89.8026,
+     -10.319
+    ],
+    "r_mm": 1
+   }
+  },
+  {
+   "id": "F21",
+   "govde": "P03",
+   "etiket": "hex socket depth 3.175",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P03",
+    "nokta1": [
+     88.8932,
+     -88.8932,
+     -4.3375
+    ],
+    "nokta2": [
+     91.3504,
+     -90.9262,
+     -7.9375
+    ]
+   },
+   "nom": 3.175,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F22",
+   "govde": "P03",
+   "etiket": "plug length 9.652",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P03",
+    "nokta1": [
+     88.8932,
+     -88.8932,
+     -4.3375
+    ],
+    "nokta2": [
+     95.7182,
+     -95.7182,
+     -5.9375
+    ]
+   },
+   "nom": 9.652,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F23",
+   "govde": "P04",
+   "etiket": "arm tube diameter 16.51",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P04",
+    "nokta": [
+     197.9899,
+     -197.9899,
+     0.3175
+    ]
+   },
+   "nom": 16.51,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F24",
+   "govde": "P04",
+   "etiket": "arm end collar diameter 21.59",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P04",
+    "nokta": [
+     104.6518,
+     -104.6518,
+     2.8575
+    ]
+   },
+   "nom": 21.59,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F25",
+   "govde": "P04",
+   "etiket": "arm length 295.021",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P04",
+    "nokta1": [
+     95.7182,
+     -95.7182,
+     -4.9375
+    ],
+    "nokta2": [
+     304.3296,
+     -304.3296,
+     -4.9375
+    ]
+   },
+   "nom": 295.021,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F26",
+   "govde": "P04",
+   "etiket": "collar-to-tube fillet R3.175",
+   "tur": "yuvarlatma",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P04",
+    "nokta": [
+     114.2903,
+     -114.2903,
+     1.2474
+    ],
+    "r_mm": 1.5
+   }
+  },
+  {
+   "id": "F27",
+   "govde": "P05",
+   "etiket": "base thickness 12.7",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P05",
+    "nokta1": [
+     306.4509,
+     -302.2082,
+     -15.0
+    ],
+    "nokta2": [
+     315.4311,
+     -311.1885,
+     -15.0
+    ]
+   },
+   "nom": 12.7,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F28",
+   "govde": "P05",
+   "etiket": "mounting hole diameter 6.477",
+   "tur": "delik",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P05",
+    "nokta": [
+     311.6492,
+     -307.0693,
+     9.525
+    ]
+   },
+   "nom": 6.477,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F29",
+   "govde": "P05",
+   "etiket": "mounting holes 34.925 apart",
+   "tur": "delik",
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P05",
+    "nokta1": [
+     311.6492,
+     -307.0693,
+     9.525
+    ],
+    "nokta2": [
+     311.6492,
+     -307.0693,
+     -25.4
+    ]
+   },
+   "nom": 34.925,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F30",
+   "govde": "P05",
+   "etiket": "front pocket diameter 10.986",
+   "tur": "delik",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P05",
+    "nokta": [
+     309.9905,
+     -302.2225,
+     9.525
+    ]
+   },
+   "nom": 10.9856,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F31",
+   "govde": "P05",
+   "etiket": "front pocket depth 4.762",
+   "tur": "delik",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P05",
+    "nokta1": [
+     306.4509,
+     -302.2082,
+     -15.0
+    ],
+    "nokta2": [
+     307.6968,
+     -307.6968,
+     13.825
+    ]
+   },
+   "nom": 4.7625,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F32",
+   "govde": "P05",
+   "etiket": "slot width 9.970",
+   "tur": "kanal",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P05",
+    "nokta1": [
+     305.4185,
+     -312.31,
+     -12.922
+    ],
+    "nokta2": [
+     305.4185,
+     -312.31,
+     -2.953
+    ]
+   },
+   "nom": 9.9696,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P05",
+    "nokta": [
+     305.4185,
+     -312.31,
+     -12.922
+    ],
+    "r_mm": 1
+   }
+  },
+  {
+   "id": "F33",
+   "govde": "P05",
+   "etiket": "lobe radius 7.3025",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P05",
+    "nokta": [
+     308.8197,
+     -308.8197,
+     17.4625
+    ]
+   },
+   "nom": 14.605,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F34",
+   "govde": "P05",
+   "etiket": "outline bulge R19.05",
+   "tur": "diger",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P05",
+    "nokta": [
+     316.5837,
+     -301.0557,
+     -7.9375
+    ],
+    "r_mm": 2
+   }
+  },
+  {
+   "id": "F35",
+   "govde": "P05",
+   "etiket": "mouth lip on the front face",
+   "tur": "diger",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P05",
+    "nokta": [
+     296.9283,
+     -312.4563,
+     -7.9375
+    ],
+    "r_mm": 1
+   }
+  },
+  {
+   "id": "F36",
+   "govde": "P05",
+   "etiket": "4 blind holes diameter 6.033 from the back face",
+   "tur": "delik",
+   "olcum": {
+    "tip": "sayi",
+    "govde": "P05",
+    "yuzey": "cylinder",
+    "r_mm": 3.0163
+   },
+   "nom": 4,
+   "tol": 0,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P05",
+    "nokta": [
+     315.6173,
+     -303.8082,
+     2.222
+    ],
+    "r_mm": 1.5
+   }
+  },
+  {
+   "id": "F37",
+   "govde": "P05",
+   "etiket": "face outline rounds R0.254",
+   "tur": "yuvarlatma",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "P05",
+    "nokta": [
+     313.2572,
+     -313.2572,
+     17.3881
+    ],
+    "r_mm": 0.4
+   }
+  },
+  {
+   "id": "F38",
+   "govde": "H1-a",
+   "etiket": "screw thread major diameter 3.963 (48 per inch)",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "H1-a",
+    "nokta": [
+     81.2242,
+     -81.2242,
+     0.0059
+    ]
+   },
+   "nom": 3.9626,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "H1-a",
+    "nokta": [
+     81.2242,
+     -81.2242,
+     0.0059
+    ],
+    "r_mm": 0.8
+   }
+  },
+  {
+   "id": "F39",
+   "govde": "H1-a",
+   "etiket": "screw head diameter 7.938",
+   "tur": "diger",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "H1-a",
+    "nokta": [
+     83.6567,
+     -80.8502,
+     -2.5
+    ]
+   },
+   "nom": 7.9378,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F40",
+   "govde": "H1-a",
+   "etiket": "screw overall length 12.827",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "H1-a",
+    "nokta1": [
+     81.3788,
+     -81.3788,
+     -4.7625
+    ],
+    "nokta2": [
+     80.1767,
+     -80.1767,
+     8.0645
+    ]
+   },
+   "nom": 12.827,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F41",
+   "govde": "H1-a",
+   "etiket": "cross recess",
+   "tur": "diger",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "H1-a",
+    "nokta": [
+     79.8232,
+     -79.8232,
+     -2.2225
+    ],
+    "r_mm": 1.5
+   }
+  },
+  {
+   "id": "F42",
+   "govde": "H1-b",
+   "etiket": "second screw thread (same phase)",
+   "tur": "vida_disi",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "H1-b",
+    "nokta": [
+     69.9988,
+     -69.9988,
+     0.0059
+    ],
+    "r_mm": 0.8
+   }
+  },
+  {
+   "id": "F43",
+   "govde": "H2-a",
+   "etiket": "bolt 1/4-20 major diameter 6.35",
+   "tur": "vida_disi",
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "H2-a",
+    "nokta": [
+     304.8344,
+     -304.8344,
+     12.7
+    ]
+   },
+   "nom": 6.35,
+   "tol": 0.05,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "H2-a",
+    "nokta": [
+     304.8344,
+     -304.8344,
+     12.7
+    ],
+    "r_mm": 1
+   }
+  },
+  {
+   "id": "F44",
+   "govde": "H2-a",
+   "etiket": "bolt hex head 9.525 across flats",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "H2-a",
+    "nokta1": [
+     312.1876,
+     -312.1876,
+     4.7625
+    ],
+    "nokta2": [
+     312.1876,
+     -312.1876,
+     14.2875
+    ]
+   },
+   "nom": 9.525,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F45",
+   "govde": "H2-a",
+   "etiket": "bolt length 20.955",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "H2-a",
+    "nokta1": [
+     298.4924,
+     -298.4924,
+     10.525
+    ],
+    "nokta2": [
+     313.3098,
+     -313.3098,
+     11.525
+    ]
+   },
+   "nom": 20.955,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F46",
+   "govde": "H2-a",
+   "etiket": "head height 3.175",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "H2-a",
+    "nokta1": [
+     311.0648,
+     -311.0648,
+     13.525
+    ],
+    "nokta2": [
+     313.3098,
+     -313.3098,
+     11.525
+    ]
+   },
+   "nom": 3.175,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F47",
+   "govde": "H2-b",
+   "etiket": "second bolt thread (same phase)",
+   "tur": "vida_disi",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "H2-b",
+    "nokta": [
+     304.8344,
+     -304.8344,
+     -22.225
+    ],
+    "r_mm": 1
+   }
+  },
+  {
+   "id": "F48",
+   "govde": "H3-a",
+   "etiket": "nut 9.525 across flats",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "H3-a",
+    "nokta1": [
+     306.6015,
+     -306.6015,
+     4.7625
+    ],
+    "nokta2": [
+     306.6015,
+     -306.6015,
+     14.2875
+    ]
+   },
+   "nom": 9.525,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F49",
+   "govde": "H3-a",
+   "etiket": "nut thickness 3.175",
+   "tur": "diger",
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "H3-a",
+    "nokta1": [
+     305.4517,
+     -305.4517,
+     13.525
+    ],
+    "nokta2": [
+     307.6968,
+     -307.6968,
+     13.525
+    ]
+   },
+   "nom": 3.175,
+   "tol": 0.05,
+   "bolge": null
+  },
+  {
+   "id": "F50",
+   "govde": "H3-a",
+   "etiket": "nut internal thread",
+   "tur": "vida_disi",
+   "olcum": null,
+   "nom": null,
+   "tol": null,
+   "bolge": {
+    "tip": "bolgesel_sapma",
+    "govde": "H3-a",
+    "nokta": [
+     305.7325,
+     -305.7325,
+     12.7
+    ],
+    "r_mm": 1
+   }
+  }
+ ]
+}

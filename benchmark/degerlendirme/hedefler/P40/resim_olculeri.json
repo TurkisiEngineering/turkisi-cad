@@ -1,0 +1,127 @@
+{
+ "rows": [
+  {
+   "dim": "0.375in (shaft bore dia)",
+   "nom": 0.375,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P07",
+    "nokta": [
+     3.3676,
+     3.3676,
+     0.0
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "2.375in (bolt circle, knurled end / top cap holes)",
+   "nom": 2.375,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P03",
+    "nokta1": [
+     31.92981,
+     1.76731,
+     17.78
+    ],
+    "nokta2": [
+     18.27482,
+     18.27482,
+     12.7
+    ],
+    "ekle_mm": 30.162499999999998
+   },
+   "modelde_var": true,
+   "not_": "hole axis to cap axis 1.1875 + 1.1875 (radius added) = bolt-circle dia"
+  },
+  {
+   "dim": "2.375in (bolt circle, bottom end cap holes)",
+   "nom": 2.375,
+   "birim": "in",
+   "tol": 0.0005,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P02",
+    "nokta1": [
+     32.21305,
+     2.05055,
+     -20.32
+    ],
+    "nokta2": [
+     16.61347,
+     16.61347,
+     -30.988
+    ],
+    "ekle_mm": 30.162499999999998
+   },
+   "modelde_var": true,
+   "not_": "pin / hole axis to cap axis 1.1875 + 1.1875 = bolt-circle dia"
+  },
+  {
+   "dim": "3.31in (knurled ring outside dia)",
+   "nom": 3.31,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P09",
+    "nokta": [
+     29.41175,
+     30.03429,
+     13.97
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "3.23in (body outside dia)",
+   "nom": 3.23,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     29.00623,
+     29.00623,
+     -10.16
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "2.52in (overall length)",
+   "nom": 2.52,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "montaj_bbox_boyut",
+    "eksen": "z"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "M5 x 0.8mm (mounting holes, knurled end)",
+   "nom": 5.0,
+   "birim": "mm",
+   "tol": 0.0,
+   "olcum": null,
+   "modelde_var": true,
+   "not_": "thread callout; modelled helical M5x0.8 in P03 (major dia 0.19685 in); checked by the P03 thread region item"
+  },
+  {
+   "dim": "M5 x 0.8mm (mounting holes, bottom end)",
+   "nom": 5.0,
+   "birim": "mm",
+   "tol": 0.0,
+   "olcum": null,
+   "modelde_var": true,
+   "not_": "thread callout; modelled helical M5x0.8 in P02 (major dia 0.19685 in); checked by the P02 thread region item"
+  }
+ ]
+}

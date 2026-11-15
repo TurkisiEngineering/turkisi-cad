@@ -1,0 +1,21 @@
+{"commands":[
+ {"command":"parameters.add","params":{"name":"L","expression":"100 mm"}},
+ {"command":"parameters.add","params":{"name":"W","expression":"60 mm"}},
+ {"command":"parameters.add","params":{"name":"T","expression":"10 mm"}},
+ {"command":"parameters.add","params":{"name":"corner_r","expression":"3 mm"}},
+ {"command":"parameters.add","params":{"name":"hole_d","expression":"6 mm"}},
+ {"command":"parameters.add","params":{"name":"hole_inset","expression":"8 mm"}},
+ {"command":"parameters.add","params":{"name":"pocket_d","expression":"20 mm"}},
+ {"command":"parameters.add","params":{"name":"pocket_depth","expression":"4 mm"}},
+ {"command":"sketch.create","params":{"plane":"XY","name":"PlateSketch"}},
+ {"command":"sketch.draw.dimensioned","params":{"command":"sketch.rectangle.center","params":{"center":[0,0],"corner":[50,30]},"dimensions":{"width":"L","height":"W"}}},
+ {"command":"sketch.constraint.coincident","params":{"a":"p5","b":"origin"}},
+ {"command":"sketch.solve","params":{}},
+ {"command":"sketch.finish","params":{}},
+ {"command":"solid.extrude","params":{"distance":"T","name":"F1_PlateBlock"}},
+ {"command":"solid.fillet","params":{"edges":[[50,30,5],[-50,30,5],[50,-30,5],[-50,-30,5]],"radius":"corner_r","name":"F2_CornerRounds"}},
+ {"command":"solid.cylinder","params":{"diameter":"hole_d","height":"T + 2","base":["-(L/2 - hole_inset)","-(W/2 - hole_inset)","-1"],"operation":"cut","name":"F3_CornerHole"}},
+ {"command":"solid.pattern.rectangular","params":{"features":["F3_CornerHole"],"dir1":[1,0,0],"count1":2,"spacing1":"L - 2*hole_inset","dir2":[0,1,0],"count2":2,"spacing2":"W - 2*hole_inset","name":"F3_CornerHoles"}},
+ {"command":"solid.cylinder","params":{"diameter":"pocket_d","height":"pocket_depth + 1","base":["0","0","T - pocket_depth"],"operation":"cut","name":"F4_CentralPocket"}},
+ {"command":"body.rename","params":{"body":"Body1","name":"P01 Plate"}}
+]}

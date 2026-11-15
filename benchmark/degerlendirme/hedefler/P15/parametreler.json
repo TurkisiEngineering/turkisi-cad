@@ -1,0 +1,64 @@
+{
+ "anahtar": [
+  {
+   "kavram": "output shaft diameter",
+   "deger": 1.0,
+   "birim": "in",
+   "ipucu_adlar": [
+    "shaft_d",
+    "shaft_dia",
+    "shaft_diameter",
+    "output_shaft",
+    "mil_cap"
+   ]
+  },
+  {
+   "kavram": "shaft centre height above the base",
+   "deger": 3.56,
+   "birim": "in",
+   "ipucu_adlar": [
+    "shaft_height",
+    "center_height",
+    "centre_height",
+    "base_to_shaft",
+    "eksen_yukseklik"
+   ]
+  },
+  {
+   "kavram": "foot hole spacing across (5.25) / along (1.75)",
+   "deger": 5.25,
+   "birim": "in",
+   "ipucu_adlar": [
+    "foot_hole_spacing",
+    "hole_spacing",
+    "base_hole_x",
+    "mount_spacing",
+    "bolt_spacing"
+   ]
+  },
+  {
+   "kavram": "keyway width",
+   "deger": 0.25,
+   "birim": "in",
+   "ipucu_adlar": [
+    "key_w",
+    "keyway_w",
+    "keyway_width",
+    "key_width",
+    "kama"
+   ]
+  },
+  {
+   "kavram": "housing flange diameter",
+   "deger": 6.1,
+   "birim": "in",
+   "ipucu_adlar": [
+    "housing_d",
+    "flange_d",
+    "body_d",
+    "housing_diameter",
+    "govde_cap"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "parca": "P2",
+ "birim_spec": "mm",
+ "govdeler": [
+  {
+   "ad": "P01",
+   "tur": "parca",
+   "hacim_mm3": 39620.0,
+   "alan_mm2": 12592.2,
+   "com_mm": [
+    48.962,
+    -48.587,
+    0.0
+   ],
+   "bbox_mm": [
+    0.0,
+    -110.0,
+    -15.5,
+    128.0,
+    15.5,
+    15.5
+   ],
+   "yuz_sayisi": 42,
+   "esdeger_grubu": "P01",
+   "not": "GProp V 39621.11 / mesh V 39613.60 / spec rebuild GProp 39618.48; master also holds 16 empty zero-area shells (96 faces) at (48,-53.626,-6.249)"
+  }
+ ],
+ "montaj": {
+  "hacim_mm3": 39620.0,
+  "alan_mm2": 12592.2,
+  "com_mm": [
+   48.962,
+   -48.587,
+   0.0
+  ],
+  "bbox_mm": [
+   0.0,
+   -110.0,
+   -15.5,
+   128.0,
+   15.5,
+   15.5
+  ]
+ },
+ "girisimler": []
+}

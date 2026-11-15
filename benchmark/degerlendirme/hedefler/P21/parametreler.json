@@ -1,0 +1,64 @@
+{
+ "anahtar": [
+  {
+   "kavram": "gear tooth count",
+   "deger": 15,
+   "birim": "-",
+   "ipucu_adlar": [
+    "teeth",
+    "z",
+    "n_teeth",
+    "tooth_count",
+    "num_teeth",
+    "N"
+   ]
+  },
+  {
+   "kavram": "shaft bore diameter",
+   "deger": 0.5,
+   "birim": "in",
+   "ipucu_adlar": [
+    "bore_d",
+    "bore_dia",
+    "shaft_d",
+    "bore",
+    "d_bore"
+   ]
+  },
+  {
+   "kavram": "shaft bore depth",
+   "deger": 1.125,
+   "birim": "in",
+   "ipucu_adlar": [
+    "bore_depth",
+    "bore_len",
+    "depth",
+    "shaft_depth"
+   ]
+  },
+  {
+   "kavram": "pivot axis offset from the shaft axis",
+   "deger": 0.5625,
+   "birim": "in",
+   "ipucu_adlar": [
+    "pivot_offset",
+    "pin_offset",
+    "pivot_z",
+    "hinge_offset",
+    "knuckle_offset"
+   ]
+  },
+  {
+   "kavram": "knuckle (pivot boss) diameter",
+   "deger": 0.625,
+   "birim": "in",
+   "ipucu_adlar": [
+    "knuckle_d",
+    "boss_d",
+    "knuckle_dia",
+    "hinge_d",
+    "eye_d"
+   ]
+  }
+ ]
+}

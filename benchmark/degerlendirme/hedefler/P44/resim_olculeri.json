@@ -1,0 +1,261 @@
+{
+ "rows": [
+  {
+   "dim": "300mm +0.5/-0.5 (overall shaft length)",
+   "nom": 300.0,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "270mm Thread Length",
+   "nom": 270.0,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": null,
+   "modelde_var": false,
+   "not_": "the helical ball groove starts at the end x = -150 and is at full depth to about x = 120 (270 from the end), then runs out to x = 121.65; no recipe measures a groove length"
+  },
+  {
+   "dim": "3mm (screw nut flange thickness)",
+   "nom": 3.0,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P03",
+    "nokta1": [
+     -101.5,
+     -4.4645,
+     19.11
+    ],
+    "nokta2": [
+     -98.5,
+     4.1987,
+     -20.3092
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "3mm (spline nut flange thickness)",
+   "nom": 3.0,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P08",
+    "nokta1": [
+     96.0,
+     -4.1987,
+     -20.3092
+    ],
+    "nokta2": [
+     99.0,
+     -4.6346,
+     -18.9337
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "48mm (flange diameter, side view)",
+   "nom": 48.0,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P03",
+    "nokta": [
+     -99.6,
+     -23.9739,
+     0.9134
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "48mm (flange diameter, end view)",
+   "nom": 48.0,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P08",
+    "nokta": [
+     97.1,
+     23.9739,
+     0.9134
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "42mm (bolt circle)",
+   "nom": 42.0,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P08",
+    "nokta1": [
+     97.9167,
+     21.1111,
+     1.6945
+    ],
+    "nokta2": [
+     97.9167,
+     -20.8889,
+     1.6945
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "3.4mm (flange hole)",
+   "nom": 3.4,
+   "birim": "mm",
+   "tol": 0.05,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P08",
+    "nokta": [
+     97.9167,
+     21.1111,
+     1.6945
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "23mm (screw nut diameter)",
+   "nom": 23.0,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P02",
+    "nokta": [
+     -83.2,
+     -11.4738,
+     0.6331
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "34.5mm (screw nut overall length)",
+   "nom": 34.5,
+   "birim": "mm",
+   "tol": 0.05,
+   "olcum": {
+    "tip": "bbox_kenar_fark",
+    "govde": "P02",
+    "kenar": "xmin",
+    "govde2": "P06",
+    "kenar2": "xmax"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "21mm (spline nut diameter)",
+   "nom": 21.0,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P07",
+    "nokta": [
+     79.8333,
+     10.4734,
+     0.6101
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "33mm (spline nut overall length)",
+   "nom": 33.0,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P07",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "4mm (shaft bore)",
+   "nom": 4.0,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     49.9167,
+     -0.1307,
+     -1.9936
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "10mm 0/-0.015 (shaft diameter)",
+   "nom": 10.0,
+   "birim": "mm",
+   "tol": 0.015,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     127.4187,
+     -1.398,
+     -4.7952
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "M3 x 4mm (tapped holes in the spline nut end face)",
+   "nom": 3.0,
+   "birim": "mm",
+   "tol": 0.05,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P07",
+    "nokta": [
+     103.7633,
+     10.1393,
+     -0.6282
+    ]
+   },
+   "modelde_var": true,
+   "not_": "major diameter 3.0 measured on a thread land; tapped length 4.75 including the mouth countersink"
+  },
+  {
+   "dim": "Root Diameter: 9.27mm",
+   "nom": 9.27,
+   "birim": "mm",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": false,
+   "not_": "the model's ball groove bottom is at radius 4.3 (diameter 8.6, groove arc R0.7075 centred at radius 5.0075); the groove is one free-form face, no recipe measures it; source conflict"
+  },
+  {
+   "dim": "Travel Distance per Turn: 15mm",
+   "nom": 15.0,
+   "birim": "mm",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": false,
+   "not_": "groove centre advances 15.000 per turn (measured on axial sections at 30 and 210 deg: centres 15 apart, 7.5 offset); no recipe measures a lead"
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{"commands":[
+{"command":"document.units","params":{"units":"in"}}
+,{"command":"parameters.add","params":{"name":"wall","expression":"0.125","comment":"et kalinligi"}}
+,{"command":"parameters.add","params":{"name":"draft","expression":"4 deg","unit":"deg","comment":"tum duvarlarin kalip acisi"}}
+,{"command":"parameters.add","params":{"name":"y_bot","expression":"-1.53125","comment":"flans alti (montaj yuzu) y"}}
+,{"command":"parameters.add","params":{"name":"fl_t","expression":"0.125","comment":"flans kalinligi"}}
+,{"command":"parameters.add","params":{"name":"cy","expression":"-0.09375","comment":"tepe/kemer silindir ekseni y (x=0)"}}
+,{"command":"parameters.add","params":{"name":"R_crown","expression":"1.9375","comment":"dis tepe yayi yaricapi"}}
+,{"command":"parameters.add","params":{"name":"R_arch","expression":"1.3125","comment":"dis tumsek kemer yaricapi"}}
+,{"command":"parameters.add","params":{"name":"n_sx","expression":"0.721392","unit":"","comment":"egim duzlemi normali x bileseni"}}
+,{"command":"parameters.add","params":{"name":"n_sy","expression":"0.692527","unit":"","comment":"egim duzlemi normali y bileseni"}}
+,{"command":"parameters.add","params":{"name":"d_end","expression":"2.902310","comment":"dis uc duvar duzlemi sabiti"}}
+,{"command":"parameters.add","params":{"name":"d_side","expression":"0.860129","comment":"dis yan duvar duzlemi sabiti"}}
+,{"command":"parameters.add","params":{"name":"d_hend","expression":"1.608303","comment":"dis tumsek uc yuzu duzlemi sabiti"}}
+,{"command":"parameters.add","params":{"name":"d_slope","expression":"n_sy*cy + R_crown","comment":"dis egim duzlemi sabiti (tepe yayina teget)"}}
+,{"command":"parameters.add","params":{"name":"d_leg","expression":"sin(draft)*cy + R_arch","comment":"dis tumsek bacak duzlemi sabiti (kemere teget)"}}
+,{"command":"parameters.add","params":{"name":"R_side","expression":"0.375","comment":"cadir yan kenar disbukey yuvarlatma (ic: R_side-wall)"}}
+,{"command":"parameters.add","params":{"name":"R_hump","expression":"0.375","comment":"tumsek uc yuzu disbukey yuvarlatma (ic: R_hump-wall)"}}
+,{"command":"parameters.add","params":{"name":"R_conc","expression":"0.125","comment":"tumsek-cadir icbukey yuvarlatma (ic: R_conc+wall)"}}
+,{"command":"parameters.add","params":{"name":"y_cav","expression":"y_bot - 0.12","comment":"bosluk govdesinin alt uzatmasi"}}
+,{"command":"sketch.create","params":{"plane":"XY","name":"o_tent_profile"}}
+,{"command":"sketch.line","params":{"points":[["-(((d_end-0) - sin(draft)*y_bot)/cos(draft))","y_bot"],["(((d_end-0) - sin(draft)*y_bot)/cos(draft))","y_bot"],["(((d_end-0)*n_sy - sin(draft)*(d_slope-0))/(cos(draft)*n_sy - sin(draft)*n_sx))","((cos(draft)*(d_slope-0) - n_sx*(d_end-0))/(cos(draft)*n_sy - sin(draft)*n_sx))"],["(n_sx*(R_crown-0))","(cy + n_sy*(R_crown-0))"]]}}
+,{"command":"sketch.arc.three_point","params":{"start":["(n_sx*(R_crown-0))","(cy + n_sy*(R_crown-0))"],"end":["-(n_sx*(R_crown-0))","(cy + n_sy*(R_crown-0))"],"through":["0","cy+(R_crown-0)"]}}
+,{"command":"sketch.line","params":{"points":[["-(n_sx*(R_crown-0))","(cy + n_sy*(R_crown-0))"],["-(((d_end-0)*n_sy - sin(draft)*(d_slope-0))/(cos(draft)*n_sy - sin(draft)*n_sx))","((cos(draft)*(d_slope-0) - n_sx*(d_end-0))/(cos(draft)*n_sy - sin(draft)*n_sx))"],["-(((d_end-0) - sin(draft)*y_bot)/cos(draft))","y_bot"]]}}
+,{"command":"sketch.finish","params":{}}
+,{"command":"solid.extrude","params":{"distance":"4","direction":"symmetric","operation":"new","body_name":"P01 Guard","name":"o_tent_extrude"}}
+,{"command":"sketch.create","params":{"plane":"YZ","name":"o_tent_sidewalls"}}
+,{"command":"sketch.line","params":{"points":[["y_bot-0.5","-((((d_side-0)) - sin(draft)*(y_bot-0.5))/cos(draft))"],["y_bot-0.5","((((d_side-0)) - sin(draft)*(y_bot-0.5))/cos(draft))"],["2.5","((((d_side-0)) - sin(draft)*2.5)/cos(draft))"],["2.5","-((((d_side-0)) - sin(draft)*2.5)/cos(draft))"]],"closed":true}}
+,{"command":"sketch.finish","params":{}}
+,{"command":"solid.extrude","params":{"distance":"10","direction":"symmetric","operation":"intersect","targets":["P01 Guard"],"name":"o_tent_trim"}}
+,{"command":"solid.fillet","params":{"edges":[[75.674820,-25.400000,23.676756],[53.741155,12.700000,21.012562],[-75.674820,-25.400000,23.676756],[-53.741155,12.700000,21.012562]],"radius":"R_side","body":"P01 Guard","name":"o_tent_side_round_z1"}}
+,{"command":"solid.fillet","params":{"edges":[[75.674820,-25.400000,-23.676756],[53.741155,12.700000,-21.012562],[-75.674820,-25.400000,-23.676756],[-53.741155,12.700000,-21.012562]],"radius":"R_side","body":"P01 Guard","name":"o_tent_side_round_z-1"}}
+,{"command":"sketch.create","params":{"plane":"XY","name":"o_hump_profile"}}
+,{"command":"sketch.line","params":{"points":[["-(((d_leg-0) - sin(draft)*y_bot)/cos(draft))","y_bot"],["(((d_leg-0) - sin(draft)*y_bot)/cos(draft))","y_bot"],["(cos(draft)*(R_arch-0))","(cy + sin(draft)*(R_arch-0))"]]}}
+,{"command":"sketch.arc.three_point","params":{"start":["(cos(draft)*(R_arch-0))","(cy + sin(draft)*(R_arch-0))"],"end":["-(cos(draft)*(R_arch-0))","(cy + sin(draft)*(R_arch-0))"],"through":["0","cy+(R_arch-0)"]}}
+,{"command":"sketch.line","params":{"points":[["-(cos(draft)*(R_arch-0))","(cy + sin(draft)*(R_arch-0))"],["-(((d_leg-0) - sin(draft)*y_bot)/cos(draft))","y_bot"]]}}
+,{"command":"sketch.finish","params":{}}
+,{"command":"solid.extrude","params":{"distance":"5","direction":"symmetric","operation":"new","body_name":"P01 Guard_hump","name":"o_hump_extrude"}}
+,{"command":"sketch.create","params":{"plane":"YZ","name":"o_hump_endfaces"}}
+,{"command":"sketch.line","params":{"points":[["y_bot-0.5","-((((d_hend-0)) - sin(draft)*(y_bot-0.5))/cos(draft))"],["y_bot-0.5","((((d_hend-0)) - sin(draft)*(y_bot-0.5))/cos(draft))"],["2","((((d_hend-0)) - sin(draft)*2)/cos(draft))"],["2","-((((d_hend-0)) - sin(draft)*2)/cos(draft))"]],"closed":true}}
+,{"command":"sketch.finish","params":{}}
+,{"command":"solid.extrude","params":{"distance":"10","direction":"symmetric","operation":"intersect","targets":["P01 Guard_hump"],"name":"o_hump_trim"}}
+,{"command":"solid.fillet","params":{"edges":[[35.028516,-25.400000,42.726705],[-35.028516,-25.400000,42.726705],[0.000000,30.956250,38.785918]],"radius":"R_hump","body":"P01 Guard_hump","name":"o_hump_end_round_z1"}}
+,{"command":"solid.fillet","params":{"edges":[[35.028516,-25.400000,-42.726705],[-35.028516,-25.400000,-42.726705],[0.000000,30.956250,-38.785918]],"radius":"R_hump","body":"P01 Guard_hump","name":"o_hump_end_round_z-1"}}
+,{"command":"solid.combine","params":{"target":"P01 Guard","tools":["P01 Guard_hump"],"operation":"join","name":"o_unite_hump"}}
+,{"command":"solid.fillet","params":{"edges":[[35.028516,-25.400000,23.676756],[-35.028516,-25.400000,23.676756],[0.000000,30.956250,19.735969]],"radius":"R_conc","body":"P01 Guard","name":"o_hump_tent_concave_z1"}}
+,{"command":"solid.fillet","params":{"edges":[[35.028516,-25.400000,-23.676756],[-35.028516,-25.400000,-23.676756],[0.000000,30.956250,-19.735969]],"radius":"R_conc","body":"P01 Guard","name":"o_hump_tent_concave_z-1"}}
+,{"command":"sketch.create","params":{"plane":"XY","name":"i_tent_profile"}}
+,{"command":"sketch.line","params":{"points":[["-(((d_end-wall) - sin(draft)*y_cav)/cos(draft))","y_cav"],["(((d_end-wall) - sin(draft)*y_cav)/cos(draft))","y_cav"],["(((d_end-wall)*n_sy - sin(draft)*(d_slope-wall))/(cos(draft)*n_sy - sin(draft)*n_sx))","((cos(draft)*(d_slope-wall) - n_sx*(d_end-wall))/(cos(draft)*n_sy - sin(draft)*n_sx))"],["(n_sx*(R_crown-wall))","(cy + n_sy*(R_crown-wall))"]]}}
+,{"command":"sketch.arc.three_point","params":{"start":["(n_sx*(R_crown-wall))","(cy + n_sy*(R_crown-wall))"],"end":["-(n_sx*(R_crown-wall))","(cy + n_sy*(R_crown-wall))"],"through":["0","cy+(R_crown-wall)"]}}
+,{"command":"sketch.line","params":{"points":[["-(n_sx*(R_crown-wall))","(cy + n_sy*(R_crown-wall))"],["-(((d_end-wall)*n_sy - sin(draft)*(d_slope-wall))/(cos(draft)*n_sy - sin(draft)*n_sx))","((cos(draft)*(d_slope-wall) - n_sx*(d_end-wall))/(cos(draft)*n_sy - sin(draft)*n_sx))"],["-(((d_end-wall) - sin(draft)*y_cav)/cos(draft))","y_cav"]]}}
+,{"command":"sketch.finish","params":{}}
+,{"command":"solid.extrude","params":{"distance":"4","direction":"symmetric","operation":"new","body_name":"Cavity","name":"i_tent_extrude"}}
+,{"command":"sketch.create","params":{"plane":"YZ","name":"i_tent_sidewalls"}}
+,{"command":"sketch.line","params":{"points":[["y_bot-0.5","-((((d_side-wall)) - sin(draft)*(y_bot-0.5))/cos(draft))"],["y_bot-0.5","((((d_side-wall)) - sin(draft)*(y_bot-0.5))/cos(draft))"],["2.5","((((d_side-wall)) - sin(draft)*2.5)/cos(draft))"],["2.5","-((((d_side-wall)) - sin(draft)*2.5)/cos(draft))"]],"closed":true}}
+,{"command":"sketch.finish","params":{}}
+,{"command":"solid.extrude","params":{"distance":"10","direction":"symmetric","operation":"intersect","targets":["Cavity"],"name":"i_tent_trim"}}
+,{"command":"solid.fillet","params":{"edges":[[72.492067,-25.400000,20.494002],[49.339942,12.700000,17.829809],[-72.492067,-25.400000,20.494002],[-49.339942,12.700000,17.829809]],"radius":"R_side-wall","body":"Cavity","name":"i_tent_side_round_z1"}}
+,{"command":"solid.fillet","params":{"edges":[[72.492067,-25.400000,-20.494002],[49.339942,12.700000,-17.829809],[-72.492067,-25.400000,-20.494002],[-49.339942,12.700000,-17.829809]],"radius":"R_side-wall","body":"Cavity","name":"i_tent_side_round_z-1"}}
+,{"command":"sketch.create","params":{"plane":"XY","name":"i_hump_profile"}}
+,{"command":"sketch.line","params":{"points":[["-(((d_leg-wall) - sin(draft)*y_cav)/cos(draft))","y_cav"],["(((d_leg-wall) - sin(draft)*y_cav)/cos(draft))","y_cav"],["(cos(draft)*(R_arch-wall))","(cy + sin(draft)*(R_arch-wall))"]]}}
+,{"command":"sketch.arc.three_point","params":{"start":["(cos(draft)*(R_arch-wall))","(cy + sin(draft)*(R_arch-wall))"],"end":["-(cos(draft)*(R_arch-wall))","(cy + sin(draft)*(R_arch-wall))"],"through":["0","cy+(R_arch-wall)"]}}
+,{"command":"sketch.line","params":{"points":[["-(cos(draft)*(R_arch-wall))","(cy + sin(draft)*(R_arch-wall))"],["-(((d_leg-wall) - sin(draft)*y_cav)/cos(draft))","y_cav"]]}}
+,{"command":"sketch.finish","params":{}}
+,{"command":"solid.extrude","params":{"distance":"5","direction":"symmetric","operation":"new","body_name":"Cavity_hump","name":"i_hump_extrude"}}
+,{"command":"sketch.create","params":{"plane":"YZ","name":"i_hump_endfaces"}}
+,{"command":"sketch.line","params":{"points":[["y_bot-0.5","-((((d_hend-wall)) - sin(draft)*(y_bot-0.5))/cos(draft))"],["y_bot-0.5","((((d_hend-wall)) - sin(draft)*(y_bot-0.5))/cos(draft))"],["2","((((d_hend-wall)) - sin(draft)*2)/cos(draft))"],["2","-((((d_hend-wall)) - sin(draft)*2)/cos(draft))"]],"closed":true}}
+,{"command":"sketch.finish","params":{}}
+,{"command":"solid.extrude","params":{"distance":"10","direction":"symmetric","operation":"intersect","targets":["Cavity_hump"],"name":"i_hump_trim"}}
+,{"command":"solid.fillet","params":{"edges":[[31.845763,-25.400000,39.543951],[-31.845763,-25.400000,39.543951],[0.000000,27.781250,35.825181]],"radius":"R_hump-wall","body":"Cavity_hump","name":"i_hump_end_round_z1"}}
+,{"command":"solid.fillet","params":{"edges":[[31.845763,-25.400000,-39.543951],[-31.845763,-25.400000,-39.543951],[0.000000,27.781250,-35.825181]],"radius":"R_hump-wall","body":"Cavity_hump","name":"i_hump_end_round_z-1"}}
+,{"command":"solid.combine","params":{"target":"Cavity","tools":["Cavity_hump"],"operation":"join","name":"i_unite_hump"}}
+,{"command":"solid.fillet","params":{"edges":[[31.845763,-25.400000,20.494002],[-31.845763,-25.400000,20.494002],[0.000000,27.781250,16.775232]],"radius":"R_conc+wall","body":"Cavity","name":"i_hump_tent_concave_z1"}}
+,{"command":"solid.fillet","params":{"edges":[[31.845763,-25.400000,-20.494002],[-31.845763,-25.400000,-20.494002],[0.000000,27.781250,-16.775232]],"radius":"R_conc+wall","body":"Cavity","name":"i_hump_tent_concave_z-1"}}
+,{"command":"parameters.add","params":{"name":"boss_d","expression":"0.8125","comment":"boss capi"}}
+,{"command":"parameters.add","params":{"name":"boss_h","expression":"0.0875","comment":"boss ust yuzunun dis yuzeyden yuksekligi (eksen uzerinde)"}}
+,{"command":"parameters.add","params":{"name":"boss_r","expression":"0.1","comment":"boss tabani icbukey yuvarlatma"}}
+,{"command":"parameters.add","params":{"name":"rec_d","expression":"0.5625","comment":"boss ici girinti capi"}}
+,{"command":"parameters.add","params":{"name":"R_open","expression":"0.1","comment":"alt agiz kenari disbukey yuvarlatma"}}
+,{"command":"parameters.add","params":{"name":"Px","expression":"1.369085","comment":"egim bossu ekseninin dis egim duzlemini kestigi nokta x"}}
+,{"command":"parameters.add","params":{"name":"Py","expression":"(d_slope - n_sx*Px)/n_sy","comment":"egim bossu nokta y (dis egim duzleminde)"}}
+,{"command":"sketch.create","params":{"plane":"XZ","offset":"y_bot","name":"flange_outline"}}
+,{"command":"sketch.line","params":{"points":[["3.891473","0.594612"],["3.891473","-0.594612"]]}},{"command":"sketch.arc.three_point","params":{"start":["3.891473","-0.594612"],"end":["2.641780","-1.844305"],"through":["3.525446","-1.478278"]}},{"command":"sketch.line","params":{"points":[["2.641780","-1.844305"],["1.995220","-1.844305"]]}},{"command":"sketch.arc.three_point","params":{"start":["1.995220","-1.844305"],"end":["1.043100","-2.594305"],"through":["1.648909","-2.384024"]}},{"command":"sketch.line","params":{"points":[["1.043100","-2.594305"],["-1.043100","-2.594305"]]}},{"command":"sketch.arc.three_point","params":{"start":["-1.043100","-2.594305"],"end":["-1.995220","-1.844305"],"through":["-1.648909","-2.384024"]}},{"command":"sketch.line","params":{"points":[["-1.995220","-1.844305"],["-2.641780","-1.844305"]]}},{"command":"sketch.arc.three_point","params":{"start":["-2.641780","-1.844305"],"end":["-3.891473","-0.594612"],"through":["-3.525446","-1.478278"]}},{"command":"sketch.line","params":{"points":[["-3.891473","-0.594612"],["-3.891473","0.594612"]]}},{"command":"sketch.arc.three_point","params":{"start":["-3.891473","0.594612"],"end":["-2.641780","1.844305"],"through":["-3.525446","1.478278"]}},{"command":"sketch.line","params":{"points":[["-2.641780","1.844305"],["-2.186970","1.844305"]]}},{"command":"sketch.arc.three_point","params":{"start":["-2.186970","1.844305"],"end":["-1.041530","2.594305"],"through":["-1.726098","2.390126"]}},{"command":"sketch.line","params":{"points":[["-1.041530","2.594305"],["1.041530","2.594305"]]}},{"command":"sketch.arc.three_point","params":{"start":["1.041530","2.594305"],"end":["2.186970","1.844305"],"through":["1.726098","2.390126"]}},{"command":"sketch.line","params":{"points":[["2.186970","1.844305"],["2.641780","1.844305"]]}},{"command":"sketch.arc.three_point","params":{"start":["2.641780","1.844305"],"end":["3.891473","0.594612"],"through":["3.525446","1.478278"]}}
+,{"command":"sketch.finish","params":{}}
+,{"command":"solid.extrude","params":{"distance":"fl_t","operation":"join","targets":["P01 Guard"],"name":"flange_extrude"}}
+,{"command":"solid.cylinder","params":{"diameter":"boss_d","height":"0.6","base":["0","cy+R_crown-0.35","0"],"axis":"Y","operation":"join","targets":["P01 Guard"],"name":"boss_top"}}
+,{"command":"solid.cylinder","params":{"diameter":"boss_d","height":"0.6","base":["Px-0.3*n_sx","Py-0.3*n_sy","0"],"axis":[0.721392,0.692527,0],"operation":"join","targets":["P01 Guard"],"name":"boss_slope_px"}}
+,{"command":"solid.cylinder","params":{"diameter":"boss_d","height":"0.6","base":["-(Px-0.3*n_sx)","Py-0.3*n_sy","0"],"axis":[-0.721392,0.692527,0],"operation":"join","targets":["P01 Guard"],"name":"boss_slope_nx"}}
+,{"command":"solid.cylinder","params":{"diameter":"1.4","height":"0.5","base":["0","cy+R_crown+boss_h","0"],"axis":"Y","operation":"cut","targets":["P01 Guard"],"name":"boss_top_trim"}}
+,{"command":"solid.cylinder","params":{"diameter":"1.2","height":"0.5","base":["Px+boss_h*n_sx","Py+boss_h*n_sy","0"],"axis":[0.721392,0.692527,0],"operation":"cut","targets":["P01 Guard"],"name":"boss_slope_trim_px"}}
+,{"command":"solid.cylinder","params":{"diameter":"1.2","height":"0.5","base":["-(Px+boss_h*n_sx)","Py+boss_h*n_sy","0"],"axis":[-0.721392,0.692527,0],"operation":"cut","targets":["P01 Guard"],"name":"boss_slope_trim_nx"}}
+,{"command":"solid.combine","params":{"target":"P01 Guard","tools":["Cavity"],"operation":"cut","name":"cavity_cut"}}
+,{"command":"solid.cylinder","params":{"diameter":"rec_d","height":"0.3+boss_h","base":["0","cy+R_crown-wall-0.3","0"],"axis":"Y","operation":"cut","targets":["P01 Guard"],"name":"recess_top"}}
+,{"command":"solid.cylinder","params":{"diameter":"rec_d","height":"0.3+boss_h","base":["Px-(wall+0.3)*n_sx","Py-(wall+0.3)*n_sy","0"],"axis":[0.721392,0.692527,0],"operation":"cut","targets":["P01 Guard"],"name":"recess_slope_px"}}
+,{"command":"solid.cylinder","params":{"diameter":"rec_d","height":"0.3+boss_h","base":["-(Px-(wall+0.3)*n_sx)","Py-(wall+0.3)*n_sy","0"],"axis":[-0.721392,0.692527,0],"operation":"cut","targets":["P01 Guard"],"name":"recess_slope_nx"}}
+,{"command":"solid.fillet","params":{"edges":[[73.435718,-38.893750,0.000000],[-73.435718,-38.893750,0.000000]],"radius":"R_open","body":"P01 Guard","name":"opening_round"}}
+]}

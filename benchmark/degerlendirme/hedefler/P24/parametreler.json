@@ -1,0 +1,68 @@
+{
+ "anahtar": [
+  {
+   "kavram": "hub diameter",
+   "deger": 1.25,
+   "birim": "in",
+   "ipucu_adlar": [
+    "hub_d",
+    "hub_dia",
+    "hub_diameter",
+    "boss_d",
+    "D_hub",
+    "gobek_cap"
+   ]
+  },
+  {
+   "kavram": "hub height",
+   "deger": 1.75,
+   "birim": "in",
+   "ipucu_adlar": [
+    "hub_h",
+    "hub_height",
+    "hub_len",
+    "hub_length",
+    "H_hub",
+    "projection"
+   ]
+  },
+  {
+   "kavram": "knob ball diameter",
+   "deger": 1.0,
+   "birim": "in",
+   "ipucu_adlar": [
+    "knob_d",
+    "ball_d",
+    "knob_dia",
+    "ball_dia",
+    "sphere_d",
+    "topuz_cap"
+   ]
+  },
+  {
+   "kavram": "handle length over the knobs (knob centres 6.0 apart)",
+   "deger": 7.0,
+   "birim": "in",
+   "ipucu_adlar": [
+    "handle_len",
+    "handle_length",
+    "span",
+    "overall_length",
+    "L",
+    "knob_spacing"
+   ]
+  },
+  {
+   "kavram": "thread pitch 13 TPI (1/2-13)",
+   "deger": 0.076923,
+   "birim": "in",
+   "ipucu_adlar": [
+    "pitch",
+    "tpi",
+    "thread_pitch",
+    "P",
+    "lead"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "anahtar": [
+  {
+   "kavram": "overall height",
+   "deger": 6.995,
+   "birim": "in",
+   "ipucu_adlar": [
+    "overall_height",
+    "height",
+    "H",
+    "total_height"
+   ]
+  },
+  {
+   "kavram": "base star diameter (tip to tip)",
+   "deger": 3.5,
+   "birim": "in",
+   "ipucu_adlar": [
+    "star_d",
+    "base_d",
+    "tip_d",
+    "base_diameter",
+    "D_base"
+   ]
+  },
+  {
+   "kavram": "bail bar diameter",
+   "deger": 0.75,
+   "birim": "in",
+   "ipucu_adlar": [
+    "bar_d",
+    "bail_d",
+    "ring_d",
+    "wire_d",
+    "bar_dia"
+   ]
+  },
+  {
+   "kavram": "bail inside width (hole diameter)",
+   "deger": 2.3975,
+   "birim": "in",
+   "ipucu_adlar": [
+    "inside_width",
+    "hole_d",
+    "eye_d",
+    "inner_d",
+    "bail_inner"
+   ]
+  },
+  {
+   "kavram": "thread pitch 0.1 (10 TPI)",
+   "deger": 0.1,
+   "birim": "in",
+   "ipucu_adlar": [
+    "pitch",
+    "tpi",
+    "thread_pitch",
+    "P"
+   ]
+  }
+ ]
+}

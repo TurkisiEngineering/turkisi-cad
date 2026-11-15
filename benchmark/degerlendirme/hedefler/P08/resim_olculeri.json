@@ -1,0 +1,307 @@
+{
+ "rows": [
+  {
+   "dim": "1.79 in (side view: base underside to clamp-arm underside)",
+   "nom": 1.79,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe_govdeler",
+    "govde": "P01",
+    "nokta1": [
+     0.0,
+     0.0,
+     -50.8
+    ],
+    "govde2": "P03",
+    "nokta2": [
+     7.112,
+     45.4279,
+     50.8
+    ]
+   },
+   "modelde_var": true,
+   "not": "two bodies: P01 underside y=0 and P03 tine underside y=1.7885",
+   "_dogrulama": {
+    "orijinal_in": 1.7885
+   }
+  },
+  {
+   "dim": "1.23 in (base underside to holding-screw lower end)",
+   "nom": 1.23,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe_govdeler",
+    "govde": "P01",
+    "nokta1": [
+     0.0,
+     0.0,
+     -50.8
+    ],
+    "govde2": "H1",
+    "nokta2": [
+     2.54,
+     31.1277,
+     81.534
+    ]
+   },
+   "modelde_var": true,
+   "not": "two bodies: P01 underside y=0 and H1 hex-head lower face y=1.2255",
+   "_dogrulama": {
+    "orijinal_in": 1.2255
+   }
+  },
+  {
+   "dim": "3.57 in (base front face to arm tip)",
+   "nom": 3.57,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P03",
+    "eksen": "z",
+    "ekle_mm": -49.8602
+   },
+   "modelde_var": true,
+   "not": "arm tip z=3.5662 is not a plane; recipe = P03 extent along Z (5.5292) minus its rear extent 1.963 behind the base front face z=0 (ekle_mm)",
+   "_dogrulama": {
+    "orijinal_in": 3.56624
+   }
+  },
+  {
+   "dim": "4.22 in (base length)",
+   "nom": 4.22,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "z"
+   },
+   "modelde_var": true,
+   "_dogrulama": {
+    "orijinal_in": 4.22
+   }
+  },
+  {
+   "dim": "11.84 in (overall length)",
+   "nom": 11.84,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "montaj_bbox_boyut",
+    "eksen": "z"
+   },
+   "modelde_var": true,
+   "not": "whole-assembly extent along Z (H2-a front z=3.71 to cylinder rear corner z=-8.1304); same value as hedef.json montaj bbox",
+   "_dogrulama": {
+    "orijinal_in": 11.84038
+   }
+  },
+  {
+   "dim": "3.79 in (overall height without the holding screw)",
+   "nom": 3.79,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe_govdeler",
+    "govde": "P01",
+    "nokta1": [
+     0.0,
+     0.0,
+     -50.8
+    ],
+    "govde2": "P04",
+    "nokta2": [
+     5.588,
+     96.3168,
+     -7.62
+    ]
+   },
+   "modelde_var": true,
+   "not": "two bodies: P01 underside y=0 and P04 top flat y=3.792",
+   "_dogrulama": {
+    "orijinal_in": 3.792
+   }
+  },
+  {
+   "dim": "2.86 in (base width)",
+   "nom": 2.86,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x"
+   },
+   "modelde_var": true,
+   "_dogrulama": {
+    "orijinal_in": 2.864
+   }
+  },
+  {
+   "dim": "1.79 in (top view: mounting hole spacing across)",
+   "nom": 1.79,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P02",
+    "nokta1": [
+     18.3642,
+     4.572,
+     -9.652
+    ],
+    "nokta2": [
+     -18.3642,
+     4.572,
+     -9.652
+    ]
+   },
+   "modelde_var": true,
+   "not": "1.786 in the 3D (flange holes); the base-plate holes underneath are 1.783 (obround centres 0.8915)",
+   "_dogrulama": {
+    "orijinal_in": 1.786
+   }
+  },
+  {
+   "dim": "1.25 in (mounting hole spacing along the base)",
+   "nom": 1.25,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P02",
+    "nokta1": [
+     18.3642,
+     4.572,
+     -9.652
+    ],
+    "nokta2": [
+     18.3642,
+     4.572,
+     -41.402
+    ]
+   },
+   "modelde_var": true,
+   "_dogrulama": {
+    "orijinal_in": 1.25
+   }
+  },
+  {
+   "dim": "2.35 in Adjustable Length (open-arm slot)",
+   "nom": 2.35,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P03",
+    "nokta1": [
+     3.7846,
+     55.88,
+     85.03666
+    ],
+    "nokta2": [
+     4.93268,
+     55.88,
+     20.57654
+    ]
+   },
+   "modelde_var": true,
+   "not": "distance between the two slot end-arc centres (2.351); the screw can sit anywhere along it",
+   "_dogrulama": {
+    "orijinal_in": 2.351
+   }
+  },
+  {
+   "dim": "0.34 in (mounting hole dia)",
+   "nom": 0.34,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P02",
+    "nokta": [
+     18.3642,
+     4.572,
+     -9.652
+    ]
+   },
+   "modelde_var": true,
+   "_dogrulama": {
+    "orijinal_in": 0.34
+   }
+  },
+  {
+   "dim": "3/8\"-16 (holding screw thread)",
+   "nom": 0.375,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "H1",
+    "nokta": [
+     4.7625,
+     76.2,
+     81.534
+    ]
+   },
+   "modelde_var": true,
+   "not": "major diameter 0.375; pitch 1/16 is in ozellikler / spec",
+   "_dogrulama": {
+    "orijinal_in": 0.375
+   }
+  },
+  {
+   "dim": "1/8 NPT (rear port on the cylinder top flat)",
+   "nom": 0.2616,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P07",
+    "nokta": [
+     3.32232,
+     49.04989,
+     -196.60033
+    ]
+   },
+   "modelde_var": true,
+   "not": "no printed number; recipe checks the port exists with the source tap drill dia 0.2616",
+   "_dogrulama": {
+    "orijinal_in": 0.26169
+   }
+  },
+  {
+   "dim": "1/8 NPT (rear port on the 45 deg flat)",
+   "nom": 0.2616,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P07",
+    "nokta": [
+     -8.42772,
+     47.01936,
+     -196.01478
+    ]
+   },
+   "modelde_var": true,
+   "not": "no printed number; recipe checks the second port exists with the same tap drill",
+   "_dogrulama": {
+    "orijinal_in": 0.26169
+   }
+  },
+  {
+   "dim": "Arm Opening Angle: 95 deg",
+   "nom": 95.0,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": false,
+   "not": "the supplied pose is clamped; the open position is not modelled",
+   "_dogrulama": "modelde yok"
+  }
+ ]
+}

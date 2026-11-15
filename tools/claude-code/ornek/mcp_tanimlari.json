@@ -1,0 +1,22 @@
+{
+ "mcpServers": {
+  "solidworks": {
+   "type": "stdio",
+   "command": "node",
+   "args": ["<KÖK>/mcp/SolidworksMCP-TS/dist/index.js"],
+   "env": {}
+  },
+  "build123d": {
+   "type": "stdio",
+   "command": "<KÖK>/mcp/build123d-mcp/.venv/Scripts/build123d-mcp.exe",
+   "args": [],
+   "env": {}
+  },
+  "solidcraft": {
+   "type": "stdio",
+   "command": "<SOLIDCRAFT_KLASÖRÜ>/solidcraft-cli.exe",
+   "args": ["mcp", "--headless"],
+   "env": {}
+  }
+ }
+}

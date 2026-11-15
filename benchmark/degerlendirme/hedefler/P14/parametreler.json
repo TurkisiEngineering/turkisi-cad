@@ -1,0 +1,62 @@
+{
+ "anahtar": [
+  {
+   "kavram": "outside diameter",
+   "deger": 0.655,
+   "birim": "in",
+   "ipucu_adlar": [
+    "od",
+    "outer_d",
+    "major_d",
+    "diameter",
+    "shaft_d",
+    "dis_cap"
+   ]
+  },
+  {
+   "kavram": "lead (travel per turn of one groove)",
+   "deger": 0.376,
+   "birim": "in",
+   "ipucu_adlar": [
+    "lead",
+    "pitch",
+    "travel",
+    "hatve"
+   ]
+  },
+  {
+   "kavram": "number of starts",
+   "deger": 2,
+   "birim": "-",
+   "ipucu_adlar": [
+    "starts",
+    "n_starts",
+    "num_starts",
+    "giris_sayisi"
+   ]
+  },
+  {
+   "kavram": "groove (ball) radius",
+   "deger": 0.0465,
+   "birim": "in",
+   "ipucu_adlar": [
+    "groove_r",
+    "ball_r",
+    "groove_radius",
+    "ball_d",
+    "kanal_r"
+   ]
+  },
+  {
+   "kavram": "overall length",
+   "deger": 36,
+   "birim": "in",
+   "ipucu_adlar": [
+    "length",
+    "L",
+    "total_length",
+    "boy"
+   ]
+  }
+ ]
+}

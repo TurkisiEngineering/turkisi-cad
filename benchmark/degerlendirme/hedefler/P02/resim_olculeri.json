@@ -1,0 +1,119 @@
+{
+ "rows": [
+  {
+   "dim": "125.5mm",
+   "nom": 125.5,
+   "birim": "mm",
+   "tol": 0.05,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "y"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "100mm (crank radius)",
+   "nom": 100,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "eksen_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     14,
+     0,
+     5
+    ],
+    "nokta2": [
+     54,
+     -92,
+     0
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "10mm (bore)",
+   "nom": 10,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     14,
+     0,
+     5
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "28mm (hub height)",
+   "nom": 28,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "duzlem_mesafe",
+    "govde": "P01",
+    "nokta1": [
+     0,
+     0,
+     10
+    ],
+    "nokta2": [
+     28,
+     0,
+     10
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "28mm (hub diameter)",
+   "nom": 28,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P01",
+    "nokta": [
+     9,
+     0,
+     14
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "128mm (overall height)",
+   "nom": 128,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": {
+    "tip": "bbox_boyut",
+    "govde": "P01",
+    "eksen": "x"
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "80mm (grip height, x=48 to tip)",
+   "nom": 80,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": null,
+   "modelde_var": true
+  },
+  {
+   "dim": "67mm (shoulder x=61 to tip)",
+   "nom": 67,
+   "birim": "mm",
+   "tol": 0.5,
+   "olcum": null,
+   "modelde_var": true
+  }
+ ],
+ "not": "80 and 67 run to the spherical tip (x=128): measure as 128 - x(plane x=48) and 128 - x(plane x=61); no single recipe."
+}

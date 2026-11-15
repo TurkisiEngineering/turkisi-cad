@@ -1,0 +1,79 @@
+{
+ "rows": [
+  {
+   "dim": "2.88in (saddle diameter)",
+   "nom": 2.88,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "silindir_cap",
+    "govde": "P03",
+    "nokta": [
+     25.86314,
+     394.97,
+     25.86314
+    ]
+   },
+   "modelde_var": true
+  },
+  {
+   "dim": "15.75in (height range min., base bottom to saddle top)",
+   "nom": 15.75,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": {
+    "tip": "duzlem_mesafe_govdeler",
+    "govde": "P01",
+    "nokta1": [
+     63.5,
+     0.0,
+     7.62
+    ],
+    "govde2": "P03",
+    "nokta2": [
+     8.128,
+     400.05,
+     0.0
+    ]
+   },
+   "modelde_var": true,
+   "not_": "measured to the saddle top face y = 15.75; the 0.0875 high studs (top y = 15.8375) are not included (the drawing's dimension line sits on the saddle face)"
+  },
+  {
+   "dim": "25.5in (height range max.)",
+   "nom": 25.5,
+   "birim": "in",
+   "tol": 0.05,
+   "olcum": null,
+   "modelde_var": false,
+   "not_": "extended position, not modelled (the model shows the lowest position)"
+  },
+  {
+   "dim": "9.75in (max. lift)",
+   "nom": 9.75,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": false,
+   "not_": "travel, no single geometric counterpart"
+  },
+  {
+   "dim": "9deg (saddle swivel angle)",
+   "nom": 9.0,
+   "birim": "deg",
+   "tol": 0.5,
+   "olcum": null,
+   "modelde_var": false,
+   "not_": "motion range, not geometry"
+  },
+  {
+   "dim": "6.25in (base diameter)",
+   "nom": 6.25,
+   "birim": "in",
+   "tol": 0.005,
+   "olcum": null,
+   "modelde_var": false,
+   "not_": "SOURCE CONFLICT: the model's base is 6.1747 across the foot round (6.0497 across the flat bottom face); product data also says 6 1/4. No model feature is 6.25, so no recipe; the spec follows the 3D"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "anahtar": [
+  {
+   "kavram": "thread major diameter",
+   "deger": 0.5,
+   "birim": "in",
+   "ipucu_adlar": [
+    "thread_d",
+    "major_d",
+    "d_thread",
+    "shank_d",
+    "D_major"
+   ]
+  },
+  {
+   "kavram": "thread pitch",
+   "deger": 0.05,
+   "birim": "in",
+   "ipucu_adlar": [
+    "pitch",
+    "P",
+    "tpi",
+    "lead"
+   ]
+  },
+  {
+   "kavram": "shank (thread) length",
+   "deger": 1.625,
+   "birim": "in",
+   "ipucu_adlar": [
+    "shank_len",
+    "thread_len",
+    "L_shank",
+    "shank_length"
+   ]
+  },
+  {
+   "kavram": "ball diameter",
+   "deger": 1.125,
+   "birim": "in",
+   "ipucu_adlar": [
+    "ball_d",
+    "ball_dia",
+    "D_ball",
+    "r_ball",
+    "ball_r"
+   ]
+  },
+  {
+   "kavram": "eye (housing sphere) diameter",
+   "deger": 1.5,
+   "birim": "in",
+   "ipucu_adlar": [
+    "eye_d",
+    "head_d",
+    "housing_d",
+    "D_eye",
+    "R_eye"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "anahtar": [
+  {
+   "kavram": "wall thickness",
+   "deger": 0.125,
+   "birim": "in",
+   "ipucu_adlar": [
+    "wall",
+    "wall_t",
+    "thickness",
+    "shell",
+    "t",
+    "et_kalinligi"
+   ]
+  },
+  {
+   "kavram": "inside length",
+   "deger": 5.625,
+   "birim": "in",
+   "ipucu_adlar": [
+    "inside_length",
+    "inner_length",
+    "length",
+    "L_in",
+    "ic_uzunluk"
+   ]
+  },
+  {
+   "kavram": "draft angle",
+   "deger": 4,
+   "birim": "deg",
+   "ipucu_adlar": [
+    "draft",
+    "draft_angle",
+    "taper",
+    "egim"
+   ]
+  },
+  {
+   "kavram": "inner crown radius",
+   "deger": 1.8125,
+   "birim": "in",
+   "ipucu_adlar": [
+    "crown_r",
+    "crown_radius",
+    "top_radius",
+    "dome_r"
+   ]
+  },
+  {
+   "kavram": "boss diameter",
+   "deger": 0.8125,
+   "birim": "in",
+   "ipucu_adlar": [
+    "boss_d",
+    "boss_dia",
+    "boss_diameter",
+    "pad_d"
+   ]
+  }
+ ]
+}
